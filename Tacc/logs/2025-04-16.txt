@@ -1,0 +1,423 @@
+[DEB]	2025-04-16 01:27:21	[accounts.views]	test
+[DEB]	2025-04-16 01:30:36	[MAIN.middleware]	Øπdanie: GET /accounts/register/
+[DEB]	2025-04-16 01:30:36	[accounts.views]	test
+[INF]	2025-04-16 01:30:36	[MAIN.middleware]	Odpowiedü: 200 /accounts/register/
+[REQ]	2025-04-16 01:36:33	[MAIN.middleware]	Øπdanie: GET /accounts/register/
+[DEB]	2025-04-16 01:36:33	[accounts.views]	test
+[RES]	2025-04-16 01:36:33	[MAIN.middleware]	Odpowiedü: 200 /accounts/register/
+[REQ]	2025-04-16 01:37:13	[MAIN.middleware]	Øπdanie: GET /accounts/register/
+[DEBUG]	2025-04-16 01:37:13	[accounts.views]	test
+[RES]	2025-04-16 01:37:13	[MAIN.middleware]	Odpowiedü: 200 /accounts/register/
+[REQUEST]	2025-04-16 01:37:29	[MAIN.middleware]	Øπdanie: GET /accounts/register/
+[DEBUG]	2025-04-16 01:37:29	[accounts.views]	test
+[RESPONSE]	2025-04-16 01:37:29	[MAIN.middleware]	Odpowiedü: 200 /accounts/register/
+[REQUEST]	2025-04-16 01:38:36	[MAIN.middleware]	Øπdanie: GET /accounts/register/
+[DEBUG]	2025-04-16 01:38:36	[accounts.views]	test
+[RESPONSE]	2025-04-16 01:38:36	[MAIN.middleware]	Odpowiedü: 200 /accounts/register/
+[DEBUG]	2025-04-16 01:42:16	[accounts.views]	test
+[RESPONSE]	2025-04-16 01:42:16	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 182.62ms | Dane: {}
+[DEBUG]	2025-04-16 01:43:58	[accounts.views]	test
+[RESPONSE]	2025-04-16 01:43:58	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 186.35ms | Dane: {}
+[DEBUG]	2025-04-16 01:44:29	[accounts.views]	test
+[RESPONSE]	2025-04-16 01:44:29	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 8.26ms | Dane: {}
+[RESPONSE]	2025-04-16 01:44:32	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 5.13ms | Dane: {}
+[WAR]	2025-04-16 01:44:34	[MAIN.signals]	UsuniÍto instancjÍ: Session (ID: jl3whaprus9wq2bxpjodw8qfs1z4tmnk)
+[INF]	2025-04-16 01:44:34	[MAIN.signals]	Zaktualizowano instancjÍ: User (ID: 3)
+[RESPONSE]	2025-04-16 01:44:34	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 495.52ms | Dane: {'csrfmiddlewaretoken': "['jdUqlfBPI9HCsBN3I7aZqJz7TUeEL5TtJZhXwKGjN2qTPOAuUGnCukK19HTOyEtM']", 'username': "['TymoteuszSzarlej']", 'password': '[UKRYTO]'}
+[INF]	2025-04-16 01:44:34	[MAIN.signals]	Utworzono nowπ instancjÍ: Session (ID: spy4szg3ne78pzje9ugdhiw342qrmpfv)
+[RESPONSE]	2025-04-16 01:44:34	[MAIN.middleware]	Odpowiedü 404 | GET / | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 8.81ms | Dane: {}
+[ERROR]	2025-04-16 01:44:34	[MAIN.middleware]	B≥πd 404 | GET / | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 01:46:57	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 15.52ms | Dane: {}
+[SUCCESS]	2025-04-16 01:47:04	[MAIN.signals]	UsuniÍto instancjÍ: Session (ID: spy4szg3ne78pzje9ugdhiw342qrmpfv)
+[RESPONSE]	2025-04-16 01:47:04	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/logout/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 23.96ms | Dane: {'csrfmiddlewaretoken': "['9MbmjLVIuykZdMf01gMUsHr17fFDZcyZCnX9MsmgsWGMDoXiVeR0NermbMhU5576']"}
+[RESPONSE]	2025-04-16 01:47:04	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.0ms | Dane: {}
+[SUCCESS]	2025-04-16 01:47:15	[MAIN.signals]	Utworzono nowπ instancjÍ: Session (ID: 6aq6k7vh1mcdpdlq07rtc3buwgs4owem)
+[SUCCESS]	2025-04-16 01:47:15	[MAIN.signals]	Zaktualizowano instancjÍ: User (ID: 3)
+[RESPONSE]	2025-04-16 01:47:15	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 493.54ms | Dane: {'csrfmiddlewaretoken': "['cix11VUEAREUfSZtmuqN9FKj2Yu4ej02FTjOuClcyf0HFuHLgsvTucKE6v6lkcz9']", 'username': "['TymoteuszSzarlej']", 'password': '[UKRYTO]'}
+[SUCCESS]	2025-04-16 01:47:15	[MAIN.signals]	Zaktualizowano instancjÍ: Session (ID: 6aq6k7vh1mcdpdlq07rtc3buwgs4owem)
+[RESPONSE]	2025-04-16 01:47:15	[MAIN.middleware]	Odpowiedü 404 | GET / | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 7.94ms | Dane: {}
+[ERROR]	2025-04-16 01:47:15	[MAIN.middleware]	B≥πd 404 | GET / | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 01:47:41	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 4.1ms | Dane: {}
+[RESPONSE]	2025-04-16 01:49:47	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 72.96ms | Dane: {}
+[RESPONSE]	2025-04-16 01:49:47	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.49ms | Dane: {}
+[RESPONSE]	2025-04-16 01:49:48	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/3/change/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 47.34ms | Dane: {}
+[RESPONSE]	2025-04-16 01:49:48	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.56ms | Dane: {}
+[RESPONSE]	2025-04-16 01:49:54	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/3/delete/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.09ms | Dane: {}
+[SUCCESS]	2025-04-16 01:49:56	[MAIN.signals]	Utworzono nowπ instancjÍ: LogEntry (ID: 2)
+[SUCCESS]	2025-04-16 01:49:56	[MAIN.signals]	UsuniÍto instancjÍ: User (ID: 3)
+[RESPONSE]	2025-04-16 01:49:56	[MAIN.middleware]	Odpowiedü 302 | POST /admin/auth/user/3/delete/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 31.39ms | Dane: {'csrfmiddlewaretoken': "['Guqdb2qCf7qQIuXBLAAr0FPxDGaHiRrL591RtHd3IIAUkzzPhS1xlfG3OD16Jvwp']", 'post': "['yes']"}
+[RESPONSE]	2025-04-16 01:49:56	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 13.98ms | Dane: {}
+[RESPONSE]	2025-04-16 01:49:56	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.53ms | Dane: {}
+[RESPONSE]	2025-04-16 01:50:07	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 7.95ms | Dane: {}
+[DEBUG]	2025-04-16 01:50:14	[accounts.views]	test
+[RESPONSE]	2025-04-16 01:50:14	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 19.77ms | Dane: {}
+[DEBUG]	2025-04-16 01:50:33	[accounts.views]	test
+[INF]	2025-04-16 01:50:33	[accounts.views]	przeslano formularz rejestracji uøytkownika	<div>
+    <label for="id_username">Username:</label>
+
+<div class="helptext" id="id_username_helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</div>
+
+<input type="text" name="username" value="TymoteuszSzarlej" maxlength="150" autocapitalize="none" autocomplete="username" autofocus required aria-describedby="id_username_helptext" id="id_username">
+    
+</div>
+
+  <div>
+    <label for="id_password1">Password:</label>
+
+<div class="helptext" id="id_password1_helptext"><ul><li>Your password canít be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password canít be a commonly used password.</li><li>Your password canít be entirely numeric.</li></ul></div>
+
+<input type="password" name="password1" autocomplete="new-password" required aria-describedby="id_password1_helptext" id="id_password1">
+    
+</div>
+
+  <div>
+    <label for="id_password2">Password confirmation:</label>
+
+<div class="helptext" id="id_password2_helptext">Enter the same password as before, for verification.</div>
+<ul class="errorlist" id="id_password2_error"><li>The two password fields didnít match.</li></ul>
+<input type="password" name="password2" autocomplete="new-password" required aria-invalid="true" aria-describedby="id_password2_helptext id_password2_error" id="id_password2">
+    
+      
+    
+</div>
+[RESPONSE]	2025-04-16 01:50:33	[MAIN.middleware]	Odpowiedü 200 | POST /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 33.18ms | Dane: {'csrfmiddlewaretoken': "['Xeum7zkKd4da97DXuzSUnFngE68jYTm2W73vkkIadFT3oaBfChyW3GcVZ3bsUYn8']", 'username': "['TymoteuszSzarlej']", 'email': "['tszarlej@proton.me']", 'password1': '[UKRYTO]', 'password2': '[UKRYTO]'}
+[RESPONSE]	2025-04-16 01:56:04	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 44.15ms | Dane: {}
+[INF]	2025-04-16 01:56:27	[accounts.views]	przeslano formularz rejestracji uøytkownika	<div>
+    <label for="id_username">Username:</label>
+
+<div class="helptext" id="id_username_helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</div>
+
+<input type="text" name="username" value="TymoteuszSzarlej" maxlength="150" autocapitalize="none" autocomplete="username" autofocus required aria-describedby="id_username_helptext" id="id_username">
+    
+</div>
+
+  <div>
+    <label for="id_password1">Password:</label>
+
+<div class="helptext" id="id_password1_helptext"><ul><li>Your password canít be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password canít be a commonly used password.</li><li>Your password canít be entirely numeric.</li></ul></div>
+
+<input type="password" name="password1" autocomplete="new-password" required aria-describedby="id_password1_helptext" id="id_password1">
+    
+</div>
+
+  <div>
+    <label for="id_password2">Password confirmation:</label>
+
+<div class="helptext" id="id_password2_helptext">Enter the same password as before, for verification.</div>
+<ul class="errorlist" id="id_password2_error"><li>The two password fields didnít match.</li></ul>
+<input type="password" name="password2" autocomplete="new-password" required aria-invalid="true" aria-describedby="id_password2_helptext id_password2_error" id="id_password2">
+    
+      
+    
+</div>
+[ERR]	2025-04-16 01:56:27	[accounts.views]	formularz niepoprawny
+[ERROR]	2025-04-16 01:56:27	[MAIN.middleware]	Wyjπtek 500 | POST /accounts/register/ | UnboundLocalError: cannot access local variable 'p1' where it is not associated with a value | Uøytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 01:56:27	[MAIN.middleware]	Odpowiedü 500 | POST /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 72.91ms | Dane: {'csrfmiddlewaretoken': "['26A6Lf8HTQfkW64TXks32sZiFMp2Oang1Z9fY0w7TrVdb92b5285ItOX0JsbKfom']", 'username': "['TymoteuszSzarlej']", 'email': "['tszarlej@proton.me']", 'password1': '[UKRYTO]', 'password2': '[UKRYTO]'}
+[ERROR]	2025-04-16 01:56:27	[MAIN.middleware]	B≥πd 500 | POST /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 01:58:50	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 25.86ms | Dane: {}
+[INF]	2025-04-16 01:59:04	[accounts.views]	przeslano formularz rejestracji uøytkownika	<div>
+    <label for="id_username">Username:</label>
+
+<div class="helptext" id="id_username_helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</div>
+
+<input type="text" name="username" value="TymoteuszSzarlej" maxlength="150" autocapitalize="none" autocomplete="username" autofocus required aria-describedby="id_username_helptext" id="id_username">
+    
+</div>
+
+  <div>
+    <label for="id_password1">Password:</label>
+
+<div class="helptext" id="id_password1_helptext"><ul><li>Your password canít be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password canít be a commonly used password.</li><li>Your password canít be entirely numeric.</li></ul></div>
+
+<input type="password" name="password1" autocomplete="new-password" required aria-describedby="id_password1_helptext" id="id_password1">
+    
+</div>
+
+  <div>
+    <label for="id_password2">Password confirmation:</label>
+
+<div class="helptext" id="id_password2_helptext">Enter the same password as before, for verification.</div>
+<ul class="errorlist" id="id_password2_error"><li>The two password fields didnít match.</li></ul>
+<input type="password" name="password2" autocomplete="new-password" required aria-invalid="true" aria-describedby="id_password2_helptext id_password2_error" id="id_password2">
+    
+      
+    
+</div>
+[ERR]	2025-04-16 01:59:04	[accounts.views]	formularz niepoprawny
+[ERROR]	2025-04-16 01:59:04	[MAIN.middleware]	Wyjπtek 500 | POST /accounts/register/ | UnboundLocalError: cannot access local variable 'username' where it is not associated with a value | Uøytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 01:59:04	[MAIN.middleware]	Odpowiedü 500 | POST /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 55.71ms | Dane: {'csrfmiddlewaretoken': "['EaZskU8sp6w63D4ls7Ofdj3aCEJbNLuJD3yBxFwSpHcZiG2DAPuhTkSPXBMkJQvP']", 'username': "['TymoteuszSzarlej']", 'email': "['tszarlej@proton.me']", 'password1': '[UKRYTO]', 'password2': '[UKRYTO]'}
+[ERROR]	2025-04-16 01:59:04	[MAIN.middleware]	B≥πd 500 | POST /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 01:59:53	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 51.39ms | Dane: {}
+[RESPONSE]	2025-04-16 01:59:53	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.35ms | Dane: {}
+[RESPONSE]	2025-04-16 02:00:01	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 16.17ms | Dane: {}
+[INF]	2025-04-16 02:00:15	[accounts.views]	przeslano formularz rejestracji uøytkownika	<div>
+    <label for="id_username">Username:</label>
+
+<div class="helptext" id="id_username_helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</div>
+
+<input type="text" name="username" value="TymoteuszSzarlej" maxlength="150" autocapitalize="none" autocomplete="username" autofocus required aria-describedby="id_username_helptext" id="id_username">
+    
+</div>
+
+  <div>
+    <label for="id_password1">Password:</label>
+
+<div class="helptext" id="id_password1_helptext"><ul><li>Your password canít be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password canít be a commonly used password.</li><li>Your password canít be entirely numeric.</li></ul></div>
+
+<input type="password" name="password1" autocomplete="new-password" required aria-describedby="id_password1_helptext" id="id_password1">
+    
+</div>
+
+  <div>
+    <label for="id_password2">Password confirmation:</label>
+
+<div class="helptext" id="id_password2_helptext">Enter the same password as before, for verification.</div>
+<ul class="errorlist" id="id_password2_error"><li>The two password fields didnít match.</li></ul>
+<input type="password" name="password2" autocomplete="new-password" required aria-invalid="true" aria-describedby="id_password2_helptext id_password2_error" id="id_password2">
+    
+      
+    
+</div>
+[ERR]	2025-04-16 02:00:15	[accounts.views]	formularz niepoprawny
+[ERROR]	2025-04-16 02:00:15	[accounts.views]	username	TymoteuszSzarlej	email	None	password1	Tymek_1612	password2	None
+[RESPONSE]	2025-04-16 02:00:15	[MAIN.middleware]	Odpowiedü 200 | POST /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 25.01ms | Dane: {'csrfmiddlewaretoken': "['kXicR3IQyXRWsXQ1mrE0ZoEZLbUKrUxVjQRl4O6gyyxPH0Oju9k2FptE68XTnZy1']", 'username': "['TymoteuszSzarlej']", 'email': "['tszarlej@proton.me']", 'password1': '[UKRYTO]', 'password2': '[UKRYTO]'}
+[INF]	2025-04-16 02:01:29	[accounts.views]	przeslano formularz rejestracji uøytkownika	<div>
+    <label for="id_username">Username:</label>
+
+<div class="helptext" id="id_username_helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</div>
+
+<input type="text" name="username" value="TymoteuszSzarlej" maxlength="150" autocapitalize="none" autocomplete="username" autofocus required aria-describedby="id_username_helptext" id="id_username">
+    
+</div>
+
+  <div>
+    <label for="id_password1">Password:</label>
+
+<div class="helptext" id="id_password1_helptext"><ul><li>Your password canít be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password canít be a commonly used password.</li><li>Your password canít be entirely numeric.</li></ul></div>
+
+<input type="password" name="password1" autocomplete="new-password" required aria-describedby="id_password1_helptext" id="id_password1">
+    
+</div>
+
+  <div>
+    <label for="id_password2">Password confirmation:</label>
+
+<div class="helptext" id="id_password2_helptext">Enter the same password as before, for verification.</div>
+
+<input type="password" name="password2" autocomplete="new-password" required aria-describedby="id_password2_helptext" id="id_password2">
+    
+      
+    
+</div>
+[SUC]	2025-04-16 02:01:29	[accounts.views]	formularz poprawny
+[SUCCESS]	2025-04-16 02:01:29	[MAIN.signals]	Utworzono nowπ instancjÍ: User (ID: 4)
+[ERROR]	2025-04-16 02:01:29	[MAIN.middleware]	Wyjπtek 500 | POST /accounts/register/ | IntegrityError: NOT NULL constraint failed: auth_user.email | Uøytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 02:01:30	[MAIN.middleware]	Odpowiedü 500 | POST /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 750.69ms | Dane: {'csrfmiddlewaretoken': "['3MeUXCN6B7sDjJe0WnSyIZblkxhcK2Ci2FN3anbwBI8wyMci45yAo000FuklG7Do']", 'username': "['TymoteuszSzarlej']", 'password1': '[UKRYTO]', 'password2': '[UKRYTO]'}
+[ERROR]	2025-04-16 02:01:30	[MAIN.middleware]	B≥πd 500 | POST /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 02:05:12	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 24.95ms | Dane: {}
+[RESPONSE]	2025-04-16 02:05:19	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 44.9ms | Dane: {}
+[RESPONSE]	2025-04-16 02:05:19	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.06ms | Dane: {}
+[RESPONSE]	2025-04-16 02:05:22	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/4/change/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 39.9ms | Dane: {}
+[RESPONSE]	2025-04-16 02:05:22	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.93ms | Dane: {}
+[RESPONSE]	2025-04-16 02:05:26	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/4/delete/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.39ms | Dane: {}
+[SUCCESS]	2025-04-16 02:05:27	[MAIN.signals]	Utworzono nowπ instancjÍ: LogEntry (ID: 3)
+[SUCCESS]	2025-04-16 02:05:27	[MAIN.signals]	UsuniÍto instancjÍ: User (ID: 4)
+[RESPONSE]	2025-04-16 02:05:27	[MAIN.middleware]	Odpowiedü 302 | POST /admin/auth/user/4/delete/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 33.16ms | Dane: {'csrfmiddlewaretoken': "['5Z91yaPMOSp8669E04iv4UdQFKJTRbf9uEKFQPCdhtzcIbLSwmJBpu4mQHAiiPkN']", 'post': "['yes']"}
+[RESPONSE]	2025-04-16 02:05:27	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 13.29ms | Dane: {}
+[RESPONSE]	2025-04-16 02:05:27	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.6ms | Dane: {}
+[INF]	2025-04-16 02:05:44	[accounts.views]	przeslano formularz rejestracji uøytkownika	<div>
+    <label for="id_username">Username:</label>
+
+<div class="helptext" id="id_username_helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</div>
+
+<input type="text" name="username" value="TymoteuszSzarlej" maxlength="150" autocapitalize="none" autocomplete="username" autofocus required aria-describedby="id_username_helptext" id="id_username">
+    
+</div>
+
+  <div>
+    <label for="id_password1">Password:</label>
+
+<div class="helptext" id="id_password1_helptext"><ul><li>Your password canít be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password canít be a commonly used password.</li><li>Your password canít be entirely numeric.</li></ul></div>
+
+<input type="password" name="password1" autocomplete="new-password" required aria-describedby="id_password1_helptext" id="id_password1">
+    
+</div>
+
+  <div>
+    <label for="id_password2">Password confirmation:</label>
+
+<div class="helptext" id="id_password2_helptext">Enter the same password as before, for verification.</div>
+
+<input type="password" name="password2" autocomplete="new-password" required aria-describedby="id_password2_helptext" id="id_password2">
+    
+      
+    
+</div>
+[SUC]	2025-04-16 02:05:44	[accounts.views]	formularz poprawny
+[SUCCESS]	2025-04-16 02:05:45	[MAIN.signals]	Utworzono nowπ instancjÍ: User (ID: 5)
+[ERROR]	2025-04-16 02:05:45	[MAIN.middleware]	Wyjπtek 500 | POST /accounts/register/ | IntegrityError: NOT NULL constraint failed: auth_user.email | Uøytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 02:05:45	[MAIN.middleware]	Odpowiedü 500 | POST /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 538.8ms | Dane: {'csrfmiddlewaretoken': "['rMwvv6rmj7AwAL9o3LKXtJyhvD653Ng2qF5EIRPMjIgpPO7GbtqZ9KnWQA9eZSh8']", 'username': "['TymoteuszSzarlej']", 'email': "['tszarlej@proton.me']", 'password1': '[UKRYTO]', 'password2': '[UKRYTO]'}
+[ERROR]	2025-04-16 02:05:45	[MAIN.middleware]	B≥πd 500 | POST /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 02:07:04	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 51.46ms | Dane: {}
+[RESPONSE]	2025-04-16 02:07:04	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.87ms | Dane: {}
+[RESPONSE]	2025-04-16 02:07:05	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/5/change/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 35.52ms | Dane: {}
+[RESPONSE]	2025-04-16 02:07:05	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.44ms | Dane: {}
+[RESPONSE]	2025-04-16 02:07:08	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/5/delete/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.58ms | Dane: {}
+[SUCCESS]	2025-04-16 02:07:09	[MAIN.signals]	Utworzono nowπ instancjÍ: LogEntry (ID: 4)
+[SUCCESS]	2025-04-16 02:07:09	[MAIN.signals]	UsuniÍto instancjÍ: User (ID: 5)
+[RESPONSE]	2025-04-16 02:07:09	[MAIN.middleware]	Odpowiedü 302 | POST /admin/auth/user/5/delete/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 31.39ms | Dane: {'csrfmiddlewaretoken': "['OHnZYwB61cPmE3jIzApHeTD050AkJ214dmYDgboxuNZqg8VW5SQNztuwgXrJaG6I']", 'post': "['yes']"}
+[RESPONSE]	2025-04-16 02:07:09	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 17.65ms | Dane: {}
+[RESPONSE]	2025-04-16 02:07:09	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.99ms | Dane: {}
+[RESPONSE]	2025-04-16 02:07:13	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 16.19ms | Dane: {}
+[INF]	2025-04-16 02:07:28	[accounts.views]	przeslano formularz rejestracji uøytkownika	<div>
+    <label for="id_username">Username:</label>
+
+<div class="helptext" id="id_username_helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</div>
+
+<input type="text" name="username" value="TymoteuszSzarlej" maxlength="150" autocapitalize="none" autocomplete="username" autofocus required aria-describedby="id_username_helptext" id="id_username">
+    
+</div>
+
+  <div>
+    <label for="id_password1">Password:</label>
+
+<div class="helptext" id="id_password1_helptext"><ul><li>Your password canít be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password canít be a commonly used password.</li><li>Your password canít be entirely numeric.</li></ul></div>
+
+<input type="password" name="password1" autocomplete="new-password" required aria-describedby="id_password1_helptext" id="id_password1">
+    
+</div>
+
+  <div>
+    <label for="id_password2">Password confirmation:</label>
+
+<div class="helptext" id="id_password2_helptext">Enter the same password as before, for verification.</div>
+
+<input type="password" name="password2" autocomplete="new-password" required aria-describedby="id_password2_helptext" id="id_password2">
+    
+      
+    
+</div>
+[SUC]	2025-04-16 02:07:28	[accounts.views]	formularz poprawny
+[SUCCESS]	2025-04-16 02:07:28	[MAIN.signals]	Utworzono nowπ instancjÍ: User (ID: 6)
+[ERROR]	2025-04-16 02:07:28	[MAIN.middleware]	Wyjπtek 500 | POST /accounts/register/ | IntegrityError: NOT NULL constraint failed: auth_user.email | Uøytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 02:07:28	[MAIN.middleware]	Odpowiedü 500 | POST /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 538.75ms | Dane: {'csrfmiddlewaretoken': "['XJEUq4LosDo06pp6K4jVoMCVgZrapjzqWCd3DP9Ose4TlsnoSMZX4NrABWujloAw']", 'username': "['TymoteuszSzarlej']", 'email': "['tszarlej@proton.me']", 'password1': '[UKRYTO]', 'password2': '[UKRYTO]'}
+[ERROR]	2025-04-16 02:07:28	[MAIN.middleware]	B≥πd 500 | POST /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 02:08:39	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.21ms | Dane: {}
+[RESPONSE]	2025-04-16 02:08:39	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.01ms | Dane: {}
+[RESPONSE]	2025-04-16 02:08:40	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/6/change/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 37.38ms | Dane: {}
+[RESPONSE]	2025-04-16 02:08:40	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.64ms | Dane: {}
+[RESPONSE]	2025-04-16 02:08:43	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/6/delete/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.46ms | Dane: {}
+[SUCCESS]	2025-04-16 02:08:45	[MAIN.signals]	Utworzono nowπ instancjÍ: LogEntry (ID: 5)
+[SUCCESS]	2025-04-16 02:08:45	[MAIN.signals]	UsuniÍto instancjÍ: User (ID: 6)
+[RESPONSE]	2025-04-16 02:08:45	[MAIN.middleware]	Odpowiedü 302 | POST /admin/auth/user/6/delete/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 33.43ms | Dane: {'csrfmiddlewaretoken': "['oooDwojKWA768GuNLnAOX65TGO4Y4cmpN3ZhO36bpbhaKL61hF1UiGWpRLVnvQr3']", 'post': "['yes']"}
+[RESPONSE]	2025-04-16 02:08:45	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 18.56ms | Dane: {}
+[RESPONSE]	2025-04-16 02:08:45	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.95ms | Dane: {}
+[RESPONSE]	2025-04-16 02:09:04	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 15.27ms | Dane: {}
+[INF]	2025-04-16 02:09:20	[accounts.views]	przeslano formularz rejestracji uøytkownika	<div>
+    <label for="id_username">Username:</label>
+
+<div class="helptext" id="id_username_helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</div>
+
+<input type="text" name="username" value="TymoteuszSzarlej" maxlength="150" autofocus required aria-describedby="id_username_helptext" id="id_username">
+    
+</div>
+
+  <div>
+    <label for="id_email">Email:</label>
+
+<div class="helptext" id="id_email_helptext">Podaj poprawny adres e-mail.</div>
+
+<input type="email" name="email" value="tszarlej@proton.me" maxlength="320" required aria-describedby="id_email_helptext" id="id_email">
+    
+</div>
+
+  <div>
+    <label for="id_password1">Password:</label>
+
+<div class="helptext" id="id_password1_helptext"><ul><li>Your password canít be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password canít be a commonly used password.</li><li>Your password canít be entirely numeric.</li></ul></div>
+
+<input type="password" name="password1" autocomplete="new-password" required aria-describedby="id_password1_helptext" id="id_password1">
+    
+</div>
+
+  <div>
+    <label for="id_password2">Password confirmation:</label>
+
+<div class="helptext" id="id_password2_helptext">Enter the same password as before, for verification.</div>
+
+<input type="password" name="password2" autocomplete="new-password" required aria-describedby="id_password2_helptext" id="id_password2">
+    
+      
+    
+</div>
+[SUC]	2025-04-16 02:09:20	[accounts.views]	formularz poprawny
+[SUCCESS]	2025-04-16 02:09:20	[MAIN.signals]	Utworzono nowπ instancjÍ: User (ID: 7)
+[RESPONSE]	2025-04-16 02:09:20	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 529.94ms | Dane: {'csrfmiddlewaretoken': "['om1t7CsOcYu1PykANlcuwFiSQ4ovbK6GnfACknQeczaU4BiSV3SwcG7xb1rE7P7M']", 'username': "['TymoteuszSzarlej']", 'email': "['tszarlej@proton.me']", 'password1': '[UKRYTO]', 'password2': '[UKRYTO]'}
+[RESPONSE]	2025-04-16 02:09:20	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 6.57ms | Dane: {}
+[RESPONSE]	2025-04-16 02:10:18	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 25.98ms | Dane: {}
+[INF]	2025-04-16 02:10:49	[accounts.views]	przeslano formularz rejestracji uøytkownika	<div>
+    <label for="id_username">Username:</label>
+
+<div class="helptext" id="id_username_helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</div>
+
+<input type="text" name="username" value="trawa_orawa" maxlength="150" autofocus required aria-describedby="id_username_helptext" id="id_username">
+    
+</div>
+
+  <div>
+    <label for="id_email">Email:</label>
+
+<div class="helptext" id="id_email_helptext">Podaj poprawny adres e-mail.</div>
+
+<input type="email" name="email" value="timszarlej@gmail.com" maxlength="320" required aria-describedby="id_email_helptext" id="id_email">
+    
+</div>
+
+  <div>
+    <label for="id_password1">Password:</label>
+
+<div class="helptext" id="id_password1_helptext"><ul><li>Your password canít be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password canít be a commonly used password.</li><li>Your password canít be entirely numeric.</li></ul></div>
+
+<input type="password" name="password1" autocomplete="new-password" required aria-describedby="id_password1_helptext" id="id_password1">
+    
+</div>
+
+  <div>
+    <label for="id_password2">Password confirmation:</label>
+
+<div class="helptext" id="id_password2_helptext">Enter the same password as before, for verification.</div>
+
+<input type="password" name="password2" autocomplete="new-password" required aria-describedby="id_password2_helptext" id="id_password2">
+    
+      
+    
+</div>
+[SUC]	2025-04-16 02:10:49	[accounts.views]	formularz poprawny
+[SUCCESS]	2025-04-16 02:10:50	[MAIN.signals]	Utworzono nowπ instancjÍ: User (ID: 8)
+[RESPONSE]	2025-04-16 02:10:50	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 530.34ms | Dane: {'csrfmiddlewaretoken': "['IPqfousQOfSS2lmmw35T8Gbh2EXwsHzPHIZoBfQgOQyLhokEELLVOH0WnB0FoMAV']", 'username': "['trawa_orawa']", 'email': "['timszarlej@gmail.com']", 'password1': '[UKRYTO]', 'password2': '[UKRYTO]'}
+[RESPONSE]	2025-04-16 02:10:50	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 8.13ms | Dane: {}
+[SUCCESS]	2025-04-16 02:11:29	[MAIN.signals]	UsuniÍto instancjÍ: Session (ID: 6aq6k7vh1mcdpdlq07rtc3buwgs4owem)
+[SUCCESS]	2025-04-16 02:11:29	[MAIN.signals]	Zaktualizowano instancjÍ: User (ID: 7)
+[RESPONSE]	2025-04-16 02:11:29	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 510.02ms | Dane: {'csrfmiddlewaretoken': "['LMxeqFWodhUT8QzoVNEv8gFD5GMlyFvBKF6nDqkOdSAMnTxG3vkxOhuiqDPuuKwH']", 'username': "['TymoteuszSzarlej']", 'password': '[UKRYTO]'}
+[SUCCESS]	2025-04-16 02:11:29	[MAIN.signals]	Utworzono nowπ instancjÍ: Session (ID: o1pc4gtpb7vjnp2pdry8zxy78fk5cnp9)
+[RESPONSE]	2025-04-16 02:11:29	[MAIN.middleware]	Odpowiedü 404 | GET / | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 9.57ms | Dane: {}
+[ERROR]	2025-04-16 02:11:29	[MAIN.middleware]	B≥πd 404 | GET / | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 02:11:36	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.18ms | Dane: {}
+[RESPONSE]	2025-04-16 02:11:38	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 4.93ms | Dane: {}
+[RESPONSE]	2025-04-16 02:11:43	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.81ms | Dane: {}
+[ERROR]	2025-04-16 02:22:11	[MAIN.middleware]	Wyjπtek 500 | GET /accounts/login/ | TemplateSyntaxError: 'messages' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 02:22:12	[MAIN.middleware]	Odpowiedü 500 | GET /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 74.39ms | Dane: {}
+[ERROR]	2025-04-16 02:22:12	[MAIN.middleware]	B≥πd 500 | GET /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 02:22:23	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 27.33ms | Dane: {}
+[RESPONSE]	2025-04-16 02:23:43	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/password_reset/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 6.55ms | Dane: {}
+[RESPONSE]	2025-04-16 02:24:09	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/password_reset/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 33.62ms | Dane: {'csrfmiddlewaretoken': "['MqfDYGg0qEqzvxoeBKx5HdW6ftwyaUWyIqf855PSOctU96yYDfuT07yYJ0KB9zdp']", 'email': "['tszarlej@proton.me']"}
+[RESPONSE]	2025-04-16 02:24:09	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/password_reset/done/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 3.33ms | Dane: {}
