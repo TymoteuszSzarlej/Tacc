@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Created At</th>
+        <th>User</th>
+    </tr>
+        <tr>
+            <td>{{ book.id }}</td>
+            <td>{{ book.name }}</td>
+            <td>{{ book.description }}</td>
+            <td>{{ book.created_at }}</td>
+            <td>{{ book.user }}</td>
+        </tr>
+</table>
+{% endblock %}

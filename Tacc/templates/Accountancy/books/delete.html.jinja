@@ -1,0 +1,12 @@
+{%extends 'base.html'%}
+{% block content %}
+<div class="container">
+    <h2>Usuwanie księgi</h2>
+    <p>Czy napewno chcesz usunąć księgę "{{ book.name }}"? Tej operacji nie można będzie cofnąć.</p>
+    <form method="POST">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Usuń</button>
+        <a href="{% url 'books' %}" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+{% endblock %}
