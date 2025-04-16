@@ -1,0 +1,103 @@
+Nazwa konta 	 Strona księgowania 	 Przydział do księgi / typu konta
+Aktywa trwałe 	 Debet (Wn) 	 ✅ Aktywa
+Aktywa obrotowe 	 Debet (Wn) 	 ✅ Aktywa
+Środki pieniężne 	 Debet (Wn) 	 ✅ Aktywa
+Zapasy 	 Debet (Wn) 	 ✅ Aktywa
+Należności 	 Debet (Wn) 	 ✅ Aktywa
+Zobowiązania krótkoterminowe 	 Kredyt (Ma) 	 ✅ Pasywa
+Zobowiązania długoterminowe 	 Kredyt (Ma) 	 ✅ Pasywa
+Kapitał własny 	 Kredyt (Ma) 	 ✅ Pasywa
+Przychody 	 Kredyt (Ma) 	 ✅ Przychody
+Koszty 	 Debet (Wn) 	 ✅ Koszty
+Zysk brutto 	 Kredyt (Ma) 	 ✅ Zyski
+Zysk netto 	 Kredyt (Ma) 	 ✅ Zyski
+EBIT 	 Kredyt (Ma) 	 ✅ Zyski (lub oddzielna kategoria)
+
+	
+
+
+📒 Szybka reguła:
+✅ Aktywa → Debet (Wn)
+
+✅ Pasywa (zobowiązania i kapitał własny) → Kredyt (Ma)
+
+✅ Koszty → Debet (Wn)
+
+✅ Przychody → Kredyt (Ma)
+
+✅ Zyski → Kredyt (Ma)
+
+✅ Straty (jeśli występują) → Debet (Wn)
+
+
+
+
+Konto 	 Strona księgowania 	 Uwagi
+Aktywa trwałe 	 Debet (Wn) 	 np. środki trwałe, inwestycje długoterminowe
+Aktywa obrotowe 	 Debet (Wn) 	 np. zapasy, należności, środki pieniężne
+Środki pieniężne 	 Debet (Wn) 	 np. kasa, rachunek bankowy
+Zapasy 	 Debet (Wn) 	 towary, materiały
+Należności 	 Debet (Wn) 	 od odbiorców, z tytułu podatków itp.
+Zobowiązania krótkoterminowe 	 Kredyt (Ma) 	 np. zobowiązania wobec dostawców, podatki do zapłaty
+Zobowiązania długoterminowe 	 Kredyt (Ma) 	 np. kredyty bankowe, obligacje
+Kapitał własny 	 Kredyt (Ma) 	 np. kapitał zakładowy, zapasowy, zysk zatrzymany
+Przychody 	 Kredyt (Ma) 	 np. sprzedaż produktów, usług
+Koszty 	 Debet (Wn) 	 koszty działalności operacyjnej
+Zysk brutto 	 Kredyt (Ma) 	 może być liczony jako różnica (przychody – koszty)
+Zysk netto 	 Kredyt (Ma) 	 najczęściej wyliczany, ale formalnie też po stronie Ma
+EBIT 	 Kredyt (Ma) 	 liczony, ale gdyby był kontem – miałby saldo po stronie Ma
+
+
+
+
+
+Oto propozycje pól dla tabel w bazie danych, które mogą być przydatne w aplikacji do rachunkowości osobistej:
+
+1. **Księgi**:
+   - ID księgi (unikalny identyfikator)
+   - Nazwa księgi
+   - Opis
+   - Data utworzenia
+   - Właściciel (np. ID użytkownika)
+
+2. **Konta**:
+   - ID konta
+   - Nazwa konta
+   - Typ konta (np. oszczędnościowe, bieżące, kredytowe)
+   - Saldo początkowe
+   - Data utworzenia
+   - ID księgi (relacja z tabelą księgi)
+
+3. **Transakcje**:
+   - ID transakcji
+   - Data transakcji
+   - Kwota
+   - Typ transakcji (przychód/wydatek)
+   - Opis
+   - ID konta (relacja z tabelą konta)
+   - ID kategorii (relacja z tabelą kategorie)
+
+4. **Kategorie**:
+   - ID kategorii
+   - Nazwa kategorii
+   - Typ kategorii (przychód/wydatek)
+   - Opis
+
+5. **Budżety**:
+   - ID budżetu
+   - Nazwa budżetu
+   - Kwota docelowa
+   - Okres (np. miesięczny, roczny)
+   - ID kategorii (relacja z tabelą kategorie)
+   - Data rozpoczęcia
+   - Data zakończenia
+
+6. **Raporty**:
+   - ID raportu
+   - Nazwa raportu
+   - Typ raportu (np. miesięczny, roczny, niestandardowy)
+   - Data wygenerowania
+   - ID księgi (relacja z tabelą księgi)
+   - Szczegóły (np. JSON lub plik)
+
+Te pola można dostosować w zależności od specyficznych wymagań Twojej aplikacji. Jeśli potrzebujesz pomocy w projektowaniu bazy danych lub optymalizacji, daj znać! 😊
