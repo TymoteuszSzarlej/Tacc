@@ -43,6 +43,16 @@ urlpatterns = [
     path('transaction/<int:transaction_id>/details/', views.transaction_details, name='transaction_details'),
     path('transaction/<int:transaction_id>/edit/', views.edit_transaction, name='edit_transaction'),
     path('transaction/<int:transaction_id>/delete/', views.delete_transaction, name='delete_transaction'),
+    path('budgets/', views.budgets, name='budgets'),
+    path('budget/create/', views.create_budget, name='create_budget'),
+    path('budget/<int:budget_id>/details/', views.budget_details, name='budget_details'),
+    path('budget/<int:budget_id>/edit/', views.edit_budget, name='edit_budget'),
+    path('budget/<int:budget_id>/delete/', views.delete_budget, name='delete_budget'),
+    path('reports/', views.reports, name='reports'),
+    path('report/create/', views.create_report, name='create_report'),
+    path('report/<int:report_id>/details/', views.report_details, name='report_details'),
+    path('report/<int:report_id>/edit/', views.edit_report, name='edit_report'),
+    path('report/<int:report_id>/delete/', views.delete_report, name='delete_report'),
 ]
 
 

@@ -15,3 +15,86 @@
 [RESPONSE]	2025-04-18 12:39:29	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/transactions/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 233.75ms | Dane: {}
 [ERROR]	2025-04-18 12:39:29	[MAIN.middleware]	B≥πd 500 | GET /accountancy/transactions/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
 [SUCCESS]	2025-04-18 12:40:18	[MAIN.signals]	Utworzono nowπ instancjÍ: Migration (ID: 24)
+[ERROR]	2025-04-18 12:40:44	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/transactions/ | NoReverseMatch: Reverse for 'add_transaction' not found. 'add_transaction' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-18 12:40:44	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/transactions/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 240.59ms | Dane: {}
+[ERROR]	2025-04-18 12:40:44	[MAIN.middleware]	B≥πd 500 | GET /accountancy/transactions/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-18 12:41:16	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/transactions/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 19.81ms | Dane: {}
+[RESPONSE]	2025-04-18 12:41:22	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/transaction/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 50.26ms | Dane: {}
+[RESPONSE]	2025-04-18 12:41:44	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/transactions/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 4.87ms | Dane: {}
+[RESPONSE]	2025-04-18 12:47:00	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/categories/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.72ms | Dane: {}
+[RESPONSE]	2025-04-18 12:47:10	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/categories/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 4.8ms | Dane: {}
+[RESPONSE]	2025-04-18 12:47:47	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/categories/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 20.09ms | Dane: {}
+[RESPONSE]	2025-04-18 12:47:49	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/category/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.64ms | Dane: {}
+[SUCCESS]	2025-04-18 12:47:53	[MAIN.signals]	Utworzono nowπ instancjÍ: Categories (ID: 2)
+[RESPONSE]	2025-04-18 12:47:53	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/category/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.87ms | Dane: {'csrfmiddlewaretoken': "['WJKkrPxw4AnAxjnwlRq5mbRBArYD003njUmr1FaK9iMaBz0YhHt9Mr6E78fwTmio']", 'name': "['r']", 'description': "['r']", 'color': "['#000000']"}
+[RESPONSE]	2025-04-18 12:47:53	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/categories/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 6.21ms | Dane: {}
+[RESPONSE]	2025-04-18 12:48:03	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/transactions/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 6.54ms | Dane: {}
+[RESPONSE]	2025-04-18 12:48:07	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/transaction/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 13.24ms | Dane: {}
+[SUCCESS]	2025-04-18 12:48:19	[MAIN.signals]	Utworzono nowπ instancjÍ: Transaction (ID: 1)
+[RESPONSE]	2025-04-18 12:48:19	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/transaction/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 17.66ms | Dane: {'csrfmiddlewaretoken': "['0xK9eE8PK3qtl3EL9L14aGhbdY3POPASnImgOuL3PLP3pjhd5B48AWweKFkIHbPT']", 'description': "['r']", 'amount': "['0.0']", 'credit_account': "['1']", 'debit_account': "['1']", 'document': "['Zrzut ekranu 2025-04-10 175646.png']", 'category': "['2']"}
+[RESPONSE]	2025-04-18 12:48:19	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/transactions/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 6.39ms | Dane: {}
+[RESPONSE]	2025-04-18 12:54:32	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/transaction/1/edit/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 41.63ms | Dane: {}
+[RESPONSE]	2025-04-18 12:54:40	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/transactions/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 19.97ms | Dane: {}
+[SUCCESS]	2025-04-18 12:55:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Migration (ID: 25)
+[RESPONSE]	2025-04-18 13:21:11	[MAIN.middleware]	Odpowiedü 404 | GET /accountancy/budgets/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 9.24ms | Dane: {}
+[ERROR]	2025-04-18 13:21:11	[MAIN.middleware]	B≥πd 404 | GET /accountancy/budgets/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-18 13:22:24	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/budgets/ | TemplateDoesNotExist: Accountancy/budgets/main.html.jinja | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-18 13:22:24	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/budgets/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 211.57ms | Dane: {}
+[ERROR]	2025-04-18 13:22:24	[MAIN.middleware]	B≥πd 500 | GET /accountancy/budgets/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-18 13:24:11	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/budgets/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 25.82ms | Dane: {}
+[RESPONSE]	2025-04-18 13:27:22	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/budget/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 125.84ms | Dane: {}
+[RESPONSE]	2025-04-18 13:27:28	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/budgets/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 15.6ms | Dane: {}
+[RESPONSE]	2025-04-18 13:50:55	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/budget/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 60.49ms | Dane: {}
+[RESPONSE]	2025-04-18 13:50:57	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/budgets/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.5ms | Dane: {}
+[RESPONSE]	2025-04-18 13:50:59	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/budget/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 7.55ms | Dane: {}
+[RESPONSE]	2025-04-18 13:51:09	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/budgets/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 4.69ms | Dane: {}
+[ERROR]	2025-04-18 13:54:09	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/reports/ | OperationalError: no such table: Accountancy_report | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-18 13:54:09	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/reports/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 235.04ms | Dane: {}
+[ERROR]	2025-04-18 13:54:09	[MAIN.middleware]	B≥πd 500 | GET /accountancy/reports/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[SUCCESS]	2025-04-18 13:54:27	[MAIN.signals]	Utworzono nowπ instancjÍ: Migration (ID: 26)
+[RESPONSE]	2025-04-18 13:54:29	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/reports/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.8ms | Dane: {}
+[RESPONSE]	2025-04-18 13:54:31	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 22.14ms | Dane: {}
+[ERROR]	2025-04-18 13:54:41	[MAIN.middleware]	Wyjπtek 500 | POST /accountancy/report/create/ | AttributeError: 'ReportForm' object has no attribute 'save' | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-18 13:54:41	[MAIN.middleware]	Odpowiedü 500 | POST /accountancy/report/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 51.46ms | Dane: {'csrfmiddlewaretoken': "['eRTOwiYewzd1VlOWr0RSAfnERZS9o5kaB2vV68BsBhCBZBronQUW0vCHoG92hrzb']", 'report_type': "['income_statement']", 'start_date': "['2025-04-17']", 'end_date': "['2025-04-19']", 'name': "['r']", 'description': "['r']"}
+[ERROR]	2025-04-18 13:54:41	[MAIN.middleware]	B≥πd 500 | POST /accountancy/report/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[SUCCESS]	2025-04-18 13:57:15	[MAIN.signals]	Utworzono nowπ instancjÍ: Report (ID: 1)
+[RESPONSE]	2025-04-18 13:57:15	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/report/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 180.83ms | Dane: {'csrfmiddlewaretoken': "['eRTOwiYewzd1VlOWr0RSAfnERZS9o5kaB2vV68BsBhCBZBronQUW0vCHoG92hrzb']", 'report_type': "['income_statement']", 'start_date': "['2025-04-17']", 'end_date': "['2025-04-19']", 'name': "['r']", 'description': "['r']"}
+[RESPONSE]	2025-04-18 13:57:15	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/reports/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 12.06ms | Dane: {}
+[RESPONSE]	2025-04-18 13:58:43	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/reports/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 21.75ms | Dane: {}
+[RESPONSE]	2025-04-18 13:58:45	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 16.93ms | Dane: {}
+[RESPONSE]	2025-04-18 13:58:52	[MAIN.middleware]	Odpowiedü 200 | POST /accountancy/report/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 4.73ms | Dane: {'csrfmiddlewaretoken': "['gKSBGOdxx2nhu815aeTZb3LJgqBiiI60DVuIgEQLCKMRyoEx64W3Bj0MN7Sbb4l1']"}
+[RESPONSE]	2025-04-18 15:59:52	[MAIN.middleware]	Odpowiedü 200 | POST /accountancy/report/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 34.68ms | Dane: {'csrfmiddlewaretoken': "['hJp8zittcx1rmIcD241wjqWYIn6lnDrREU1f986Hhfq1qYP5YU4AJGb1f4negZGS']"}
+[RESPONSE]	2025-04-18 16:00:05	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/accounts/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 15.89ms | Dane: {}
+[RESPONSE]	2025-04-18 16:00:08	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 21.26ms | Dane: {}
+[RESPONSE]	2025-04-18 16:05:01	[MAIN.middleware]	Odpowiedü 404 | GET /accountancy/reports/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 25.39ms | Dane: {}
+[ERROR]	2025-04-18 16:05:01	[MAIN.middleware]	B≥πd 404 | GET /accountancy/reports/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-18 16:05:38	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/reports/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 14.77ms | Dane: {}
+[RESPONSE]	2025-04-18 16:05:40	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 20.6ms | Dane: {}
+[RESPONSE]	2025-04-18 16:07:50	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 21.36ms | Dane: {}
+[RESPONSE]	2025-04-18 16:09:47	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/accounts/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 16.55ms | Dane: {}
+[ERROR]	2025-04-18 16:09:48	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/account/1/details/ | AttributeError: 'Account' object has no attribute 'credit_account' | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-18 16:09:49	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 44.0ms | Dane: {}
+[ERROR]	2025-04-18 16:09:49	[MAIN.middleware]	B≥πd 500 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-18 16:16:02	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 44.6ms | Dane: {}
+[RESPONSE]	2025-04-18 16:18:52	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 26.33ms | Dane: {}
+[RESPONSE]	2025-04-18 16:21:03	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 23.55ms | Dane: {}
+[RESPONSE]	2025-04-18 16:22:06	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 21.8ms | Dane: {}
+[RESPONSE]	2025-04-18 16:22:44	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 19.57ms | Dane: {}
+[RESPONSE]	2025-04-18 16:23:18	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 38.19ms | Dane: {}
+[RESPONSE]	2025-04-18 16:24:43	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 38.43ms | Dane: {}
+[RESPONSE]	2025-04-18 16:27:39	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 39.68ms | Dane: {}
+[RESPONSE]	2025-04-18 16:29:27	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 38.28ms | Dane: {}
+[RESPONSE]	2025-04-18 16:29:37	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 34.95ms | Dane: {}
+[RESPONSE]	2025-04-18 16:30:02	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 31.42ms | Dane: {}
+[RESPONSE]	2025-04-18 16:31:49	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 40.32ms | Dane: {}
+[RESPONSE]	2025-04-18 16:32:36	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 36.89ms | Dane: {}
+[RESPONSE]	2025-04-18 16:32:52	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 35.25ms | Dane: {}
+[RESPONSE]	2025-04-18 16:34:02	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 26.61ms | Dane: {}
+[RESPONSE]	2025-04-18 16:34:33	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 23.93ms | Dane: {}
+[RESPONSE]	2025-04-18 16:38:26	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/reports/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 17.98ms | Dane: {}
+[RESPONSE]	2025-04-18 16:38:28	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.99ms | Dane: {}
+[RESPONSE]	2025-04-18 16:39:45	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 14.37ms | Dane: {}
+[SUCCESS]	2025-04-18 16:40:07	[MAIN.signals]	Utworzono nowπ instancjÍ: Report (ID: 2)
+[RESPONSE]	2025-04-18 16:40:07	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/report/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 27.64ms | Dane: {'csrfmiddlewaretoken': "['ltRsNffoUeNi9gonkbOrGjPfUqWnasRTIEtzn5SCZWcSdw1Pg1Rv6z4ir7dg3O6U']", 'report_type': "['balance_sheet']", 'start_date': "['2025-04-01']", 'end_date': "['2025-04-30']", 'name': "['bilans']", 'description': "['testowy bilans']"}
+[RESPONSE]	2025-04-18 16:40:07	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/reports/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.37ms | Dane: {}
+[RESPONSE]	2025-04-18 16:40:09	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/2/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 7.4ms | Dane: {}

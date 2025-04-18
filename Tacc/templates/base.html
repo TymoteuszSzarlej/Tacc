@@ -83,6 +83,15 @@ main {
     justify-content: center; /* Wyśrodkowanie w poziomie */
     height: calc(100vh - 16%); /* Wysokość main (odejmując header i footer) */
     flex-direction: column; /* Opcjonalnie, jeśli zawartość ma być w kolumnie */
+    width: 100%; /* Szerokość main ustawiona na 80% */
+    margin: 0 auto; /* Wyśrodkowanie w poziomie */
+    box-sizing: border-box; /* Uwzględnij padding i border w szerokości */
+}
+
+main > * {
+    width: 100%; /* Elementy wewnątrz main zajmują 100% szerokości main */
+    max-width: 100%; /* Zapobiega przekraczaniu szerokości */
+    box-sizing: border-box; /* Uwzględnij padding i border w szerokości */
 }
 
 
@@ -101,6 +110,21 @@ ul, ol, li {
 
 table {
     margin: 0 auto;
+    width: 100%; /* Tabela zajmuje całą szerokość kontenera */
+    border-collapse: collapse; /* Usunięcie odstępów między komórkami */
+    font-size: auto;
+}
+
+th, td {
+    padding: 8px; /* Dodanie odstępów wewnętrznych */
+    text-align: left; /* Wyrównanie tekstu do lewej */
+    border: 1px solid #ddd; /* Dodanie obramowania */
+}
+
+/* Dodaj styl dla kontenera tabeli */
+.table-container {
+    width: 100%; /* Dopasowanie do szerokości okna */
+    overflow-x: auto; /* Włączenie przewijania poziomego */
 }
 
 

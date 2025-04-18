@@ -1,5 +1,8 @@
 {%extends 'base.html'%}
 {% block content %}
+<div class="container">
+    <h2>Lista kategorii</h2>
+    <a href="{% url 'create_category' %}">Dodaj nową kategorię</a>
 {%for category in categories%}
     <div class="container">
         <h2>{{ category.name }}</h2>

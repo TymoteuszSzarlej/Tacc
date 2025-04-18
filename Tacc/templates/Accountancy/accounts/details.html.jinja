@@ -31,4 +31,81 @@
 
     <a href="{% url 'edit_account' account.id %}" class="btn btn-primary">Edit Account</a>
     <a href="{% url 'delete_account' account.id %}" class="btn btn-danger">Delete Account</a>
+    <h3>
+        Transakcje
+    </h3>
+<div class="table-container">
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Debet</th>
+                <th>Kredyt</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Kwota</th>
+                <th>Opis</th>
+                <th>Kategoria</th>
+                <th>Akcja</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%for debit in debits%}
+            <tr>
+                <td>{{ debit.date }}</td>
+                <td>{{ debit.amount }}</td>
+                <td>{{ debit.description }}</td>
+                <td>{{ debit.category.name }}</td>
+                <td><a href="{% url 'transaction_details' debit.id %}">Szczegóły</a></td>
+            </tr>
+            {%endfor%}
+        </tbody>
+    </table>
+                </td>
+                <td>
+                    
+
+<table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Kwota</th>
+                <th>Opis</th>
+                <th>Kategoria</th>
+                <th>Akcja</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%for credit in credis%}
+            <tr>
+                <td>{{ credit.date }}</td>
+                <td>{{ credit.amount }}</td>
+                <td>{{ credit.description }}</td>
+                <td>{{ credit.category.name }}</td>
+                <td><a href="{% url 'transaction_details' credit.id %}">Szczegóły</a></td>
+            </tr>
+            {%endfor%}
+        </tbody>
+    </table>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</div>
+
+<h3>Saldo</h3>
+<p><strong>Saldo konta: </strong>{{ account.calculate_balance }}</p>
+    
+
 {%endblock%}

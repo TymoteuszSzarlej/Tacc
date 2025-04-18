@@ -54,3 +54,42 @@ class TransactionForm(forms.ModelForm):
             'document': 'Dokument',
             'category': 'Kategoria',
         }
+
+
+
+class BudgetForm(forms.ModelForm):
+    class Meta:
+        model = Budgets
+        fields = ['name', 'description', 'amount', 'start_date', 'end_date', 'category']
+        widgets = {
+            'name': forms.TextInput(attrs={'class': 'form-control'}),
+            'description': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
+            'amount': forms.NumberInput(attrs={'class': 'form-control'}),
+            'start_date': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}),
+            'end_date': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}),
+            'category': forms.Select(attrs={'class': 'form-control'}),
+        }
+        labels = {
+            'name': 'Nazwa',
+            'description': 'Opis',
+            'amount': 'Kwota',
+            'start_date': 'Data rozpoczęcia',
+            'end_date': 'Data zakończenia',
+            'category': 'Kategoria',
+        }
+
+class ReportForm(forms.ModelForm):
+    class Meta:
+        model = Report
+        fields = ['report_type', 'start_date', 'end_date', 'name', 'description']
+        widgets = {
+            'start_date': forms.DateInput(attrs={'type': 'date'}),
+            'end_date': forms.DateInput(attrs={'type': 'date'}),
+        }
+        labels = {
+            'report_type': 'Typ raportu',
+            'start_date': 'Data początkowa',
+            'end_date': 'Data końcowa',
+            'name': 'Nazwa',
+            'description': 'Opis',
+        }

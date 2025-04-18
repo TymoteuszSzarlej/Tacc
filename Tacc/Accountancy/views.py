@@ -1,7 +1,8 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.models import User
 from .models import *
 from .forms import *
+
 
 # Create your views here.
 def books(request):
@@ -66,7 +67,7 @@ def create_account(request):
 
 def account_details(request, account_id):
     account = Account.objects.get(id=account_id)
-    return render(request, 'Accountancy/accounts/details.html.jinja', {'account': account})
+    return render(request, 'Accountancy/accounts/details.html.jinja', {'account': account, 'credits': account.get_credit_transactions(), 'debits': account.get_debit_transactions()})
 def edit_account(request, account_id):
     account = Account.objects.get(id=account_id)
     if request.method == 'POST':
@@ -155,3 +156,81 @@ def delete_transaction(request, transaction_id):
         transaction.delete()
         return redirect('transactions')
     return render(request, 'Accountancy/transactions/delete.html.jinja', {'transaction': transaction})
+
+def budgets(request):
+    user = User.objects.get(username=request.user)
+    budgets = Budgets.objects.all().filter(user=user)
+    
+    return render(request, 'Accountancy/budgets/main.html.jinja', {'budgets': budgets})
+def create_budget(request):
+    if request.method == 'POST':
+        form = BudgetForm(request.POST)
+        if form.is_valid():
+            budget = form.save(commit=False)  # Nie zapisuj automatycznie w bazie danych
+            budget.user = request.user       # Ustaw użytkownika na zalogowanego użytkownika
+            budget.save()                    # Zapisz obiekt w bazie danych
+            return redirect('budgets')   # Przekieruj użytkownika po zapisaniu
+    else:
+        form = BudgetForm()
+    return render(request, 'Accountancy/budgets/create.html.jinja', {'form': form})
+def budget_details(request, budget_id):
+    budget = Budgets.objects.get(id=budget_id)
+    return render(request, 'Accountancy/budgets/details.html.jinja', {'budget': budget})
+def edit_budget(request, budget_id):
+    budget = Budgets.objects.get(id=budget_id)
+    if request.method == 'POST':
+        form = BudgetForm(request.POST, instance=budget)
+        if form.is_valid():
+            form.save()
+            return redirect('budgets')
+    else:
+        form = BudgetForm(instance=budget)
+    return render(request, 'Accountancy/budgets/edit.html.jinja', {'form': form, 'budget': budget})
+def delete_budget(request, budget_id):
+    budget = Budgets.objects.get(id=budget_id)
+    if request.method == 'POST':
+        budget.delete()
+        return redirect('budgets')
+    return render(request, 'Accountancy/budgets/delete.html.jinja', {'budget': budget})
+def reports(request):
+    user = User.objects.get(username=request.user)
+    reports = Report.objects.all().filter(user=user)
+    
+    return render(request, 'Accountancy/reports/main.html.jinja', {'reports': reports})
+def create_report(request):
+    if request.method == 'POST':
+        form = ReportForm(request.POST)
+        if form.is_valid():
+            report = form.save(commit=False)  # Nie zapisuj automatycznie w bazie danych
+            report.user = request.user       # Ustaw użytkownika na zalogowanego użytkownika
+            report.save()                    # Zapisz obiekt w bazie danych
+            return redirect('reports')   # Przekieruj użytkownika po zapisaniu
+    else:
+        form = ReportForm()
+    return render(request, 'Accountancy/reports/create.html.jinja', {'form': form})
+def report_details(request, report_id):
+    report = get_object_or_404(Report, id=report_id)
+    report_data = report.generate_report()  # Generuje dane raportu
+    return render(request, 'Accountancy/reports/details.html.jinja', {
+        'report': report,
+        'report_data': report_data
+    })
+def edit_report(request, report_id):
+    report = Report.objects.get(id=report_id)
+    if request.method == 'POST':
+        form = ReportForm(request.POST, instance=report)
+        if form.is_valid():
+            form.save()
+            return redirect('reports')
+    else:
+        form = ReportForm(instance=report)
+    return render(request, 'Accountancy/reports/edit.html.jinja', {'form': form, 'report': report})
+def delete_report(request, report_id):
+    report = Report.objects.get(id=report_id)
+    if request.method == 'POST':
+        report.delete()
+        return redirect('reports')
+    return render(request, 'Accountancy/reports/delete.html.jinja', {'report': report})
+def report_pdf(request, report_id):
+    report = Report.objects.get(id=report_id)
+    return render(request, 'Accountancy/reports/pdf.html.jinja', {'report': report})
