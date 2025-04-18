@@ -119,3 +119,39 @@ def delete_category(request, category_id):
         category.delete()
         return redirect('categories')
     return render(request, 'Accountancy/categories/delete.html.jinja', {'category': category})
+
+def transactions(request):
+    user = User.objects.get(username=request.user)
+    transactions = Transaction.objects.all().filter(user=user)
+    
+    return render(request, 'Accountancy/transactions/main.html.jinja', {'transactions': transactions})
+def create_transaction(request):
+    if request.method == 'POST':
+        form = TransactionForm(request.POST)
+        if form.is_valid():
+            transaction = form.save(commit=False)  # Nie zapisuj automatycznie w bazie danych
+            transaction.user = request.user       # Ustaw użytkownika na zalogowanego użytkownika
+            transaction.save()                    # Zapisz obiekt w bazie danych
+            return redirect('transactions')   # Przekieruj użytkownika po zapisaniu
+    else:
+        form = TransactionForm()
+    return render(request, 'Accountancy/transactions/create.html.jinja', {'form': form})
+def transaction_details(request, transaction_id):
+    transaction = Transaction.objects.get(id=transaction_id)
+    return render(request, 'Accountancy/transactions/details.html.jinja', {'transaction': transaction})
+def edit_transaction(request, transaction_id):  
+    transaction = Transaction.objects.get(id=transaction_id)
+    if request.method == 'POST':
+        form = TransactionForm(request.POST, instance=transaction)
+        if form.is_valid():
+            form.save()
+            return redirect('transactions')
+    else:
+        form = TransactionForm(instance=transaction)
+    return render(request, 'Accountancy/transactions/edit.html.jinja', {'form': form, 'transaction': transaction})
+def delete_transaction(request, transaction_id):
+    transaction = Transaction.objects.get(id=transaction_id)
+    if request.method == 'POST':
+        transaction.delete()
+        return redirect('transactions')
+    return render(request, 'Accountancy/transactions/delete.html.jinja', {'transaction': transaction})

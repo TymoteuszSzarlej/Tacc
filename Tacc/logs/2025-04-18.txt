@@ -9,3 +9,9 @@
 [SUCCESS]	2025-04-18 11:58:53	[MAIN.signals]	UsuniÍto instancjÍ: Categories (ID: 1)
 [RESPONSE]	2025-04-18 11:58:53	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/category/1/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 32.89ms | Dane: {'csrfmiddlewaretoken': "['Lf29TwUivvv56GTdVn5KBppVEB44SI1I8qEgtmxwAdUFaWwFRd8O1FEYbilXL4gJ']"}
 [RESPONSE]	2025-04-18 11:58:53	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/categories/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.08ms | Dane: {}
+[RESPONSE]	2025-04-18 12:39:29	[MAIN.middleware]	Odpowiedü 404 | GET /accountancy/transactions | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.89ms | Dane: {}
+[ERROR]	2025-04-18 12:39:29	[MAIN.middleware]	B≥πd 404 | GET /accountancy/transactions | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-18 12:39:29	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/transactions/ | OperationalError: no such table: Accountancy_transaction | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-18 12:39:29	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/transactions/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 233.75ms | Dane: {}
+[ERROR]	2025-04-18 12:39:29	[MAIN.middleware]	B≥πd 500 | GET /accountancy/transactions/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[SUCCESS]	2025-04-18 12:40:18	[MAIN.signals]	Utworzono nowπ instancjÍ: Migration (ID: 24)

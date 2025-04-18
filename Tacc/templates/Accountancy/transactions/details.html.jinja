@@ -1,0 +1,35 @@
+{%extends 'base.html'%}
+{% block content %}
+<div class="container">
+ -->
+    <h2>Transaction Details</h2>
+ -->
+    <div class="card">
+ -->
+        <p><strong>ID:</strong> {{ transaction.id }}</p>
+ -->
+        <p><strong>Date:</strong> {{ transaction.date }}</p>
+ -->
+        <p><strong>Amount:</strong> {{ transaction.amount }}</p>
+ -->
+        <p><strong>Description:</strong> {{ transaction.description }}</p>
+ -->
+        <p><strong>Category:</strong> {{ transaction.category.name }}</p>
+ -->
+        <p><strong>Account:</strong> {{ transaction.account.name }}</p>
+ -->
+    </div>
+ -->
+ -->
+    <div class="actions">
+ -->
+        <a href="{% url 'edit_transaction' transaction.id %}" class="btn btn-primary">Edit</a>
+    -->
+        <a href="{% url 'delete_transaction' transaction.id %}" class="btn btn-danger">Delete</a>
+ -->
+    </div>
+ -->        
+    <a href="{% url 'transactions' %}" class="btn btn-secondary">Back to Transactions</a>
+    -->
+</div>
+{% endblock %}

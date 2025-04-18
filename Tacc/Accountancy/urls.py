@@ -38,6 +38,11 @@ urlpatterns = [
     path('category/<int:category_id>/details/', views.category_details, name='category_details'),
     path('category/<int:category_id>/edit/', views.edit_category, name='edit_category'),
     path('category/<int:category_id>/delete/', views.delete_category, name='delete_category'),
+    path('transactions/', views.transactions, name='transactions'),
+    path('transaction/create/', views.create_transaction, name='create_transaction'),
+    path('transaction/<int:transaction_id>/details/', views.transaction_details, name='transaction_details'),
+    path('transaction/<int:transaction_id>/edit/', views.edit_transaction, name='edit_transaction'),
+    path('transaction/<int:transaction_id>/delete/', views.delete_transaction, name='delete_transaction'),
 ]
 
 

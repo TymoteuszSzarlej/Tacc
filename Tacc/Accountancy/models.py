@@ -88,6 +88,34 @@ class Account(models.Model):
         return view
 
 
+class Transaction(models.Model):
+    date = models.DateTimeField(auto_now_add=True)
+    description = models.CharField(max_length=255, blank=True, null=True)
+    amount = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
+    credit_account = models.ForeignKey(Account, on_delete=models.CASCADE)
+    debit_account = models.ForeignKey(Account, on_delete=models.CASCADE, related_name='debit_account')
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    document = models.FileField(upload_to='documents/', blank=True, null=True)
+    category = models.ForeignKey('Categories', on_delete=models.CASCADE, blank=True, null=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        view = f"""
+        <table>
+            <tr>
+                <td>{self.id}</td>
+                <td>{self.date}</td>
+                <td>{self.description}</td>
+                <td>{self.amount}</td>
+                <td>{self.account}</td>
+                <td>{self.category}</td>
+                <td>{self.created_at}</td>
+            </tr>
+        </table>
+        """
+        return view
+
+
 
 class Categories(models.Model):
     name = models.TextField(max_length=63)

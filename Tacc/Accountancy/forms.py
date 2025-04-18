@@ -33,3 +33,24 @@ class CategoryForm(forms.ModelForm):
             'description': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
             'color': forms.TextInput(attrs={'class': 'form-control', 'type': 'color'}),
         }
+
+class TransactionForm(forms.ModelForm):
+    class Meta:
+        model = Transaction  # Zmień na odpowiedni model transakcji
+        fields = ['description', 'amount', 'credit_account', 'debit_account', 'document', 'category']  # Zmień na odpowiednie pola modelu transakcji
+        widgets = {
+            'description': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
+            'amount': forms.NumberInput(attrs={'class': 'form-control'}),
+            'credit_account': forms.Select(attrs={'class': 'form-control'}),
+            'debit_account': forms.Select(attrs={'class': 'form-control'}),
+            'document': forms.ClearableFileInput(attrs={'class': 'form-control'}),
+            'category': forms.Select(attrs={'class': 'form-control'}),
+        }
+        labels = {
+            'description': 'Opis',
+            'amount': 'Kwota',
+            'credit_account': 'Konto kredytowe',
+            'debit_account': 'Konto debetowe',
+            'document': 'Dokument',
+            'category': 'Kategoria',
+        }
