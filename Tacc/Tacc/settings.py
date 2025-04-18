@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-n5a&$2=os4e%bku7t^zd#a_#c+l_%p-cs1dt+nq%8(m%+mph^+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.1.44', '127.0.0.1']
 
 LOGIN_REDIRECT_URL = '/'              # Gdzie użytkownik zostanie przekierowany po zalogowaniu
 LOGIN_URL = 'login'                   # URL logowania
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'accounts',  # Obsługa użytkowników
     'media',  # Obsługa uploadów
     'MAIN',
+    'Accountancy',  # Obsługa księgowości
 ]
 
 SITE_ID = 1  # Wymagane do działania django-allauth

@@ -1,0 +1,12 @@
+{%extends 'base.html'%}
+{% block content %}
+<div class="container">
+    <h2>Usuwanie konta</h2>
+    <p>Czy napewno chcesz usunąć konto "{{ account.name }}"? Skutkuje to usunięciem wszystkich transakcji powiązanych z kontem. Tej operacji nie można będzie cofnąć.</p>
+    <form method="POST">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Usuń</button>
+        <a href="{% url 'accounts' %}" class="btn btn-secondary">Anuluj</a>
+    </form>
+</div>
+{% endblock %}

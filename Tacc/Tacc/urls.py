@@ -25,8 +25,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
     path('accounts/', include('accounts.urls')),  # Obsługa użytkowników
-    # Własny widok rejestracji:
-    # path('accounts/register/', __Accounts__.views.register, name='register'),
+    path('accountancy/', include('Accountancy.urls')),  # Obsługa księgowości
 
 ]
 

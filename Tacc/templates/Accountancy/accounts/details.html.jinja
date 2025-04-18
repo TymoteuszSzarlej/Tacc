@@ -1,0 +1,34 @@
+{%extends 'base.html'%}
+{% block content %}
+<div class="container">
+    <h2>Szczegóły konta "{{ account.name }}"</h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Nazwa</th>
+                <th>Opis</th>
+                <th>Rodzaj</th>
+                <th>Podrodzaj</th>
+                <th>Stan początkowy</th>
+                <th>Data utworzenia</th>
+                <th>Księga</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>{{ account.name }}</td>
+                <td>{{ account.description }}</td>
+                <td>{{ account.get_account_type_display }}</td>
+                <td>{{ account.get_account_subtype_display }}</td>
+                <td>{{ account.initial_balance }}</td>
+                <td>{{ account.created_at }}</td>
+                <td><a href="{% url 'book_details' account.book.id %}">{{ account.book.name }}</a></td> 
+            </tr>
+
+        </tbody>
+    </table>
+
+    <a href="{% url 'edit_account' account.id %}" class="btn btn-primary">Edit Account</a>
+    <a href="{% url 'delete_account' account.id %}" class="btn btn-danger">Delete Account</a>
+{%endblock%}

@@ -2,31 +2,40 @@
 
 {% block content %}
 <table>
-    <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Operacje</th>
-    </tr>
-    {% for book in books %}
-    
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Operacje</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for book in books %}
         <tr>
             <td>{{ book.name }}</td>
             <td>{{ book.description }}</td>
-            <td>
-            <table>
-            <td>
-            <a href="{% url 'book_details' book.id %}">Wyświetl</a>
-            </td>
-            <td>
-            <a href="{% url 'edit_book' book.id %}">Edytuj</a>
-            </td>
-            <td>
-            <a href="{% url 'delete_book' book.id %}">Usuń</a>
-            </td>
-            </table>
-            
+            <td style="display: flex; gap: 10px;">
+                <a href="{% url 'book_details' book.id %}" title="Podgląd">
+                    <!-- Niebieska lupa -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="blue" width="20" height="20" viewBox="0 0 24 24">
+                        <path d="M10,2a8,8 0 1,0 8,8A8,8 0 0,0 10,2Zm0,14a6,6 0 1,1 6-6A6,6 0 0,1 10,16ZM21.71,20.29l-4.4-4.39a10,10 0 1,0-1.42,1.42l4.39,4.4a1,1 0 0,0 1.42-1.42Z"/>
+                    </svg>
+                </a>
+                <a href="{% url 'edit_book' book.id %}" title="Edytuj">
+                    <!-- Żółty ołówek -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="yellow" width="20" height="20" viewBox="0 0 24 24">
+                        <path d="M3,17.25V21h3.75l11.06-11.06-3.75-3.75L3,17.25ZM18.37,5.63a1,1 0 0,1 0,1.41l-1.29,1.29-3.75-3.75,1.29-1.29a1,1 0 0,1 1.41,0l2.34,2.34Z"/>
+                    </svg>
+                </a>
+                <a href="{% url 'delete_book' book.id %}" title="Usuń">
+                    <!-- Czerwony kosz -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="red" width="20" height="20" viewBox="0 0 24 24">
+                        <path d="M9,3V4H4V6H5V19a2,2 0 0,0 2,2H17a2,2 0 0,0 2-2V6h1V4H15V3H9ZM7,6H17V19H7Z"/>
+                    </svg>
+                </a>
             </td>
         </tr>
-    {% endfor %}
+        {% endfor %}
+    </tbody>
 </table>
 {% endblock %}

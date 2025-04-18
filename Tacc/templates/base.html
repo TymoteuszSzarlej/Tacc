@@ -1,132 +1,243 @@
+<style>
+/* ========= Ogólne elementy HTML ========= */
+html, body {
+    /* Stylowanie całego dokumentu */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+
+header, footer {
+    /* Stylowanie nagłówka */
+    background-color: turquoise;
+    padding: 10px;
+    height: 10%;
+}
+
+footer {
+    /* Stylowanie stopki */
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 6%;
+}
+
+
+aside {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Pokaż aside, gdy ma klasę aktywną */
+aside.active {
+    display: block;
+    transform: translateX(0);
+}
+
+/* Styl dla przycisku */
+#toggle-aside {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1100;
+    background-color: turquoise;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Stylowanie dla większych ekranów */
+@media (min-width: 768px) {
+    aside {
+        display: block;
+        position: static;
+        transform: none;
+        box-shadow: none;
+    }
+
+    #toggle-aside {
+        display: none;
+    }
+}
+
+
+main {
+    /* Stylowanie głównej zawartości */
+    background: linear-gradient(to bottom right, #444, #222); /* Gradient tła */
+    display: flex; /* Ustawienie flexbox */
+    align-items: center; /* Wyśrodkowanie w pionie */
+    justify-content: center; /* Wyśrodkowanie w poziomie */
+    height: calc(100vh - 16%); /* Wysokość main (odejmując header i footer) */
+    flex-direction: column; /* Opcjonalnie, jeśli zawartość ma być w kolumnie */
+}
+
+
+
+h1, h2, h3, p {
+    /* Nagłówki i akapity */
+}
+
+a {
+    /* Linki */
+}
+
+ul, ol, li {
+    /* Listy */
+}
+
+table {
+    margin: 0 auto;
+}
+
+
+/* ========= Klasy ogólne ========= */
+/* Przykładowe klasy globalne */
+.container {
+    /* Klasa dla kontenerów */
+}
+
+.text-center {
+    /* Wyśrodkowanie tekstu */
+}
+
+.hidden {
+    /* Ukrywanie elementów */
+}
+
+/* ========= Komponenty ========= */
+/* Przykładowe klasy dla komponentów */
+.button {
+    /* Stylowanie przycisków */
+}
+
+.card {
+    /* Stylowanie kart */
+}
+
+/* ========= Animacje ========= */
+/* Definicje animacji */
+@keyframes fadeIn {
+    /* Animacja - pojawianie się */
+}
+
+@keyframes slideIn {
+    /* Animacja - przesuwanie się */
+}
+
+/* Wykorzystanie animacji */
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.slide-in {
+    animation: slideIn 1s ease-in-out;
+}
+
+/* ========= Responsywność ========= */
+/* Stylowanie dla różnych rozdzielczości */
+@media (max-width: 768px) {
+    /* Stylowanie dla urządzeń mobilnych */
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    /* Stylowanie dla tabletów lub średnich ekranów */
+}
+
+@media (min-width: 1201px) {
+    /* Stylowanie dla dużych ekranów */
+}
+
+/* ========= Koniec pliku ========= */
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
 {% load static %}
 
 
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% block title %}Moja Aplikacja{% endblock %}</title>
-  <!-- Łącze do Bootstrapa dla szybkiego stylowania -->
-  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
-  {% block extra_head %}{% endblock %}
-  <style>
-    /* Drobne dopasowanie stylów - można to rozszerzyć */
-    .sidebar {
-      background-color: #f8f9fa;
-      padding: 1rem;
-      height: 100%;
-    }
-    body {
-      padding-top: 2rem;
-    }
-  </style>
-</head>
+
+
+
+
+
+
+
+
 <body>
-
-  <!-- GŁÓWNE NAVBARY -->
   <header>
-    <!-- Navbar z modułami -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Moduły</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navModules" aria-controls="navModules" aria-expanded="false" aria-label="Przełącz nawigację">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navModules">
-          {% block navModules %}
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <!-- Przykładowe linki, które można nadpisać -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Strona Główna</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">O nas</a>
-            </li>
-          </ul>
-          {% endblock %}
-        </div>
-      </div>
-    </nav>
-
-    <!-- Navbar z funkcjami -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Funkcje</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navFunctions" aria-controls="navFunctions" aria-expanded="false" aria-label="Przełącz nawigację">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navFunctions">
-          {% block navFunctions %}
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <!-- Przykładowe linki -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Panel</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Profil</a>
-            </li>
-          </ul>
-          {% endblock %}
-        </div>
-      </div>
-    </nav>
+      <h1>Tacc</h1>
+      {% block header %}
+      <!-- Umieść tutaj pasek nawigacyjny lub inne elementy nagłówka -->
+      {% endblock %}
   </header>
 
-  <!-- GŁÓWNA STRUKTURA - SIDEBAR i CONTENT -->
-  <div class="container-fluid">
-    <div class="row">
-      <!-- Sidebar -->
-      <aside class="col-md-3 col-lg-2 d-md-block sidebar">
-        <div class="position-sticky">
+  <button id="toggle-aside" style="background-color: magenta;">☰ Menu</button> <!-- Przycisk dla telefonów -->
+
+  <aside>
+      <div class="content">
           {% if user.is_authenticated %}
-            <h5>Witaj, {{ user.username }}!</h5>
-            <p><strong>Informacje o sesji:</strong></p>
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <small>ID sesji: {{ request.session.session_key }}</small>
-              </li>
-              <!-- Można dodać więcej informacji o sesji -->
-            </ul>
-            <hr>
-            <form method="post" action="{% url 'logout' %}">
-              {% csrf_token %}
-              <button type="submit" class="btn btn-sm btn-warning">Wyloguj się</button>
-            </form>
+              <p>Witaj, {{ user.username }}! Jesteś zalogowany.</p>
+              <form method="post" action="{% url 'logout' %}">
+                  {% csrf_token %}
+                  <button type="submit">Wyloguj się</button>
+              </form>
           {% else %}
-            <h5>Witaj, Gościu!</h5>
-            <p>Nie jesteś zalogowany.</p>
-            <a href="{% url 'login' %}" class="btn btn-sm btn-primary mb-1">Logowanie</a>
-            <a href="{% url 'register' %}" class="btn btn-sm btn-outline-primary">Rejestracja</a>
+              <p>
+                  Nie jesteś zalogowany.
+                  <a href="{% url 'login' %}">Zaloguj się</a> lub 
+                  <a href="{% url 'register' %}">Zarejestruj się</a>.
+              </p>
           {% endif %}
-        </div>
-      </aside>
+      </div>
+  </aside>
 
-      <!-- Główna zawartość -->
-      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-
-        {% if messages %}
-        <div class="container mt-3">
+  <main>
+      {% if messages %}
           {% for message in messages %}
-          <div class="alert {% if message.tags %}alert-{{ message.tags }}{% else %}alert-info{% endif %}" role="alert">
-            {{ message }}
-          </div>
+              <div>{{ message }}</div>
           {% endfor %}
-        </div>
-        {% endif %}
-        
+      {% endif %}
 
-        {% block content %}
-        <!-- Domyślna zawartość, którą można nadpisać w podszablonach -->
-        {% endblock %}
-      </main>
-    </div>
-  </div>
+      {% block content %}
+      <!-- Główna zawartość strony do nadpisania w podszablonach -->
+      {% endblock %}
+  </main>
 
-  <!-- Skrypty Bootstrapa -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-  {% block extra_js %}
-  <script src="{% static 'js/script.js' %}"></script>
-  {% endblock %}
+  <footer>
+      <p>&copy; 2025 Tymoteusz Szarlej <br>Wszelkie prawa zastrzeżone.</p>
+  </footer>
+  {% block extra_js %}{% endblock %}
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const toggleButton = document.getElementById('toggle-aside');
+        const aside = document.querySelector('aside');
+    
+        toggleButton.addEventListener('click', function () {
+            aside.classList.toggle('active');
+        });
+    });
+    </script>
 </body>
-</html>

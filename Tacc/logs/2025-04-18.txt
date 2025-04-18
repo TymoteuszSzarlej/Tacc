@@ -1,0 +1,11 @@
+[ERROR]	2025-04-18 11:53:26	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/category/1/edit/ | TemplateDoesNotExist: Accountancy/categories/edit.html.jinja | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-18 11:53:26	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/category/1/edit/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 105.49ms | Dane: {}
+[ERROR]	2025-04-18 11:53:26	[MAIN.middleware]	B≥πd 500 | GET /accountancy/category/1/edit/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-18 11:56:22	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/category/1/edit/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 95.06ms | Dane: {}
+[SUCCESS]	2025-04-18 11:56:25	[MAIN.signals]	Zaktualizowano instancjÍ: Categories (ID: 1)
+[RESPONSE]	2025-04-18 11:56:25	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/category/1/edit/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 31.88ms | Dane: {'csrfmiddlewaretoken': "['QHoVNbQ5P51Qh9fgmMnjv58JcMcNrXPVdS02n1tjUNqqlpSIiCqnVlnMJttGkj4W']", 'name': "['testr']", 'description': "['']", 'color': "['#cd0a0a']"}
+[RESPONSE]	2025-04-18 11:56:25	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/categories/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 14.29ms | Dane: {}
+[RESPONSE]	2025-04-18 11:58:47	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/category/1/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.48ms | Dane: {}
+[SUCCESS]	2025-04-18 11:58:53	[MAIN.signals]	UsuniÍto instancjÍ: Categories (ID: 1)
+[RESPONSE]	2025-04-18 11:58:53	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/category/1/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 32.89ms | Dane: {'csrfmiddlewaretoken': "['Lf29TwUivvv56GTdVn5KBppVEB44SI1I8qEgtmxwAdUFaWwFRd8O1FEYbilXL4gJ']"}
+[RESPONSE]	2025-04-18 11:58:53	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/categories/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.08ms | Dane: {}

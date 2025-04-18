@@ -421,3 +421,218 @@ tz | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
 [RESPONSE]	2025-04-16 02:23:43	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/password_reset/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 6.55ms | Dane: {}
 [RESPONSE]	2025-04-16 02:24:09	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/password_reset/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 33.62ms | Dane: {'csrfmiddlewaretoken': "['MqfDYGg0qEqzvxoeBKx5HdW6ftwyaUWyIqf855PSOctU96yYDfuT07yYJ0KB9zdp']", 'email': "['tszarlej@proton.me']"}
 [RESPONSE]	2025-04-16 02:24:09	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/password_reset/done/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 3.33ms | Dane: {}
+[RESPONSE]	2025-04-16 03:52:26	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/password_reset/done/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 57.64ms | Dane: {}
+[RESPONSE]	2025-04-16 03:52:26	[MAIN.middleware]	Odpowiedü 404 | GET /favicon.ico | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.16ms | Dane: {}
+[ERROR]	2025-04-16 03:52:26	[MAIN.middleware]	B≥πd 404 | GET /favicon.ico | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 03:53:25	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/password_reset/done/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 3.43ms | Dane: {}
+[RESPONSE]	2025-04-16 03:56:08	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/password_reset/done/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 3.73ms | Dane: {}
+[RESPONSE]	2025-04-16 04:00:50	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/password_reset/done/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 33.78ms | Dane: {}
+[RESPONSE]	2025-04-16 04:00:52	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/password_reset/done/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 3.55ms | Dane: {}
+[RESPONSE]	2025-04-16 04:03:39	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/password_reset/done/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.86ms | Dane: {}
+[RESPONSE]	2025-04-16 04:06:33	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/password_reset/done/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.03ms | Dane: {}
+[ERROR]	2025-04-16 04:08:09	[MAIN.middleware]	Wyjπtek 500 | GET /accounts/password_reset/done/ | TemplateSyntaxError: Unclosed tag on line 78: 'if'. Looking for one of: endif. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 04:08:10	[MAIN.middleware]	Odpowiedü 500 | GET /accounts/password_reset/done/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 198.31ms | Dane: {}
+[ERROR]	2025-04-16 04:08:10	[MAIN.middleware]	B≥πd 500 | GET /accounts/password_reset/done/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 04:08:31	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/password_reset/done/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 21.68ms | Dane: {}
+[SUCCESS]	2025-04-16 04:08:37	[MAIN.signals]	UsuniÍto instancjÍ: Session (ID: o1pc4gtpb7vjnp2pdry8zxy78fk5cnp9)
+[RESPONSE]	2025-04-16 04:08:37	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/logout/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 115.75ms | Dane: {'csrfmiddlewaretoken': "['nu2uTxodKOx7oxbKRDHFEEXF8bVpNVNHju2Z0WX58mAs26luT8EtXyzxCI9sMA4y']"}
+[RESPONSE]	2025-04-16 04:08:37	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 52.01ms | Dane: {}
+[SUCCESS]	2025-04-16 04:08:43	[MAIN.signals]	Utworzono nowπ instancjÍ: Session (ID: 42z8ny357x2gnn5ybn6fpw1m18xhcsv1)
+[SUCCESS]	2025-04-16 04:08:43	[MAIN.signals]	Zaktualizowano instancjÍ: User (ID: 7)
+[RESPONSE]	2025-04-16 04:08:43	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 545.89ms | Dane: {'csrfmiddlewaretoken': "['Lm5mmBXunVabAxpPPUGXPJpulPQS95ZfHm5Rt0wmLtdwe6zzRpDL8D1mPm4V8Kg6']", 'username': "['TymoteuszSzarlej']", 'password': '[UKRYTO]'}
+[SUCCESS]	2025-04-16 04:08:43	[MAIN.signals]	Zaktualizowano instancjÍ: Session (ID: 42z8ny357x2gnn5ybn6fpw1m18xhcsv1)
+[RESPONSE]	2025-04-16 04:08:43	[MAIN.middleware]	Odpowiedü 404 | GET / | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.69ms | Dane: {}
+[ERROR]	2025-04-16 04:08:43	[MAIN.middleware]	B≥πd 404 | GET / | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 04:08:45	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 4.39ms | Dane: {}
+[RESPONSE]	2025-04-16 04:08:54	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/register/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 49.2ms | Dane: {}
+[SUCCESS]	2025-04-16 04:08:57	[MAIN.signals]	UsuniÍto instancjÍ: Session (ID: 42z8ny357x2gnn5ybn6fpw1m18xhcsv1)
+[RESPONSE]	2025-04-16 04:08:57	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/logout/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 18.5ms | Dane: {'csrfmiddlewaretoken': "['HdTq4Fhktu0e9byoXlqys4BPLcHQCXOul7itnmyHydrp4NHXupEEUgkonL4JWFkX']"}
+[RESPONSE]	2025-04-16 04:08:57	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 1.93ms | Dane: {}
+[RESPONSE]	2025-04-16 04:09:03	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/register/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 3.32ms | Dane: {}
+[RESPONSE]	2025-04-16 04:09:06	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 4.15ms | Dane: {}
+[SUCCESS]	2025-04-16 04:09:08	[MAIN.signals]	Utworzono nowπ instancjÍ: Session (ID: du7bo5pkjiznbiqhdpyvvdviz1dik7vm)
+[SUCCESS]	2025-04-16 04:09:08	[MAIN.signals]	Zaktualizowano instancjÍ: User (ID: 7)
+[RESPONSE]	2025-04-16 04:09:08	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 504.28ms | Dane: {'csrfmiddlewaretoken': "['UwzO2bD5qHSfcMBmaOYsM03AE6wuYtQ6yqYRlSUsvqjq7oKVHScyecM9gFTnibmz']", 'username': "['TymoteuszSzarlej']", 'password': '[UKRYTO]'}
+[SUCCESS]	2025-04-16 04:09:08	[MAIN.signals]	Zaktualizowano instancjÍ: Session (ID: du7bo5pkjiznbiqhdpyvvdviz1dik7vm)
+[RESPONSE]	2025-04-16 04:09:08	[MAIN.middleware]	Odpowiedü 404 | GET / | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 6.28ms | Dane: {}
+[ERROR]	2025-04-16 04:09:08	[MAIN.middleware]	B≥πd 404 | GET / | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 04:09:20	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/password_reset/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 14.79ms | Dane: {}
+[RESPONSE]	2025-04-16 04:20:43	[MAIN.middleware]	Odpowiedü 404 | GET /accountancy/books | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 9.07ms | Dane: {}
+[ERROR]	2025-04-16 04:20:43	[MAIN.middleware]	B≥πd 404 | GET /accountancy/books | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 04:20:43	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/books/ | TemplateDoesNotExist: books.html | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 04:20:43	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 65.95ms | Dane: {}
+[ERROR]	2025-04-16 04:20:43	[MAIN.middleware]	B≥πd 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 04:25:35	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/books/ | TemplateDoesNotExist: books.html | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 04:25:35	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 23.21ms | Dane: {}
+[ERROR]	2025-04-16 04:25:35	[MAIN.middleware]	B≥πd 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 04:25:36	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/books/ | TemplateDoesNotExist: books.html | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 04:25:36	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 23.79ms | Dane: {}
+[ERROR]	2025-04-16 04:25:36	[MAIN.middleware]	B≥πd 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 04:25:58	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/books/ | TemplateDoesNotExist: Accountancy/books/main.html | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 04:25:58	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 217.56ms | Dane: {}
+[ERROR]	2025-04-16 04:25:58	[MAIN.middleware]	B≥πd 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 04:26:23	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 22.02ms | Dane: {}
+[RESPONSE]	2025-04-16 04:30:32	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 12.23ms | Dane: {}
+[SUCCESS]	2025-04-16 04:55:01	[MAIN.signals]	Utworzono nowπ instancjÍ: Migration (ID: 22)
+[RESPONSE]	2025-04-16 04:55:16	[MAIN.middleware]	Odpowiedü 200 | GET /admin/auth/user/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 157.72ms | Dane: {}
+[RESPONSE]	2025-04-16 04:55:16	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 26.4ms | Dane: {}
+[RESPONSE]	2025-04-16 04:55:16	[MAIN.middleware]	Odpowiedü 404 | GET /favicon.ico | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.25ms | Dane: {}
+[ERROR]	2025-04-16 04:55:16	[MAIN.middleware]	B≥πd 404 | GET /favicon.ico | Uøytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 04:55:29	[MAIN.middleware]	Odpowiedü 200 | GET /admin/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 23.58ms | Dane: {}
+[RESPONSE]	2025-04-16 04:57:37	[MAIN.middleware]	Odpowiedü 200 | GET /admin/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 36.26ms | Dane: {}
+[RESPONSE]	2025-04-16 04:58:38	[MAIN.middleware]	Odpowiedü 200 | GET /admin/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 37.36ms | Dane: {}
+[RESPONSE]	2025-04-16 04:58:44	[MAIN.middleware]	Odpowiedü 200 | GET /admin/Accountancy/book/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 18.23ms | Dane: {}
+[RESPONSE]	2025-04-16 04:58:44	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.42ms | Dane: {}
+[RESPONSE]	2025-04-16 04:58:45	[MAIN.middleware]	Odpowiedü 200 | GET /admin/Accountancy/book/add/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 79.12ms | Dane: {}
+[RESPONSE]	2025-04-16 04:58:45	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.25ms | Dane: {}
+[RESPONSE]	2025-04-16 04:58:52	[MAIN.middleware]	Odpowiedü 200 | GET /admin/Accountancy/book/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.49ms | Dane: {}
+[RESPONSE]	2025-04-16 04:58:52	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.5ms | Dane: {}
+[RESPONSE]	2025-04-16 04:58:53	[MAIN.middleware]	Odpowiedü 200 | GET /admin/Accountancy/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 15.45ms | Dane: {}
+[RESPONSE]	2025-04-16 04:58:56	[MAIN.middleware]	Odpowiedü 200 | GET /admin/Accountancy/account/add/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 22.44ms | Dane: {}
+[RESPONSE]	2025-04-16 04:58:56	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.49ms | Dane: {}
+[RESPONSE]	2025-04-16 04:59:05	[MAIN.middleware]	Odpowiedü 200 | POST /admin/Accountancy/account/add/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 18.4ms | Dane: {'csrfmiddlewaretoken': "['4FSmmqyxQyRe36WPC0kl4bKZjIc4ghXGtkt0E5lYj91iFby38iLrpLBvuF3tHV2k']", 'name': "['']", 'description': "['']", 'account_type': "['']", 'account_subtype': "['']", 'initial_balance': "['0.0']", 'book': "['']", 'user': "['']", '_save': "['Save']"}
+[RESPONSE]	2025-04-16 04:59:05	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.33ms | Dane: {}
+[RESPONSE]	2025-04-16 04:59:23	[MAIN.middleware]	Odpowiedü 200 | GET /admin/Accountancy/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.69ms | Dane: {}
+[RESPONSE]	2025-04-16 04:59:24	[MAIN.middleware]	Odpowiedü 200 | GET /admin/Accountancy/book/add/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.3ms | Dane: {}
+[RESPONSE]	2025-04-16 04:59:24	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.69ms | Dane: {}
+[SUCCESS]	2025-04-16 05:02:28	[MAIN.signals]	Utworzono nowπ instancjÍ: Book (ID: 1)
+[SUCCESS]	2025-04-16 05:02:28	[MAIN.signals]	Utworzono nowπ instancjÍ: LogEntry (ID: 6)
+[RESPONSE]	2025-04-16 05:02:28	[MAIN.middleware]	Odpowiedü 302 | POST /admin/Accountancy/book/add/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 282.4ms | Dane: {'csrfmiddlewaretoken': "['sGKJZ31gC3MftYsWugY7bHWILDOnptdpRllnhIOH5EWj534a0ypdwhNeWAFMQ7i3']", 'name': "['KsiÍga testowa']", 'description': "['dgsgiadbonncv']", 'user': "['7']", '_save': "['Save']"}
+[RESPONSE]	2025-04-16 05:02:28	[MAIN.middleware]	Odpowiedü 200 | GET /admin/Accountancy/book/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 51.56ms | Dane: {}
+[RESPONSE]	2025-04-16 05:02:28	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.27ms | Dane: {}
+[ERROR]	2025-04-16 05:03:15	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/books/ | NameError: name 'Book' is not defined | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:03:15	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 207.88ms | Dane: {}
+[ERROR]	2025-04-16 05:03:15	[MAIN.middleware]	B≥πd 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:03:35	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 13.9ms | Dane: {}
+[RESPONSE]	2025-04-16 05:04:22	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.65ms | Dane: {}
+[RESPONSE]	2025-04-16 05:07:52	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 29.22ms | Dane: {}
+[RESPONSE]	2025-04-16 05:11:56	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 27.43ms | Dane: {}
+[RESPONSE]	2025-04-16 05:12:06	[MAIN.middleware]	Odpowiedü 404 | GET /accountancy/book/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 6.87ms | Dane: {}
+[ERROR]	2025-04-16 05:12:06	[MAIN.middleware]	B≥πd 404 | GET /accountancy/book/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:12:14	[MAIN.middleware]	Odpowiedü 404 | GET /accountancy/book/create | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.84ms | Dane: {}
+[ERROR]	2025-04-16 05:12:14	[MAIN.middleware]	B≥πd 404 | GET /accountancy/book/create | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 05:12:14	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/book/create/ | TemplateDoesNotExist: create_book.html | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:12:14	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/book/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 31.87ms | Dane: {}
+[ERROR]	2025-04-16 05:12:14	[MAIN.middleware]	B≥πd 500 | GET /accountancy/book/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 05:12:46	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/book/create/ | TemplateDoesNotExist: create_book.html | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:12:46	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/book/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 27.18ms | Dane: {}
+[ERROR]	2025-04-16 05:12:46	[MAIN.middleware]	B≥πd 500 | GET /accountancy/book/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 05:13:20	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/book/create/ | TemplateDoesNotExist: Accountancy/books/create.html.jinja.html | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:13:21	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/book/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 206.23ms | Dane: {}
+[ERROR]	2025-04-16 05:13:21	[MAIN.middleware]	B≥πd 500 | GET /accountancy/book/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:13:31	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/book/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 28.95ms | Dane: {}
+[RESPONSE]	2025-04-16 05:14:56	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/book/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 21.79ms | Dane: {}
+[SUCCESS]	2025-04-16 05:15:20	[MAIN.signals]	Utworzono nowπ instancjÍ: Book (ID: 2)
+[ERROR]	2025-04-16 05:15:20	[MAIN.middleware]	Wyjπtek 500 | POST /accountancy/book/create/ | NoReverseMatch: Reverse for 'book_list' not found. 'book_list' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:15:20	[MAIN.middleware]	Odpowiedü 500 | POST /accountancy/book/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 72.37ms | Dane: {'csrfmiddlewaretoken': "['L76szY2dGCnDke7SRAVsFgeDCAGym8if8iIz9OFrLkMdouKkNqYw5wtG9hXrfuxg']", 'name': "['test2']", 'description': "['s']"}
+[ERROR]	2025-04-16 05:15:20	[MAIN.middleware]	B≥πd 500 | POST /accountancy/book/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:15:30	[MAIN.middleware]	Odpowiedü 200 | GET /admin/Accountancy/book/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 32.93ms | Dane: {}
+[RESPONSE]	2025-04-16 05:15:30	[MAIN.middleware]	Odpowiedü 200 | GET /admin/jsi18n/ | Uøytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.84ms | Dane: {}
+[SUCCESS]	2025-04-16 05:15:55	[MAIN.signals]	Utworzono nowπ instancjÍ: Book (ID: 3)
+[RESPONSE]	2025-04-16 05:15:55	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/book/create/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 185.6ms | Dane: {'csrfmiddlewaretoken': "['L76szY2dGCnDke7SRAVsFgeDCAGym8if8iIz9OFrLkMdouKkNqYw5wtG9hXrfuxg']", 'name': "['test2']", 'description': "['s']"}
+[RESPONSE]	2025-04-16 05:15:55	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 26.48ms | Dane: {}
+[ERROR]	2025-04-16 05:18:30	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/books/ | NoReverseMatch: Reverse for 'book_details' not found. 'book_details' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:18:30	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 63.01ms | Dane: {}
+[ERROR]	2025-04-16 05:18:30	[MAIN.middleware]	B≥πd 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 05:20:16	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/books/ | NoReverseMatch: Reverse for 'book_details' not found. 'book_details' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:20:16	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 252.51ms | Dane: {}
+[ERROR]	2025-04-16 05:20:16	[MAIN.middleware]	B≥πd 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:20:22	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 29.69ms | Dane: {}
+[RESPONSE]	2025-04-16 05:21:12	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.78ms | Dane: {}
+[RESPONSE]	2025-04-16 05:21:21	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/book/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 13.76ms | Dane: {}
+[RESPONSE]	2025-04-16 05:22:21	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 17.23ms | Dane: {}
+[RESPONSE]	2025-04-16 05:22:44	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 17.87ms | Dane: {}
+[RESPONSE]	2025-04-16 05:23:54	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.36ms | Dane: {}
+[ERROR]	2025-04-16 05:24:33	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/books/ | NoReverseMatch: Reverse for 'book_edit' not found. 'book_edit' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:24:33	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 60.7ms | Dane: {}
+[ERROR]	2025-04-16 05:24:33	[MAIN.middleware]	B≥πd 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 05:27:08	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/books/ | NoReverseMatch: Reverse for 'book_edit' not found. 'book_edit' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:27:08	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 247.64ms | Dane: {}
+[ERROR]	2025-04-16 05:27:08	[MAIN.middleware]	B≥πd 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 05:27:34	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/books/ | NoReverseMatch: Reverse for 'book_edit' not found. 'book_edit' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:27:34	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 235.58ms | Dane: {}
+[ERROR]	2025-04-16 05:27:34	[MAIN.middleware]	B≥πd 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 05:27:36	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/books/ | NoReverseMatch: Reverse for 'book_edit' not found. 'book_edit' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:27:36	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 49.56ms | Dane: {}
+[ERROR]	2025-04-16 05:27:36	[MAIN.middleware]	B≥πd 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 05:28:07	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/books/ | NoReverseMatch: Reverse for 'edit_book' not found. 'edit_book' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:28:07	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 56.48ms | Dane: {}
+[ERROR]	2025-04-16 05:28:07	[MAIN.middleware]	B≥πd 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 05:29:23	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/books/ | NoReverseMatch: Reverse for 'delete_book' not found. 'delete_book' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:29:23	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 294.0ms | Dane: {}
+[ERROR]	2025-04-16 05:29:23	[MAIN.middleware]	B≥πd 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 05:29:25	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/books/ | NoReverseMatch: Reverse for 'delete_book' not found. 'delete_book' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:29:25	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 39.36ms | Dane: {}
+[ERROR]	2025-04-16 05:29:25	[MAIN.middleware]	B≥πd 500 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:30:18	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 14.94ms | Dane: {}
+[ERROR]	2025-04-16 05:30:21	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/book/1/delete/ | TemplateDoesNotExist: Accountancy/books/delete.html.jinja | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:30:21	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/book/1/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 42.63ms | Dane: {}
+[ERROR]	2025-04-16 05:30:21	[MAIN.middleware]	B≥πd 500 | GET /accountancy/book/1/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-16 05:32:26	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/book/1/delete/ | TemplateSyntaxError: Unclosed tag on line 2: 'block'. Looking for one of: endblock. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:32:26	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/book/1/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 88.8ms | Dane: {}
+[ERROR]	2025-04-16 05:32:26	[MAIN.middleware]	B≥πd 500 | GET /accountancy/book/1/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 05:32:40	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/book/1/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 16.6ms | Dane: {}
+[RESPONSE]	2025-04-16 05:32:50	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.61ms | Dane: {}
+[RESPONSE]	2025-04-16 05:32:54	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/book/3/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 3.79ms | Dane: {}
+[SUCCESS]	2025-04-16 05:32:58	[MAIN.signals]	UsuniÍto instancjÍ: Book (ID: 3)
+[RESPONSE]	2025-04-16 05:32:58	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/book/3/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 23.6ms | Dane: {'csrfmiddlewaretoken': "['ypWJKHv1XNa4fx1yKnDcWgq0OlO3MZ9ZVAyQkx8f2vzEjNE0GdGgmwF3l25WFlo0']"}
+[RESPONSE]	2025-04-16 05:32:58	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.2ms | Dane: {}
+[RESPONSE]	2025-04-16 05:40:04	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 19.67ms | Dane: {}
+[RESPONSE]	2025-04-16 05:42:22	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 16.42ms | Dane: {}
+[RESPONSE]	2025-04-16 07:40:26	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 43.7ms | Dane: {}
+[RESPONSE]	2025-04-16 07:40:26	[MAIN.middleware]	Odpowiedü 404 | GET /favicon.ico | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.78ms | Dane: {}
+[ERROR]	2025-04-16 07:40:26	[MAIN.middleware]	B≥πd 404 | GET /favicon.ico | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-16 07:46:27	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 28.21ms | Dane: {}
+[RESPONSE]	2025-04-16 08:12:46	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/book/1/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 62.05ms | Dane: {}
+[RESPONSE]	2025-04-16 08:13:06	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 20.94ms | Dane: {}
+[RESPONSE]	2025-04-16 08:15:03	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 20.37ms | Dane: {}
+[RESPONSE]	2025-04-16 08:15:22	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 19.98ms | Dane: {}
+[RESPONSE]	2025-04-16 08:17:49	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 20.43ms | Dane: {}
+[RESPONSE]	2025-04-16 08:18:00	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 21.18ms | Dane: {}
+[RESPONSE]	2025-04-16 08:18:43	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 26.81ms | Dane: {}
+[RESPONSE]	2025-04-16 08:19:07	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 19.89ms | Dane: {}
+[RESPONSE]	2025-04-16 08:20:02	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 25.22ms | Dane: {}
+[RESPONSE]	2025-04-16 08:20:24	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 21.71ms | Dane: {}
+[RESPONSE]	2025-04-16 08:20:25	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.3ms | Dane: {}
+[RESPONSE]	2025-04-16 08:22:45	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 24.48ms | Dane: {}
+[RESPONSE]	2025-04-16 08:24:31	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 9.69ms | Dane: {}
+[RESPONSE]	2025-04-16 08:24:48	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 20.28ms | Dane: {}
+[RESPONSE]	2025-04-16 08:26:21	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 29.07ms | Dane: {}
+[RESPONSE]	2025-04-16 08:26:51	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 23.77ms | Dane: {}
+[RESPONSE]	2025-04-16 08:27:30	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 26.59ms | Dane: {}
+[RESPONSE]	2025-04-16 08:50:47	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 22.68ms | Dane: {}
+[RESPONSE]	2025-04-16 08:50:59	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 22.18ms | Dane: {}
+[RESPONSE]	2025-04-16 08:51:09	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 7.01ms | Dane: {}
+[RESPONSE]	2025-04-16 08:51:20	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 6.81ms | Dane: {}
+[RESPONSE]	2025-04-16 08:51:51	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 19.65ms | Dane: {}
+[RESPONSE]	2025-04-16 08:52:30	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 23.06ms | Dane: {}
+[RESPONSE]	2025-04-16 08:52:44	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 22.81ms | Dane: {}
+[RESPONSE]	2025-04-16 08:53:11	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.73ms | Dane: {}
+[RESPONSE]	2025-04-16 08:54:06	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 25.44ms | Dane: {}
+[RESPONSE]	2025-04-16 08:55:10	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 24.32ms | Dane: {}
+[RESPONSE]	2025-04-16 08:55:24	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 23.52ms | Dane: {}
+[RESPONSE]	2025-04-16 08:55:42	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.86ms | Dane: {}
+[RESPONSE]	2025-04-16 08:55:42	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.28ms | Dane: {}
+[RESPONSE]	2025-04-16 08:56:10	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 24.19ms | Dane: {}
+[RESPONSE]	2025-04-16 08:57:34	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 21.71ms | Dane: {}
+[RESPONSE]	2025-04-16 08:57:48	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 7.22ms | Dane: {}
+[RESPONSE]	2025-04-16 08:58:44	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 21.45ms | Dane: {}
+[RESPONSE]	2025-04-16 08:59:02	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 25.72ms | Dane: {}
+[RESPONSE]	2025-04-16 08:59:19	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.82ms | Dane: {}
+[RESPONSE]	2025-04-16 08:59:32	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 23.13ms | Dane: {}
+[RESPONSE]	2025-04-16 08:59:58	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.83ms | Dane: {}
+[RESPONSE]	2025-04-16 09:00:23	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 22.82ms | Dane: {}
+[RESPONSE]	2025-04-16 09:00:45	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 19.49ms | Dane: {}
+[RESPONSE]	2025-04-16 09:01:12	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 24.27ms | Dane: {}
+[RESPONSE]	2025-04-16 09:01:30	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 20.0ms | Dane: {}
+[RESPONSE]	2025-04-16 09:02:17	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 23.31ms | Dane: {}
+[RESPONSE]	2025-04-16 09:02:40	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 20.94ms | Dane: {}
+[RESPONSE]	2025-04-16 09:02:53	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 19.17ms | Dane: {}
+[RESPONSE]	2025-04-16 09:05:00	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 21.62ms | Dane: {}
+[RESPONSE]	2025-04-16 09:05:33	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 23.22ms | Dane: {}
+[RESPONSE]	2025-04-16 09:06:13	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 4.31ms | Dane: {}
+[RESPONSE]	2025-04-16 09:06:19	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 4.86ms | Dane: {}
+[RESPONSE]	2025-04-16 09:08:06	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 20.67ms | Dane: {}
+[RESPONSE]	2025-04-16 09:11:11	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 15.98ms | Dane: {}
+[RESPONSE]	2025-04-16 09:11:42	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 28.12ms | Dane: {}
+[RESPONSE]	2025-04-16 09:12:53	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 25.3ms | Dane: {}

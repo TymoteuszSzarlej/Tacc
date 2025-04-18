@@ -1,0 +1,22 @@
+{%extends 'base.html'%}
+{% block content %}
+<table>
+    <thead>
+        <tr>
+            <th>Nazwa konta</th>
+        </tr>
+    </thead>
+    <tbody>
+    {%for account in accounts%}
+        <tr>
+            <td>{{ account.name }}</td>
+        </tr>
+        <tr>
+            <td><a href="{% url 'account_details' account.id %}">Szczegóły</a></td>
+            <td><a href="{% url 'edit_account' account.id %}">Edytuj</a></td>
+            <td><a href="{% url 'delete_account' account.id %}">Usuń</a></td>
+        </tr>
+    {%endfor%}
+    </tbody>
+</table>
+{% endblock %}
