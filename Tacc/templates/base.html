@@ -1,38 +1,35 @@
 <style>
 /* ========= Ogólne elementy HTML ========= */
 html, body {
-    /* Stylowanie całego dokumentu */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #222;
     color: #fff;
     text-align: center;
+    height: 100%; /* Pełna wysokość */
 }
 
-header, footer {
-    /* Stylowanie nagłówka */
+body {
+    display: flex;
+    flex-direction: column; /* Układ w kolumnie */
+    height: 100vh; /* Wysokość na pełne okno przeglądarki */
+    box-sizing: border-box;
+}
+
+header {
     background-color: turquoise;
     padding: 10px;
-    height: 10%;
-}
-
-footer {
-    /* Stylowanie stopki */
-    bottom: 0;
-    position: fixed;
     width: 100%;
-    height: 6%;
-}
-
-
-aside {
-    display: none;
+    box-sizing: border-box;
     position: fixed;
     top: 0;
-    left: 0;
+    z-index: 1000;
+}
+
+aside {
     width: 250px;
-    height: 100%;
+    height: 100%; /* Wysokość na pełne okno */
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -40,175 +37,62 @@ aside {
     z-index: 1000;
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-/* Pokaż aside, gdy ma klasę aktywną */
 aside.active {
-    display: block;
-    transform: translateX(0);
+    transform: translateX(0); /* Pokaż aside, gdy aktywne */
 }
 
-/* Styl dla przycisku */
+main {
+    flex: 1;
+    background: linear-gradient(to bottom right, #444, #222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 60px; /* Uwzględnij wysokość nagłówka */
+    margin-left: 0; /* Brak odstępu od lewej */
+}
+
+footer {
+    background-color: turquoise;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+}
+
 #toggle-aside {
     position: fixed;
     top: 10px;
     left: 10px;
     z-index: 1100;
-    background-color: turquoise;
+    background-color: magenta;
     border: none;
     padding: 10px;
     cursor: pointer;
 }
 
-/* Stylowanie dla większych ekranów */
-@media (min-width: 768px) {
-    aside {
-        display: block;
-        position: static;
-        transform: none;
-        box-shadow: none;
-    }
-
-    #toggle-aside {
-        display: none;
-    }
-}
-
-
-main {
-    /* Stylowanie głównej zawartości */
-    background: linear-gradient(to bottom right, #444, #222); /* Gradient tła */
-    display: flex; /* Ustawienie flexbox */
-    align-items: center; /* Wyśrodkowanie w pionie */
-    justify-content: center; /* Wyśrodkowanie w poziomie */
-    height: calc(100vh - 16%); /* Wysokość main (odejmując header i footer) */
-    flex-direction: column; /* Opcjonalnie, jeśli zawartość ma być w kolumnie */
-    width: 100%; /* Szerokość main ustawiona na 80% */
-    margin: 0 auto; /* Wyśrodkowanie w poziomie */
-    box-sizing: border-box; /* Uwzględnij padding i border w szerokości */
-}
-
-main > * {
-    width: 100%; /* Elementy wewnątrz main zajmują 100% szerokości main */
-    max-width: 100%; /* Zapobiega przekraczaniu szerokości */
-    box-sizing: border-box; /* Uwzględnij padding i border w szerokości */
-}
-
-
-
-h1, h2, h3, p {
-    /* Nagłówki i akapity */
-}
-
-a {
-    /* Linki */
-}
-
-ul, ol, li {
-    /* Listy */
-}
-
-table {
-    margin: 0 auto;
-    width: 100%; /* Tabela zajmuje całą szerokość kontenera */
-    border-collapse: collapse; /* Usunięcie odstępów między komórkami */
-    font-size: auto;
-}
-
-th, td {
-    padding: 8px; /* Dodanie odstępów wewnętrznych */
-    text-align: left; /* Wyrównanie tekstu do lewej */
-    border: 1px solid #ddd; /* Dodanie obramowania */
-}
-
-/* Dodaj styl dla kontenera tabeli */
-.table-container {
-    width: 100%; /* Dopasowanie do szerokości okna */
-    overflow-x: auto; /* Włączenie przewijania poziomego */
-}
-
-
-/* ========= Klasy ogólne ========= */
-/* Przykładowe klasy globalne */
-.container {
-    /* Klasa dla kontenerów */
-}
-
-.text-center {
-    /* Wyśrodkowanie tekstu */
-}
-
-.hidden {
-    /* Ukrywanie elementów */
-}
-
-/* ========= Komponenty ========= */
-/* Przykładowe klasy dla komponentów */
-.button {
-    /* Stylowanie przycisków */
-}
-
-.card {
-    /* Stylowanie kart */
-}
-
-/* ========= Animacje ========= */
-/* Definicje animacji */
-@keyframes fadeIn {
-    /* Animacja - pojawianie się */
-}
-
-@keyframes slideIn {
-    /* Animacja - przesuwanie się */
-}
-
-/* Wykorzystanie animacji */
-.fade-in {
-    animation: fadeIn 1s ease-in-out;
-}
-
-.slide-in {
-    animation: slideIn 1s ease-in-out;
-}
-
-/* ========= Responsywność ========= */
-/* Stylowanie dla różnych rozdzielczości */
+/* Układ dla urządzeń mobilnych */
 @media (max-width: 768px) {
-    /* Stylowanie dla urządzeń mobilnych */
+    aside {
+        width: 100%; /* Aside zajmuje całą szerokość */
+        height: auto; /* Automatyczna wysokość */
+    }
+
+    main {
+        margin-top: 60px; /* Uwzględnij wysokość nagłówka */
+    }
 }
-
-@media (min-width: 769px) and (max-width: 1200px) {
-    /* Stylowanie dla tabletów lub średnich ekranów */
-}
-
-@media (min-width: 1201px) {
-    /* Stylowanie dla dużych ekranów */
-}
-
-/* ========= Koniec pliku ========= */
-
-
-
 </style>
 
-
-
-
-
-
-
-
-
 {% load static %}
-
-
-
-
-
-
-
-
-
 
 <body>
   <header>
@@ -218,7 +102,7 @@ th, td {
       {% endblock %}
   </header>
 
-  <button id="toggle-aside" style="background-color: magenta;">☰ Menu</button> <!-- Przycisk dla telefonów -->
+  <button id="toggle-aside">☰ Menu</button> <!-- Przycisk rozwijania aside -->
 
   <aside>
       <div class="content">
@@ -235,6 +119,18 @@ th, td {
                   <a href="{% url 'register' %}">Zarejestruj się</a>.
               </p>
           {% endif %}
+
+          <!-- Nawigacja po modułach -->
+          <nav>
+              <ul>
+                  <li><a href="{% url 'dashboard' %}">Dashboard</a></li>
+                  <li><a href="{% url 'accounts' %}">Konta</a></li>
+                  <li><a href="{% url 'transactions' %}">Transakcje</a></li>
+                  <li><a href="{% url 'reports' %}">Raporty</a></li>
+                  <li><a href="{% url 'budgets' %}">Budżety</a></li>
+                  <li><a href="{% url 'categories' %}">Kategorie</a></li>
+              </ul>
+          </nav>
       </div>
   </aside>
 
@@ -263,5 +159,5 @@ th, td {
             aside.classList.toggle('active');
         });
     });
-    </script>
+  </script>
 </body>

@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.models import User
 from .models import *
 from .forms import *
+from datetime import datetime, timedelta
+from django.db.models import Sum
 
 
 # Create your views here.
@@ -234,3 +236,87 @@ def delete_report(request, report_id):
 def report_pdf(request, report_id):
     report = Report.objects.get(id=report_id)
     return render(request, 'Accountancy/reports/pdf.html.jinja', {'report': report})
+
+def financial_analysis(request):
+    # Pobierz dane z bazy
+    assets = Account.objects.filter(account_type='assets')
+    liabilities = Account.objects.filter(account_type='liabilities')
+    revenues = Account.objects.filter(account_type='revenue')
+    expenses = Account.objects.filter(account_type='expenses')
+    equity = Account.objects.filter(account_type='equity')
+
+    # Obliczenia wskaźników
+    total_assets = sum([account.calculate_balance() for account in assets])
+    total_liabilities = sum([account.calculate_balance() for account in liabilities])
+    total_revenues = sum([account.calculate_balance() for account in revenues])
+    total_expenses = sum([account.calculate_balance() for account in expenses])
+    total_equity = sum([account.calculate_balance() for account in equity])
+
+    # Wskaźniki rentowności
+    ros = (total_revenues - total_expenses) / total_revenues * 100 if total_revenues else 0
+    roa = (total_revenues - total_expenses) / total_assets * 100 if total_assets else 0
+    roe = (total_revenues - total_expenses) / total_equity * 100 if total_equity else 0
+
+    # Wskaźniki płynności
+    current_assets = sum([account.calculate_balance() for account in assets if account.account_subtype == 'current'])
+    current_liabilities = sum([account.calculate_balance() for account in liabilities if account.account_subtype == 'current'])
+    current_ratio = current_assets / current_liabilities if current_liabilities else 0
+    quick_ratio = (current_assets - sum([account.calculate_balance() for account in assets if account.account_subtype == 'inventory'])) / current_liabilities if current_liabilities else 0
+
+    # Wskaźniki zadłużenia
+    debt_ratio = total_liabilities / total_assets * 100 if total_assets else 0
+
+    # Dane do przekazania do szablonu
+    context = {
+        'ros': ros,
+        'roa': roa,
+        'roe': roe,
+        'current_ratio': current_ratio,
+        'quick_ratio': quick_ratio,
+        'debt_ratio': debt_ratio,
+        'total_assets': total_assets,
+        'total_liabilities': total_liabilities,
+        'total_revenues': total_revenues,
+        'total_expenses': total_expenses,
+        'total_equity': total_equity,
+    }
+
+    return render(request, 'Accountancy/analysis/financial_analysis.html.jinja', context)
+
+def financial_forecast(request):
+    # Pobierz dane z bazy
+    total_revenues = Transaction.objects.filter(credit_account__account_type='revenue').aggregate(Sum('amount'))['amount__sum'] or 0
+    total_expenses = Transaction.objects.filter(debit_account__account_type='expenses').aggregate(Sum('amount'))['amount__sum'] or 0
+    total_assets = Account.objects.filter(account_type='assets').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
+    total_liabilities = Account.objects.filter(account_type='liabilities').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
+
+    # Oblicz prognozy na kolejne 12 miesięcy
+    today = datetime.today()
+    forecast_data = {
+        'dates': [(today + timedelta(days=i * 30)).strftime('%Y-%m') for i in range(12)],  # Kolejne miesiące
+        'revenues': [total_revenues * (1 + 0.02 * i) for i in range(12)],  # Przykład: wzrost o 2% miesięcznie
+        'expenses': [total_expenses * (1 + 0.015 * i) for i in range(12)],  # Przykład: wzrost o 1.5% miesięcznie
+        'profits': [(total_revenues * (1 + 0.02 * i)) - (total_expenses * (1 + 0.015 * i)) for i in range(12)],  # Zyski
+    }
+
+    return render(request, 'Accountancy/forecast/financial_forecast.html.jinja', {
+        'forecast_data': forecast_data
+    })
+
+def dashboard(request):
+    # Pobierz dane do podsumowania
+    total_accounts = Account.objects.count()
+    total_transactions = Transaction.objects.count()
+    total_revenues = Transaction.objects.filter(credit_account__account_type='revenue').aggregate(Sum('amount'))['amount__sum'] or 0
+    total_expenses = Transaction.objects.filter(debit_account__account_type='expenses').aggregate(Sum('amount'))['amount__sum'] or 0
+    net_profit = total_revenues - total_expenses
+
+    # Przekaż dane do szablonu
+    context = {
+        'total_accounts': total_accounts,
+        'total_transactions': total_transactions,
+        'total_revenues': total_revenues,
+        'total_expenses': total_expenses,
+        'net_profit': net_profit,
+    }
+    return render(request, 'Accountancy/dashboard.html.jinja', context)

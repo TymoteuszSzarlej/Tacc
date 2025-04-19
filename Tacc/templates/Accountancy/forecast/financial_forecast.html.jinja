@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <h2>Prognoza Finansowa</h2>
+    <canvas id="forecastChart" width="400" height="200"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Pobierz dane z widoku Django
+    const forecastData = {{ forecast_data|safe }};
+
+    // Konfiguracja wykresu
+    const ctx = document.getElementById('forecastChart').getContext('2d');
+    const forecastChart = new Chart(ctx, {
+        type: 'line', // Typ wykresu
+        data: {
+            labels: forecastData.dates, // Oś X (daty)
+            datasets: [
+                {
+                    label: 'Przychody',
+                    data: forecastData.revenues, // Dane przychodów
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    fill: true,
+                },
+                {
+                    label: 'Koszty',
+                    data: forecastData.expenses, // Dane kosztów
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    fill: true,
+                },
+                {
+                    label: 'Zyski',
+                    data: forecastData.profits, // Dane zysków
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    fill: true,
+                },
+            ],
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                tooltip: {
+                    mode: 'index',
+                    intersect: false,
+                },
+            },
+            scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Miesiące',
+                    },
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: 'Kwota (PLN)',
+                    },
+                    beginAtZero: true,
+                },
+            },
+        },
+    });
+</script>
+{% endblock %}

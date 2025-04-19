@@ -23,6 +23,7 @@ from . import views
 
 
 urlpatterns = [
+    path('', views.dashboard, name='dashboard'),  # Dashboard pod adresem '/'
     path('books/', views.books, name='books'),
     path('book/create/', views.create_book, name='create_book'),
     path('book/<int:book_id>/details/', views.book_details, name='book_details'),
@@ -53,6 +54,8 @@ urlpatterns = [
     path('report/<int:report_id>/details/', views.report_details, name='report_details'),
     path('report/<int:report_id>/edit/', views.edit_report, name='edit_report'),
     path('report/<int:report_id>/delete/', views.delete_report, name='delete_report'),
+    path('analysis/', views.financial_analysis, name='financial_analysis'),
+    path('forecast/', views.financial_forecast, name='financial_forecast'),
 ]
 
 
