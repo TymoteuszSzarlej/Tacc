@@ -148,7 +148,7 @@ class Report(models.Model):
 
     def __str__(self):
         return self.name
-    
+
     def generate_report(self):
         """
         Generuje raport w zależności od typu raportu (report_type).
@@ -165,9 +165,10 @@ class Report(models.Model):
     def _generate_balance_sheet(self):
         """
         Generuje bilans jako słownik.
+        Uwzględnia tylko konta zalogowanego użytkownika.
         """
-        assets = Account.objects.filter(account_type='assets')
-        liabilities = Account.objects.filter(account_type='liabilities')
+        assets = Account.objects.filter(account_type='assets', user=self.user)
+        liabilities = Account.objects.filter(account_type='liabilities', user=self.user)
 
         assets_total = sum([account.calculate_balance() for account in assets])
         liabilities_total = sum([account.calculate_balance() for account in liabilities])
@@ -184,9 +185,10 @@ class Report(models.Model):
     def _generate_income_statement(self):
         """
         Generuje rachunek zysków i strat jako słownik.
+        Uwzględnia tylko konta zalogowanego użytkownika.
         """
-        revenues = Account.objects.filter(account_type='revenue')
-        expenses = Account.objects.filter(account_type='expenses')
+        revenues = Account.objects.filter(account_type='revenue', user=self.user)
+        expenses = Account.objects.filter(account_type='expenses', user=self.user)
 
         total_revenues = sum([account.calculate_balance() for account in revenues])
         total_expenses = sum([account.calculate_balance() for account in expenses])
@@ -201,8 +203,9 @@ class Report(models.Model):
     def _generate_cash_flow_statement(self):
         """
         Generuje rachunek przepływów pieniężnych jako słownik.
+        Uwzględnia tylko konta zalogowanego użytkownika.
         """
-        accounts = Account.objects.filter(account_type='assets', account_subtype='financial')
+        accounts = Account.objects.filter(account_type='assets', account_subtype='financial', user=self.user)
 
         cash_flows = {account.name: account.calculate_balance() for account in accounts}
         total_cash_flow = sum(cash_flows.values())

@@ -56,7 +56,7 @@ aside nav ul {
 }
 
 aside nav ul li {
-    margin: 15px 0; /* Większy odstęp między elementami */
+    margin: 0px 0; /* Większy odstęp między elementami */
 }
 
 aside nav ul li a {
@@ -81,9 +81,10 @@ main {
     justify-content: center;
     padding: 20px;
     box-sizing: border-box;
-    padding-top: 100px; /* Uwzględnij wysokość nagłówka */
+    padding-top: 160px; /* Uwzględnij wysokość nagłówka */
     margin-left: 0; /* Brak odstępu od lewej */
-    padding-bottom: 160px;
+    padding-bottom: 260px;
+
 }
 
 main a {
@@ -149,7 +150,7 @@ a {
     border: 2px solid magenta; /* Magenta ramka */
     border-radius: 10px; /* Zaokrąglone rogi */
     padding: 10px;
-    margin: 50px;
+    margin: 20px;
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -204,6 +205,13 @@ th, td {
     text-align: center; /* Wyśrodkowanie tekstu */
 }
 
+img.logo {
+    width: 50px; /* Szerokość logo */
+    height: auto; /* Automatyczna wysokość */
+    margin-right: 10px; /* Odstęp od tekstu */
+    right: 10px; /* Odstęp od prawej krawędzi */
+}
+
 /* Układ dla urządzeń mobilnych */
 @media (max-width: 768px) {
     aside {
@@ -221,7 +229,11 @@ th, td {
 
 <body>
   <header>
+
       <h1>Tacc</h1>
+      <img src="{% static 'img/logo.png' %}" class="logo" alt="Logo" style="width: 50px; height: auto;">
+
+        <h3>System zarządzania finansami osobistymi</h2>
       {% block header %}
       <!-- Umieść tutaj pasek nawigacyjny lub inne elementy nagłówka -->
       {% endblock %}
@@ -239,8 +251,8 @@ th, td {
               </form>
           {% else %}
               <p>
-                  Nie jesteś zalogowany.
-                  <a href="{% url 'login' %}">Zaloguj się</a> lub 
+                  Nie jesteś zalogowany.<br><br> <br> 
+                  <a href="{% url 'login' %}">Zaloguj się</a><br><br> <br>  lub<br> <br> <br> 
                   <a href="{% url 'register' %}">Zarejestruj się</a>.
               </p>
           {% endif %}

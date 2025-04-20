@@ -321,3 +321,139 @@ password2	Tymek_1612
 [RESPONSE]	2025-04-20 10:50:08	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/book/5/details/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 14.48ms | Dane: {}
 [RESPONSE]	2025-04-20 10:50:10	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 4.91ms | Dane: {}
 [RESPONSE]	2025-04-20 10:50:12	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 7.21ms | Dane: {}
+[RESPONSE]	2025-04-20 10:53:47	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 34.76ms | Dane: {}
+[RESPONSE]	2025-04-20 10:53:54	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/analysis/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 54.18ms | Dane: {}
+[RESPONSE]	2025-04-20 10:53:58	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/forecast/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 24.43ms | Dane: {}
+[RESPONSE]	2025-04-20 10:55:24	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/forecast/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 31.34ms | Dane: {}
+[RESPONSE]	2025-04-20 10:55:49	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/forecast/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 41.02ms | Dane: {}
+[RESPONSE]	2025-04-20 10:59:47	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/forecast/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 29.58ms | Dane: {}
+[RESPONSE]	2025-04-20 11:00:00	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/forecast/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 24.33ms | Dane: {}
+[RESPONSE]	2025-04-20 11:00:18	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/forecast/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 29.77ms | Dane: {}
+[RESPONSE]	2025-04-20 11:00:18	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/forecast/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 5.67ms | Dane: {}
+[RESPONSE]	2025-04-20 11:00:19	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/forecast/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 6.2ms | Dane: {}
+[RESPONSE]	2025-04-20 11:00:28	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/forecast/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 29.63ms | Dane: {}
+[RESPONSE]	2025-04-20 11:01:55	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/forecast/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 36.27ms | Dane: {}
+[RESPONSE]	2025-04-20 11:02:04	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/forecast/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 7.46ms | Dane: {}
+[RESPONSE]	2025-04-20 11:02:04	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/forecast/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 6.61ms | Dane: {}
+[RESPONSE]	2025-04-20 11:02:07	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/forecast/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 5.72ms | Dane: {}
+[RESPONSE]	2025-04-20 11:02:07	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/forecast/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 8.36ms | Dane: {}
+[RESPONSE]	2025-04-20 11:03:01	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 7.3ms | Dane: {}
+[RESPONSE]	2025-04-20 11:03:34	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 4.64ms | Dane: {}
+[RESPONSE]	2025-04-20 11:03:35	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 4.03ms | Dane: {}
+[RESPONSE]	2025-04-20 11:03:35	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 4.31ms | Dane: {}
+[RESPONSE]	2025-04-20 11:07:41	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 31.11ms | Dane: {}
+[RESPONSE]	2025-04-20 11:10:50	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 31.55ms | Dane: {}
+[RESPONSE]	2025-04-20 11:12:32	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 7.91ms | Dane: {}
+[RESPONSE]	2025-04-20 11:12:32	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 4.49ms | Dane: {}
+[RESPONSE]	2025-04-20 11:12:34	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 4.5ms | Dane: {}
+[RESPONSE]	2025-04-20 11:13:29	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 7.44ms | Dane: {}
+[RESPONSE]	2025-04-20 11:14:09	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 27.06ms | Dane: {}
+[RESPONSE]	2025-04-20 11:14:10	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 5.85ms | Dane: {}
+[RESPONSE]	2025-04-20 11:14:24	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 30.79ms | Dane: {}
+[RESPONSE]	2025-04-20 11:14:43	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 27.41ms | Dane: {}
+[RESPONSE]	2025-04-20 11:15:56	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 28.87ms | Dane: {}
+[RESPONSE]	2025-04-20 11:15:57	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 4.95ms | Dane: {}
+[RESPONSE]	2025-04-20 11:15:57	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 4.41ms | Dane: {}
+[RESPONSE]	2025-04-20 11:16:13	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 26.52ms | Dane: {}
+[RESPONSE]	2025-04-20 11:16:14	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 4.89ms | Dane: {}
+[RESPONSE]	2025-04-20 11:16:30	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 27.57ms | Dane: {}
+[RESPONSE]	2025-04-20 11:17:11	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 28.01ms | Dane: {}
+[RESPONSE]	2025-04-20 11:17:55	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 29.72ms | Dane: {}
+[RESPONSE]	2025-04-20 11:17:59	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 10.43ms | Dane: {}
+[RESPONSE]	2025-04-20 11:18:05	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/reports/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 6.32ms | Dane: {}
+[RESPONSE]	2025-04-20 11:18:06	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/create/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 14.82ms | Dane: {}
+[SUCCESS]	2025-04-20 11:18:16	[MAIN.signals]	Utworzono nowπ instancjÍ: Report (ID: 4)
+[RESPONSE]	2025-04-20 11:18:16	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/report/create/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 20.77ms | Dane: {'csrfmiddlewaretoken': "['a5llrjkBqHkNQJw7gP70xV7wPmptXk9QlQwojnx8qYmVXcMe09yRhwkwkNxUh9wV']", 'report_type': "['balance_sheet']", 'start_date': "['2025-04-01']", 'end_date': "['2025-04-30']", 'name': "['s']", 'description': "['s']"}
+[RESPONSE]	2025-04-20 11:18:16	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/reports/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 5.92ms | Dane: {}
+[RESPONSE]	2025-04-20 11:18:18	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/4/details/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 51.29ms | Dane: {}
+[RESPONSE]	2025-04-20 11:18:41	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/accounts/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 16.5ms | Dane: {}
+[RESPONSE]	2025-04-20 11:20:34	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/reports/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 4.81ms | Dane: {}
+[RESPONSE]	2025-04-20 11:20:35	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/4/details/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 51.1ms | Dane: {}
+[RESPONSE]	2025-04-20 11:21:09	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/4/details/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 67.42ms | Dane: {}
+[RESPONSE]	2025-04-20 11:22:39	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/4/details/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 66.96ms | Dane: {}
+[RESPONSE]	2025-04-20 11:23:10	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 17.34ms | Dane: {}
+[RESPONSE]	2025-04-20 11:23:14	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/accounts/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 13.09ms | Dane: {}
+[RESPONSE]	2025-04-20 11:23:16	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/account/2/details/ | Uøytkownik: trawa_orawa | IP: 127.0.0.1 | Czas: 8.1ms | Dane: {}
+[SUCCESS]	2025-04-20 11:23:23	[MAIN.signals]	UsuniÍto instancjÍ: Session (ID: u3j5not2npvw9ar2ewdydowtip6qwbrs)
+[RESPONSE]	2025-04-20 11:23:23	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/logout/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 23.04ms | Dane: {'csrfmiddlewaretoken': "['mpAi18D441bjGkUnsZHxaqJGjqI6vipwxaLlTcQB4idrNNaucj8oU1WGORQxP7MB']"}
+[RESPONSE]	2025-04-20 11:23:23	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 9.65ms | Dane: {}
+[RESPONSE]	2025-04-20 11:27:27	[MAIN.middleware]	Odpowiedü 200 | GET / | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 16.11ms | Dane: {}
+[RESPONSE]	2025-04-20 11:27:40	[MAIN.middleware]	Odpowiedü 404 | GET /accountancy | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 4.94ms | Dane: {}
+[ERROR]	2025-04-20 11:27:40	[MAIN.middleware]	B≥πd 404 | GET /accountancy | Uøytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-20 11:27:40	[MAIN.middleware]	Odpowiedü 302 | GET /accountancy/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 7.45ms | Dane: {}
+[RESPONSE]	2025-04-20 11:27:40	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 12.31ms | Dane: {'next': "['/accountancy/']"}
+[RESPONSE]	2025-04-20 11:28:36	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 30.95ms | Dane: {'next': "['/accountancy/']"}
+[RESPONSE]	2025-04-20 11:29:02	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 29.63ms | Dane: {'next': "['/accountancy/']"}
+[RESPONSE]	2025-04-20 11:29:48	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 24.27ms | Dane: {'next': "['/accountancy/']"}
+[RESPONSE]	2025-04-20 11:30:04	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 29.91ms | Dane: {'next': "['/accountancy/']"}
+[RESPONSE]	2025-04-20 11:30:20	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 32.03ms | Dane: {'next': "['/accountancy/']"}
+[RESPONSE]	2025-04-20 11:30:29	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 29.34ms | Dane: {'next': "['/accountancy/']"}
+[RESPONSE]	2025-04-20 11:31:01	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: Anonim | IP: 127.0.0.1 | Czas: 33.31ms | Dane: {'next': "['/accountancy/']"}
+[SUCCESS]	2025-04-20 11:31:09	[MAIN.signals]	Utworzono nowπ instancjÍ: Session (ID: 302a3l72kxlo5poro9vjcan1hgav49ug)
+[SUCCESS]	2025-04-20 11:31:09	[MAIN.signals]	Zaktualizowano instancjÍ: User (ID: 7)
+[RESPONSE]	2025-04-20 11:31:09	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 523.34ms | Dane: {'next': "['/accountancy/']"}
+[SUCCESS]	2025-04-20 11:31:09	[MAIN.signals]	Zaktualizowano instancjÍ: Session (ID: 302a3l72kxlo5poro9vjcan1hgav49ug)
+[RESPONSE]	2025-04-20 11:31:09	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 12.37ms | Dane: {}
+[RESPONSE]	2025-04-20 11:31:14	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 20.29ms | Dane: {}
+[RESPONSE]	2025-04-20 11:31:15	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/book/1/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.34ms | Dane: {}
+[SUCCESS]	2025-04-20 11:31:17	[MAIN.signals]	UsuniÍto instancjÍ: Transaction (ID: 1)
+[SUCCESS]	2025-04-20 11:31:17	[MAIN.signals]	UsuniÍto instancjÍ: Account (ID: 1)
+[SUCCESS]	2025-04-20 11:31:17	[MAIN.signals]	UsuniÍto instancjÍ: Book (ID: 1)
+[RESPONSE]	2025-04-20 11:31:17	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/book/1/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 32.06ms | Dane: {'csrfmiddlewaretoken': "['HfIavvoIoqoVeWjPyVdAtSrjK3ARDRehbzH8yvAPYrqIpynZE1sbpJiGE7cdjOCi']"}
+[RESPONSE]	2025-04-20 11:31:17	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.85ms | Dane: {}
+[RESPONSE]	2025-04-20 11:31:20	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/book/2/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.19ms | Dane: {}
+[SUCCESS]	2025-04-20 11:31:21	[MAIN.signals]	UsuniÍto instancjÍ: Book (ID: 2)
+[RESPONSE]	2025-04-20 11:31:21	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/book/2/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 20.18ms | Dane: {'csrfmiddlewaretoken': "['GdzjTgiMeemDfrzMXxyPVxDjXxJECnWIaxyhWguTOfoqq3DW3DNqRouGRBl0ikkJ']"}
+[RESPONSE]	2025-04-20 11:31:21	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 6.21ms | Dane: {}
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Book (ID: 6)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 36)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 37)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 38)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 39)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 40)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 41)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 42)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 43)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 44)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 45)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 46)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 47)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 48)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 49)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 50)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 51)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 52)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 53)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 54)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 55)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 56)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 57)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 58)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 59)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 60)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 61)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 62)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 63)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 64)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 65)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 66)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 67)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 68)
+[SUCCESS]	2025-04-20 11:31:23	[MAIN.signals]	Utworzono nowπ instancjÍ: Account (ID: 69)
+[RESPONSE]	2025-04-20 11:31:23	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 453.89ms | Dane: {}
+[RESPONSE]	2025-04-20 11:31:28	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/books/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.61ms | Dane: {}
+[RESPONSE]	2025-04-20 11:31:30	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/book/6/details/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.16ms | Dane: {}
+[RESPONSE]	2025-04-20 11:31:33	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/accounts/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 15.16ms | Dane: {}
+[RESPONSE]	2025-04-20 11:31:37	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/reports/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 7.19ms | Dane: {}
+[RESPONSE]	2025-04-20 11:31:38	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/1/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.45ms | Dane: {}
+[SUCCESS]	2025-04-20 11:31:39	[MAIN.signals]	UsuniÍto instancjÍ: Report (ID: 1)
+[RESPONSE]	2025-04-20 11:31:39	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/report/1/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 22.8ms | Dane: {'csrfmiddlewaretoken': "['wNguAvc0yFw0dgBqK57ivBn1RT3M5vrN07fsDvo78GyNoSFAQbmTrseoLXF8LsPO']"}
+[RESPONSE]	2025-04-20 11:31:39	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/reports/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.93ms | Dane: {}
+[RESPONSE]	2025-04-20 11:31:40	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/2/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 4.31ms | Dane: {}
+[SUCCESS]	2025-04-20 11:31:41	[MAIN.signals]	UsuniÍto instancjÍ: Report (ID: 2)
+[RESPONSE]	2025-04-20 11:31:41	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/report/2/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.4ms | Dane: {'csrfmiddlewaretoken': "['cxwp3Lhe0gmtwttTZljJxjj7G9aMWcYpGRvn6LtlAhogH5x35ryktaauAdM8C9mq']"}
+[RESPONSE]	2025-04-20 11:31:41	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/reports/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 6.62ms | Dane: {}
+[RESPONSE]	2025-04-20 11:31:42	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/report/3/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 4.44ms | Dane: {}
+[SUCCESS]	2025-04-20 11:31:43	[MAIN.signals]	UsuniÍto instancjÍ: Report (ID: 3)
+[RESPONSE]	2025-04-20 11:31:43	[MAIN.middleware]	Odpowiedü 302 | POST /accountancy/report/3/delete/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 17.61ms | Dane: {'csrfmiddlewaretoken': "['x6dPknOz1bdCuSV45h4hZ9Ic1wcCu1Mm1qcNnn0GBcfpFuZebnjSV0zzVAOYaYan']"}
+[RESPONSE]	2025-04-20 11:31:43	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/reports/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 6.18ms | Dane: {}

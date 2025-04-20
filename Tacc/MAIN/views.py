@@ -1,3 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
-# Create your views here.
+def landing_page(request):
+    """
+    Widok strony głównej (landing page).
+    """
+    if request.user.is_authenticated:
+        # Jeśli użytkownik jest zalogowany, przekieruj do modułu /accountancy
+        return redirect('/accountancy')
+
+    return render(request, 'MAIN/landing_page.html')

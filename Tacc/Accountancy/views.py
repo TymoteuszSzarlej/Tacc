@@ -250,12 +250,32 @@ def create_report(request):
 
 @login_required
 def report_details(request, report_id):
-    report = get_object_or_404(Report, id=report_id)
+    # Pobranie raportu przypisanego do zalogowanego użytkownika
+    report = get_object_or_404(Report, id=report_id, user=request.user)
+
+    # Generowanie danych raportu
     report_data = report.generate_report()
-    return render(request, 'Accountancy/reports/details.html.jinja', {
+
+    # Filtrowanie kont i transakcji tylko dla zalogowanego użytkownika
+    accounts = Account.objects.filter(user=request.user)
+    transactions = Transaction.objects.filter(user=request.user)
+
+    # Przykład dodatkowego przetwarzania danych raportu
+    total_assets = accounts.filter(account_type='assets').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
+    total_liabilities = accounts.filter(account_type='liabilities').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
+    total_revenues = transactions.filter(credit_account__account_type='revenue').aggregate(Sum('amount'))['amount__sum'] or 0
+    total_expenses = transactions.filter(debit_account__account_type='expenses').aggregate(Sum('amount'))['amount__sum'] or 0
+
+    context = {
         'report': report,
-        'report_data': report_data
-    })
+        'report_data': report_data,
+        'total_assets': total_assets,
+        'total_liabilities': total_liabilities,
+        'total_revenues': total_revenues,
+        'total_expenses': total_expenses,
+    }
+
+    return render(request, 'Accountancy/reports/details.html.jinja', context)
 
 @login_required
 def edit_report(request, report_id):
