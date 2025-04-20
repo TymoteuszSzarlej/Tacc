@@ -1,29 +1,29 @@
 from django import forms
 from .models import *
 
-class BookForm(forms.ModelForm):
-    class Meta:
-        model = Book
-        fields = ['name', 'description']
-        widgets = {
-            'name': forms.TextInput(attrs={'class': 'form-control'}),
-            'description': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
-        }
-        labels = {
-            'name': 'Nazwa księgi',
-            'description': 'Opis księgi',
-        }
-        help_texts = {
-            'name': 'Podaj nazwę księgi, np. "Księga główna" lub "Księga przychodów".',
-            'description': 'Krótki opis księgi, który pomoże Ci zidentyfikować jej cel.',
-        }
-
 class AccountForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
-        user = kwargs.pop('user', None)  # Pobierz użytkownika z argumentów
+        user = kwargs.pop('user', None)  # Pobierz użytkownika
         super().__init__(*args, **kwargs)
-        if user and not user.is_superuser:  # Filtrowanie ksiąg tylko dla zwykłych użytkowników
+
+        # Filtrowanie ksiąg użytkownika
+        if user and not user.is_superuser:
             self.fields['book'].queryset = Book.objects.filter(user=user)
+
+        # Ustal typ konta (jeśli istnieje w danych)
+        account_type = self.initial.get('account_type') or self.data.get('account_type') or getattr(self.instance, 'account_type', None)
+
+        # Ustal podtypy w zależności od typu
+        if account_type in Account.SUBTYPES:
+            self.fields['account_subtype'].widget = forms.Select(
+                choices=Account.SUBTYPES[account_type],
+                attrs={'class': 'form-control'}
+            )
+        else:
+            self.fields['account_subtype'].widget = forms.Select(
+                choices=[],
+                attrs={'class': 'form-control'}
+            )
 
     class Meta:
         model = Account
@@ -32,7 +32,6 @@ class AccountForm(forms.ModelForm):
             'name': forms.TextInput(attrs={'class': 'form-control'}),
             'description': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
             'account_type': forms.Select(attrs={'class': 'form-control'}),
-            'account_subtype': forms.Select(attrs={'class': 'form-control'}),
             'initial_balance': forms.NumberInput(attrs={'class': 'form-control'}),
             'book': forms.Select(attrs={'class': 'form-control'}),
         }
@@ -52,6 +51,7 @@ class AccountForm(forms.ModelForm):
             'initial_balance': 'Podaj początkowe saldo konta w PLN.',
             'book': 'Wybierz księgę, do której należy to konto.',
         }
+
 
 class CategoryForm(forms.ModelForm):
     class Meta:
