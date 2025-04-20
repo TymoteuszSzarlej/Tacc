@@ -104,8 +104,8 @@ class TransactionForm(forms.ModelForm):
         help_texts = {
             'description': 'Podaj szczegóły transakcji, np. "Zakup materiałów biurowych".',
             'amount': 'Podaj kwotę transakcji w PLN.',
-            'credit_account': 'Wybierz konto, z którego środki zostały przelane.',
-            'debit_account': 'Wybierz konto, na które środki zostały przelane.',
+            'credit_account': 'Wybierz konto, z którego środki zostały przelane (w przypadku kont aktywnych i kosztów), bądź na które zostały przelane (w przypadku kont pasywnych i przychodów).',
+            'debit_account': 'Wybierz konto, na które środki zostały przelane (w przypadku kont aktywnych i kosztów), bądź z którego zostały przelane (w przypadku kont pasywnych i przychodów).',
             'document': 'Dodaj dokument potwierdzający transakcję, np. fakturę.',
             'category': 'Wybierz kategorię, do której należy ta transakcja.',
         }

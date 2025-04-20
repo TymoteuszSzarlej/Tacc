@@ -457,3 +457,105 @@ password2	Tymek_1612
 [SUCCESS]	2025-04-20 11:31:43	[MAIN.signals]	Usuniêto instancjê: Report (ID: 3)
 [RESPONSE]	2025-04-20 11:31:43	[MAIN.middleware]	OdpowiedŸ 302 | POST /accountancy/report/3/delete/ | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 17.61ms | Dane: {'csrfmiddlewaretoken': "['x6dPknOz1bdCuSV45h4hZ9Ic1wcCu1Mm1qcNnn0GBcfpFuZebnjSV0zzVAOYaYan']"}
 [RESPONSE]	2025-04-20 11:31:43	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/reports/ | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 6.18ms | Dane: {}
+[RESPONSE]	2025-04-20 15:06:30	[MAIN.middleware]	OdpowiedŸ 302 | GET / | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 15.1ms | Dane: {}
+[RESPONSE]	2025-04-20 15:06:30	[MAIN.middleware]	OdpowiedŸ 404 | GET /accountancy | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 22.13ms | Dane: {}
+[ERROR]	2025-04-20 15:06:30	[MAIN.middleware]	B³¹d 404 | GET /accountancy | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-20 15:06:30	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/ | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 84.01ms | Dane: {}
+[RESPONSE]	2025-04-20 15:06:30	[MAIN.middleware]	OdpowiedŸ 404 | GET /favicon.ico | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 5.14ms | Dane: {}
+[ERROR]	2025-04-20 15:06:30	[MAIN.middleware]	B³¹d 404 | GET /favicon.ico | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-20 15:06:39	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/accounts/ | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 77.74ms | Dane: {}
+[RESPONSE]	2025-04-20 15:14:02	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/transactions/ | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 17.54ms | Dane: {}
+[RESPONSE]	2025-04-20 15:14:02	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/transaction/create/ | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 94.31ms | Dane: {}
+[RESPONSE]	2025-04-20 15:17:53	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/reports/ | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 65.42ms | Dane: {}
+[RESPONSE]	2025-04-20 15:17:54	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/report/create/ | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 88.82ms | Dane: {}
+[RESPONSE]	2025-04-20 15:18:09	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/ | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 19.89ms | Dane: {}
+[RESPONSE]	2025-04-20 15:18:15	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/forecast/ | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 26.44ms | Dane: {}
+[RESPONSE]	2025-04-20 15:18:49	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/ | U¿ytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 8.14ms | Dane: {}
+[SUCCESS]	2025-04-20 15:19:11	[MAIN.signals]	Usuniêto instancjê: Session (ID: 302a3l72kxlo5poro9vjcan1hgav49ug)
+[RESPONSE]	2025-04-20 15:19:11	[MAIN.middleware]	OdpowiedŸ 302 | POST /accounts/logout/ | U¿ytkownik: Anonim | IP: 127.0.0.1 | Czas: 115.56ms | Dane: {'csrfmiddlewaretoken': "['h33vaSFZR2Bg3EcKh9c9uidXUYCkT7sTLn2tdSR6r3D3eggUnfrKq94kO2eGz4QU']"}
+[RESPONSE]	2025-04-20 15:19:11	[MAIN.middleware]	OdpowiedŸ 200 | GET /accounts/login/ | U¿ytkownik: Anonim | IP: 127.0.0.1 | Czas: 15.45ms | Dane: {}
+[RESPONSE]	2025-04-20 15:19:14	[MAIN.middleware]	OdpowiedŸ 200 | GET /accounts/register/ | U¿ytkownik: Anonim | IP: 127.0.0.1 | Czas: 30.37ms | Dane: {}
+[INF]	2025-04-20 15:20:01	[accounts.views]	przeslano formularz rejestracji u¿ytkownika	<div>
+    <label for="id_username">Username:</label>
+
+<div class="helptext" id="id_username_helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</div>
+
+<input type="text" name="username" value="tttddd" maxlength="150" autofocus required aria-describedby="id_username_helptext" id="id_username">
+    
+</div>
+
+  <div>
+    <label for="id_email">Email:</label>
+
+<div class="helptext" id="id_email_helptext">Podaj poprawny adres e-mail.</div>
+
+<input type="email" name="email" value="tymoteusz4sz@gmail.com" maxlength="320" required aria-describedby="id_email_helptext" id="id_email">
+    
+</div>
+
+  <div>
+    <label for="id_password1">Password:</label>
+
+<div class="helptext" id="id_password1_helptext"><ul><li>Your password can’t be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password can’t be a commonly used password.</li><li>Your password can’t be entirely numeric.</li></ul></div>
+
+<input type="password" name="password1" autocomplete="new-password" required aria-describedby="id_password1_helptext" id="id_password1">
+    
+</div>
+
+  <div>
+    <label for="id_password2">Password confirmation:</label>
+
+<div class="helptext" id="id_password2_helptext">Enter the same password as before, for verification.</div>
+
+<input type="password" name="password2" autocomplete="new-password" required aria-describedby="id_password2_helptext" id="id_password2">
+    
+      
+    
+</div>
+[SUC]	2025-04-20 15:20:01	[accounts.views]	formularz poprawny
+[SUCCESS]	2025-04-20 15:20:01	[MAIN.signals]	Utworzono now¹ instancjê: User (ID: 9)
+[RESPONSE]	2025-04-20 15:20:01	[MAIN.middleware]	OdpowiedŸ 302 | POST /accounts/register/ | U¿ytkownik: Anonim | IP: 127.0.0.1 | Czas: 572.15ms | Dane: {'csrfmiddlewaretoken': "['igZ9vEP1IKfhK88EltKnQlEW2A3fHq4JMAY7yE18iLh4VKcOrzZYMcvjWEFBnnsK']", 'username': "['tttddd']", 'email': "['tymoteusz4sz@gmail.com']", 'password1': '[UKRYTO]', 'password2': '[UKRYTO]'}
+[RESPONSE]	2025-04-20 15:20:01	[MAIN.middleware]	OdpowiedŸ 200 | GET /accounts/login/ | U¿ytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.16ms | Dane: {}
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Session (ID: sw7g1dr83lpt2x8b8eyop2qb77w7v0t1)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Zaktualizowano instancjê: User (ID: 9)
+[RESPONSE]	2025-04-20 15:20:18	[MAIN.middleware]	OdpowiedŸ 302 | POST /accounts/login/ | U¿ytkownik: tttddd | IP: 127.0.0.1 | Czas: 536.88ms | Dane: {'csrfmiddlewaretoken': "['l3Hlicfjye51LbJfGnO3ZgVAVQFvh8wcPnGjlcrq8f7OWNNpMt3EV7MXPUhRX5Ud']", 'username': "['tttddd']", 'password': '[UKRYTO]'}
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Zaktualizowano instancjê: Session (ID: sw7g1dr83lpt2x8b8eyop2qb77w7v0t1)
+[RESPONSE]	2025-04-20 15:20:18	[MAIN.middleware]	OdpowiedŸ 302 | GET / | U¿ytkownik: tttddd | IP: 127.0.0.1 | Czas: 3.88ms | Dane: {}
+[RESPONSE]	2025-04-20 15:20:18	[MAIN.middleware]	OdpowiedŸ 404 | GET /accountancy | U¿ytkownik: tttddd | IP: 127.0.0.1 | Czas: 20.15ms | Dane: {}
+[ERROR]	2025-04-20 15:20:18	[MAIN.middleware]	B³¹d 404 | GET /accountancy | U¿ytkownik: tttddd | IP: 127.0.0.1
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Book (ID: 7)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 70)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 71)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 72)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 73)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 74)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 75)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 76)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 77)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 78)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 79)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 80)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 81)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 82)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 83)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 84)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 85)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 86)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 87)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 88)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 89)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 90)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 91)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 92)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 93)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 94)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 95)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 96)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 97)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 98)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 99)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 100)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 101)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 102)
+[SUCCESS]	2025-04-20 15:20:18	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 103)
+[RESPONSE]	2025-04-20 15:20:18	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/ | U¿ytkownik: tttddd | IP: 127.0.0.1 | Czas: 473.91ms | Dane: {}

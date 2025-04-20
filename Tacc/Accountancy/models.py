@@ -58,7 +58,7 @@ class Account(models.Model):
                 raise ValidationError(f"Nieprawidłowy podtyp '{self.account_subtype}' dla typu konta '{self.account_type}'.")
 
     def __str__(self):
-        return self.name
+        return f'{self.account_type} {self.account_subtype}\t{self.name}'
 
     def get_debit_transactions(self):
         """
@@ -73,10 +73,26 @@ class Account(models.Model):
         return self.credit_transactions.all()  # Użyj related_name 'credit_transactions'
 
     def calculate_balance(self):
+        """
+        Oblicza saldo konta zgodnie z zasadami księgowania na kontach T.
+        """
         try:
+            # Suma transakcji po stronie Winien (Debet)
             debit_sum = self.debit_transactions.aggregate(models.Sum('amount'))['amount__sum'] or 0
+            # Suma transakcji po stronie Ma (Kredyt)
             credit_sum = self.credit_transactions.aggregate(models.Sum('amount'))['amount__sum'] or 0
-            return self.initial_balance + debit_sum - credit_sum
+
+            # Obliczanie salda w zależności od typu konta
+            if self.account_type == 'assets':  # Aktywa
+                return self.initial_balance + debit_sum - credit_sum
+            elif self.account_type == 'liabilities':  # Pasywa
+                return self.initial_balance - debit_sum + credit_sum
+            elif self.account_type == 'revenue':  # Przychody
+                return credit_sum - debit_sum
+            elif self.account_type == 'expenses':  # Koszty
+                return debit_sum - credit_sum
+            else:
+                return self.initial_balance  # Domyślne saldo, jeśli typ konta jest nieznany
         except DatabaseError as e:
             # Możesz zalogować błąd lub zwrócić domyślną wartość
             return self.initial_balance
