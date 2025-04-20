@@ -352,10 +352,10 @@ def financial_forecast(request):
 
     today = datetime.today()
     forecast_data = {
-        'dates': float([(today + timedelta(days=i * 30)).strftime('%Y-%m') for i in range(12)]),
-        'revenues': float([total_revenues * (1 + 0.02 * i) for i in range(12)]),
-        'expenses': float([total_expenses * (1 + 0.015 * i) for i in range(12)]),
-        'profits': float([(total_revenues * (1 + 0.02 * i)) - (total_expenses * (1 + 0.015 * i)) for i in range(12)]),
+        'dates': [(today + timedelta(days=i * 30)).strftime('%Y-%m') for i in range(12)],
+        'revenues': [float(total_revenues) * (1 + 0.02 * i) for i in range(12)],
+        'expenses': [float(total_expenses) * (1 + 0.015 * i) for i in range(12)],
+        'profits': [(float(total_revenues) * (1 + 0.02 * i)) - (total_expenses * (1 + 0.015 * i)) for i in range(12)],
     }
 
     return render(request, 'Accountancy/forecast/financial_forecast.html.jinja', {
