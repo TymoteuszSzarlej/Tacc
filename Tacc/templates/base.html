@@ -300,4 +300,27 @@ img.logo {
         });
     });
   </script>
+    <script>
+document.getElementById("id_account_type").addEventListener("change", function() {
+    var accountType = this.value;
+    var subtypeField = document.getElementById("id_account_subtype");
+
+    // Wyczyść obecne opcje
+    subtypeField.innerHTML = "";
+
+    var subtypes = {
+        "assets": ["fixed", "current", "financial", "inventories", "receivables"],
+        "liabilities": ["long_term", "short_term", "equity"],
+        "revenue": [],
+        "expenses": []
+    };
+
+    subtypes[accountType].forEach(function(subtype) {
+        var option = document.createElement("option");
+        option.value = subtype;
+        option.textContent = subtype;
+        subtypeField.appendChild(option);
+    });
+});
+
 </body>
