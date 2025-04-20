@@ -13,17 +13,13 @@ class AccountForm(forms.ModelForm):
         # Ustal typ konta (jeśli istnieje w danych)
         account_type = self.initial.get('account_type') or self.data.get('account_type') or getattr(self.instance, 'account_type', None)
 
-        # Ustal podtypy w zależności od typu
-        if account_type in Account.SUBTYPES:
-            self.fields['account_subtype'].widget = forms.Select(
-                choices=Account.SUBTYPES[account_type],
-                attrs={'class': 'form-control'}
-            )
-        else:
-            self.fields['account_subtype'].widget = forms.Select(
-                choices=[],
-                attrs={'class': 'form-control'}
-            )
+        # Filtruj podtypy zgodnie z `account_type`
+        valid_subtypes = Account.SUBTYPE_CATEGORIES.get(account_type, [])
+
+        self.fields['account_subtype'].widget = forms.Select(
+            choices=[(subtype, label) for subtype, label in Account.SUBTYPES if subtype in valid_subtypes],
+            attrs={'class': 'form-control'}
+        )
 
     class Meta:
         model = Account
@@ -47,10 +43,11 @@ class AccountForm(forms.ModelForm):
             'name': 'Podaj nazwę konta, np. "Konto bankowe" lub "Kasa".',
             'description': 'Krótki opis konta, np. "Konto do przechowywania gotówki".',
             'account_type': 'Wybierz typ konta, np. "Aktywa" lub "Pasywa".',
-            'account_subtype': 'Wybierz podtyp konta, np. "Aktywa Trwałe" lub "Zobowiązania Krótkoterminowe".',
+            'account_subtype': 'Wybierz podtyp konta, który pasuje do wybranego typu.',
             'initial_balance': 'Podaj początkowe saldo konta w PLN.',
             'book': 'Wybierz księgę, do której należy to konto.',
         }
+
 
 
 class CategoryForm(forms.ModelForm):
