@@ -9,11 +9,25 @@ class BookForm(forms.ModelForm):
             'name': forms.TextInput(attrs={'class': 'form-control'}),
             'description': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
         }
+        labels = {
+            'name': 'Nazwa księgi',
+            'description': 'Opis księgi',
+        }
+        help_texts = {
+            'name': 'Podaj nazwę księgi, np. "Księga główna" lub "Księga przychodów".',
+            'description': 'Krótki opis księgi, który pomoże Ci zidentyfikować jej cel.',
+        }
 
 class AccountForm(forms.ModelForm):
+    def __init__(self, *args, **kwargs):
+        user = kwargs.pop('user', None)  # Pobierz użytkownika z argumentów
+        super().__init__(*args, **kwargs)
+        if user and not user.is_superuser:  # Filtrowanie ksiąg tylko dla zwykłych użytkowników
+            self.fields['book'].queryset = Book.objects.filter(user=user)
+
     class Meta:
-        model = Account  # Zmień na odpowiedni model konta
-        fields = ['name', 'description', 'account_type', 'account_subtype', 'initial_balance', 'book']  # Zmień na odpowiednie pola modelu konta
+        model = Account
+        fields = ['name', 'description', 'account_type', 'account_subtype', 'initial_balance', 'book']
         widgets = {
             'name': forms.TextInput(attrs={'class': 'form-control'}),
             'description': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
@@ -22,22 +36,55 @@ class AccountForm(forms.ModelForm):
             'initial_balance': forms.NumberInput(attrs={'class': 'form-control'}),
             'book': forms.Select(attrs={'class': 'form-control'}),
         }
-
+        labels = {
+            'name': 'Nazwa konta',
+            'description': 'Opis konta',
+            'account_type': 'Typ konta',
+            'account_subtype': 'Podtyp konta',
+            'initial_balance': 'Saldo początkowe',
+            'book': 'Księga',
+        }
+        help_texts = {
+            'name': 'Podaj nazwę konta, np. "Konto bankowe" lub "Kasa".',
+            'description': 'Krótki opis konta, np. "Konto do przechowywania gotówki".',
+            'account_type': 'Wybierz typ konta, np. "Aktywa" lub "Pasywa".',
+            'account_subtype': 'Wybierz podtyp konta, np. "Aktywa Trwałe" lub "Zobowiązania Krótkoterminowe".',
+            'initial_balance': 'Podaj początkowe saldo konta w PLN.',
+            'book': 'Wybierz księgę, do której należy to konto.',
+        }
 
 class CategoryForm(forms.ModelForm):
     class Meta:
-        model = Categories  # Zmień na odpowiedni model kategorii
-        fields = ['name', 'description', 'color']  # Zmień na odpowiednie pola modelu kategorii
+        model = Categories
+        fields = ['name', 'description', 'color']
         widgets = {
             'name': forms.TextInput(attrs={'class': 'form-control'}),
             'description': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
             'color': forms.TextInput(attrs={'class': 'form-control', 'type': 'color'}),
         }
+        labels = {
+            'name': 'Nazwa kategorii',
+            'description': 'Opis kategorii',
+            'color': 'Kolor kategorii',
+        }
+        help_texts = {
+            'name': 'Podaj nazwę kategorii, np. "Przychody" lub "Koszty".',
+            'description': 'Krótki opis kategorii, np. "Koszty operacyjne".',
+            'color': 'Wybierz kolor, który pomoże Ci wizualnie odróżnić tę kategorię.',
+        }
 
 class TransactionForm(forms.ModelForm):
+    def __init__(self, *args, **kwargs):
+        user = kwargs.pop('user', None)  # Pobierz użytkownika z argumentów
+        super().__init__(*args, **kwargs)
+        if user and not user.is_superuser:  # Filtrowanie kont i kategorii tylko dla zwykłych użytkowników
+            self.fields['credit_account'].queryset = Account.objects.filter(user=user)
+            self.fields['debit_account'].queryset = Account.objects.filter(user=user)
+            self.fields['category'].queryset = Categories.objects.filter(user=user)
+
     class Meta:
-        model = Transaction  # Zmień na odpowiedni model transakcji
-        fields = ['description', 'amount', 'credit_account', 'debit_account', 'document', 'category']  # Zmień na odpowiednie pola modelu transakcji
+        model = Transaction
+        fields = ['description', 'amount', 'credit_account', 'debit_account', 'document', 'category']
         widgets = {
             'description': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
             'amount': forms.NumberInput(attrs={'class': 'form-control'}),
@@ -47,17 +94,29 @@ class TransactionForm(forms.ModelForm):
             'category': forms.Select(attrs={'class': 'form-control'}),
         }
         labels = {
-            'description': 'Opis',
+            'description': 'Opis transakcji',
             'amount': 'Kwota',
             'credit_account': 'Konto kredytowe',
             'debit_account': 'Konto debetowe',
             'document': 'Dokument',
             'category': 'Kategoria',
         }
-
-
+        help_texts = {
+            'description': 'Podaj szczegóły transakcji, np. "Zakup materiałów biurowych".',
+            'amount': 'Podaj kwotę transakcji w PLN.',
+            'credit_account': 'Wybierz konto, z którego środki zostały przelane.',
+            'debit_account': 'Wybierz konto, na które środki zostały przelane.',
+            'document': 'Dodaj dokument potwierdzający transakcję, np. fakturę.',
+            'category': 'Wybierz kategorię, do której należy ta transakcja.',
+        }
 
 class BudgetForm(forms.ModelForm):
+    def __init__(self, *args, **kwargs):
+        user = kwargs.pop('user', None)  # Pobierz użytkownika z argumentów
+        super().__init__(*args, **kwargs)
+        if user and not user.is_superuser:  # Filtrowanie kategorii tylko dla zwykłych użytkowników
+            self.fields['category'].queryset = Categories.objects.filter(user=user)
+
     class Meta:
         model = Budgets
         fields = ['name', 'description', 'amount', 'start_date', 'end_date', 'category']
@@ -70,12 +129,20 @@ class BudgetForm(forms.ModelForm):
             'category': forms.Select(attrs={'class': 'form-control'}),
         }
         labels = {
-            'name': 'Nazwa',
-            'description': 'Opis',
-            'amount': 'Kwota',
+            'name': 'Nazwa budżetu',
+            'description': 'Opis budżetu',
+            'amount': 'Kwota budżetu',
             'start_date': 'Data rozpoczęcia',
             'end_date': 'Data zakończenia',
             'category': 'Kategoria',
+        }
+        help_texts = {
+            'name': 'Podaj nazwę budżetu, np. "Budżet operacyjny".',
+            'description': 'Krótki opis budżetu, np. "Budżet na wydatki biurowe".',
+            'amount': 'Podaj całkowitą kwotę budżetu w PLN.',
+            'start_date': 'Wybierz datę rozpoczęcia budżetu.',
+            'end_date': 'Wybierz datę zakończenia budżetu.',
+            'category': 'Wybierz kategorię, do której przypisany jest budżet.',
         }
 
 class ReportForm(forms.ModelForm):
@@ -90,6 +157,13 @@ class ReportForm(forms.ModelForm):
             'report_type': 'Typ raportu',
             'start_date': 'Data początkowa',
             'end_date': 'Data końcowa',
-            'name': 'Nazwa',
-            'description': 'Opis',
+            'name': 'Nazwa raportu',
+            'description': 'Opis raportu',
+        }
+        help_texts = {
+            'report_type': 'Wybierz typ raportu, np. "Bilans" lub "Rachunek zysków i strat".',
+            'start_date': 'Wybierz datę początkową dla raportu.',
+            'end_date': 'Wybierz datę końcową dla raportu.',
+            'name': 'Podaj nazwę raportu, np. "Bilans za Q1 2025".',
+            'description': 'Krótki opis raportu, np. "Bilans kwartalny".',
         }
