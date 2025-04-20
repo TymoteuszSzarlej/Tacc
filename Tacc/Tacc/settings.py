@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-n5a&$2=os4e%bku7t^zd#a_#c+l_%p-cs1dt+nq%8(m%+mph^+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.44', '127.0.0.1']
+ALLOWED_HOSTS = ['192.168.1.44', '127.0.0.1', 'tacc.ravadev.pl']
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://tacc.ravadev.pl"
+]
 
 LOGIN_REDIRECT_URL = '/'              # Gdzie użytkownik zostanie przekierowany po zalogowaniu
 LOGIN_URL = 'login'                   # URL logowania
