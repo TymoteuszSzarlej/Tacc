@@ -24,22 +24,22 @@ class Account(models.Model):
         ('expenses', 'Koszty'),
     ]
 
-    SUBTYPES = {
-        'assets': [
-            ('fixed', 'Trwałe'),
-            ('current', 'Obrotowe'),
-            ('financial', 'Środki pieniężne'),
-            ('inventories', 'Zapasy'),
-            ('receivables', 'Należności'),
-        ],
-        'liabilities': [
-            ('long_term', 'Długoterminowe'),
-            ('short_term', 'Krótkoterminowe'),
-            ('equity', 'Kapitał własny'),
-        ],
+    SUBTYPES = [
+        ('fixed', 'Trwałe'),
+        ('current', 'Obrotowe'),
+        ('financial', 'Środki pieniężne'),
+        ('inventories', 'Zapasy'),
+        ('receivables', 'Należności'),
+        ('long_term', 'Długoterminowe'),
+        ('short_term', 'Krótkoterminowe'),
+        ('equity', 'Kapitał własny'),
+    ]
+
+    SUBTYPE_CATEGORIES = {
+        'assets': ['fixed', 'current', 'financial', 'inventories', 'receivables'],
+        'liabilities': ['long_term', 'short_term', 'equity'],
         'revenue': [],
         'expenses': [],
-
     }
 
     name = models.TextField(max_length=63)
@@ -53,11 +53,9 @@ class Account(models.Model):
 
     def clean(self):
         if self.account_type and self.account_subtype:
-            valid_subtypes = dict(self.SUBTYPES).get(self.account_type, [])
-            valid_subtype_keys = [s[0] for s in valid_subtypes]
+            valid_subtype_keys = self.SUBTYPE_CATEGORIES.get(self.account_type, [])
             if self.account_subtype not in valid_subtype_keys:
                 raise ValidationError(f"Nieprawidłowy podtyp '{self.account_subtype}' dla typu konta '{self.account_type}'.")
-
 
     def __str__(self):
         return self.name
