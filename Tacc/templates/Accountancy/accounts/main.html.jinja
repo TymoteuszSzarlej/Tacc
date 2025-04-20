@@ -1,22 +1,20 @@
-{%extends 'base.html'%}
+{% extends 'base.html' %}
 {% block content %}
-<table>
-    <thead>
-        <tr>
-            <th>Nazwa konta</th>
-        </tr>
-    </thead>
-    <tbody>
-    {%for account in accounts%}
-        <tr>
-            <td>{{ account.name }}</td>
-        </tr>
-        <tr>
-            <td><a href="{% url 'account_details' account.id %}">Szczegóły</a></td>
-            <td><a href="{% url 'edit_account' account.id %}">Edytuj</a></td>
-            <td><a href="{% url 'delete_account' account.id %}">Usuń</a></td>
-        </tr>
-    {%endfor%}
-    </tbody>
-</table>
+<h2>🏦 Konta</h2>
+<div class="container">
+    {% for account in accounts %}
+    <div class="card">
+        <h3>{{ account.name }}</h3>
+        <p><strong>Opis:</strong> {{ account.description }}</p>
+        <p><strong>Data utworzenia:</strong> {{ account.created_at }}</p>
+        <p><strong>Data ostatniej aktualizacji:</strong> {{ account.updated_at }}</p>
+        <div class="actions">
+            <a href="{% url 'account_details' account.id %}" class="btn btn-info">👀 Szczegóły</a>
+            <a href="{% url 'edit_account' account.id %}" class="btn btn-primary">✏️ Edytuj</a>
+            <a href="{% url 'delete_account' account.id %}" class="btn btn-danger">🗑️ Usuń</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<a href="{% url 'create_account' %}" class="btn btn-success">➕ Dodaj nowe konto</a>
 {% endblock %}

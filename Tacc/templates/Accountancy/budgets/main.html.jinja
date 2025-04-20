@@ -1,30 +1,21 @@
-{%extends 'base.html'%}
+{% extends 'base.html' %}
 {% block content %}
 <h2>Budżety</h2>
 <div class="container">
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>Nazwa</th>
-                <th>Kwota</th>
-                <th>Data utworzenia</th>
-                <th>Akcje</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for budget in budgets %}
-            <tr>
-                <td>{{ budget.name }}</td>
-                <td>{{ budget.amount }}</td>
-                <td>{{ budget.created_at }}</td>
-                <td>
-                    <a href="{% url 'edit_budget' budget.id %}" class="btn btn-primary">Edytuj</a>
-                    <a href="{% url 'delete_budget' budget.id %}" class="btn btn-danger">Usuń</a>
-                </td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+    <a href="{% url 'create_budget' %}" class="btn btn-success">➕ Dodaj nowy budżet</a>
 
-    <a href="{% url 'create_budget' %}" class="btn btn-success">Dodaj nowy budżet</a>
+    <div class="budgets-container">
+        {% for budget in budgets %}
+        <div class="card">
+            <h3>{{ budget.name }}</h3>
+            <p><strong>Kwota:</strong> {{ budget.amount }}</p>
+            <p><strong>Data utworzenia:</strong> {{ budget.created_at }}</p>
+            <div class="actions">
+                <a href="{% url 'edit_budget' budget.id %}" class="btn btn-primary">✏️ Edytuj</a>
+                <a href="{% url 'delete_budget' budget.id %}" class="btn btn-danger">🗑️ Usuń</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 {% endblock %}

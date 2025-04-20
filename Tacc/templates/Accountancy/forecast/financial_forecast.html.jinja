@@ -2,7 +2,7 @@
 
 {% block content %}
 <div class="container">
-    <h2>Prognoza Finansowa</h2>
+    <h2>📈 Prognoza Finansowa</h2>
     <canvas id="forecastChart" width="400" height="200"></canvas>
 </div>
 
@@ -19,21 +19,21 @@
             labels: forecastData.dates, // Oś X (daty)
             datasets: [
                 {
-                    label: 'Przychody',
+                    label: '📊 Przychody',
                     data: forecastData.revenues, // Dane przychodów
                     borderColor: 'rgba(75, 192, 192, 1)',
                     backgroundColor: 'rgba(75, 192, 192, 0.2)',
                     fill: true,
                 },
                 {
-                    label: 'Koszty',
+                    label: '📉 Koszty',
                     data: forecastData.expenses, // Dane kosztów
                     borderColor: 'rgba(255, 99, 132, 1)',
                     backgroundColor: 'rgba(255, 99, 132, 0.2)',
                     fill: true,
                 },
                 {
-                    label: 'Zyski',
+                    label: '💰 Zyski',
                     data: forecastData.profits, // Dane zysków
                     borderColor: 'rgba(54, 162, 235, 1)',
                     backgroundColor: 'rgba(54, 162, 235, 0.2)',

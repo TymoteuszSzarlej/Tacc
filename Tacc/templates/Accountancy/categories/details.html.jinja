@@ -1,23 +1,21 @@
-{%extends 'base.html'%}
+{% extends 'base.html' %}
 {% block content %}
 
 <div class="container">
-<h3>
-Nazwa kategorii
-</h3>
-<div class="card">
-{{ category.name }}
+    <h2>Szczegóły kategorii</h2>
+
+    <div class="card">
+        <p><strong>Nazwa kategorii:</strong> {{ category.name }}</p>
+        <p><strong>Data utworzenia:</strong> {{ category.created_at }}</p>
+        <p><strong>Kolor:</strong> {{ category.color }}</p>
+    </div>
+
+    <div class="actions">
+        <a href="{% url 'edit_category' category.id %}" class="btn btn-primary">✏️ Edytuj</a>
+        <a href="{% url 'delete_category' category.id %}" class="btn btn-danger">🗑️ Usuń</a>
+    </div>
+
+    <a href="{% url 'categories' %}" class="btn btn-secondary">⬅️ Powrót do kategorii</a>
 </div>
-</div>
-<div class="container">
-<h3>Data utworzenia</h3>
-<div class="card">
-{{category.created_at}}
-</div>
-</div>
-<div class="container">
-<h3>Kolor</h3>
-<div class="card">
-{{ category.color }}
-</div>
-</div>
+
+{% endblock %}

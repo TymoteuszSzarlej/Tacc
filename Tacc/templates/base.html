@@ -29,7 +29,7 @@ header {
 
 aside {
     width: 250px;
-    height: 100%; /* Wysokość na pełne okno */
+    height: 100vh; /* Zajmuje pełną wysokość ekranu */
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -40,22 +40,68 @@ aside {
     position: fixed;
     top: 0;
     left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Rozciągnij zawartość */
 }
 
 aside.active {
     transform: translateX(0); /* Pokaż aside, gdy aktywne */
 }
 
+aside nav ul {
+    list-style: none; /* Usuń kropki */
+    padding: 0;
+    margin: 0;
+}
+
+aside nav ul li {
+    margin: 15px 0; /* Większy odstęp między elementami */
+}
+
+aside nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid magenta;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+aside nav ul li a:hover {
+    background-color: magenta;
+    color: #000;
+}
+
 main {
-    flex: 1;
     background: linear-gradient(to bottom right, #444, #222);
-    display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
     box-sizing: border-box;
-    margin-top: 60px; /* Uwzględnij wysokość nagłówka */
+    padding-top: 100px; /* Uwzględnij wysokość nagłówka */
     margin-left: 0; /* Brak odstępu od lewej */
+    padding-bottom: 160px;
+}
+
+main a {
+    display: inline-block; /* Każdy link zajmuje swoją przestrzeń */
+    text-decoration: none; /* Usuń podkreślenie */
+    color: #fff; /* Biały tekst */
+    padding: 10px 20px; /* Wewnętrzne odstępy */
+    margin: 10px; /* Zewnętrzne odstępy między linkami */
+    border: 2px solid magenta; /* Magenta ramka */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center; /* Wyśrodkowanie tekstu w linku */
+}
+
+main a:hover {
+    background-color: magenta; /* Magenta tło po najechaniu */
+    color: #000; /* Czarny tekst po najechaniu */
 }
 
 footer {
@@ -77,6 +123,85 @@ footer {
     border: none;
     padding: 10px;
     cursor: pointer;
+}
+
+/* Stylizacja przycisków */
+button {
+    background-color: #000; /* Czarny kolor tła */
+    color: #fff; /* Biały tekst */
+    border: 2px solid turquoise; /* Turkusowa ramka */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: turquoise; /* Turkusowe tło po najechaniu */
+    color: #000; /* Czarny tekst po najechaniu */
+}
+
+/* Stylizacja linków */
+a {
+    color: #fff; /* Biały tekst */
+    text-decoration: none; /* Usuń podkreślenie */
+    border: 2px solid magenta; /* Magenta ramka */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    padding: 10px;
+    margin: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: magenta; /* Magenta tło po najechaniu */
+    color: #000; /* Czarny tekst po najechaniu */
+}
+
+input {
+    color: #fff; /* Biały tekst */
+    background-color: black; /* Ciemne tło */
+    text-decoration: none; /* Usuń podkreślenie */
+    border: 2px solid magenta; /* Magenta ramka */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 50px;
+}
+
+th, td {
+    padding: 20px;
+    border: 2px solid cyan; /* Magenta ramka */
+    text-align: center;
+    margin: 30px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column; /* Układ w kolumnie */
+    align-items: center; /* Wyśrodkowanie w poziomie */
+    justify-content: center; /* Wyśrodkowanie w pionie */
+    height: 100%; /* Pełna wysokość */
+    text-align: center; /* Wyśrodkowanie tekstu */
+}
+
+.card {
+    background-color: #333; /* Ciemne tło dla kart */
+    color: #fff; /* Biały tekst */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 60%; /* Szerokość karty */
+    text-align: center; /* Wyśrodkowanie tekstu */
 }
 
 /* Układ dla urządzeń mobilnych */
@@ -123,12 +248,15 @@ footer {
           <!-- Nawigacja po modułach -->
           <nav>
               <ul>
-                  <li><a href="{% url 'dashboard' %}">Dashboard</a></li>
-                  <li><a href="{% url 'accounts' %}">Konta</a></li>
-                  <li><a href="{% url 'transactions' %}">Transakcje</a></li>
-                  <li><a href="{% url 'reports' %}">Raporty</a></li>
-                  <li><a href="{% url 'budgets' %}">Budżety</a></li>
-                  <li><a href="{% url 'categories' %}">Kategorie</a></li>
+                  <li><a href="{% url 'dashboard' %}">🖥️ Pulpit</a></li>
+                  <li><a href="{%url 'books'%}">📚 Księgi</a></li>
+                  <li><a href="{% url 'accounts' %}">🏦 Konta</a></li>
+                  <li><a href="{% url 'transactions' %}">🔄 Transakcje</a></li>
+                  <li><a href="{% url 'categories' %}">🏷️ Kategorie</a></li>
+                  <li><a href="{% url 'budgets' %}">📊 Budżety</a></li>
+                  <li><a href="{% url 'reports' %}">📝 Raporty</a></li>
+                  <li><a href="{%url 'financial_forecast'%}">📈 Prognoza</a></li>
+                  <li><a href="{%url 'financial_analysis'%}">🔎 Analiza</a></li>
               </ul>
           </nav>
       </div>

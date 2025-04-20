@@ -2,128 +2,143 @@
 
 {% block content %}
 <div class="container">
-    <h2>{{ report.name }}</h2>
+    <h2>📊 {{ report.name }}</h2>
     <p>{{ report.description }}</p>
     <h3>{{ report_data.type }}</h3>
 
     {% if report.report_type == 'balance_sheet' %}
-    <!-- Tabela dla bilansu -->
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Aktywa</th>
-                <th>Kwota</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for name, balance in report_data.assets.items %}
-            <tr>
-                <td>{{ name }}</td>
-                <td>{{ balance }}</td>
-            </tr>
-            {% endfor %}
-            <tr>
-                <td><strong>Razem Aktywa</strong></td>
-                <td><strong>{{ report_data.total_assets }}</strong></td>
-            </tr>
-        </tbody>
-    </table>
+    <!-- Sekcja dla bilansu -->
+    <div class="card">
+        <h4>Bilans - Aktywa</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Aktywa</th>
+                    <th>Kwota</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for name, balance in report_data.assets.items %}
+                <tr>
+                    <td>{{ name }}</td>
+                    <td>{{ balance }}</td>
+                </tr>
+                {% endfor %}
+                <tr>
+                    <td><strong>Razem Aktywa</strong></td>
+                    <td><strong>{{ report_data.total_assets }}</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Pasywa</th>
-                <th>Kwota</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for name, balance in report_data.liabilities.items %}
-            <tr>
-                <td>{{ name }}</td>
-                <td>{{ balance }}</td>
-            </tr>
-            {% endfor %}
-            <tr>
-                <td><strong>Razem Pasywa</strong></td>
-                <td><strong>{{ report_data.total_liabilities }}</strong></td>
-            </tr>
-            <tr>
-                <td><strong>Kapitał Własny</strong></td>
-                <td><strong>{{ report_data.equity }}</strong></td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="card">
+        <h4>Bilans - Pasywa</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Pasywa</th>
+                    <th>Kwota</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for name, balance in report_data.liabilities.items %}
+                <tr>
+                    <td>{{ name }}</td>
+                    <td>{{ balance }}</td>
+                </tr>
+                {% endfor %}
+                <tr>
+                    <td><strong>Razem Pasywa</strong></td>
+                    <td><strong>{{ report_data.total_liabilities }}</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Kapitał Własny</strong></td>
+                    <td><strong>{{ report_data.equity }}</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     {% elif report.report_type == 'income_statement' %}
-    <!-- Tabela dla rachunku zysków i strat -->
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Przychody</th>
-                <th>Kwota</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for name, balance in report_data.revenues.items %}
-            <tr>
-                <td>{{ name }}</td>
-                <td>{{ balance }}</td>
-            </tr>
-            {% endfor %}
-            <tr>
-                <td><strong>Razem Przychody</strong></td>
-                <td><strong>{{ report_data.total_revenues }}</strong></td>
-            </tr>
-        </tbody>
-    </table>
+    <!-- Sekcja dla rachunku zysków i strat -->
+    <div class="card">
+        <h4>Rachunek Zysków i Strat - Przychody</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Przychody</th>
+                    <th>Kwota</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for name, balance in report_data.revenues.items %}
+                <tr>
+                    <td>{{ name }}</td>
+                    <td>{{ balance }}</td>
+                </tr>
+                {% endfor %}
+                <tr>
+                    <td><strong>Razem Przychody</strong></td>
+                    <td><strong>{{ report_data.total_revenues }}</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Koszty</th>
-                <th>Kwota</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for name, balance in report_data.expenses.items %}
-            <tr>
-                <td>{{ name }}</td>
-                <td>{{ balance }}</td>
-            </tr>
-            {% endfor %}
-            <tr>
-                <td><strong>Razem Koszty</strong></td>
-                <td><strong>{{ report_data.total_expenses }}</strong></td>
-            </tr>
-            <tr>
-                <td><strong>Wynik Netto</strong></td>
-                <td><strong>{{ report_data.net_income }}</strong></td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="card">
+        <h4>Rachunek Zysków i Strat - Koszty</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Koszty</th>
+                    <th>Kwota</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for name, balance in report_data.expenses.items %}
+                <tr>
+                    <td>{{ name }}</td>
+                    <td>{{ balance }}</td>
+                </tr>
+                {% endfor %}
+                <tr>
+                    <td><strong>Razem Koszty</strong></td>
+                    <td><strong>{{ report_data.total_expenses }}</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Wynik Netto</strong></td>
+                    <td><strong>{{ report_data.net_income }}</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     {% elif report.report_type == 'cash_flow_statement' %}
-    <!-- Tabela dla rachunku przepływów pieniężnych -->
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Środki Pieniężne</th>
-                <th>Kwota</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for name, balance in report_data.cash_flows.items %}
-            <tr>
-                <td>{{ name }}</td>
-                <td>{{ balance }}</td>
-            </tr>
-            {% endfor %}
-            <tr>
-                <td><strong>Razem Środki Pieniężne</strong></td>
-                <td><strong>{{ report_data.total_cash_flow }}</strong></td>
-            </tr>
-        </tbody>
-    </table>
+    <!-- Sekcja dla rachunku przepływów pieniężnych -->
+    <div class="card">
+        <h4>Rachunek Przepływów Pieniężnych</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Środki Pieniężne</th>
+                    <th>Kwota</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for name, balance in report_data.cash_flows.items %}
+                <tr>
+                    <td>{{ name }}</td>
+                    <td>{{ balance }}</td>
+                </tr>
+                {% endfor %}
+                <tr>
+                    <td><strong>Razem Środki Pieniężne</strong></td>
+                    <td><strong>{{ report_data.total_cash_flow }}</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     {% else %}
     <p>Nieznany typ raportu.</p>

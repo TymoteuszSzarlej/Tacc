@@ -1,12 +1,12 @@
-{%extends 'base.html'%}
+{% extends 'base.html' %}
 {% block content %}
 <div class="container">
-    <h2>Edytuj kategorię</h2>
+    <h2>✏️ Edytuj kategorię</h2>
     <form method="POST">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit" class="btn btn-primary">Zapisz</button>
+        <button type="submit" class="btn btn-primary">✔️ Zapisz</button>
+        <a href="{% url 'categories' %}" class="btn btn-secondary">⬅️ Anuluj</a>
     </form>
-    <a href="{% url 'categories' %}" class="btn btn-secondary">Anuluj</a>
 </div>
 {% endblock %}

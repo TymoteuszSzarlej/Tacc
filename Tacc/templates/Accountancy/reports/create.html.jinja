@@ -1,12 +1,12 @@
-{%extends 'base.html'%}
+{% extends 'base.html' %}
 {% block content %}
 <div class="container">
-    <h2>Utwórz nowy raport</h2>
+    <h2>📄 Utwórz nowy raport</h2>
     <form method="POST">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit" class="btn btn-primary">Zapisz</button>
+        <button type="submit" class="btn btn-primary">✔️ Zapisz</button>
     </form>
-    <a href="{% url 'reports' %}" class="btn btn-secondary">Anuluj</a>
+    <a href="{% url 'reports' %}" class="btn btn-secondary">⬅️ Anuluj</a>
 </div>
 {% endblock %}

@@ -1,35 +1,28 @@
-{%extends 'base.html'%}
+{% extends 'base.html' %}
 {% block content %}
 <div class="container">
-    <h2>Transactions</h2>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Date</th>
-                <th>Amount</th>
-                <th>Description</th>
-                <th>Category</th>
-                <th>Account</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for transaction in transactions %}
-            <tr>
-                <td>{{ transaction.id }}</td>
-                <td>{{ transaction.date }}</td>
-                <td>{{ transaction.amount }}</td>
-                <td>{{ transaction.description }}</td>
-                <td>{{ transaction.category.name }}</td>
-                <td>{{ transaction.account.name }}</td>
-                <td><a href="{% url 'edit_transaction' transaction.id %}">Edit</a></td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+    <h2>Transakcje</h2>
 
-    <!-- Add Transaction Button -->
-    <a href="{% url 'create_transaction' %}" class="btn btn-primary">Add Transaction</a>
+    <!-- Lista transakcji -->
+    <div class="transactions-container" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; align-items: flex-start; margin-top: 20px;">
+        {% for transaction in transactions %}
+        <div class="card">
+            <p><strong>ID:</strong> {{ transaction.id }}</p>
+            <p><strong>Data:</strong> {{ transaction.date }}</p>
+            <p><strong>Kwota:</strong> {{ transaction.amount }}</p>
+            <p><strong>Opis:</strong> {{ transaction.description }}</p>
+            <p><strong>Kategoria:</strong> {{ transaction.category.name }}</p>
+            <p><strong>Konto:</strong> {{ transaction.account.name }}</p>
+            <div class="actions">
+                <a href="{% url 'transaction_details' transaction.id %}" class="btn btn-info">👀 Podgląd</a>
+                <a href="{% url 'edit_transaction' transaction.id %}" class="btn btn-primary">✏️ Edytuj</a>
+                <a href="{% url 'delete_transaction' transaction.id %}" class="btn btn-danger">🗑️ Usuń</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- Dodaj transakcję -->
+    <a href="{% url 'create_transaction' %}" class="btn btn-primary">Dodaj transakcję</a>
 </div>
 {% endblock %}

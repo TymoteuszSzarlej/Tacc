@@ -1,111 +1,50 @@
-{%extends 'base.html'%}
+{% extends 'base.html' %}
 {% block content %}
 <div class="container">
     <h2>Szczegóły konta "{{ account.name }}"</h2>
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Nazwa</th>
-                <th>Opis</th>
-                <th>Rodzaj</th>
-                <th>Podrodzaj</th>
-                <th>Stan początkowy</th>
-                <th>Data utworzenia</th>
-                <th>Księga</th>
-            </tr>
-        </thead>
-        <tbody>
-            
-            <tr>
-                <td>{{ account.name }}</td>
-                <td>{{ account.description }}</td>
-                <td>{{ account.get_account_type_display }}</td>
-                <td>{{ account.get_account_subtype_display }}</td>
-                <td>{{ account.initial_balance }}</td>
-                <td>{{ account.created_at }}</td>
-                <td><a href="{% url 'book_details' account.book.id %}">{{ account.book.name }}</a></td> 
-            </tr>
+    <div class="card">
+        <p><strong>Nazwa:</strong> {{ account.name }}</p>
+        <p><strong>Opis:</strong> {{ account.description }}</p>
+        <p><strong>Rodzaj:</strong> {{ account.get_account_type_display }}</p>
+        <p><strong>Podrodzaj:</strong> {{ account.get_account_subtype_display }}</p>
+        <p><strong>Stan początkowy:</strong> {{ account.initial_balance }}</p>
+        <p><strong>Data utworzenia:</strong> {{ account.created_at }}</p>
+        <p><strong>Księga:</strong> <a href="{% url 'book_details' account.book.id %}">{{ account.book.name }}</a></p>
+    </div>
 
-        </tbody>
-    </table>
+    <a href="{% url 'edit_account' account.id %}" class="btn btn-primary">✏️ Edytuj konto</a>
+    <a href="{% url 'delete_account' account.id %}" class="btn btn-danger">🗑️ Usuń konto</a>
 
-    <a href="{% url 'edit_account' account.id %}" class="btn btn-primary">Edit Account</a>
-    <a href="{% url 'delete_account' account.id %}" class="btn btn-danger">Delete Account</a>
-    <h3>
-        Transakcje
-    </h3>
-<div class="table-container">
+    <h3>📄 Transakcje</h3>
+    <div class="transactions-container">
+        <div class="debit">
+            <h4>📉 Debet</h4>
+            {% for debit in debits %}
+            <div class="card">
+                <p><strong>Data:</strong> {{ debit.date }}</p>
+                <p><strong>Kwota:</strong> {{ debit.amount }}</p>
+                <p><strong>Opis:</strong> {{ debit.description }}</p>
+                <p><strong>Kategoria:</strong> {{ debit.category.name }}</p>
+                <a href="{% url 'transaction_details' debit.id %}" class="btn btn-info">👀 Szczegóły</a>
+            </div>
+            {% endfor %}
+        </div>
 
+        <div class="credit">
+            <h4>📈 Kredyt</h4>
+            {% for credit in credis %}
+            <div class="card">
+                <p><strong>Data:</strong> {{ credit.date }}</p>
+                <p><strong>Kwota:</strong> {{ credit.amount }}</p>
+                <p><strong>Opis:</strong> {{ credit.description }}</p>
+                <p><strong>Kategoria:</strong> {{ credit.category.name }}</p>
+                <a href="{% url 'transaction_details' credit.id %}" class="btn btn-info">👀 Szczegóły</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Debet</th>
-                <th>Kredyt</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Data</th>
-                <th>Kwota</th>
-                <th>Opis</th>
-                <th>Kategoria</th>
-                <th>Akcja</th>
-            </tr>
-        </thead>
-        <tbody>
-            {%for debit in debits%}
-            <tr>
-                <td>{{ debit.date }}</td>
-                <td>{{ debit.amount }}</td>
-                <td>{{ debit.description }}</td>
-                <td>{{ debit.category.name }}</td>
-                <td><a href="{% url 'transaction_details' debit.id %}">Szczegóły</a></td>
-            </tr>
-            {%endfor%}
-        </tbody>
-    </table>
-                </td>
-                <td>
-                    
-
-<table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Data</th>
-                <th>Kwota</th>
-                <th>Opis</th>
-                <th>Kategoria</th>
-                <th>Akcja</th>
-            </tr>
-        </thead>
-        <tbody>
-            {%for credit in credis%}
-            <tr>
-                <td>{{ credit.date }}</td>
-                <td>{{ credit.amount }}</td>
-                <td>{{ credit.description }}</td>
-                <td>{{ credit.category.name }}</td>
-                <td><a href="{% url 'transaction_details' credit.id %}">Szczegóły</a></td>
-            </tr>
-            {%endfor%}
-        </tbody>
-    </table>
-
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-
+    <h3>💰 Saldo</h3>
+    <p><strong>Saldo konta:</strong> {{ account.calculate_balance }}</p>
 </div>
-
-<h3>Saldo</h3>
-<p><strong>Saldo konta: </strong>{{ account.calculate_balance }}</p>
-    
-
-{%endblock%}
+{% endblock %}

@@ -1,16 +1,21 @@
-{%extends 'base.html'%}
+{% extends 'base.html' %}
 {% block content %}
 <div class="container">
-    <h2>Raporty</h2>
-    <a href="{% url 'create_report' %}">Dodaj nowy raport</a>
-    {% for report in reports %}
-        <div class="container">
-            <h2>{{ report.name }}</h2>
+    <h2>📊 Raporty</h2>
+    <a href="{% url 'create_report' %}" class="btn btn-success">➕ Dodaj nowy raport</a>
+
+    <div class="reports-container">
+        {% for report in reports %}
+        <div class="card">
+            <h3>{{ report.name }}</h3>
             <p>{{ report.description }}</p>
-            <a href="{% url 'report_details' report.id %}">Zobacz</a>
-            <a href="{% url 'edit_report' report.id %}">Edytuj</a>
-            <a href="{% url 'delete_report' report.id %}">Usuń</a>
+            <div class="actions">
+                <a href="{% url 'report_details' report.id %}" class="btn btn-info">👀 Zobacz</a>
+                <a href="{% url 'edit_report' report.id %}" class="btn btn-primary">✏️ Edytuj</a>
+                <a href="{% url 'delete_report' report.id %}" class="btn btn-danger">🗑️ Usuń</a>
+            </div>
         </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
 </div>
 {% endblock %}

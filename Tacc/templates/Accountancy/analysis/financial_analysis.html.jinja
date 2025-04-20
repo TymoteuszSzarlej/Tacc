@@ -2,66 +2,72 @@
 
 {% block content %}
 <div class="container">
-    <h2>Analiza Finansowa</h2>
+    <h2>📊 Analiza Finansowa</h2>
 
-    <h3>Rentowność</h3>
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Wskaźnik</th>
-                <th>Wartość</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Rentowność sprzedaży (ROS)</td>
-                <td>{{ ros|floatformat:2 }}%</td>
-            </tr>
-            <tr>
-                <td>Rentowność aktywów (ROA)</td>
-                <td>{{ roa|floatformat:2 }}%</td>
-            </tr>
-            <tr>
-                <td>Rentowność kapitału własnego (ROE)</td>
-                <td>{{ roe|floatformat:2 }}%</td>
-            </tr>
-        </tbody>
-    </table>
+    <h3>📈 Rentowność</h3>
+    <div class="card">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Wskaźnik</th>
+                    <th>Wartość</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rentowność sprzedaży (ROS)</td>
+                    <td>{{ ros|floatformat:2 }}%</td>
+                </tr>
+                <tr>
+                    <td>Rentowność aktywów (ROA)</td>
+                    <td>{{ roa|floatformat:2 }}%</td>
+                </tr>
+                <tr>
+                    <td>Rentowność kapitału własnego (ROE)</td>
+                    <td>{{ roe|floatformat:2 }}%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-    <h3>Płynność finansowa</h3>
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Wskaźnik</th>
-                <th>Wartość</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Wskaźnik bieżącej płynności</td>
-                <td>{{ current_ratio|floatformat:2 }}</td>
-            </tr>
-            <tr>
-                <td>Wskaźnik szybkiej płynności</td>
-                <td>{{ quick_ratio|floatformat:2 }}</td>
-            </tr>
-        </tbody>
-    </table>
+    <h3>💧 Płynność finansowa</h3>
+    <div class="card">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Wskaźnik</th>
+                    <th>Wartość</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Wskaźnik bieżącej płynności</td>
+                    <td>{{ current_ratio|floatformat:2 }}</td>
+                </tr>
+                <tr>
+                    <td>Wskaźnik szybkiej płynności</td>
+                    <td>{{ quick_ratio|floatformat:2 }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-    <h3>Zadłużenie</h3>
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Wskaźnik</th>
-                <th>Wartość</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Wskaźnik ogólnego zadłużenia</td>
-                <td>{{ debt_ratio|floatformat:2 }}%</td>
-            </tr>
-        </tbody>
-    </table>
+    <h3>⚖️ Zadłużenie</h3>
+    <div class="card">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Wskaźnik</th>
+                    <th>Wartość</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Wskaźnik ogólnego zadłużenia</td>
+                    <td>{{ debt_ratio|floatformat:2 }}%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
 {% endblock %}

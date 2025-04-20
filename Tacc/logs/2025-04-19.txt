@@ -1,0 +1,34 @@
+[RESPONSE]	2025-04-19 16:53:12	[MAIN.middleware]	Odpowiedü 200 | GET /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 73.26ms | Dane: {}
+[RESPONSE]	2025-04-19 16:53:12	[MAIN.middleware]	Odpowiedü 404 | GET /favicon.ico | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 17.58ms | Dane: {}
+[ERROR]	2025-04-19 16:53:12	[MAIN.middleware]	B≥πd 404 | GET /favicon.ico | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[SUCCESS]	2025-04-19 16:53:16	[MAIN.signals]	Zaktualizowano instancjÍ: User (ID: 7)
+[RESPONSE]	2025-04-19 16:53:16	[MAIN.middleware]	Odpowiedü 302 | POST /accounts/login/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 487.35ms | Dane: {'csrfmiddlewaretoken': "['5jNtKx5DoQf0iuMn4oyyogKBb3MWCPbnsupAknIRtyEAmKpP0eBCOwZEIK3Pvbqo']", 'username': "['TymoteuszSzarlej']", 'password': '[UKRYTO]'}
+[SUCCESS]	2025-04-19 16:53:16	[MAIN.signals]	Zaktualizowano instancjÍ: Session (ID: du7bo5pkjiznbiqhdpyvvdviz1dik7vm)
+[RESPONSE]	2025-04-19 16:53:16	[MAIN.middleware]	Odpowiedü 404 | GET / | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 6.13ms | Dane: {}
+[ERROR]	2025-04-19 16:53:16	[MAIN.middleware]	B≥πd 404 | GET / | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-19 16:53:24	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/accounts/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 14.22ms | Dane: {}
+[RESPONSE]	2025-04-19 16:53:34	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.35ms | Dane: {}
+[ERROR]	2025-04-19 16:55:22	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/ | NoReverseMatch: 'accountancy' is not a registered namespace | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-19 16:55:22	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 144.52ms | Dane: {}
+[ERROR]	2025-04-19 16:55:22	[MAIN.middleware]	B≥πd 500 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-19 16:57:19	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/ | NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-19 16:57:19	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 255.42ms | Dane: {}
+[ERROR]	2025-04-19 16:57:19	[MAIN.middleware]	B≥πd 500 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-19 16:57:21	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/ | NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-19 16:57:21	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 38.49ms | Dane: {}
+[ERROR]	2025-04-19 16:57:21	[MAIN.middleware]	B≥πd 500 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-19 16:57:54	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/ | NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-19 16:57:54	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 66.32ms | Dane: {}
+[ERROR]	2025-04-19 16:57:54	[MAIN.middleware]	B≥πd 500 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[ERROR]	2025-04-19 16:57:55	[MAIN.middleware]	Wyjπtek 500 | GET /accountancy/ | NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name. | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-19 16:57:55	[MAIN.middleware]	Odpowiedü 500 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 44.24ms | Dane: {}
+[ERROR]	2025-04-19 16:57:55	[MAIN.middleware]	B≥πd 500 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1
+[RESPONSE]	2025-04-19 16:58:40	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 23.75ms | Dane: {}
+[RESPONSE]	2025-04-19 16:58:54	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 21.62ms | Dane: {}
+[RESPONSE]	2025-04-19 16:59:14	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 20.23ms | Dane: {}
+[RESPONSE]	2025-04-19 16:59:47	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 21.13ms | Dane: {}
+[RESPONSE]	2025-04-19 17:02:46	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 34.18ms | Dane: {}
+[RESPONSE]	2025-04-19 17:03:30	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 20.91ms | Dane: {}
+[RESPONSE]	2025-04-19 17:04:31	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 17.63ms | Dane: {}
+[RESPONSE]	2025-04-19 17:04:41	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 18.69ms | Dane: {}
+[RESPONSE]	2025-04-19 17:05:00	[MAIN.middleware]	Odpowiedü 200 | GET /accountancy/ | Uøytkownik: TymoteuszSzarlej | IP: 127.0.0.1 | Czas: 10.36ms | Dane: {}

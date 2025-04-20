@@ -1,20 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-<table>
-    <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Created At</th>
-        <th>User</th>
-    </tr>
-        <tr>
-            <td>{{ book.id }}</td>
-            <td>{{ book.name }}</td>
-            <td>{{ book.description }}</td>
-            <td>{{ book.created_at }}</td>
-            <td>{{ book.user }}</td>
-        </tr>
-</table>
+<h2>📚 Szczegóły księgi</h2>
+<div class="container">
+    <div class="card">
+        <h3>{{ book.name }}</h3>
+        <p><strong>Opis:</strong> {{ book.description }}</p>
+        <p><strong>Data utworzenia:</strong> {{ book.created_at }}</p>
+        <div class="actions">
+            <a href="{% url 'edit_book' book.id %}" class="btn btn-primary">✏️ Edytuj</a>
+            <a href="{% url 'delete_book' book.id %}" class="btn btn-danger">🗑️ Usuń</a>
+        </div>
+    </div>
+    <a href="{% url 'books' %}" class="btn btn-secondary">⬅️ Powrót do listy ksiąg</a>
+</div>
 {% endblock %}

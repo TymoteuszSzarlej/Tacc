@@ -1,32 +1,6 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="container">
-    <h2>Dashboard</h2>
-    <div class="summary">
-        <div class="card">
-            <h3>Liczba kont</h3>
-            <p>{{ total_accounts }}</p>
-        </div>
-        <div class="card">
-            <h3>Liczba transakcji</h3>
-            <p>{{ total_transactions }}</p>
-        </div>
-        <div class="card">
-            <h3>Przychody</h3>
-            <p>{{ total_revenues|floatformat:2 }} PLN</p>
-        </div>
-        <div class="card">
-            <h3>Koszty</h3>
-            <p>{{ total_expenses|floatformat:2 }} PLN</p>
-        </div>
-        <div class="card">
-            <h3>Zysk netto</h3>
-            <p>{{ net_profit|floatformat:2 }} PLN</p>
-        </div>
-    </div>
-</div>
-
 <style>
 .container {
     margin: 20px auto;
@@ -60,5 +34,54 @@
     font-size: 24px;
     font-weight: bold;
 }
+
+.card:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+
 </style>
+
+
+<div class="container">
+    <h2>Dashboard</h2>
+    <div class="summary">
+        <a href="{% url 'create_transaction' %}" class="card" style="background-color: green;">
+            Dodaj transakcję
+        </a>
+            
+        <div class="card">
+            <h3>Liczba kont</h3>
+            <p>{{ total_accounts }}</p>
+        </div>
+        <div class="card">
+            <h3>Liczba transakcji</h3>
+            <p>{{ total_transactions }}</p>
+        </div>
+        <div class="card">
+            <h3>Aktywa</h3>
+            <p>{{ total_assets|floatformat:2 }} PLN</p>
+        </div>
+        <div class="card">
+            <h3>Pasywa</h3>
+            <p>{{ total_liabilities|floatformat:2 }} PLN</p>
+        </div>
+
+        <div class="card">
+            <h3>Przychody</h3>
+            <p>{{ total_revenues|floatformat:2 }} PLN</p>
+        </div>
+        <div class="card">
+            <h3>Koszty</h3>
+            <p>{{ total_expenses|floatformat:2 }} PLN</p>
+        </div>
+        <div class="card">
+            <h3>Zysk netto</h3>
+            <p>{{ net_profit|floatformat:2 }} PLN</p>
+        </div>
+    </div>
+</div>
+
+
 {% endblock %}

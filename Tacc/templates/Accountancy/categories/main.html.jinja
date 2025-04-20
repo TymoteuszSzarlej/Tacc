@@ -1,14 +1,19 @@
-{%extends 'base.html'%}
+{% extends 'base.html' %}
 {% block content %}
 <div class="container">
     <h2>Lista kategorii</h2>
-    <a href="{% url 'create_category' %}">Dodaj nową kategorię</a>
-{%for category in categories%}
-    <div class="container">
-        <h2>{{ category.name }}</h2>
-        <p>{{ category.description }}</p>
-        <a href="{% url 'edit_category' category.id %}">Edytuj</a>
-        <a href="{% url 'delete_category' category.id %}">Usuń</a>
+    <a href="{% url 'create_category' %}" class="btn btn-primary">➕ Dodaj nową kategorię</a>
+
+    {% for category in categories %}
+    <div class="card">
+        <h3>{{ category.name }}</h3>
+        <p><strong>Opis:</strong> {{ category.description }}</p>
+        <div class="actions">
+            <a href="{% url 'category_details' category.id %}" class="btn btn-info">👀 Szczegóły</a>
+            <a href="{% url 'edit_category' category.id %}" class="btn btn-primary">✏️ Edytuj</a>
+            <a href="{% url 'delete_category' category.id %}" class="btn btn-danger">🗑️ Usuń</a>
+        </div>
     </div>
-{%endfor%}
+    {% endfor %}
+</div>
 {% endblock %}

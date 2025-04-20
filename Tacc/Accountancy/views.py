@@ -311,6 +311,10 @@ def dashboard(request):
     total_expenses = Transaction.objects.filter(debit_account__account_type='expenses').aggregate(Sum('amount'))['amount__sum'] or 0
     net_profit = total_revenues - total_expenses
 
+    # Oblicz sumy aktywów i pasywów na podstawie account_subtype
+    total_assets = Account.objects.filter(account_type='assets').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
+    total_liabilities = Account.objects.filter(account_type='liabilities').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
+
     # Przekaż dane do szablonu
     context = {
         'total_accounts': total_accounts,
@@ -318,5 +322,7 @@ def dashboard(request):
         'total_revenues': total_revenues,
         'total_expenses': total_expenses,
         'net_profit': net_profit,
+        'total_assets': total_assets,
+        'total_liabilities': total_liabilities,
     }
     return render(request, 'Accountancy/dashboard.html.jinja', context)
