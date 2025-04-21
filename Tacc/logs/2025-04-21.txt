@@ -137,3 +137,13 @@
 [RESPONSE]	2025-04-21 21:14:31	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 57.57ms | Dane: {}
 [RESPONSE]	2025-04-21 21:14:35	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 23.21ms | Dane: {}
 [RESPONSE]	2025-04-21 21:14:38	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.14ms | Dane: {}
+[RESPONSE]	2025-04-21 21:53:40	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 7.76ms | Dane: {}
+[RESPONSE]	2025-04-21 21:53:40	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.48ms | Dane: {}
+[ERROR]	2025-04-21 21:53:40	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-04-21 21:53:40	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 9.91ms | Dane: {}
+[RESPONSE]	2025-04-21 21:53:40	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.94ms | Dane: {}
+[ERROR]	2025-04-21 21:53:40	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-04-21 21:54:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.49ms | Dane: {}
+[ERROR]	2025-04-21 21:54:18	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/reports/ | OperationalError: no such column: Accountancy_report.book_id | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-04-21 21:54:18	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 32.84ms | Dane: {}
+[ERROR]	2025-04-21 21:54:18	[MAIN.middleware]	Błąd 500 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1

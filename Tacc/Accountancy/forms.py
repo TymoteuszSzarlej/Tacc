@@ -172,11 +172,12 @@ class ReportForm(forms.ModelForm):
         user = kwargs.pop('user', None)  # Pobierz użytkownika
         super().__init__(*args, **kwargs)
         if user:
-            self.fields['book'].queryset = Book.objects.filter(user=user)  # Filtrowanie ksiąg użytkownika
+            # Filtrowanie ksiąg użytkownika
+            self.fields['book'].queryset = Book.objects.filter(user=user)
 
     class Meta:
         model = Report
-        fields = ['report_type', 'start_date', 'end_date', 'name', 'description', 'book']  # Dodanie pola book
+        fields = ['report_type', 'start_date', 'end_date', 'name', 'description', 'book']
         widgets = {
             'start_date': forms.DateInput(attrs={'type': 'date'}),
             'end_date': forms.DateInput(attrs={'type': 'date'}),
@@ -187,7 +188,7 @@ class ReportForm(forms.ModelForm):
             'end_date': 'Data końcowa',
             'name': 'Nazwa raportu',
             'description': 'Opis raportu',
-            'book': 'Księga',  # Etykieta dla pola book
+            'book': 'Księga',
         }
         help_texts = {
             'report_type': 'Wybierz typ raportu, np. "Bilans" lub "Rachunek zysków i strat".',
@@ -195,5 +196,5 @@ class ReportForm(forms.ModelForm):
             'end_date': 'Wybierz datę końcową dla raportu.',
             'name': 'Podaj nazwę raportu, np. "Bilans za Q1 2025".',
             'description': 'Krótki opis raportu, np. "Bilans kwartalny".',
-            'book': 'Wybierz księgę, z której dane mają być uwzględnione w raporcie.',  # Pomoc dla pola book
+            'book': 'Wybierz księgę, z której dane mają być uwzględnione w raporcie.',
         }
