@@ -238,14 +238,13 @@ def reports(request):
 @login_required
 def create_report(request):
     if request.method == 'POST':
-        form = ReportForm(request.POST)
+        form = ReportForm(request.POST, user=request.user)  # Przekazanie użytkownika
         if form.is_valid():
-            report = form.save(commit=False)
-            report.user = request.user
-            report.save()
-            return redirect('reports')
+            form.save()
+            return redirect('reports')  # Przekierowanie po zapisaniu
     else:
-        form = ReportForm()
+        form = ReportForm(user=request.user)  # Przekazanie użytkownika
+
     return render(request, 'Accountancy/reports/create.html.jinja', {'form': form})
 
 @login_required
