@@ -253,18 +253,20 @@ def report_details(request, report_id):
     # Pobranie raportu przypisanego do zalogowanego użytkownika
     report = get_object_or_404(Report, id=report_id, user=request.user)
 
-    # Generowanie danych raportu
-    report_data = report.generate_report()
+    # Pobranie wybranej księgi
+    book = report.book
 
-    # Filtrowanie kont i transakcji tylko dla zalogowanego użytkownika
-    accounts = Account.objects.filter(user=request.user)
-    transactions = Transaction.objects.filter(user=request.user)
+    # Generowanie danych raportu na podstawie wybranej księgi
+    accounts = Account.objects.filter(user=request.user, book=book)
+    transactions = Transaction.objects.filter(user=request.user, credit_account__book=book, debit_account__book=book)
 
     # Przykład dodatkowego przetwarzania danych raportu
     total_assets = accounts.filter(account_type='assets').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
     total_liabilities = accounts.filter(account_type='liabilities').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
     total_revenues = transactions.filter(credit_account__account_type='revenue').aggregate(Sum('amount'))['amount__sum'] or 0
     total_expenses = transactions.filter(debit_account__account_type='expenses').aggregate(Sum('amount'))['amount__sum'] or 0
+
+    report_data = report.generate_report()
 
     context = {
         'report': report,
