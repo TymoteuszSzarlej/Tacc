@@ -1,6 +1,31 @@
 from django import forms
 from .models import *
 
+
+class BookForm(forms.ModelForm):
+    class Meta:
+        model = Book
+        fields = ['name', 'description']
+        widgets = {
+            'name': forms.TextInput(attrs={
+                'class': 'form-control',
+                'placeholder': 'Nazwa księgi',
+            }),
+            'description': forms.Textarea(attrs={
+                'class': 'form-control',
+                'placeholder': 'Opis (opcjonalnie)',
+                'rows': 3,
+            }),
+        }
+
+    def clean_name(self):
+        name = self.cleaned_data.get('name')
+        if len(name) > 63:
+            raise forms.ValidationError("Nazwa księgi nie może przekraczać 63 znaków.")
+        return name
+
+
+
 class AccountForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         user = kwargs.pop('user', None)  # Pobierz użytkownika

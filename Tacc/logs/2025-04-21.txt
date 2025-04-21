@@ -1,0 +1,136 @@
+[RESPONSE]	2025-04-21 21:01:32	[MAIN.middleware]	Odpowiedź 200 | GET / | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 16.43ms | Dane: {}
+[RESPONSE]	2025-04-21 21:01:32	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 4.97ms | Dane: {}
+[ERROR]	2025-04-21 21:01:32	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-21 21:01:33	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.28ms | Dane: {}
+[ERROR]	2025-04-21 21:01:33	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-21 21:01:33	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 6.25ms | Dane: {}
+[ERROR]	2025-04-21 21:01:33	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | OperationalError: no such table: django_site | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-21 21:01:33	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 28.76ms | Dane: {'next': "['/accountancy/']"}
+[ERROR]	2025-04-21 21:01:33	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 1)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 2)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 3)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 4)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 5)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 6)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 7)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 8)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 9)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 10)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 11)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 12)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 13)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 14)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 15)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 16)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 17)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 18)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 19)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 20)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 21)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 22)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 23)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 24)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 25)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 26)
+[SUCCESS]	2025-04-21 21:02:01	[MAIN.signals]	Utworzono nową instancję: Site (ID: 1)
+[RESPONSE]	2025-04-21 21:02:07	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 28.18ms | Dane: {'next': "['/accountancy/']"}
+[RESPONSE]	2025-04-21 21:02:20	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 9.19ms | Dane: {}
+[INF]	2025-04-21 21:02:52	[accounts.views]	przeslano formularz rejestracji użytkownika	<div>
+    <label for="id_username">Username:</label>
+
+<div class="helptext" id="id_username_helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</div>
+
+<input type="text" name="username" value="Tymoteusz" maxlength="150" autofocus required aria-describedby="id_username_helptext" id="id_username">
+    
+</div>
+
+  <div>
+    <label for="id_email">Email:</label>
+
+<div class="helptext" id="id_email_helptext">Podaj poprawny adres e-mail.</div>
+
+<input type="email" name="email" value="tszarlej@gmail.com" maxlength="320" required aria-describedby="id_email_helptext" id="id_email">
+    
+</div>
+
+  <div>
+    <label for="id_password1">Password:</label>
+
+<div class="helptext" id="id_password1_helptext"><ul><li>Your password can’t be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password can’t be a commonly used password.</li><li>Your password can’t be entirely numeric.</li></ul></div>
+
+<input type="password" name="password1" autocomplete="new-password" required aria-describedby="id_password1_helptext" id="id_password1">
+    
+</div>
+
+  <div>
+    <label for="id_password2">Password confirmation:</label>
+
+<div class="helptext" id="id_password2_helptext">Enter the same password as before, for verification.</div>
+
+<input type="password" name="password2" autocomplete="new-password" required aria-describedby="id_password2_helptext" id="id_password2">
+    
+      
+    
+</div>
+[SUC]	2025-04-21 21:02:52	[accounts.views]	formularz poprawny
+[SUCCESS]	2025-04-21 21:02:52	[MAIN.signals]	Utworzono nową instancję: User (ID: 1)
+[RESPONSE]	2025-04-21 21:02:52	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 263.89ms | Dane: {'csrfmiddlewaretoken': "['gMKYGOfjJ9nv4hhlbWHf3BmnOi6a5dUOYJ5Tow8tWiQ8dO6vwL3sh8FnxEcNf3Yw']", 'username': "['Tymoteusz']", 'email': "['tszarlej@gmail.com']", 'password1': '[UKRYTO]', 'password2': '[UKRYTO]'}
+[RESPONSE]	2025-04-21 21:02:52	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 1.5ms | Dane: {}
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Session (ID: 9rdo351eki2ch7yt0jn21sujmfyv2a9d)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Zaktualizowano instancję: User (ID: 1)
+[RESPONSE]	2025-04-21 21:03:03	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 249.55ms | Dane: {'csrfmiddlewaretoken': "['TCJCE1CzpqzSUHbzVDlq1Yvo0jdakcD5Bz4xmJvJCz2v3e0JgsHDfvOoJFjNu2HN']", 'username': "['Tymoteusz']", 'password': '[UKRYTO]'}
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 9rdo351eki2ch7yt0jn21sujmfyv2a9d)
+[RESPONSE]	2025-04-21 21:03:03	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 1.32ms | Dane: {}
+[RESPONSE]	2025-04-21 21:03:03	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.36ms | Dane: {}
+[ERROR]	2025-04-21 21:03:03	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Book (ID: 1)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 1)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 2)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 3)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 4)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 5)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 6)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 7)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 8)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 9)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 10)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 11)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 12)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 13)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 14)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 15)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 16)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 17)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 18)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 19)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 20)
+[SUCCESS]	2025-04-21 21:03:03	[MAIN.signals]	Utworzono nową instancję: Account (ID: 21)
+[SUCCESS]	2025-04-21 21:03:04	[MAIN.signals]	Utworzono nową instancję: Account (ID: 22)
+[SUCCESS]	2025-04-21 21:03:04	[MAIN.signals]	Utworzono nową instancję: Account (ID: 23)
+[SUCCESS]	2025-04-21 21:03:04	[MAIN.signals]	Utworzono nową instancję: Account (ID: 24)
+[SUCCESS]	2025-04-21 21:03:04	[MAIN.signals]	Utworzono nową instancję: Account (ID: 25)
+[SUCCESS]	2025-04-21 21:03:04	[MAIN.signals]	Utworzono nową instancję: Account (ID: 26)
+[SUCCESS]	2025-04-21 21:03:04	[MAIN.signals]	Utworzono nową instancję: Account (ID: 27)
+[SUCCESS]	2025-04-21 21:03:04	[MAIN.signals]	Utworzono nową instancję: Account (ID: 28)
+[SUCCESS]	2025-04-21 21:03:04	[MAIN.signals]	Utworzono nową instancję: Account (ID: 29)
+[SUCCESS]	2025-04-21 21:03:04	[MAIN.signals]	Utworzono nową instancję: Account (ID: 30)
+[SUCCESS]	2025-04-21 21:03:04	[MAIN.signals]	Utworzono nową instancję: Account (ID: 31)
+[SUCCESS]	2025-04-21 21:03:04	[MAIN.signals]	Utworzono nową instancję: Account (ID: 32)
+[SUCCESS]	2025-04-21 21:03:04	[MAIN.signals]	Utworzono nową instancję: Account (ID: 33)
+[SUCCESS]	2025-04-21 21:03:04	[MAIN.signals]	Utworzono nową instancję: Account (ID: 34)
+[RESPONSE]	2025-04-21 21:03:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 181.62ms | Dane: {}
+[RESPONSE]	2025-04-21 21:03:04	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.79ms | Dane: {}
+[ERROR]	2025-04-21 21:03:04	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-04-21 21:04:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.35ms | Dane: {}
+[RESPONSE]	2025-04-21 21:04:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.35ms | Dane: {}
+[SUCCESS]	2025-04-21 21:04:13	[MAIN.signals]	Utworzono nową instancję: Report (ID: 1)
+[RESPONSE]	2025-04-21 21:04:13	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/report/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 10.58ms | Dane: {'csrfmiddlewaretoken': "['oM1vDtbzUC4yRlD4gN7zO3Rdem4Jr2gkZdAejyVEeLQI882ketBgUhEFNe89vgKV']", 'report_type': "['balance_sheet']", 'start_date': "['2025-04-01']", 'end_date': "['2025-04-30']", 'name': "['terst']", 'description': "['test']"}
+[RESPONSE]	2025-04-21 21:04:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.95ms | Dane: {}
+[RESPONSE]	2025-04-21 21:04:14	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 27.88ms | Dane: {}
+[RESPONSE]	2025-04-21 21:05:50	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 26.29ms | Dane: {}
+[RESPONSE]	2025-04-21 21:07:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 26.32ms | Dane: {}
+[RESPONSE]	2025-04-21 21:07:44	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 25.39ms | Dane: {}
+[RESPONSE]	2025-04-21 21:08:20	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 25.71ms | Dane: {}
+[RESPONSE]	2025-04-21 21:08:21	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 26.46ms | Dane: {}
+[RESPONSE]	2025-04-21 21:08:21	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 25.6ms | Dane: {}

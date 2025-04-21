@@ -8,7 +8,7 @@
 
     {% if report.report_type == 'balance_sheet' %}
     <!-- Sekcja dla bilansu -->
-    <div class="card">
+    <div class="table-container">
         <h4>Bilans - Aktywa</h4>
         <table class="table table-bordered">
             <thead>
@@ -32,7 +32,7 @@
         </table>
     </div>
 
-    <div class="card">
+    <div class="table-container">
         <h4>Bilans - Pasywa</h4>
         <table class="table table-bordered">
             <thead>
@@ -62,7 +62,7 @@
 
     {% elif report.report_type == 'income_statement' %}
     <!-- Sekcja dla rachunku zysków i strat -->
-    <div class="card">
+    <div class="table-container">
         <h4>Rachunek Zysków i Strat - Przychody</h4>
         <table class="table table-bordered">
             <thead>
@@ -86,7 +86,7 @@
         </table>
     </div>
 
-    <div class="card">
+    <div class="table-container">
         <h4>Rachunek Zysków i Strat - Koszty</h4>
         <table class="table table-bordered">
             <thead>
@@ -116,7 +116,7 @@
 
     {% elif report.report_type == 'cash_flow_statement' %}
     <!-- Sekcja dla rachunku przepływów pieniężnych -->
-    <div class="card">
+    <div class="table-container">
         <h4>Rachunek Przepływów Pieniężnych</h4>
         <table class="table table-bordered">
             <thead>
