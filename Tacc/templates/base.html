@@ -1,5 +1,5 @@
 <style>
-/* ========= Ogólne elementy HTML ========= */
+/* ========= Podstawowe style ========= */
 html, body {
     margin: 0;
     padding: 0;
@@ -7,16 +7,18 @@ html, body {
     background-color: #222;
     color: #fff;
     text-align: center;
-    height: 100%; /* Pełna wysokość */
+    height: 100%;
 }
 
+/* Układ kontenera na pełną wysokość */
 body {
     display: flex;
-    flex-direction: column; /* Układ w kolumnie */
-    height: 100vh; /* Wysokość na pełne okno przeglądarki */
+    flex-direction: column;
+    height: 100vh;
     box-sizing: border-box;
 }
 
+/* Nagłówek */
 header {
     background-color: turquoise;
     padding: 10px;
@@ -27,9 +29,10 @@ header {
     z-index: 1000;
 }
 
+/* Pasek boczny */
 aside {
     width: 250px;
-    height: 100vh; /* Zajmuje pełną wysokość ekranu */
+    height: 100vh;
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -42,21 +45,21 @@ aside {
     left: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Rozciągnij zawartość */
+    justify-content: space-between;
 }
 
 aside.active {
-    transform: translateX(0); /* Pokaż aside, gdy aktywne */
+    transform: translateX(0);
 }
 
 aside nav ul {
-    list-style: none; /* Usuń kropki */
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 aside nav ul li {
-    margin: 0px 0; /* Większy odstęp między elementami */
+    margin: 10px 0;
 }
 
 aside nav ul li a {
@@ -75,183 +78,131 @@ aside nav ul li a:hover {
     color: #000;
 }
 
+/* Główna zawartość */
 main {
     background: linear-gradient(to bottom right, #444, #222);
     align-items: center;
     justify-content: center;
     padding: 20px;
     box-sizing: border-box;
-    padding-top: 160px; /* Uwzględnij wysokość nagłówka */
-    margin-left: 0; /* Brak odstępu od lewej */
+    padding-top: 160px;
+    margin-left: 0;
     padding-bottom: 260px;
-
 }
 
-main a {
-    display: inline-block; /* Każdy link zajmuje swoją przestrzeń */
-    text-decoration: none; /* Usuń podkreślenie */
-    color: #fff; /* Biały tekst */
-    padding: 10px 20px; /* Wewnętrzne odstępy */
-    margin: 10px; /* Zewnętrzne odstępy między linkami */
-    border: 2px solid magenta; /* Magenta ramka */
-    border-radius: 10px; /* Zaokrąglone rogi */
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    text-align: center; /* Wyśrodkowanie tekstu w linku */
-}
-
-main a:hover {
-    background-color: magenta; /* Magenta tło po najechaniu */
-    color: #000; /* Czarny tekst po najechaniu */
-}
-
-footer {
-    background-color: turquoise;
-    padding: 10px;
-    width: 100%;
-    box-sizing: border-box;
-    position: fixed;
-    bottom: 0;
-    z-index: 1000;
-}
-
-#toggle-aside {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 1100;
-    background-color: magenta;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-/* Stylizacja przycisków */
+/* Przyciski */
 button {
-    background-color: #000; /* Czarny kolor tła */
-    color: #fff; /* Biały tekst */
-    border: 2px solid turquoise; /* Turkusowa ramka */
-    border-radius: 10px; /* Zaokrąglone rogi */
+    background-color: #000;
+    color: #fff;
+    border: 2px solid turquoise;
+    border-radius: 10px;
     padding: 10px 20px;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
+    width: 100%;
+    font-size: 18px;
 }
 
 button:hover {
-    background-color: turquoise; /* Turkusowe tło po najechaniu */
-    color: #000; /* Czarny tekst po najechaniu */
+    background-color: turquoise;
+    color: #000;
 }
 
-/* Stylizacja linków */
+/* Linki */
 a {
-    color: #fff; /* Biały tekst */
-    text-decoration: none; /* Usuń podkreślenie */
-    border: 2px solid magenta; /* Magenta ramka */
-    border-radius: 10px; /* Zaokrąglone rogi */
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid magenta;
+    border-radius: 10px;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
+    display: block;
 }
 
 a:hover {
-    background-color: magenta; /* Magenta tło po najechaniu */
-    color: #000; /* Czarny tekst po najechaniu */
+    background-color: magenta;
+    color: #000;
 }
 
-input {
-    color: #fff; /* Biały tekst */
-    background-color: black; /* Ciemne tło */
-    text-decoration: none; /* Usuń podkreślenie */
-    border: 2px solid magenta; /* Magenta ramka */
-    border-radius: 10px; /* Zaokrąglone rogi */
-    padding: 10px 20px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 50px auto;
-}
-
-th, td {
-    padding: 20px;
-    border: 2px solid cyan; /* Magenta ramka */
-    text-align: center;
-    margin: 30px;
-}
-
-
-
+/* Kontener treści */
 .container {
     display: flex;
-    flex-direction: column; /* Układ w kolumnie */
-    align-items: center; /* Wyśrodkowanie w poziomie */
-    justify-content: center; /* Wyśrodkowanie w pionie */
-    height: 100%; /* Pełna wysokość */
-    text-align: center; /* Wyśrodkowanie tekstu */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
 }
 
+/* Karty */
 .card {
-    background-color: #333; /* Ciemne tło dla kart */
-    color: #fff; /* Biały tekst */
+    background-color: #333;
+    color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 60%; /* Szerokość karty */
-    text-align: center; /* Wyśrodkowanie tekstu */
+    width: 90%;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-img.logo {
-    width: 50px; /* Szerokość logo */
-    height: auto; /* Automatyczna wysokość */
-    margin-right: 10px; /* Odstęp od tekstu */
-    right: 10px; /* Odstęp od prawej krawędzi */
-}
-
-/* Układ dla urządzeń mobilnych */
-@media (max-width: 768px) {
-    aside {
-        width: 100%; /* Aside zajmuje całą szerokość */
-        height: auto; /* Automatyczna wysokość */
-    }
-
-    main {
-        margin-top: 60px; /* Uwzględnij wysokość nagłówka */
-    }
-}
-
-#toggle-aside {
-    display: block; /* Upewnij się, że jest widoczny */
-}
-
-header h1, header h3 {
-    font-size: 1.2em;
-    margin: 5px 0;
-}
-
-/* Kontener tabeli – ważne, by go mieć */
+/* Tabela */
 .table-container {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-/* Sama tabela */
 table {
+    width: 100%;
     border-collapse: collapse;
-    margin: 50px 0; /* tylko góra/dół */
-    width: auto;
-    border: 1px solid cyan;
+    margin: 20px auto;
+    border: 2px solid cyan;
 }
 
-table {
-    margin-left: auto;
-    margin-right: auto;
-    display: table;
+th, td {
+    padding: 15px;
+    border: 2px solid cyan;
+    text-align: center;
+}
+
+/* Styl dla urządzeń mobilnych */
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    aside {
+        width: 100%;
+        height: auto;
+        position: relative;
+        transform: translateX(0);
+    }
+
+    main {
+        margin-left: 0;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main a {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    button {
+        font-size: 20px;
+        width: 100%;
+    }
 }
 
 </style>
