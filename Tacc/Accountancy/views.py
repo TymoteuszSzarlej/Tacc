@@ -345,21 +345,49 @@ def financial_analysis(request):
 
 @login_required
 def financial_forecast(request):
-    total_revenues = Transaction.objects.filter(credit_account__account_type='revenue').aggregate(Sum('amount'))['amount__sum'] or 0
-    total_expenses = Transaction.objects.filter(debit_account__account_type='expenses').aggregate(Sum('amount'))['amount__sum'] or 0
-    total_assets = Account.objects.filter(account_type='assets').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
-    total_liabilities = Account.objects.filter(account_type='liabilities').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
+    user = request.user
+
+    total_revenues = Transaction.objects.filter(
+        credit_account__account_type='revenue',
+        user=user
+    ).aggregate(Sum('amount'))['amount__sum'] or 0
+
+    total_expenses = Transaction.objects.filter(
+        debit_account__account_type='expenses',
+        user=user
+    ).aggregate(Sum('amount'))['amount__sum'] or 0
+
+    total_assets = Account.objects.filter(
+        account_type='assets',
+        user=user
+    ).aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
+
+    total_liabilities = Account.objects.filter(
+        account_type='liabilities',
+        user=user
+    ).aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
 
     today = datetime.today()
     forecast_data = {
         'dates': [(today + timedelta(days=i * 30)).strftime('%Y-%m') for i in range(12)],
-        'revenues': [float(total_revenues) * (1 + 0.02 * i) for i in range(12)],
-        'expenses': [float(total_expenses) * (1 + 0.015 * i) for i in range(12)],
-        'profits': [(float(total_revenues) * (1 + 0.02 * i)) - (total_expenses * (1 + 0.015 * i)) for i in range(12)],
+        'revenues': [],
+        'expenses': [],
+        'profits': [],
     }
 
+    for i in range(12):
+        forecast_revenue = float(total_revenues) * (1 + 0.02 * i)
+        forecast_expense = float(total_expenses) * (1 + 0.015 * i)
+        forecast_profit = forecast_revenue - forecast_expense
+
+        forecast_data['revenues'].append(round(forecast_revenue, 2))
+        forecast_data['expenses'].append(round(forecast_expense, 2))
+        forecast_data['profits'].append(round(forecast_profit, 2))
+
     return render(request, 'Accountancy/forecast/financial_forecast.html.jinja', {
-        'forecast_data': forecast_data
+        'forecast_data': forecast_data,
+        'total_assets': total_assets,
+        'total_liabilities': total_liabilities,
     })
 
 @login_required
