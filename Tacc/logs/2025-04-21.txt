@@ -147,3 +147,32 @@
 [ERROR]	2025-04-21 21:54:18	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/reports/ | OperationalError: no such column: Accountancy_report.book_id | Użytkownik: Tymoteusz | IP: 127.0.0.1
 [RESPONSE]	2025-04-21 21:54:18	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 32.84ms | Dane: {}
 [ERROR]	2025-04-21 21:54:18	[MAIN.middleware]	Błąd 500 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-04-21 23:02:37	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 8.47ms | Dane: {}
+[RESPONSE]	2025-04-21 23:02:37	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 12.15ms | Dane: {}
+[RESPONSE]	2025-04-21 23:02:37	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.47ms | Dane: {}
+[ERROR]	2025-04-21 23:02:37	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-04-21 23:05:01	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.92ms | Dane: {}
+[RESPONSE]	2025-04-21 23:05:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.37ms | Dane: {}
+[RESPONSE]	2025-04-21 23:05:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.97ms | Dane: {}
+[RESPONSE]	2025-04-21 23:05:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.52ms | Dane: {}
+[RESPONSE]	2025-04-21 23:05:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 11.2ms | Dane: {}
+[RESPONSE]	2025-04-21 23:05:30	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.76ms | Dane: {}
+[RESPONSE]	2025-04-21 23:17:42	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 1.76ms | Dane: {}
+[RESPONSE]	2025-04-21 23:17:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.7ms | Dane: {}
+[RESPONSE]	2025-04-21 23:18:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 9.11ms | Dane: {}
+[RESPONSE]	2025-04-21 23:18:25	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/budgets/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.02ms | Dane: {}
+[RESPONSE]	2025-04-21 23:19:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/budgets/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.02ms | Dane: {}
+[RESPONSE]	2025-04-21 23:20:06	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/budgets/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.97ms | Dane: {}
+[RESPONSE]	2025-04-21 23:20:20	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/budgets/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.32ms | Dane: {}
+[RESPONSE]	2025-04-21 23:20:47	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 8.31ms | Dane: {}
+[RESPONSE]	2025-04-21 23:20:49	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/1/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.2ms | Dane: {}
+[RESPONSE]	2025-04-21 23:22:21	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/1/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.27ms | Dane: {}
+[RESPONSE]	2025-04-21 23:23:21	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/1/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.9ms | Dane: {}
+[RESPONSE]	2025-04-21 23:23:36	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.85ms | Dane: {}
+[ERROR]	2025-04-21 23:23:40	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/reports/ | OperationalError: no such column: Accountancy_report.book_id | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-04-21 23:23:40	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 33.25ms | Dane: {}
+[ERROR]	2025-04-21 23:23:40	[MAIN.middleware]	Błąd 500 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[SUCCESS]	2025-04-21 23:24:35	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 27)
+[RESPONSE]	2025-04-21 23:24:44	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 11.65ms | Dane: {}
+[RESPONSE]	2025-04-21 23:24:46	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 29.17ms | Dane: {}
+[RESPONSE]	2025-04-21 23:24:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/edit/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 8.25ms | Dane: {}

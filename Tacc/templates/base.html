@@ -1,38 +1,49 @@
 <style>
-/* ========= Ogólne elementy HTML ========= */
+    /* ========= Ogólne ========= */
 html, body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     background-color: #222;
     color: #fff;
     text-align: center;
-    height: 100%; /* Pełna wysokość */
+    height: 100%;
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 body {
     display: flex;
-    flex-direction: column; /* Układ w kolumnie */
-    height: 100vh; /* Wysokość na pełne okno przeglądarki */
+    flex-direction: column;
+    height: 100vh;
     box-sizing: border-box;
 }
 
+/* ========= Nagłówek ========= */
 header {
-    background-color: turquoise;
-    padding: 10px;
+    background: linear-gradient(135deg, turquoise, magenta);
+    padding: 20px;
     width: 100%;
     box-sizing: border-box;
     position: fixed;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
+header h1, header h3 {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+/* ========= Nawigacja boczna ========= */
 aside {
     width: 250px;
-    height: 100vh; /* Zajmuje pełną wysokość ekranu */
+    height: 100vh;
     background-color: #333;
     color: #fff;
     padding: 20px;
+    padding-top: 80px; /* dodany odstęp od góry */
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
     z-index: 1000;
     transform: translateX(-100%);
@@ -42,217 +53,244 @@ aside {
     left: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Rozciągnij zawartość */
+    justify-content: space-between;
 }
 
+
 aside.active {
-    transform: translateX(0); /* Pokaż aside, gdy aktywne */
+    transform: translateX(0);
+    opacity: 1;
 }
 
 aside nav ul {
-    list-style: none; /* Usuń kropki */
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 aside nav ul li {
-    margin: 0px 0; /* Większy odstęp między elementami */
+    margin: 10px 0;
 }
 
 aside nav ul li a {
     display: block;
-    text-decoration: none;
-    color: #fff;
-    padding: 10px;
-    border: 2px solid magenta;
-    border-radius: 10px;
-    text-align: center;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-aside nav ul li a:hover {
-    background-color: magenta;
-    color: #000;
-}
-
+/* ========= Główna zawartość ========= */
 main {
     background: linear-gradient(to bottom right, #444, #222);
+    padding: 30px 20px;
+    padding-top: 160px;
+    padding-bottom: 260px;
+    margin-left: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    width: 90%;
+    max-width: 600px;
+    font-size: 1.2em;
+}
+
+/* ========= Tabela ========= */
+.table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+table {
+    width: auto;
+    margin: 50px 0;
+    border-collapse: collapse;
+    border: 2px solid cyan;
+}
+
+th, td {
     padding: 20px;
-    box-sizing: border-box;
-    padding-top: 160px; /* Uwzględnij wysokość nagłówka */
-    margin-left: 0; /* Brak odstępu od lewej */
-    padding-bottom: 260px;
-
+    border: 2px solid cyan;
+    text-align: center;
 }
 
-main a {
-    display: inline-block; /* Każdy link zajmuje swoją przestrzeń */
-    text-decoration: none; /* Usuń podkreślenie */
-    color: #fff; /* Biały tekst */
-    padding: 10px 20px; /* Wewnętrzne odstępy */
-    margin: 10px; /* Zewnętrzne odstępy między linkami */
-    border: 2px solid magenta; /* Magenta ramka */
-    border-radius: 10px; /* Zaokrąglone rogi */
+/* ========= Przycisk aside toggle ========= */
+#toggle-aside {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1100;
+    background-color: magenta;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 20px;
     font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    text-align: center; /* Wyśrodkowanie tekstu w linku */
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(255, 0, 255, 0.4);
 }
 
-main a:hover {
-    background-color: magenta; /* Magenta tło po najechaniu */
-    color: #000; /* Czarny tekst po najechaniu */
+#toggle-aside:hover {
+    background-color: #ff66ff; /* jaśniejsza magenta */
+    transform: scale(1.05);
 }
 
+
+/* ========= Przycisk ogólny ========= */
+button {
+    background: #000;
+    color: #fff;
+    border: 2px solid turquoise;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, turquoise, magenta);
+    color: #000;
+    box-shadow: 0 0 12px magenta;
+}
+
+/* ========= Linki ========= */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid magenta;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+a:hover {
+    background-color: magenta;
+    color: #000;
+    box-shadow: 0 0 10px magenta;
+}
+
+/* ========= Inputy ========= */
+input {
+    background-color: #111;
+    color: #fff;
+    border: 2px solid magenta;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    border-color: turquoise;
+    box-shadow: 0 0 10px turquoise;
+    outline: none;
+}
+
+/* ========= Stopka ========= */
+footer {
+    background: linear-gradient(to right, turquoise, magenta);
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    font-size: 1em;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.3);
+}
+
+/* ========= Logo ========= */
+img.logo {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* ========= RWD ========= */
+@media (max-width: 768px) {
+    html, body {
+        font-size: 20px;
+    }
+
+    main {
+        padding-top: 140px;
+        padding-bottom: 180px;
+    }
+
+    .card {
+        width: 95%;
+        font-size: 1.3em;
+    }
+
+    aside {
+        width: 100%;
+        height: 100vh;
+    }
+
+    table {
+        font-size: 1em;
+    }
+}
+
+/* Animacja płynnego przejścia między turkusem a magentą */
+@keyframes smoothGradient {
+    0% {
+        background-color: turquoise;
+    }
+    50% {
+        background-color: magenta;
+    }
+    100% {
+        background-color: turquoise;
+    }
+}
+
+/* Nagłówek z płynną animacją kolorów */
+header {
+    background-color: turquoise;
+    animation: smoothGradient 6s ease-in-out infinite;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
+}
+
+/* Stopka z tą samą animacją */
 footer {
     background-color: turquoise;
+    animation: smoothGradient 6s ease-in-out infinite;
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
     position: fixed;
     bottom: 0;
     z-index: 1000;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
 }
 
-#toggle-aside {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 1100;
-    background-color: magenta;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-/* Stylizacja przycisków */
-button {
-    background-color: #000; /* Czarny kolor tła */
-    color: #fff; /* Biały tekst */
-    border: 2px solid turquoise; /* Turkusowa ramka */
-    border-radius: 10px; /* Zaokrąglone rogi */
-    padding: 10px 20px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-button:hover {
-    background-color: turquoise; /* Turkusowe tło po najechaniu */
-    color: #000; /* Czarny tekst po najechaniu */
-}
-
-/* Stylizacja linków */
-a {
-    color: #fff; /* Biały tekst */
-    text-decoration: none; /* Usuń podkreślenie */
-    border: 2px solid magenta; /* Magenta ramka */
-    border-radius: 10px; /* Zaokrąglone rogi */
-    padding: 10px;
-    margin: 20px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-a:hover {
-    background-color: magenta; /* Magenta tło po najechaniu */
-    color: #000; /* Czarny tekst po najechaniu */
-}
-
-input {
-    color: #fff; /* Biały tekst */
-    background-color: black; /* Ciemne tło */
-    text-decoration: none; /* Usuń podkreślenie */
-    border: 2px solid magenta; /* Magenta ramka */
-    border-radius: 10px; /* Zaokrąglone rogi */
-    padding: 10px 20px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 50px auto;
-}
-
-th, td {
-    padding: 20px;
-    border: 2px solid cyan; /* Magenta ramka */
-    text-align: center;
-    margin: 30px;
-}
-
-
-
-.container {
-    display: flex;
-    flex-direction: column; /* Układ w kolumnie */
-    align-items: center; /* Wyśrodkowanie w poziomie */
-    justify-content: center; /* Wyśrodkowanie w pionie */
-    height: 100%; /* Pełna wysokość */
-    text-align: center; /* Wyśrodkowanie tekstu */
-}
-
-.card {
-    background-color: #333; /* Ciemne tło dla kart */
-    color: #fff; /* Biały tekst */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 60%; /* Szerokość karty */
-    text-align: center; /* Wyśrodkowanie tekstu */
-}
-
-img.logo {
-    width: 50px; /* Szerokość logo */
-    height: auto; /* Automatyczna wysokość */
-    margin-right: 10px; /* Odstęp od tekstu */
-    right: 10px; /* Odstęp od prawej krawędzi */
-}
-
-/* Układ dla urządzeń mobilnych */
-@media (max-width: 768px) {
-    aside {
-        width: 100%; /* Aside zajmuje całą szerokość */
-        height: auto; /* Automatyczna wysokość */
-    }
-
-    main {
-        margin-top: 60px; /* Uwzględnij wysokość nagłówka */
-    }
-}
-
-#toggle-aside {
-    display: block; /* Upewnij się, że jest widoczny */
-}
-
-header h1, header h3 {
-    font-size: 1.2em;
-    margin: 5px 0;
-}
-
-/* Kontener tabeli – ważne, by go mieć */
-.table-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-/* Sama tabela */
-table {
-    border-collapse: collapse;
-    margin: 50px 0; /* tylko góra/dół */
-    width: auto;
-    border: 1px solid cyan;
-}
-
-table {
-    margin-left: auto;
-    margin-right: auto;
-    display: table;
-}
 
 </style>
 <head>
