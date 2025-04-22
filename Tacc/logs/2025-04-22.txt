@@ -57,3 +57,6 @@
 [ERROR]	2025-04-22 01:21:53	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
 [RESPONSE]	2025-04-22 01:22:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.28ms | Dane: {}
 [RESPONSE]	2025-04-22 01:23:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.74ms | Dane: {}
+[RESPONSE]	2025-04-22 01:24:25	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 13.48ms | Dane: {}
+[RESPONSE]	2025-04-22 01:25:31	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.43ms | Dane: {}
+[RESPONSE]	2025-04-22 01:25:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.7ms | Dane: {}
