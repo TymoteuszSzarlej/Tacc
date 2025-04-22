@@ -1,0 +1,59 @@
+[RESPONSE]	2025-04-22 01:12:26	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/edit/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 18.97ms | Dane: {}
+[RESPONSE]	2025-04-22 01:17:19	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/edit/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 17.65ms | Dane: {}
+[RESPONSE]	2025-04-22 01:17:21	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/edit/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.25ms | Dane: {}
+[RESPONSE]	2025-04-22 01:17:24	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/edit/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.88ms | Dane: {}
+[RESPONSE]	2025-04-22 01:17:24	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/edit/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.54ms | Dane: {}
+[RESPONSE]	2025-04-22 01:17:25	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/edit/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.78ms | Dane: {}
+[RESPONSE]	2025-04-22 01:17:46	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/edit/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 16.76ms | Dane: {}
+[SUCCESS]	2025-04-22 01:17:49	[MAIN.signals]	Usunięto instancję: Session (ID: 9rdo351eki2ch7yt0jn21sujmfyv2a9d)
+[RESPONSE]	2025-04-22 01:17:49	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/logout/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 10.37ms | Dane: {'csrfmiddlewaretoken': '[UKRYTO]'}
+[RESPONSE]	2025-04-22 01:17:49	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 3.69ms | Dane: {}
+[RESPONSE]	2025-04-22 01:17:49	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.17ms | Dane: {}
+[ERROR]	2025-04-22 01:17:49	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[SUCCESS]	2025-04-22 01:18:03	[MAIN.signals]	Utworzono nową instancję: Session (ID: 15d4yy0ptaegc2k91gy79065chzycc4p)
+[SUCCESS]	2025-04-22 01:18:03	[MAIN.signals]	Zaktualizowano instancję: User (ID: 1)
+[RESPONSE]	2025-04-22 01:18:03	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 242.45ms | Dane: {'csrfmiddlewaretoken': '[UKRYTO]', 'username': '[UKRYTO]', 'password': '[UKRYTO]'}
+[SUCCESS]	2025-04-22 01:18:03	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 15d4yy0ptaegc2k91gy79065chzycc4p)
+[RESPONSE]	2025-04-22 01:18:03	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 1.43ms | Dane: {}
+[RESPONSE]	2025-04-22 01:18:03	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.07ms | Dane: {}
+[ERROR]	2025-04-22 01:18:03	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-04-22 01:18:03	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.62ms | Dane: {}
+[RESPONSE]	2025-04-22 01:18:03	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.45ms | Dane: {}
+[ERROR]	2025-04-22 01:18:03	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-04-22 01:19:51	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 16.88ms | Dane: {}
+[SUCCESS]	2025-04-22 01:19:55	[MAIN.signals]	Usunięto instancję: Session (ID: 15d4yy0ptaegc2k91gy79065chzycc4p)
+[RESPONSE]	2025-04-22 01:19:55	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/logout/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 10.85ms | Dane: {}
+[RESPONSE]	2025-04-22 01:19:55	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 4.62ms | Dane: {}
+[RESPONSE]	2025-04-22 01:19:55	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 3.41ms | Dane: {}
+[ERROR]	2025-04-22 01:19:55	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[SUCCESS]	2025-04-22 01:20:00	[MAIN.signals]	Utworzono nową instancję: Session (ID: qjuuy6dmdwtsp0kf6uc5qyqrefs7gl9a)
+[SUCCESS]	2025-04-22 01:20:00	[MAIN.signals]	Zaktualizowano instancję: User (ID: 1)
+[RESPONSE]	2025-04-22 01:20:00	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 246.44ms | Dane: {}
+[SUCCESS]	2025-04-22 01:20:00	[MAIN.signals]	Zaktualizowano instancję: Session (ID: qjuuy6dmdwtsp0kf6uc5qyqrefs7gl9a)
+[RESPONSE]	2025-04-22 01:20:00	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 1.44ms | Dane: {}
+[RESPONSE]	2025-04-22 01:20:00	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.25ms | Dane: {}
+[ERROR]	2025-04-22 01:20:00	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-04-22 01:20:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.13ms | Dane: {}
+[RESPONSE]	2025-04-22 01:20:00	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.45ms | Dane: {}
+[ERROR]	2025-04-22 01:20:00	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-04-22 01:21:07	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 1.52ms | Dane: {}
+[RESPONSE]	2025-04-22 01:21:07	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.61ms | Dane: {}
+[SUCCESS]	2025-04-22 01:21:14	[MAIN.signals]	Usunięto instancję: Session (ID: qjuuy6dmdwtsp0kf6uc5qyqrefs7gl9a)
+[RESPONSE]	2025-04-22 01:21:14	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/logout/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 9.31ms | Dane: {}
+[RESPONSE]	2025-04-22 01:21:14	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 1.53ms | Dane: {}
+[RESPONSE]	2025-04-22 01:21:14	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.6ms | Dane: {}
+[ERROR]	2025-04-22 01:21:14	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-22 01:21:18	[MAIN.middleware]	Odpowiedź 200 | GET / | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 0.28ms | Dane: {}
+[RESPONSE]	2025-04-22 01:21:50	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.1ms | Dane: {}
+[ERROR]	2025-04-22 01:21:50	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-04-22 01:21:50	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 0.26ms | Dane: {}
+[RESPONSE]	2025-04-22 01:21:50	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 1.99ms | Dane: {}
+[SUCCESS]	2025-04-22 01:21:53	[MAIN.signals]	Utworzono nową instancję: Session (ID: ghzmlayv6fytql8914utlyf37d226nq7)
+[SUCCESS]	2025-04-22 01:21:53	[MAIN.signals]	Zaktualizowano instancję: User (ID: 1)
+[RESPONSE]	2025-04-22 01:21:53	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 239.01ms | Dane: {}
+[SUCCESS]	2025-04-22 01:21:53	[MAIN.signals]	Zaktualizowano instancję: Session (ID: ghzmlayv6fytql8914utlyf37d226nq7)
+[RESPONSE]	2025-04-22 01:21:53	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.38ms | Dane: {}
+[RESPONSE]	2025-04-22 01:21:53	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.01ms | Dane: {}
+[ERROR]	2025-04-22 01:21:53	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-04-22 01:22:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.28ms | Dane: {}
+[RESPONSE]	2025-04-22 01:23:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.74ms | Dane: {}

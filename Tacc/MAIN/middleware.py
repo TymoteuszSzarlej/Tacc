@@ -18,12 +18,13 @@ class LogMiddleware(MiddlewareMixin):
         path = request.path
         duration = round((time.time() - getattr(request, "_start_time", time.time())) * 1000, 2)
 
+        sanitized_data = {}
         # Dane GET / POST (ograniczamy długość i ukrywamy hasła)
-        params = dict(request.GET or request.POST)
-        sanitized_data = {
-            k: ("[UKRYTO]" if "password" in k.lower() else str(v)[:100])
-            for k, v in params.items()
-        }
+        # params = dict(request.GET or request.POST)
+        # sanitized_data = {
+        #     k: ("[UKRYTO]" if "password" in k.lower() else str(v)[:100])
+        #     for k, v in params.items()
+        # }
 
         # Loguj odpowiedź
         log(

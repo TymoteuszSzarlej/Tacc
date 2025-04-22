@@ -33,7 +33,6 @@ def log(msg, lvl='debug'):
         os.makedirs(log_dir)  # Tworzy katalog, jeśli nie istnieje
 
     log_file_path = os.path.join(log_dir, f"{date_str}.txt")
-    print(log_file_path)
     # Zapis do pliku (bez kolorów)
     with open(log_file_path, "a") as log_file:
         log_file.write(f"[{lvl.upper()}]\t{time_str}\t[{module_name}]\t{msg}\n")
