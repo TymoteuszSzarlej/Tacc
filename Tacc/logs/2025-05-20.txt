@@ -1,0 +1,81 @@
+[RESPONSE]	2025-05-20 09:28:19	[MAIN.middleware]	Odpowiedź 200 | GET / | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 1.61ms | Dane: {}
+[RESPONSE]	2025-05-20 09:28:20	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 9.08ms | Dane: {}
+[ERROR]	2025-05-20 09:28:20	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-05-20 09:28:21	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.96ms | Dane: {}
+[ERROR]	2025-05-20 09:28:21	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-05-20 09:28:21	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 3.69ms | Dane: {}
+[RESPONSE]	2025-05-20 09:28:21	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 7.98ms | Dane: {}
+[SUCCESS]	2025-05-20 09:28:52	[MAIN.signals]	Zaktualizowano instancję: User (ID: 1)
+[SUCCESS]	2025-05-20 09:28:52	[MAIN.signals]	Utworzono nową instancję: Session (ID: iz4di6q386qkbk0z26ljdccjrs43pm02)
+[SUCCESS]	2025-05-20 09:28:52	[MAIN.signals]	Zaktualizowano instancję: User (ID: 1)
+[RESPONSE]	2025-05-20 09:28:52	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 383.44ms | Dane: {}
+[SUCCESS]	2025-05-20 09:28:52	[MAIN.signals]	Zaktualizowano instancję: Session (ID: iz4di6q386qkbk0z26ljdccjrs43pm02)
+[RESPONSE]	2025-05-20 09:28:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 8.35ms | Dane: {}
+[RESPONSE]	2025-05-20 09:28:52	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.62ms | Dane: {}
+[ERROR]	2025-05-20 09:28:52	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-05-20 09:28:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 7.28ms | Dane: {}
+[RESPONSE]	2025-05-20 09:28:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/edit/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 7.75ms | Dane: {}
+[SUCCESS]	2025-05-20 09:28:58	[MAIN.signals]	Zaktualizowano instancję: Report (ID: 1)
+[RESPONSE]	2025-05-20 09:28:58	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/report/1/edit/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 13.25ms | Dane: {}
+[RESPONSE]	2025-05-20 09:28:58	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.71ms | Dane: {}
+[RESPONSE]	2025-05-20 09:29:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/edit/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.59ms | Dane: {}
+[SUCCESS]	2025-05-20 09:29:05	[MAIN.signals]	Zaktualizowano instancję: Report (ID: 1)
+[RESPONSE]	2025-05-20 09:29:05	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/report/1/edit/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 10.6ms | Dane: {}
+[RESPONSE]	2025-05-20 09:29:05	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.8ms | Dane: {}
+[RESPONSE]	2025-05-20 09:29:07	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 7.93ms | Dane: {}
+[RESPONSE]	2025-05-20 09:29:14	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.16ms | Dane: {}
+[RESPONSE]	2025-05-20 09:29:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 11.83ms | Dane: {}
+[RESPONSE]	2025-05-20 09:29:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.22ms | Dane: {}
+[RESPONSE]	2025-05-20 09:29:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 10.43ms | Dane: {}
+[SUCCESS]	2025-05-20 09:29:44	[MAIN.signals]	Utworzono nową instancję: Transaction (ID: 1)
+[RESPONSE]	2025-05-20 09:29:44	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/transaction/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 11.1ms | Dane: {}
+[RESPONSE]	2025-05-20 09:29:44	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.73ms | Dane: {}
+[RESPONSE]	2025-05-20 09:29:51	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 7.44ms | Dane: {}
+[RESPONSE]	2025-05-20 09:30:06	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/20/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 8.6ms | Dane: {}
+[RESPONSE]	2025-05-20 09:33:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/1/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.75ms | Dane: {}
+[RESPONSE]	2025-05-20 09:33:33	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/1/edit/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 11.34ms | Dane: {}
+[RESPONSE]	2025-05-20 09:33:36	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.5ms | Dane: {}
+[RESPONSE]	2025-05-20 09:40:27	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.23ms | Dane: {}
+[RESPONSE]	2025-05-20 09:40:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/1/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 33.92ms | Dane: {}
+[RESPONSE]	2025-05-20 09:40:59	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.12ms | Dane: {}
+[RESPONSE]	2025-05-20 09:41:01	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/book/1/delete/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.98ms | Dane: {}
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Transaction (ID: 1)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Report (ID: 1)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 34)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 33)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 32)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 31)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 30)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 29)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 28)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 27)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 26)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 25)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 24)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 23)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 22)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 21)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 20)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 19)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 18)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 17)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 16)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 15)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 14)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 13)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 12)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 11)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 10)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 9)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 8)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 7)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 6)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 5)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 4)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 3)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 2)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Account (ID: 1)
+[SUCCESS]	2025-05-20 09:41:03	[MAIN.signals]	Usunięto instancję: Book (ID: 1)
+[RESPONSE]	2025-05-20 09:41:03	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/book/1/delete/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 41.2ms | Dane: {}
+[RESPONSE]	2025-05-20 09:41:03	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.08ms | Dane: {}
+[RESPONSE]	2025-05-20 09:41:06	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.53ms | Dane: {}

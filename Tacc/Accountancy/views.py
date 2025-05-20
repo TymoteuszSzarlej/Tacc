@@ -238,13 +238,14 @@ def reports(request):
 @login_required
 def create_report(request):
     if request.method == 'POST':
-        form = ReportForm(request.POST, user=request.user)  # Przekazanie użytkownika
+        form = ReportForm(request.POST, user=request.user)
         if form.is_valid():
-            form.save()
-            return redirect('reports')  # Przekierowanie po zapisaniu
+            report = form.save(commit=False)
+            report.user = request.user  # Przypisz użytkownika!
+            report.save()
+            return redirect('reports')
     else:
-        form = ReportForm(user=request.user)  # Przekazanie użytkownika
-
+        form = ReportForm(user=request.user)
     return render(request, 'Accountancy/reports/create.html.jinja', {'form': form})
 
 @login_required
@@ -280,14 +281,16 @@ def report_details(request, report_id):
 
 @login_required
 def edit_report(request, report_id):
-    report = Report.objects.get(id=report_id)
+    report = get_object_or_404(Report, id=report_id, user=request.user)
     if request.method == 'POST':
-        form = ReportForm(request.POST, instance=report)
+        form = ReportForm(request.POST, instance=report, user=request.user)
         if form.is_valid():
-            form.save()
+            edited_report = form.save(commit=False)
+            edited_report.user = request.user  # Przypisz użytkownika!
+            edited_report.save()
             return redirect('reports')
     else:
-        form = ReportForm(instance=report)
+        form = ReportForm(instance=report, user=request.user)
     return render(request, 'Accountancy/reports/edit.html.jinja', {'form': form, 'report': report})
 
 @login_required
