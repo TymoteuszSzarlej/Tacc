@@ -91,6 +91,8 @@ class Account(models.Model):
                 return credit_sum - debit_sum
             elif self.account_type == 'expenses':  # Koszty
                 return debit_sum - credit_sum
+            elif self.account_type == 'equity':  # Kapitał własny
+                return self.initial_balance - debit_sum + credit_sum
             else:
                 return self.initial_balance  # Domyślne saldo, jeśli typ konta jest nieznany
         except DatabaseError as e:
