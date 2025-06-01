@@ -45,7 +45,7 @@ class Account(models.Model):
     name = models.TextField(max_length=63)
     description = models.CharField(max_length=255, blank=True, null=True)
     account_type = models.CharField(max_length=63, choices=TYPES)
-    account_subtype = models.CharField(max_length=63, choices=SUBTYPES)
+    account_subtype = models.CharField(max_length=63, choices=SUBTYPES, blank=True, null=True)
     initial_balance = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
     created_at = models.DateTimeField(auto_now_add=True)
     book = models.ForeignKey(Book, on_delete=models.CASCADE)

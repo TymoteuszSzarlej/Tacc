@@ -1,0 +1,42 @@
+[RESPONSE]	2025-06-01 22:08:32	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 7.56ms | Dane: {}
+[RESPONSE]	2025-06-01 22:08:32	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.11ms | Dane: {}
+[ERROR]	2025-06-01 22:08:32	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Book (ID: 2)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 35)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 36)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 37)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 38)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 39)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 40)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 41)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 42)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 43)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 44)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 45)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 46)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 47)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 48)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 49)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 50)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 51)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 52)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 53)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 54)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 55)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 56)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 57)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 58)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 59)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 60)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 61)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 62)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 63)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 64)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 65)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 66)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 67)
+[SUCCESS]	2025-06-01 22:08:32	[MAIN.signals]	Utworzono nową instancję: Account (ID: 68)
+[RESPONSE]	2025-06-01 22:08:32	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 187.85ms | Dane: {}
+[RESPONSE]	2025-06-01 22:08:32	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.42ms | Dane: {}
+[ERROR]	2025-06-01 22:08:32	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-06-01 22:08:47	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 12.62ms | Dane: {}
