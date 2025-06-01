@@ -33,14 +33,20 @@ class Account(models.Model):
         ('long_term', 'Długoterminowe'),
         ('short_term', 'Krótkoterminowe'),
         ('equity', 'Kapitał własny'),
+        ('fixed_incomes', 'Stałe'),
+        ('variable_incomes', 'Zmienne'),
+        ('passive', 'Pasywne'),
+        ('fixed_expenses', 'Stałe'),
+        ('variable_expenses', 'Zmienne'),
+        ('unpredicted', 'Nieprzewidywalne'),
     ]
 
     SUBTYPE_CATEGORIES = {
         'assets': ['fixed', 'current', 'financial', 'inventories', 'receivables'],
         'liabilities': ['long_term', 'short_term', 'equity'],
-        'revenue': [],
-        'expenses': [],
-    }
+        'revenue': ['fixed_incomes', 'variable_incomes', 'passive'],
+        'expenses': ['fixed_expenses', 'variable_expenses', 'unpredicted'],
+ }
 
     name = models.TextField(max_length=63)
     description = models.CharField(max_length=255, blank=True, null=True)
