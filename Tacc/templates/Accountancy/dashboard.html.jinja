@@ -35,6 +35,11 @@
     font-weight: bold;
 }
 
+.gain {
+    color: lightgreen;
+    background-color: darkgreen;
+}
+
 .card:hover {
     background-color: #555;
     cursor: pointer;
@@ -76,7 +81,7 @@
             <h3>Koszty</h3>
             <p>{{ total_expenses|floatformat:2 }} PLN</p>
         </div>
-        <div class="card">
+        <div class="card {%if net_profit>0%}gain {%else%}loss {%endif%}">
             <h3>Zysk netto</h3>
             <p>{{ net_profit|floatformat:2 }} PLN</p>
         </div>
