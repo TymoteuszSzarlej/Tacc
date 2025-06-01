@@ -484,5 +484,6 @@ def dashboard(request):
         'net_profit': net_profit,
         'total_assets': total_assets,
         'total_liabilities': total_liabilities,
+        "net_profit_positive": net_profit > 0,
     }
     return render(request, 'Accountancy/dashboard.html.jinja', context)
