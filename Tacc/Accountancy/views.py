@@ -466,24 +466,46 @@ def dashboard(request):
         for account_data in accounts_data:
             print(account_data)
             Account.objects.create(user=request.user, **account_data)
+    # Obliczenie sumy sald wg typu konta
+    def sum_balance(account_type):
+        return sum([account.calculate_balance() for account in user_accounts.filter(account_type=account_type)])
 
-    # Obliczenia dla dashboardu
-    total_accounts = Account.objects.filter(user=request.user).count()
-    total_transactions = Transaction.objects.filter(user=request.user).count()
-    total_revenues = Transaction.objects.filter(user=request.user, credit_account__account_type='revenue').aggregate(Sum('amount'))['amount__sum'] or 0
-    total_expenses = Transaction.objects.filter(user=request.user, debit_account__account_type='expenses').aggregate(Sum('amount'))['amount__sum'] or 0
+    total_assets = sum_balance('assets')
+    total_liabilities = sum_balance('liabilities')
+    total_revenues = sum_balance('revenue')
+    total_expenses = sum_balance('expenses')
     net_profit = total_revenues - total_expenses
-    total_assets = Account.objects.filter(user=request.user, account_type='assets').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
-    total_liabilities = Account.objects.filter(user=request.user, account_type='liabilities').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
 
     context = {
-        'total_accounts': total_accounts,
-        'total_transactions': total_transactions,
+        'total_accounts': user_accounts.count(),
+        'total_transactions': Transaction.objects.filter(user=request.user).count(),
         'total_revenues': total_revenues,
         'total_expenses': total_expenses,
         'net_profit': net_profit,
+        'net_profit_positive': net_profit > 0,
         'total_assets': total_assets,
         'total_liabilities': total_liabilities,
-        "net_profit_positive": net_profit > 0,
     }
+
     return render(request, 'Accountancy/dashboard.html.jinja', context)
+    # Przekierowanie do strony głównej po utworzeniu księgi i kont
+    # # Obliczenia dla dashboardu
+    # total_accounts = Account.objects.filter(user=request.user).count()
+    # total_transactions = Transaction.objects.filter(user=request.user).count()
+    # total_revenues = Transaction.objects.filter(user=request.user, credit_account__account_type='revenue').aggregate(Sum('amount'))['amount__sum'] or 0
+    # total_expenses = Transaction.objects.filter(user=request.user, debit_account__account_type='expenses').aggregate(Sum('amount'))['amount__sum'] or 0
+    # net_profit = total_revenues - total_expenses
+    # total_assets = Account.objects.filter(user=request.user, account_type='assets').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
+    # total_liabilities = Account.objects.filter(user=request.user, account_type='liabilities').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
+
+    # context = {
+    #     'total_accounts': total_accounts,
+    #     'total_transactions': total_transactions,
+    #     'total_revenues': total_revenues,
+    #     'total_expenses': total_expenses,
+    #     'net_profit': net_profit,
+    #     'total_assets': total_assets,
+    #     'total_liabilities': total_liabilities,
+    #     "net_profit_positive": net_profit > 0,
+    # }
+    # return render(request, 'Accountancy/dashboard.html.jinja', context)
