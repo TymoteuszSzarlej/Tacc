@@ -1,3 +1,75 @@
+📘 Book
+
+    Miniatura: name, created_at
+
+    Kafelek: name, description, created_at, liczba kont (account_set.count())
+
+    Interakcje: kliknięcie otwiera listę kont w księdze → konto → transakcje.
+
+🏦 Account
+
+    Miniatura: name, initial_balance, account_type
+
+    Kafelek: name, account_type, account_subtype, initial_balance, created_at, obliczone saldo (calculate_balance())
+
+    Interakcje: kliknięcie → szczegóły z saldem + lista transakcji (debetowych i kredytowych). Z poziomu konta → dodaj nową transakcję.
+
+💸 Transaction
+
+    Miniatura: amount, date, description
+
+    Kafelek: amount, date, description, category, credit_account, debit_account, załącznik (document)
+
+    Interakcje: kliknięcie → szczegóły transakcji (z kontami i kategorią) → z tych elementów przejścia do konta lub kategorii.
+
+🗂️ Categories
+
+    Miniatura: name, color
+
+    Kafelek: name, description, color, liczba przypisanych transakcji
+
+    Interakcje: kliknięcie → lista transakcji z tą kategorią.
+
+🎯 Budgets
+
+    Miniatura: name, amount, start_date
+
+    Kafelek: name, description, amount, start_date, end_date, category
+
+    Interakcje: kliknięcie → szczegóły budżetu z odwołaniem do przypisanych transakcji i kategorii.
+
+📈 Report
+
+    Miniatura: name, report_type, start_date
+
+    Kafelek: name, description, report_type, start_date, end_date, book, przycisk "Pokaż raport"
+
+    Interakcje: kliknięcie → generowanie i wyświetlenie raportu; możliwość filtrowania po księdze.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Nazwa konta 	 Strona księgowania 	 Przydział do księgi / typu konta
 Aktywa trwałe 	 Debet (Wn) 	 ✅ Aktywa
 Aktywa obrotowe 	 Debet (Wn) 	 ✅ Aktywa
@@ -101,3 +173,5 @@ Oto propozycje pól dla tabel w bazie danych, które mogą być przydatne w apli
    - Szczegóły (np. JSON lub plik)
 
 Te pola można dostosować w zależności od specyficznych wymagań Twojej aplikacji. Jeśli potrzebujesz pomocy w projektowaniu bazy danych lub optymalizacji, daj znać! 😊
+
+

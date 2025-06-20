@@ -80,29 +80,26 @@ class Account(models.Model):
 
     def calculate_balance(self):
         """
-        Oblicza saldo konta zgodnie z zasadami księgowania na kontach T.
+        Oblicza saldo konta zgodnie z zasadami księgowania na kontach T,
+        uwzględniając initial_balance także dla przychodów i wydatków.
         """
         try:
-            # Suma transakcji po stronie Winien (Debet)
             debit_sum = self.debit_transactions.aggregate(models.Sum('amount'))['amount__sum'] or 0
-            # Suma transakcji po stronie Ma (Kredyt)
             credit_sum = self.credit_transactions.aggregate(models.Sum('amount'))['amount__sum'] or 0
 
-            # Obliczanie salda w zależności od typu konta
             if self.account_type == 'assets':  # Aktywa
                 return self.initial_balance + debit_sum - credit_sum
             elif self.account_type == 'liabilities':  # Pasywa
                 return self.initial_balance - debit_sum + credit_sum
             elif self.account_type == 'revenue':  # Przychody
-                return credit_sum - debit_sum
-            elif self.account_type == 'expenses':  # Koszty
-                return debit_sum - credit_sum
+                return self.initial_balance + credit_sum - debit_sum
+            elif self.account_type == 'expenses':  # Wydatki
+                return self.initial_balance + debit_sum - credit_sum
             elif self.account_type == 'equity':  # Kapitał własny
-                return self.initial_balance - debit_sum + credit_sum
+                return self.initial_balance + credit_sum - debit_sum
             else:
-                return self.initial_balance  # Domyślne saldo, jeśli typ konta jest nieznany
+                return self.initial_balance + debit_sum - credit_sum
         except DatabaseError as e:
-            # Możesz zalogować błąd lub zwrócić domyślną wartość
             return self.initial_balance
 
 class Transaction(models.Model):
