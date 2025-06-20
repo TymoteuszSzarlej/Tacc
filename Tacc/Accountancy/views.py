@@ -466,6 +466,9 @@ def dashboard(request):
         for account_data in accounts_data:
             print(account_data)
             Account.objects.create(user=request.user, **account_data)
+    # Wczytanie wszystkich kont użytkownika
+    user_accounts = Account.objects.filter(user=request.user)
+
     # Obliczenie sumy sald wg typu konta
     def sum_balance(account_type):
         return sum([account.calculate_balance() for account in user_accounts.filter(account_type=account_type)])
