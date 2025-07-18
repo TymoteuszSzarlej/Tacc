@@ -1,0 +1,156 @@
+[RESPONSE]	2025-06-21 00:25:48	[MAIN.middleware]	Odpowiedź 200 | GET / | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 1.66ms | Dane: {}
+[RESPONSE]	2025-06-21 00:25:48	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 3.8ms | Dane: {}
+[ERROR]	2025-06-21 00:25:48	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-06-21 00:25:50	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.34ms | Dane: {}
+[ERROR]	2025-06-21 00:25:50	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-06-21 00:25:50	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 7.41ms | Dane: {}
+[RESPONSE]	2025-06-21 00:25:50	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 6.96ms | Dane: {}
+[RESPONSE]	2025-06-21 00:25:50	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.1ms | Dane: {}
+[ERROR]	2025-06-21 00:25:50	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[SUCCESS]	2025-06-21 00:25:55	[MAIN.signals]	Zaktualizowano instancję: User (ID: 1)
+[SUCCESS]	2025-06-21 00:25:55	[MAIN.signals]	Utworzono nową instancję: Session (ID: wpgwehlfzl6ji35zc3uwkchel51l5e8g)
+[SUCCESS]	2025-06-21 00:25:55	[MAIN.signals]	Zaktualizowano instancję: User (ID: 1)
+[RESPONSE]	2025-06-21 00:25:55	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 394.76ms | Dane: {}
+[SUCCESS]	2025-06-21 00:25:55	[MAIN.signals]	Zaktualizowano instancję: Session (ID: wpgwehlfzl6ji35zc3uwkchel51l5e8g)
+[RESPONSE]	2025-06-21 00:25:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 21.94ms | Dane: {}
+[RESPONSE]	2025-06-21 00:25:55	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.78ms | Dane: {}
+[ERROR]	2025-06-21 00:25:55	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-06-21 00:26:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.6ms | Dane: {}
+[RESPONSE]	2025-06-21 00:26:02	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.02ms | Dane: {}
+[ERROR]	2025-06-21 00:26:02	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-06-21 00:26:03	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 11.84ms | Dane: {}
+[RESPONSE]	2025-06-21 00:27:07	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.75ms | Dane: {}
+[RESPONSE]	2025-06-21 00:27:07	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.41ms | Dane: {}
+[ERROR]	2025-06-21 00:27:07	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-06-21 00:30:54	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.6ms | Dane: {}
+[RESPONSE]	2025-06-21 00:31:05	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 12.8ms | Dane: {}
+[RESPONSE]	2025-06-21 00:31:14	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/book/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 9.0ms | Dane: {}
+[RESPONSE]	2025-06-21 00:33:15	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.84ms | Dane: {}
+[RESPONSE]	2025-06-21 00:34:26	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 21.76ms | Dane: {}
+[RESPONSE]	2025-06-21 00:34:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.4ms | Dane: {}
+[RESPONSE]	2025-06-21 00:35:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 7.83ms | Dane: {}
+[RESPONSE]	2025-06-21 00:35:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.84ms | Dane: {}
+[RESPONSE]	2025-06-21 00:36:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/book/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.57ms | Dane: {}
+[RESPONSE]	2025-06-21 00:36:30	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.29ms | Dane: {}
+[RESPONSE]	2025-06-21 00:36:36	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 21.42ms | Dane: {}
+[RESPONSE]	2025-06-21 01:06:46	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 9.46ms | Dane: {}
+[RESPONSE]	2025-06-21 01:10:21	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 21.74ms | Dane: {}
+[SUCCESS]	2025-06-21 01:10:30	[MAIN.signals]	Usunięto instancję: Session (ID: wpgwehlfzl6ji35zc3uwkchel51l5e8g)
+[RESPONSE]	2025-06-21 01:10:30	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/logout/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 12.09ms | Dane: {}
+[RESPONSE]	2025-06-21 01:10:30	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.81ms | Dane: {}
+[RESPONSE]	2025-06-21 01:10:30	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 3.52ms | Dane: {}
+[ERROR]	2025-06-21 01:10:30	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-06-21 01:10:43	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 9.2ms | Dane: {}
+[INF]	2025-06-21 01:11:22	[accounts.views]	przeslano formularz rejestracji użytkownika	<div>
+    <label for="id_username">Username:</label>
+
+<div class="helptext" id="id_username_helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</div>
+
+<input type="text" name="username" value="TEST" maxlength="150" autofocus required aria-describedby="id_username_helptext" id="id_username">
+    
+</div>
+
+  <div>
+    <label for="id_email">Email:</label>
+
+<div class="helptext" id="id_email_helptext">Podaj poprawny adres e-mail.</div>
+
+<input type="email" name="email" value="kontakt.ravadev@gmail.com" maxlength="320" required aria-describedby="id_email_helptext" id="id_email">
+    
+</div>
+
+  <div>
+    <label for="id_password1">Password:</label>
+
+<div class="helptext" id="id_password1_helptext"><ul><li>Your password can’t be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password can’t be a commonly used password.</li><li>Your password can’t be entirely numeric.</li></ul></div>
+
+<input type="password" name="password1" autocomplete="new-password" required aria-describedby="id_password1_helptext" id="id_password1">
+    
+</div>
+
+  <div>
+    <label for="id_password2">Password confirmation:</label>
+
+<div class="helptext" id="id_password2_helptext">Enter the same password as before, for verification.</div>
+
+<input type="password" name="password2" autocomplete="new-password" required aria-describedby="id_password2_helptext" id="id_password2">
+    
+      
+    
+</div>
+[SUC]	2025-06-21 01:11:22	[accounts.views]	formularz poprawny
+[SUCCESS]	2025-06-21 01:11:22	[MAIN.signals]	Utworzono nową instancję: User (ID: 2)
+[RESPONSE]	2025-06-21 01:11:22	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 264.22ms | Dane: {}
+[RESPONSE]	2025-06-21 01:11:22	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 1.37ms | Dane: {}
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Session (ID: fwi0p1tg4jh71ucusfyh82zmowk8zj0m)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Zaktualizowano instancję: User (ID: 2)
+[RESPONSE]	2025-06-21 01:11:31	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/login/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 237.75ms | Dane: {}
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Zaktualizowano instancję: Session (ID: fwi0p1tg4jh71ucusfyh82zmowk8zj0m)
+[RESPONSE]	2025-06-21 01:11:31	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 1.31ms | Dane: {}
+[RESPONSE]	2025-06-21 01:11:31	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 3.4ms | Dane: {}
+[ERROR]	2025-06-21 01:11:31	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: TEST | IP: 127.0.0.1
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Book (ID: 3)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 69)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 70)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 71)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 72)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 73)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 74)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 75)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 76)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 77)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 78)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 79)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 80)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 81)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 82)
+[SUCCESS]	2025-06-21 01:11:31	[MAIN.signals]	Utworzono nową instancję: Account (ID: 83)
+[ERROR]	2025-06-21 01:11:31	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/ | IntegrityError: NOT NULL constraint failed: Accountancy_account.account_subtype | Użytkownik: TEST | IP: 127.0.0.1
+[RESPONSE]	2025-06-21 01:11:31	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 113.51ms | Dane: {}
+[ERROR]	2025-06-21 01:11:31	[MAIN.middleware]	Błąd 500 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1
+[RESPONSE]	2025-06-21 01:11:31	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 3.57ms | Dane: {}
+[ERROR]	2025-06-21 01:11:31	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: TEST | IP: 127.0.0.1
+[RESPONSE]	2025-06-21 01:16:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 22.93ms | Dane: {}
+[RESPONSE]	2025-06-21 01:16:17	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 4.2ms | Dane: {}
+[ERROR]	2025-06-21 01:16:17	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: TEST | IP: 127.0.0.1
+[RESPONSE]	2025-06-21 01:16:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 5.66ms | Dane: {}
+[RESPONSE]	2025-06-21 01:38:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 15.96ms | Dane: {}
+[RESPONSE]	2025-06-21 01:39:07	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 3.44ms | Dane: {}
+[RESPONSE]	2025-06-21 01:39:09	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/book/3/delete/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 2.79ms | Dane: {}
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 83)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 82)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 81)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 80)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 79)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 78)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 77)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 76)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 75)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 74)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 73)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 72)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 71)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 70)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Account (ID: 69)
+[SUCCESS]	2025-06-21 01:39:09	[MAIN.signals]	Usunięto instancję: Book (ID: 3)
+[RESPONSE]	2025-06-21 01:39:09	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/book/3/delete/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 26.29ms | Dane: {}
+[RESPONSE]	2025-06-21 01:39:09	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 2.3ms | Dane: {}
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Book (ID: 4)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 84)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 85)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 86)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 87)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 88)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 89)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 90)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 91)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 92)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 93)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 94)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 95)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 96)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 97)
+[SUCCESS]	2025-06-21 01:39:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 98)
+[ERROR]	2025-06-21 01:39:12	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/ | IntegrityError: NOT NULL constraint failed: Accountancy_account.account_subtype | Użytkownik: TEST | IP: 127.0.0.1
+[RESPONSE]	2025-06-21 01:39:12	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 236.13ms | Dane: {}
+[ERROR]	2025-06-21 01:39:12	[MAIN.middleware]	Błąd 500 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1

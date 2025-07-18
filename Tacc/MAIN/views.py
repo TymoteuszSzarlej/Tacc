@@ -9,3 +9,10 @@ def landing_page(request):
         return redirect('/accountancy')
 
     return render(request, 'MAIN/landing_page.html')
+
+
+def apps(request):
+    """
+    Widok dla aplikacji.
+    """
+    return render(request, 'MAIN/apps.html')

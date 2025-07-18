@@ -396,16 +396,12 @@ def financial_forecast(request):
 
 @login_required
 def dashboard(request):
-    # Sprawdzenie, czy użytkownik ma jakiekolwiek księgi
     if not Book.objects.filter(user=request.user).exists():
-        # Tworzenie "KSIĘGI GŁÓWNEJ"
         main_book = Book.objects.create(
             name="KSIĘGA GŁÓWNA",
             description="Automatycznie utworzona księga główna.",
             user=request.user
         )
-
-        # Tworzenie kont w "KSIĘDZE GŁÓWNEJ"
         accounts_data = [
             # Aktywa trwałe
             {"name": "Środki trwałe", "description": "Konto przeznaczone do ewidencji wartości trwałych, takich jak nieruchomości czy maszyny.", "account_type": "assets", "account_subtype": "fixed", "book": main_book},
@@ -464,9 +460,11 @@ def dashboard(request):
 
         # Tworzenie kont z przypisaniem użytkownika
         for account_data in accounts_data:
-            print(account_data)
             Account.objects.create(user=request.user, **account_data)
-    # Obliczenie sumy sald wg typu konta
+
+    # Poprawka: zdefiniuj user_accounts przed sum_balance!
+    user_accounts = Account.objects.filter(user=request.user)
+
     def sum_balance(account_type):
         return sum([account.calculate_balance() for account in user_accounts.filter(account_type=account_type)])
 

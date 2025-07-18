@@ -312,18 +312,21 @@ footer {
 {% load static %}
 
 <body>
-  <header>
-
-      <h1>Tacc</h1>
-      {#<img src="{% static 'img/logo.png' %}" class="logo" alt="Logo" style="width: 50px; height: auto;">#}
-
-        <h3>System zarządzania finansami osobistymi</h2>
-      {% block header %}
-      <!-- Umieść tutaj pasek nawigacyjny lub inne elementy nagłówka -->
-      {% endblock %}
-  </header>
-
-  <button id="toggle-aside">☰ Menu</button> <!-- Przycisk rozwijania aside -->
+  <header style="align-items: center;">
+    <div>
+        <h1>Tacc</h1>
+        <h3>System zarządzania finansami osobistymi</h3>
+        {% block header %}
+        <!-- Umieść tutaj pasek nawigacyjny lub inne elementy nagłówka -->
+        {% endblock %}
+    </div>
+    <div>
+        <button id="toggle-aside">☰ Menu</button>
+        <a href="{% url 'apps' %}" id="apps-btn" style="margin-left: 10px; background: magenta; color: white; border-radius: 20px; padding: 12px 24px; font-size: 1.2em; border: none; box-shadow: 0 4px 10px rgba(255,0,255,0.4); text-decoration: none;">
+            🧩
+        </a>
+    </div>
+</header>
 
   <aside>
       <div class="content">
