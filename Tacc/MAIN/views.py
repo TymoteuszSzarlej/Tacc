@@ -6,7 +6,7 @@ def landing_page(request):
     """
     if request.user.is_authenticated:
         # Jeśli użytkownik jest zalogowany, przekieruj do modułu /accountancy
-        return redirect('/accountancy')
+        return redirect('/apps')
 
     return render(request, 'MAIN/landing_page.html')
 

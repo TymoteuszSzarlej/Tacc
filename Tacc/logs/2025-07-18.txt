@@ -43,3 +43,7 @@
 [RESPONSE]	2025-07-18 00:16:58	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 13.85ms | Dane: {}
 [RESPONSE]	2025-07-18 00:16:59	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 12.49ms | Dane: {}
 [RESPONSE]	2025-07-18 00:17:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 17.04ms | Dane: {}
+[RESPONSE]	2025-07-18 00:21:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 21.98ms | Dane: {}
+[RESPONSE]	2025-07-18 00:42:44	[MAIN.middleware]	Odpowiedź 200 | GET /tasktrack/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 14.39ms | Dane: {}
+[RESPONSE]	2025-07-18 00:42:51	[MAIN.middleware]	Odpowiedź 404 | GET /tasktrack/dashboard | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 3.98ms | Dane: {}
+[ERROR]	2025-07-18 00:42:51	[MAIN.middleware]	Błąd 404 | GET /tasktrack/dashboard | Użytkownik: TEST | IP: 127.0.0.1

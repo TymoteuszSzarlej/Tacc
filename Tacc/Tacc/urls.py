@@ -26,6 +26,7 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls')),
     path('accounts/', include('accounts.urls')),  # Obsługa użytkowników
     path('accountancy/', include('Accountancy.urls')),  # Obsługa księgowości
+    path('tasktrack/', include('TaskTrack.urls')),  # Obsługa zadań
     path('', include('MAIN.urls')),  # Strona główna (landing page)
 
 ]

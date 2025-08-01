@@ -1,0 +1,7 @@
+[RESPONSE]	2025-08-01 00:52:38	[MAIN.middleware]	Odpowiedź 200 | GET / | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 1.47ms | Dane: {}
+[RESPONSE]	2025-08-01 00:52:38	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 4.97ms | Dane: {}
+[ERROR]	2025-08-01 00:52:38	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-08-01 00:52:40	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.05ms | Dane: {}
+[ERROR]	2025-08-01 00:52:40	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-08-01 00:52:40	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 7.32ms | Dane: {}
+[RESPONSE]	2025-08-01 00:52:40	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 7.57ms | Dane: {}
