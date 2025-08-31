@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=DEMO HTML
+Comment=Otwiera lokalny plik _DEMO.html
+Exec=xdg-open /home/tymoteusz/Pulpit/PROD/Tacc/ikony/Personal/_DEMO.html
+Icon=/home/tymoteusz/Pulpit/PROD/Tacc/ikony/Personal/Accountancy.ico
+Terminal=false
+Type=Application
+Categories=Utility;
+
