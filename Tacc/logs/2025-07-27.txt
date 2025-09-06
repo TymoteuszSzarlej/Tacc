@@ -1,0 +1,66 @@
+[SUCCESS]	2025-07-27 14:17:41	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 1)
+[SUCCESS]	2025-07-27 14:17:41	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 2)
+[SUCCESS]	2025-07-27 14:17:41	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 3)
+[SUCCESS]	2025-07-27 14:17:42	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 4)
+[SUCCESS]	2025-07-27 14:17:42	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 5)
+[SUCCESS]	2025-07-27 14:17:42	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 6)
+[SUCCESS]	2025-07-27 14:17:42	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 7)
+[SUCCESS]	2025-07-27 14:17:42	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 8)
+[SUCCESS]	2025-07-27 14:17:43	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 9)
+[SUCCESS]	2025-07-27 14:17:43	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 10)
+[SUCCESS]	2025-07-27 14:17:43	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 11)
+[SUCCESS]	2025-07-27 14:17:43	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 12)
+[SUCCESS]	2025-07-27 14:17:43	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 13)
+[SUCCESS]	2025-07-27 14:17:43	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 14)
+[SUCCESS]	2025-07-27 14:17:44	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 15)
+[SUCCESS]	2025-07-27 14:17:44	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 16)
+[SUCCESS]	2025-07-27 14:17:44	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 17)
+[SUCCESS]	2025-07-27 14:17:44	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 18)
+[SUCCESS]	2025-07-27 14:17:44	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 19)
+[SUCCESS]	2025-07-27 14:17:44	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 20)
+[SUCCESS]	2025-07-27 14:17:44	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 21)
+[SUCCESS]	2025-07-27 14:17:45	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 22)
+[SUCCESS]	2025-07-27 14:17:45	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 23)
+[SUCCESS]	2025-07-27 14:17:45	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 24)
+[SUCCESS]	2025-07-27 14:17:45	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 25)
+[SUCCESS]	2025-07-27 14:17:46	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 26)
+[SUCCESS]	2025-07-27 14:17:46	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 27)
+[SUCCESS]	2025-07-27 14:17:46	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 28)
+[SUCCESS]	2025-07-27 14:17:48	[MAIN.signals]	Utworzono nową instancję: Site (ID: 1)
+[RESPONSE]	2025-07-27 14:18:17	[MAIN.middleware]	Odpowiedź 200 | GET / | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.62ms | Dane: {}
+[RESPONSE]	2025-07-27 14:18:17	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 14.38ms | Dane: {}
+[ERROR]	2025-07-27 14:18:17	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-27 14:22:36	[MAIN.middleware]	Odpowiedź 200 | GET / | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 0.56ms | Dane: {}
+[RESPONSE]	2025-07-27 14:23:11	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 7.78ms | Dane: {}
+[ERROR]	2025-07-27 14:23:11	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-27 14:23:11	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 22.3ms | Dane: {}
+[RESPONSE]	2025-07-27 14:23:11	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 20.82ms | Dane: {}
+[RESPONSE]	2025-07-27 14:23:12	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 8.79ms | Dane: {}
+[ERROR]	2025-07-27 14:23:12	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-27 14:23:14	[MAIN.middleware]	Odpowiedź 200 | GET /apps/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 0.76ms | Dane: {}
+[RESPONSE]	2025-07-27 14:23:21	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 11.71ms | Dane: {}
+[RESPONSE]	2025-07-27 14:24:49	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 12.02ms | Dane: {}
+[RESPONSE]	2025-07-27 14:24:50	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 6.44ms | Dane: {}
+[RESPONSE]	2025-07-27 14:25:12	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 11.42ms | Dane: {}
+[RESPONSE]	2025-07-27 14:40:12	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 7.93ms | Dane: {}
+[RESPONSE]	2025-07-27 14:40:15	[MAIN.middleware]	Odpowiedź 200 | GET /apps/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 1.32ms | Dane: {}
+[RESPONSE]	2025-07-27 14:40:19	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 3.64ms | Dane: {}
+[RESPONSE]	2025-07-27 14:42:30	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 12.11ms | Dane: {}
+[RESPONSE]	2025-07-27 14:42:37	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 34.19ms | Dane: {}
+[RESPONSE]	2025-07-27 14:44:14	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 20.88ms | Dane: {}
+[RESPONSE]	2025-07-27 14:44:33	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 8.08ms | Dane: {}
+[RESPONSE]	2025-07-27 14:46:00	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 25.09ms | Dane: {}
+[RESPONSE]	2025-07-27 14:46:37	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 31.59ms | Dane: {}
+[RESPONSE]	2025-07-27 14:47:58	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 35.47ms | Dane: {}
+[RESPONSE]	2025-07-27 14:47:58	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 7.38ms | Dane: {}
+[RESPONSE]	2025-07-27 14:48:13	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 19.58ms | Dane: {}
+[RESPONSE]	2025-07-27 14:48:14	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 8.44ms | Dane: {}
+[RESPONSE]	2025-07-27 14:48:14	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 22.67ms | Dane: {}
+[RESPONSE]	2025-07-27 14:48:30	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 32.46ms | Dane: {}
+[RESPONSE]	2025-07-27 14:48:38	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 35.27ms | Dane: {}
+[RESPONSE]	2025-07-27 14:49:14	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 14.61ms | Dane: {}
+[RESPONSE]	2025-07-27 14:49:17	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 10.02ms | Dane: {}
+[RESPONSE]	2025-07-27 14:49:31	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 19.99ms | Dane: {}
+[RESPONSE]	2025-07-27 14:50:37	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 19.21ms | Dane: {}
+[RESPONSE]	2025-07-27 14:52:22	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 19.05ms | Dane: {}
+[RESPONSE]	2025-07-27 14:53:08	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/register/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 30.18ms | Dane: {}

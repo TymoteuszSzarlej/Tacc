@@ -1,0 +1,83 @@
+[RESPONSE]	2025-08-02 00:13:13	[MAIN.middleware]	Odpowiedź 200 | GET / | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 55.62ms | Dane: {}
+[RESPONSE]	2025-08-02 00:13:13	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 87.95ms | Dane: {}
+[ERROR]	2025-08-02 00:13:13	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-08-02 00:19:50	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 6.87ms | Dane: {}
+[ERROR]	2025-08-02 00:19:50	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-08-02 00:19:50	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 17.65ms | Dane: {}
+[RESPONSE]	2025-08-02 00:19:51	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 343.4ms | Dane: {}
+[RESPONSE]	2025-08-02 00:19:55	[MAIN.middleware]	Odpowiedź 200 | POST /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 1737.4ms | Dane: {}
+[RESPONSE]	2025-08-02 00:20:14	[MAIN.middleware]	Odpowiedź 200 | POST /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 1062.81ms | Dane: {}
+[RESPONSE]	2025-08-02 00:49:20	[MAIN.middleware]	Odpowiedź 200 | POST /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 1128.2ms | Dane: {}
+[RESPONSE]	2025-08-02 00:49:20	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 32.55ms | Dane: {}
+[ERROR]	2025-08-02 00:49:20	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-08-02 00:50:08	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 0.54ms | Dane: {}
+[RESPONSE]	2025-08-02 00:50:08	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 4.86ms | Dane: {}
+[RESPONSE]	2025-08-02 00:50:14	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 0.54ms | Dane: {}
+[RESPONSE]	2025-08-02 00:50:14	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 6.05ms | Dane: {}
+[RESPONSE]	2025-08-02 00:52:06	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/password_reset/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 163.1ms | Dane: {}
+[RESPONSE]	2025-08-02 00:52:18	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/password_reset/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 110.63ms | Dane: {}
+[RESPONSE]	2025-08-02 00:52:18	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/password_reset/done/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 33.35ms | Dane: {}
+[RESPONSE]	2025-08-02 00:56:36	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/password_reset/done/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 3.62ms | Dane: {}
+[RESPONSE]	2025-08-02 00:57:01	[MAIN.middleware]	Odpowiedź 200 | GET / | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 59.0ms | Dane: {}
+[RESPONSE]	2025-08-02 00:57:01	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 6.75ms | Dane: {}
+[ERROR]	2025-08-02 00:57:01	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-08-02 00:57:03	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 15.33ms | Dane: {}
+[ERROR]	2025-08-02 00:57:03	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-08-02 00:57:03	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 0.64ms | Dane: {}
+[RESPONSE]	2025-08-02 00:57:03	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 356.83ms | Dane: {}
+[RESPONSE]	2025-08-02 00:57:18	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 12.04ms | Dane: {}
+[RESPONSE]	2025-08-02 00:57:52	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 9.67ms | Dane: {}
+[RESPONSE]	2025-08-02 00:58:06	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 16.13ms | Dane: {}
+[RESPONSE]	2025-08-02 00:58:35	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 10.03ms | Dane: {}
+[RESPONSE]	2025-08-02 01:01:14	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/books/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 0.68ms | Dane: {}
+[RESPONSE]	2025-08-02 01:01:14	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 6.31ms | Dane: {}
+[RESPONSE]	2025-08-02 01:01:21	[MAIN.middleware]	Odpowiedź 200 | GET /apps/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 142.66ms | Dane: {}
+[RESPONSE]	2025-08-02 01:01:24	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 7.55ms | Dane: {}
+[RESPONSE]	2025-08-02 01:03:35	[MAIN.middleware]	Odpowiedź 200 | POST /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 1088.98ms | Dane: {}
+[SUCCESS]	2025-08-02 02:03:51	[MAIN.signals]	Utworzono nową instancję: User (ID: 1)
+[SUCCESS]	2025-08-02 02:04:00	[MAIN.signals]	Utworzono nową instancję: Session (ID: kafh4iw9d9872i4yb1tbha2sbuelzrwg)
+[SUCCESS]	2025-08-02 02:04:00	[MAIN.signals]	Zaktualizowano instancję: User (ID: 1)
+[RESPONSE]	2025-08-02 02:04:00	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/login/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 1424.63ms | Dane: {}
+[SUCCESS]	2025-08-02 02:04:00	[MAIN.signals]	Zaktualizowano instancję: Session (ID: kafh4iw9d9872i4yb1tbha2sbuelzrwg)
+[RESPONSE]	2025-08-02 02:04:01	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 55.68ms | Dane: {}
+[RESPONSE]	2025-08-02 02:04:01	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 18.59ms | Dane: {}
+[ERROR]	2025-08-02 02:04:01	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[SUCCESS]	2025-08-02 02:04:08	[MAIN.signals]	Utworzono nową instancję: Book (ID: 1)
+[SUCCESS]	2025-08-02 02:04:08	[MAIN.signals]	Utworzono nową instancję: Account (ID: 1)
+[SUCCESS]	2025-08-02 02:04:08	[MAIN.signals]	Utworzono nową instancję: Account (ID: 2)
+[SUCCESS]	2025-08-02 02:04:08	[MAIN.signals]	Utworzono nową instancję: Account (ID: 3)
+[SUCCESS]	2025-08-02 02:04:08	[MAIN.signals]	Utworzono nową instancję: Account (ID: 4)
+[SUCCESS]	2025-08-02 02:04:08	[MAIN.signals]	Utworzono nową instancję: Account (ID: 5)
+[SUCCESS]	2025-08-02 02:04:08	[MAIN.signals]	Utworzono nową instancję: Account (ID: 6)
+[SUCCESS]	2025-08-02 02:04:08	[MAIN.signals]	Utworzono nową instancję: Account (ID: 7)
+[SUCCESS]	2025-08-02 02:04:09	[MAIN.signals]	Utworzono nową instancję: Account (ID: 8)
+[SUCCESS]	2025-08-02 02:04:09	[MAIN.signals]	Utworzono nową instancję: Account (ID: 9)
+[SUCCESS]	2025-08-02 02:04:09	[MAIN.signals]	Utworzono nową instancję: Account (ID: 10)
+[SUCCESS]	2025-08-02 02:04:09	[MAIN.signals]	Utworzono nową instancję: Account (ID: 11)
+[SUCCESS]	2025-08-02 02:04:09	[MAIN.signals]	Utworzono nową instancję: Account (ID: 12)
+[SUCCESS]	2025-08-02 02:04:09	[MAIN.signals]	Utworzono nową instancję: Account (ID: 13)
+[SUCCESS]	2025-08-02 02:04:09	[MAIN.signals]	Utworzono nową instancję: Account (ID: 14)
+[SUCCESS]	2025-08-02 02:04:09	[MAIN.signals]	Utworzono nową instancję: Account (ID: 15)
+[SUCCESS]	2025-08-02 02:04:09	[MAIN.signals]	Utworzono nową instancję: Account (ID: 16)
+[SUCCESS]	2025-08-02 02:04:10	[MAIN.signals]	Utworzono nową instancję: Account (ID: 17)
+[SUCCESS]	2025-08-02 02:04:10	[MAIN.signals]	Utworzono nową instancję: Account (ID: 18)
+[SUCCESS]	2025-08-02 02:04:10	[MAIN.signals]	Utworzono nową instancję: Account (ID: 19)
+[SUCCESS]	2025-08-02 02:04:10	[MAIN.signals]	Utworzono nową instancję: Account (ID: 20)
+[SUCCESS]	2025-08-02 02:04:10	[MAIN.signals]	Utworzono nową instancję: Account (ID: 21)
+[SUCCESS]	2025-08-02 02:04:10	[MAIN.signals]	Utworzono nową instancję: Account (ID: 22)
+[SUCCESS]	2025-08-02 02:04:10	[MAIN.signals]	Utworzono nową instancję: Account (ID: 23)
+[SUCCESS]	2025-08-02 02:04:10	[MAIN.signals]	Utworzono nową instancję: Account (ID: 24)
+[SUCCESS]	2025-08-02 02:04:11	[MAIN.signals]	Utworzono nową instancję: Account (ID: 25)
+[SUCCESS]	2025-08-02 02:04:11	[MAIN.signals]	Utworzono nową instancję: Account (ID: 26)
+[SUCCESS]	2025-08-02 02:04:11	[MAIN.signals]	Utworzono nową instancję: Account (ID: 27)
+[SUCCESS]	2025-08-02 02:04:11	[MAIN.signals]	Utworzono nową instancję: Account (ID: 28)
+[SUCCESS]	2025-08-02 02:04:11	[MAIN.signals]	Utworzono nową instancję: Account (ID: 29)
+[SUCCESS]	2025-08-02 02:04:11	[MAIN.signals]	Utworzono nową instancję: Account (ID: 30)
+[SUCCESS]	2025-08-02 02:04:11	[MAIN.signals]	Utworzono nową instancję: Account (ID: 31)
+[SUCCESS]	2025-08-02 02:04:11	[MAIN.signals]	Utworzono nową instancję: Account (ID: 32)
+[SUCCESS]	2025-08-02 02:04:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 33)
+[SUCCESS]	2025-08-02 02:04:12	[MAIN.signals]	Utworzono nową instancję: Account (ID: 34)
+[RESPONSE]	2025-08-02 02:04:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4290.24ms | Dane: {}
+[RESPONSE]	2025-08-02 02:06:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 75.27ms | Dane: {}
+[RESPONSE]	2025-08-02 02:06:23	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 14.46ms | Dane: {}
+[ERROR]	2025-08-02 02:06:23	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1

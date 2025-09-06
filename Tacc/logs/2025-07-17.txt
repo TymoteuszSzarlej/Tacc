@@ -1,0 +1,85 @@
+[RESPONSE]	2025-07-17 22:56:10	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 8.04ms | Dane: {}
+[RESPONSE]	2025-07-17 22:56:11	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 7.14ms | Dane: {}
+[ERROR]	2025-07-17 22:56:11	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 22:56:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 26.04ms | Dane: {}
+[RESPONSE]	2025-07-17 22:56:11	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.83ms | Dane: {}
+[ERROR]	2025-07-17 22:56:11	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 22:58:04	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 1.53ms | Dane: {}
+[RESPONSE]	2025-07-17 22:58:04	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.1ms | Dane: {}
+[ERROR]	2025-07-17 22:58:04	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 22:58:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 19.79ms | Dane: {}
+[RESPONSE]	2025-07-17 23:11:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 25.51ms | Dane: {}
+[RESPONSE]	2025-07-17 23:12:07	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 28.75ms | Dane: {}
+[RESPONSE]	2025-07-17 23:14:19	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 27.0ms | Dane: {}
+[RESPONSE]	2025-07-17 23:16:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 29.19ms | Dane: {}
+[RESPONSE]	2025-07-17 23:16:12	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 1.56ms | Dane: {}
+[RESPONSE]	2025-07-17 23:16:12	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.65ms | Dane: {}
+[ERROR]	2025-07-17 23:16:12	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:16:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 20.38ms | Dane: {}
+[RESPONSE]	2025-07-17 23:16:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.35ms | Dane: {}
+[RESPONSE]	2025-07-17 23:16:14	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 1.5ms | Dane: {}
+[RESPONSE]	2025-07-17 23:16:14	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.89ms | Dane: {}
+[ERROR]	2025-07-17 23:16:14	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:16:14	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 21.91ms | Dane: {}
+[SUCCESS]	2025-07-17 23:18:14	[MAIN.signals]	Usunięto instancję: Session (ID: 7jm4za9qxxx6fo2n6w3789hb958v0q97)
+[RESPONSE]	2025-07-17 23:18:14	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/logout/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 14.63ms | Dane: {}
+[RESPONSE]	2025-07-17 23:18:14	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 5.8ms | Dane: {}
+[RESPONSE]	2025-07-17 23:18:15	[MAIN.middleware]	Odpowiedź 200 | GET / | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 0.32ms | Dane: {}
+[RESPONSE]	2025-07-17 23:18:16	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.2ms | Dane: {}
+[ERROR]	2025-07-17 23:18:16	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:18:16	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 0.3ms | Dane: {}
+[RESPONSE]	2025-07-17 23:18:16	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.17ms | Dane: {}
+[RESPONSE]	2025-07-17 23:21:40	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 7.36ms | Dane: {}
+[RESPONSE]	2025-07-17 23:24:10	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 8.74ms | Dane: {}
+[ERROR]	2025-07-17 23:30:53	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:30:53	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 26.62ms | Dane: {}
+[ERROR]	2025-07-17 23:30:53	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[ERROR]	2025-07-17 23:32:48	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x788121042cc0>' not found. '<django.contrib.auth.views.LoginView object at 0x788121042cc0>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:32:48	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 25.91ms | Dane: {}
+[ERROR]	2025-07-17 23:32:48	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[ERROR]	2025-07-17 23:44:05	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x7362a2196b40>' not found. '<django.contrib.auth.views.LoginView object at 0x7362a2196b40>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:44:05	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 69.03ms | Dane: {}
+[ERROR]	2025-07-17 23:44:05	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[ERROR]	2025-07-17 23:44:07	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x7362a211f2c0>' not found. '<django.contrib.auth.views.LoginView object at 0x7362a211f2c0>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:44:07	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 22.99ms | Dane: {}
+[ERROR]	2025-07-17 23:44:07	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[ERROR]	2025-07-17 23:45:10	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x7362a21dbf80>' not found. '<django.contrib.auth.views.LoginView object at 0x7362a21dbf80>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:45:10	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 26.18ms | Dane: {}
+[ERROR]	2025-07-17 23:45:11	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[ERROR]	2025-07-17 23:45:11	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x7362a21dac30>' not found. '<django.contrib.auth.views.LoginView object at 0x7362a21dac30>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:45:11	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 19.39ms | Dane: {}
+[ERROR]	2025-07-17 23:45:11	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[ERROR]	2025-07-17 23:53:13	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x76fa75896ea0>' not found. '<django.contrib.auth.views.LoginView object at 0x76fa75896ea0>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:53:13	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 68.59ms | Dane: {}
+[ERROR]	2025-07-17 23:53:13	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[ERROR]	2025-07-17 23:56:27	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x76fa74fc0920>' not found. '<django.contrib.auth.views.LoginView object at 0x76fa74fc0920>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:56:27	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 27.49ms | Dane: {}
+[ERROR]	2025-07-17 23:56:27	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[ERROR]	2025-07-17 23:56:28	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x76fa758d9d00>' not found. '<django.contrib.auth.views.LoginView object at 0x76fa758d9d00>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:56:28	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 25.62ms | Dane: {}
+[ERROR]	2025-07-17 23:56:28	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[ERROR]	2025-07-17 23:56:28	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x76fa75895100>' not found. '<django.contrib.auth.views.LoginView object at 0x76fa75895100>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:56:28	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 22.81ms | Dane: {}
+[ERROR]	2025-07-17 23:56:28	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[ERROR]	2025-07-17 23:56:29	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x76fa758db3e0>' not found. '<django.contrib.auth.views.LoginView object at 0x76fa758db3e0>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:56:29	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 21.76ms | Dane: {}
+[ERROR]	2025-07-17 23:56:29	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[ERROR]	2025-07-17 23:56:29	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x76fa74f97020>' not found. '<django.contrib.auth.views.LoginView object at 0x76fa74f97020>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:56:29	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 20.54ms | Dane: {}
+[ERROR]	2025-07-17 23:56:29	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:56:42	[MAIN.middleware]	Odpowiedź 200 | GET / | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 0.32ms | Dane: {}
+[RESPONSE]	2025-07-17 23:56:44	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.05ms | Dane: {}
+[ERROR]	2025-07-17 23:56:44	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:56:44	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 0.32ms | Dane: {}
+[ERROR]	2025-07-17 23:56:44	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x76fa74e89250>' not found. '<django.contrib.auth.views.LoginView object at 0x76fa74e89250>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:56:44	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 19.05ms | Dane: {}
+[ERROR]	2025-07-17 23:56:44	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[ERROR]	2025-07-17 23:57:34	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x71d3f721bb00>' not found. '<django.contrib.auth.views.LoginView object at 0x71d3f721bb00>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:57:34	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 69.09ms | Dane: {}
+[ERROR]	2025-07-17 23:57:34	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[ERROR]	2025-07-17 23:57:35	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x71d3f6942330>' not found. '<django.contrib.auth.views.LoginView object at 0x71d3f6942330>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:57:35	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 23.6ms | Dane: {}
+[ERROR]	2025-07-17 23:57:35	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1
+[ERROR]	2025-07-17 23:57:45	[MAIN.middleware]	Wyjątek 500 | GET /accounts/login/ | NoReverseMatch: Reverse for '<django.contrib.auth.views.LoginView object at 0x71d3f682cc80>' not found. '<django.contrib.auth.views.LoginView object at 0x71d3f682cc80>' is not a valid view function or pattern name. | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-17 23:57:45	[MAIN.middleware]	Odpowiedź 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 26.84ms | Dane: {}
+[ERROR]	2025-07-17 23:57:45	[MAIN.middleware]	Błąd 500 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1

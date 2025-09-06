@@ -1,0 +1,9 @@
+[RESPONSE]	2025-07-09 09:07:54	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 23.27ms | Dane: {}
+[RESPONSE]	2025-07-09 09:13:18	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 34.52ms | Dane: {}
+[RESPONSE]	2025-07-09 09:13:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 24.34ms | Dane: {}
+[RESPONSE]	2025-07-09 09:14:18	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 23.28ms | Dane: {}
+[RESPONSE]	2025-07-09 09:14:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 24.65ms | Dane: {}
+[RESPONSE]	2025-07-09 09:14:40	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 30.9ms | Dane: {}
+[RESPONSE]	2025-07-09 09:14:51	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 31.85ms | Dane: {}
+[RESPONSE]	2025-07-09 14:00:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 39.91ms | Dane: {}
+[RESPONSE]	2025-07-09 14:00:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 33.52ms | Dane: {}

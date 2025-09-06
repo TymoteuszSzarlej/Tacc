@@ -1,0 +1,72 @@
+[SUCCESS]	2025-09-06 22:45:41	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 28)
+[RESPONSE]	2025-09-06 22:46:32	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 9.11ms | Dane: {}
+[RESPONSE]	2025-09-06 22:46:32	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.83ms | Dane: {}
+[ERROR]	2025-09-06 22:46:32	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-09-06 22:46:32	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 23.31ms | Dane: {}
+[RESPONSE]	2025-09-06 22:47:34	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 1.46ms | Dane: {}
+[RESPONSE]	2025-09-06 22:47:34	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.0ms | Dane: {}
+[ERROR]	2025-09-06 22:47:34	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-09-06 22:47:34	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 24.52ms | Dane: {}
+[RESPONSE]	2025-09-06 22:49:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 24.13ms | Dane: {}
+[RESPONSE]	2025-09-06 22:51:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 24.72ms | Dane: {}
+[RESPONSE]	2025-09-06 22:51:40	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 23.73ms | Dane: {}
+[RESPONSE]	2025-09-06 22:52:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 22.89ms | Dane: {}
+[RESPONSE]	2025-09-06 22:52:47	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 23.45ms | Dane: {}
+[RESPONSE]	2025-09-06 22:55:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.76ms | Dane: {}
+[RESPONSE]	2025-09-06 22:55:24	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 29.79ms | Dane: {}
+[RESPONSE]	2025-09-06 22:56:16	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 32.66ms | Dane: {}
+[RESPONSE]	2025-09-06 22:56:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 27.92ms | Dane: {}
+[RESPONSE]	2025-09-06 22:56:18	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 29.6ms | Dane: {}
+[RESPONSE]	2025-09-06 22:56:27	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 33.87ms | Dane: {}
+[RESPONSE]	2025-09-06 22:56:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 26.99ms | Dane: {}
+[RESPONSE]	2025-09-06 22:56:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 29.31ms | Dane: {}
+[RESPONSE]	2025-09-06 22:57:14	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/report/2/details/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 0.44ms | Dane: {}
+[RESPONSE]	2025-09-06 22:57:14	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 5.96ms | Dane: {}
+[RESPONSE]	2025-09-06 22:57:38	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.15ms | Dane: {}
+[RESPONSE]	2025-09-06 22:57:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 7.44ms | Dane: {}
+[SUCCESS]	2025-09-06 22:57:53	[MAIN.signals]	Utworzono nową instancję: Report (ID: 3)
+[RESPONSE]	2025-09-06 22:57:53	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/report/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 12.68ms | Dane: {}
+[RESPONSE]	2025-09-06 22:57:53	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.7ms | Dane: {}
+[RESPONSE]	2025-09-06 22:57:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/3/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 15.68ms | Dane: {}
+[RESPONSE]	2025-09-06 23:00:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/3/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 23.97ms | Dane: {}
+[RESPONSE]	2025-09-06 23:00:16	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 20.22ms | Dane: {}
+[RESPONSE]	2025-09-06 23:01:32	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 23.81ms | Dane: {}
+[RESPONSE]	2025-09-06 23:01:33	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 19.69ms | Dane: {}
+[RESPONSE]	2025-09-06 23:02:01	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 25.22ms | Dane: {}
+[RESPONSE]	2025-09-06 23:03:24	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 20.61ms | Dane: {}
+[RESPONSE]	2025-09-06 23:04:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 28.71ms | Dane: {}
+[RESPONSE]	2025-09-06 23:04:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 21.78ms | Dane: {}
+[RESPONSE]	2025-09-06 23:04:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.73ms | Dane: {}
+[RESPONSE]	2025-09-06 23:04:31	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 9.65ms | Dane: {}
+[RESPONSE]	2025-09-06 23:10:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/budgets/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.13ms | Dane: {}
+[RESPONSE]	2025-09-06 23:10:24	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.31ms | Dane: {}
+[RESPONSE]	2025-09-06 23:10:26	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 27.71ms | Dane: {}
+[RESPONSE]	2025-09-06 23:13:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 32.21ms | Dane: {}
+[RESPONSE]	2025-09-06 23:13:11	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.96ms | Dane: {}
+[ERROR]	2025-09-06 23:13:11	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-09-06 23:13:20	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.25ms | Dane: {}
+[RESPONSE]	2025-09-06 23:13:21	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/3/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 16.31ms | Dane: {}
+[RESPONSE]	2025-09-06 23:14:36	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 28.6ms | Dane: {}
+[RESPONSE]	2025-09-06 23:16:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/3/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 20.4ms | Dane: {}
+[RESPONSE]	2025-09-06 23:17:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 26.19ms | Dane: {}
+[RESPONSE]	2025-09-06 23:19:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 30.16ms | Dane: {}
+[RESPONSE]	2025-09-06 23:20:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 32.78ms | Dane: {}
+[RESPONSE]	2025-09-06 23:20:15	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 32.3ms | Dane: {}
+[RESPONSE]	2025-09-06 23:20:36	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 30.51ms | Dane: {}
+[RESPONSE]	2025-09-06 23:20:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 32.61ms | Dane: {}
+[RESPONSE]	2025-09-06 23:22:37	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/3/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 15.9ms | Dane: {}
+[RESPONSE]	2025-09-06 23:22:37	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.01ms | Dane: {}
+[ERROR]	2025-09-06 23:22:37	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-09-06 23:22:49	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/3/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 16.36ms | Dane: {}
+[RESPONSE]	2025-09-06 23:23:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 25.83ms | Dane: {}
+[RESPONSE]	2025-09-06 23:23:22	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.15ms | Dane: {}
+[ERROR]	2025-09-06 23:23:22	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[ERROR]	2025-09-06 23:24:58	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/report/2/details/ | TemplateSyntaxError: Unclosed tag on line 3: 'block'. Looking for one of: endblock. | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-09-06 23:24:58	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 65.98ms | Dane: {}
+[ERROR]	2025-09-06 23:24:58	[MAIN.middleware]	Błąd 500 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-09-06 23:25:25	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 31.53ms | Dane: {}
+[RESPONSE]	2025-09-06 23:25:25	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.12ms | Dane: {}
+[ERROR]	2025-09-06 23:25:25	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-09-06 23:25:50	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/3/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 16.68ms | Dane: {}
+[RESPONSE]	2025-09-06 23:25:50	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.02ms | Dane: {}
+[ERROR]	2025-09-06 23:25:50	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Tymoteusz | IP: 127.0.0.1

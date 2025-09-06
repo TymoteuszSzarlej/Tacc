@@ -1,147 +1,272 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<style>
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .table-container {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .table-responsive {
+    width: 100%;
+    max-width: 60vw;
+  }
+
+  .table-responsive table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  .table-responsive th,
+  .table-responsive td {
+    padding: 8px;
+    border: 1px solid #dee2e6;
+  }
+
+  canvas {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+  }
+
+  @media (max-width: 576px) {
+    .container {
+      padding: 10px;
+    }
+
+    .table-responsive {
+      max-width: 90vw;
+    }
+  }
+</style>
+
 <div class="container">
-    <h2>📊 {{ report.name }}</h2>
-    <p>{{ report.description }}</p>
-    <h3>{{ report_data.type }}</h3>
+  <h2>📊 {{ report.name }}</h2>
+  <p>{{ report.description }}</p>
+  <h3>{{ report_data.type }}</h3>
 
-    {% if report.report_type == 'balance_sheet' %}
-    <!-- Sekcja dla bilansu -->
+  {% if report.report_type == 'balance_sheet' %}
+    <!-- Assets -->
     <div class="table-container">
-        <h4>Bilans - Aktywa</h4>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Aktywa</th>
-                    <th>Kwota</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for name, balance in report_data.assets.items %}
-                <tr>
-                    <td>{{ name }}</td>
-                    <td>{{ balance }}</td>
-                </tr>
-                {% endfor %}
-                <tr>
-                    <td><strong>Razem Aktywa</strong></td>
-                    <td><strong>{{ report_data.total_assets }}</strong></td>
-                </tr>
-            </tbody>
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr><th colspan="2">Bilans – Aktywa</th></tr>
+            <tr>
+              <th>Aktywa</th>
+              <th>Kwota</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for name, balance in report_data.assets.items %}
+            <tr>
+              <td>{{ name }}</td>
+              <td>{{ balance }}</td>
+            </tr>
+            {% endfor %}
+            <tr>
+              <td><strong>Razem Aktywa</strong></td>
+              <td><strong>{{ report_data.total_assets }}</strong></td>
+            </tr>
+          </tbody>
         </table>
+      </div>
+    </div>
+    <canvas id="assetsChart"></canvas>
+
+    <!-- Liabilities -->
+    <div class="table-container">
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr><th colspan="2">Bilans – Pasywa</th></tr>
+            <tr>
+              <th>Pasywa</th>
+              <th>Kwota</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for name, balance in report_data.liabilities.items %}
+            <tr>
+              <td>{{ name }}</td>
+              <td>{{ balance }}</td>
+            </tr>
+            {% endfor %}
+            <tr>
+              <td><strong>Razem Pasywa</strong></td>
+              <td><strong>{{ report_data.total_liabilities }}</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Kapitał Własny</strong></td>
+              <td><strong>{{ report_data.equity }}</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <canvas id="liabilitiesChart"></canvas>
+
+  {% elif report.report_type == 'income_statement' %}
+    <!-- Revenues -->
+    <div class="table-container">
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr><th colspan="2">Przychody</th></tr>
+            <tr>
+              <th>Przychody</th>
+              <th>Kwota</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for name, balance in report_data.revenues.items %}
+            <tr>
+              <td>{{ name }}</td>
+              <td>{{ balance }}</td>
+            </tr>
+            {% endfor %}
+            <tr>
+              <td><strong>Razem Przychody</strong></td>
+              <td><strong>{{ report_data.total_revenues }}</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <canvas id="revenuesChart"></canvas>
+
+    <!-- Expenses -->
+    <div class="table-container">
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr><th colspan="2">Koszty</th></tr>
+            <tr>
+              <th>Koszty</th>
+              <th>Kwota</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for name, balance in report_data.expenses.items %}
+            <tr>
+              <td>{{ name }}</td>
+              <td>{{ balance }}</td>
+            </tr>
+            {% endfor %}
+            <tr>
+              <td><strong>Razem Koszty</strong></td>
+              <td><strong>{{ report_data.total_expenses }}</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Wynik Netto</strong></td>
+              <td><strong>{{ report_data.net_income }}</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <canvas id="expensesChart"></canvas>
+
+  {% elif report.report_type == 'cash_flow_statement' %}
+    <!-- Cash Flow -->
+    <div class="table-container">
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr><th colspan="2">Rachunek Przepływów Pieniężnych</th></tr>
+            <tr>
+              <th>Środki Pieniężne</th>
+              <th>Kwota</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for name, balance in report_data.cash_flows.items %}
+            <tr>
+              <td>{{ name }}</td>
+              <td>{{ balance }}</td>
+            </tr>
+            {% endfor %}
+            <tr>
+              <td><strong>Razem Środki Pieniężne</strong></td>
+              <td><strong>{{ report_data.total_cash_flow }}</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
-    <div class="table-container">
-        <h4>Bilans - Pasywa</h4>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Pasywa</th>
-                    <th>Kwota</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for name, balance in report_data.liabilities.items %}
-                <tr>
-                    <td>{{ name }}</td>
-                    <td>{{ balance }}</td>
-                </tr>
-                {% endfor %}
-                <tr>
-                    <td><strong>Razem Pasywa</strong></td>
-                    <td><strong>{{ report_data.total_liabilities }}</strong></td>
-                </tr>
-                <tr>
-                    <td><strong>Kapitał Własny</strong></td>
-                    <td><strong>{{ report_data.equity }}</strong></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    {% elif report.report_type == 'income_statement' %}
-    <!-- Sekcja dla rachunku zysków i strat -->
-    <div class="table-container">
-        <h4>Rachunek Zysków i Strat - Przychody</h4>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Przychody</th>
-                    <th>Kwota</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for name, balance in report_data.revenues.items %}
-                <tr>
-                    <td>{{ name }}</td>
-                    <td>{{ balance }}</td>
-                </tr>
-                {% endfor %}
-                <tr>
-                    <td><strong>Razem Przychody</strong></td>
-                    <td><strong>{{ report_data.total_revenues }}</strong></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div class="table-container">
-        <h4>Rachunek Zysków i Strat - Koszty</h4>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Koszty</th>
-                    <th>Kwota</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for name, balance in report_data.expenses.items %}
-                <tr>
-                    <td>{{ name }}</td>
-                    <td>{{ balance }}</td>
-                </tr>
-                {% endfor %}
-                <tr>
-                    <td><strong>Razem Koszty</strong></td>
-                    <td><strong>{{ report_data.total_expenses }}</strong></td>
-                </tr>
-                <tr>
-                    <td><strong>Wynik Netto</strong></td>
-                    <td><strong>{{ report_data.net_income }}</strong></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    {% elif report.report_type == 'cash_flow_statement' %}
-    <!-- Sekcja dla rachunku przepływów pieniężnych -->
-    <div class="table-container">
-        <h4>Rachunek Przepływów Pieniężnych</h4>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Środki Pieniężne</th>
-                    <th>Kwota</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for name, balance in report_data.cash_flows.items %}
-                <tr>
-                    <td>{{ name }}</td>
-                    <td>{{ balance }}</td>
-                </tr>
-                {% endfor %}
-                <tr>
-                    <td><strong>Razem Środki Pieniężne</strong></td>
-                    <td><strong>{{ report_data.total_cash_flow }}</strong></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    {% else %}
+  {% else %}
     <p>Nieznany typ raportu.</p>
-    {% endif %}
+  {% endif %}
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const config = (labels, data, colors) => ({
+    type: 'pie',
+    data: { labels, datasets: [{ data, backgroundColor: colors }] },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { position: 'bottom' },
+        tooltip: {
+          callbacks: {
+            label: ctx => {
+              const lbl = ctx.label || '';
+              const val = ctx.raw || 0;
+              return `${lbl}: ${val.toLocaleString()} PLN`;
+            }
+          }
+        }
+      }
+    }
+  });
+
+  {% if report.report_type == 'balance_sheet' %}
+    new Chart(
+      document.getElementById('assetsChart'),
+      config(
+        [{% for name in report_data.assets.keys %}"{{ name }}",{% endfor %}],
+        [{% for balance in report_data.assets.values %}{{ balance }},{% endfor %}],
+        ['#4e73df','#1cc88a','#36b9cc','#f6c23e','#e74a3b']
+      )
+    );
+
+    new Chart(
+      document.getElementById('liabilitiesChart'),
+      config(
+        [{% for name in report_data.liabilities.keys %}"{{ name }}",{% endfor %}],
+        [{% for balance in report_data.liabilities.values %}{{ balance }},{% endfor %}],
+        ['#858796','#fd7e14','#20c997','#6f42c1','#17a2b8']
+      )
+    );
+  {% elif report.report_type == 'income_statement' %}
+    new Chart(
+      document.getElementById('revenuesChart'),
+      config(
+        [{% for name in report_data.revenues.keys %}"{{ name }}",{% endfor %}],
+        [{% for balance in report_data.revenues.values %}{{ balance }},{% endfor %}],
+        ['#28a745','#ffc107','#dc3545','#007bff','#6610f2']
+      )
+    );
+
+    new Chart(
+      document.getElementById('expensesChart'),
+      config(
+        [{% for name in report_data.expenses.keys %}"{{ name }}",{% endfor %}],
+        [{% for balance in report_data.expenses.values %}{{ balance }},{% endfor %}],
+        ['#6c757d','#e83e8c','#fd7e14','#20c997','#17a2b8']
+      )
+    );
+  {% endif %}
+</script>
 {% endblock %}

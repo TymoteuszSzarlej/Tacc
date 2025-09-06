@@ -1,0 +1,49 @@
+[RESPONSE]	2025-07-18 00:03:53	[MAIN.middleware]	Odpowiedź 200 | GET / | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 0.98ms | Dane: {}
+[RESPONSE]	2025-07-18 00:03:53	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 3.39ms | Dane: {}
+[ERROR]	2025-07-18 00:03:53	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-18 00:03:59	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.26ms | Dane: {}
+[ERROR]	2025-07-18 00:03:59	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-18 00:03:59	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 7.97ms | Dane: {}
+[RESPONSE]	2025-07-18 00:03:59	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 5.32ms | Dane: {}
+[SUCCESS]	2025-07-18 00:04:02	[MAIN.signals]	Utworzono nową instancję: Session (ID: gwxpamr6on63x1mnvtb2kmtc2hcpr4iz)
+[SUCCESS]	2025-07-18 00:04:02	[MAIN.signals]	Zaktualizowano instancję: User (ID: 2)
+[RESPONSE]	2025-07-18 00:04:02	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/login/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 243.83ms | Dane: {}
+[SUCCESS]	2025-07-18 00:04:02	[MAIN.signals]	Zaktualizowano instancję: Session (ID: gwxpamr6on63x1mnvtb2kmtc2hcpr4iz)
+[ERROR]	2025-07-18 00:04:02	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/ | NameError: name 'user_accounts' is not defined | Użytkownik: TEST | IP: 127.0.0.1
+[RESPONSE]	2025-07-18 00:04:02	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 17.63ms | Dane: {}
+[ERROR]	2025-07-18 00:04:02	[MAIN.middleware]	Błąd 500 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1
+[ERROR]	2025-07-18 00:04:24	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/ | NameError: name 'user_accounts' is not defined | Użytkownik: TEST | IP: 127.0.0.1
+[RESPONSE]	2025-07-18 00:04:24	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 18.56ms | Dane: {}
+[ERROR]	2025-07-18 00:04:24	[MAIN.middleware]	Błąd 500 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1
+[RESPONSE]	2025-07-18 00:04:28	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 1.54ms | Dane: {}
+[RESPONSE]	2025-07-18 00:04:28	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 3.48ms | Dane: {}
+[ERROR]	2025-07-18 00:04:28	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: TEST | IP: 127.0.0.1
+[ERROR]	2025-07-18 00:04:28	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/ | NameError: name 'user_accounts' is not defined | Użytkownik: TEST | IP: 127.0.0.1
+[RESPONSE]	2025-07-18 00:04:28	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 16.56ms | Dane: {}
+[ERROR]	2025-07-18 00:04:28	[MAIN.middleware]	Błąd 500 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1
+[RESPONSE]	2025-07-18 00:06:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 21.23ms | Dane: {}
+[RESPONSE]	2025-07-18 00:06:16	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 3.29ms | Dane: {}
+[RESPONSE]	2025-07-18 00:06:19	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 12.04ms | Dane: {}
+[ERROR]	2025-07-18 00:12:47	[MAIN.middleware]	Wyjątek 500 | GET /apps/ | TemplateSyntaxError: Unclosed tag on line 1: 'block'. Looking for one of: endblock. | Użytkownik: TEST | IP: 127.0.0.1
+[RESPONSE]	2025-07-18 00:12:47	[MAIN.middleware]	Odpowiedź 500 | GET /apps/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 59.24ms | Dane: {}
+[ERROR]	2025-07-18 00:12:47	[MAIN.middleware]	Błąd 500 | GET /apps/ | Użytkownik: TEST | IP: 127.0.0.1
+[ERROR]	2025-07-18 00:12:59	[MAIN.middleware]	Wyjątek 500 | GET /apps/ | NoReverseMatch: Reverse for 'accountancy' not found. 'accountancy' is not a valid view function or pattern name. | Użytkownik: TEST | IP: 127.0.0.1
+[RESPONSE]	2025-07-18 00:12:59	[MAIN.middleware]	Odpowiedź 500 | GET /apps/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 31.41ms | Dane: {}
+[ERROR]	2025-07-18 00:12:59	[MAIN.middleware]	Błąd 500 | GET /apps/ | Użytkownik: TEST | IP: 127.0.0.1
+[RESPONSE]	2025-07-18 00:13:17	[MAIN.middleware]	Odpowiedź 200 | GET /apps/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 5.28ms | Dane: {}
+[RESPONSE]	2025-07-18 00:13:19	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 14.54ms | Dane: {}
+[RESPONSE]	2025-07-18 00:14:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 13.21ms | Dane: {}
+[RESPONSE]	2025-07-18 00:14:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 12.52ms | Dane: {}
+[RESPONSE]	2025-07-18 00:14:06	[MAIN.middleware]	Odpowiedź 200 | GET /apps/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 2.06ms | Dane: {}
+[RESPONSE]	2025-07-18 00:14:07	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 12.19ms | Dane: {}
+[RESPONSE]	2025-07-18 00:15:25	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 15.85ms | Dane: {}
+[RESPONSE]	2025-07-18 00:15:28	[MAIN.middleware]	Odpowiedź 200 | GET /apps/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 1.86ms | Dane: {}
+[RESPONSE]	2025-07-18 00:16:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 14.83ms | Dane: {}
+[RESPONSE]	2025-07-18 00:16:58	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 11.86ms | Dane: {}
+[RESPONSE]	2025-07-18 00:16:58	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 13.85ms | Dane: {}
+[RESPONSE]	2025-07-18 00:16:59	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 12.49ms | Dane: {}
+[RESPONSE]	2025-07-18 00:17:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 17.04ms | Dane: {}
+[RESPONSE]	2025-07-18 00:21:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 21.98ms | Dane: {}
+[RESPONSE]	2025-07-18 00:42:44	[MAIN.middleware]	Odpowiedź 200 | GET /tasktrack/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 14.39ms | Dane: {}
+[RESPONSE]	2025-07-18 00:42:51	[MAIN.middleware]	Odpowiedź 404 | GET /tasktrack/dashboard | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 3.98ms | Dane: {}
+[ERROR]	2025-07-18 00:42:51	[MAIN.middleware]	Błąd 404 | GET /tasktrack/dashboard | Użytkownik: TEST | IP: 127.0.0.1

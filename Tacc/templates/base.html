@@ -305,6 +305,25 @@ footer {
     color: lightcoral;
     background-color: darkred;
 }
+
+.bottom-href {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: magenta;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(255, 0, 255, 0.4);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    z-index: 9999; /* 👈 Dodano najwyższy priorytet warstwy */
+}
+
 </style>
 <head>
     <title>Tacc Accountancy</title>
@@ -368,8 +387,17 @@ footer {
       {% block content %}
       <!-- Główna zawartość strony do nadpisania w podszablonach -->
       {% endblock %}
+        <a href="#bottom" class="bottom-href" title="Do dołu">⬇️</a><a href="#bottom" class="bottom-href">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M12 16.5c-.3 0-.5-.1-.7-.3l-6-6a1 1 0 0 1 1.4-1.4L12 14.1l5.3-5.3a1 1 0 0 1 1.4 1.4l-6 6c-.2.2-.4.3-.7.3z"/>
+</svg>
+
+        
+        </a>
   </main>
 
+<span id="bottom"></span>
   <footer>
       <p>&copy; 2025 Tymoteusz Szarlej <br>Wszelkie prawa zastrzeżone.</p>
   </footer>

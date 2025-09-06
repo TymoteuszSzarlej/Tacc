@@ -1,0 +1,1 @@
+[RESPONSE]	2025-08-31 01:23:34	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 18.73ms | Dane: {}

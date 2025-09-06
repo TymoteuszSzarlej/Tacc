@@ -1,0 +1,6 @@
+baza - reklama
+pakiet -nazwa pakietu, menu aplikacji
+aplikacja - nazwa aplikacjim opis aplikacji, logo aplikacji, menu modułów
+moduł - nazwa modułu, opis modułu
+funkcjonalność - nazwa funkcjonalnośći, opis funkcjonalności, zawartość
+

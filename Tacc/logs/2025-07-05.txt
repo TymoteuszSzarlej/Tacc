@@ -1,0 +1,2 @@
+[RESPONSE]	2025-07-05 20:50:18	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/categories/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.09ms | Dane: {}
+[RESPONSE]	2025-07-05 20:50:19	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/category/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.35ms | Dane: {}

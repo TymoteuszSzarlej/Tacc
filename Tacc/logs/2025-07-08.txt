@@ -1,0 +1,12 @@
+[RESPONSE]	2025-07-08 16:46:37	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 8.03ms | Dane: {}
+[RESPONSE]	2025-07-08 16:46:37	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.66ms | Dane: {}
+[ERROR]	2025-07-08 16:46:37	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Tymoteusz | IP: 127.0.0.1
+[RESPONSE]	2025-07-08 16:46:37	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 26.79ms | Dane: {}
+[RESPONSE]	2025-07-08 16:46:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.03ms | Dane: {}
+[RESPONSE]	2025-07-08 16:46:59	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 12.54ms | Dane: {}
+[SUCCESS]	2025-07-08 16:47:21	[MAIN.signals]	Utworzono nową instancję: Transaction (ID: 2)
+[RESPONSE]	2025-07-08 16:47:21	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/transaction/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 14.38ms | Dane: {}
+[RESPONSE]	2025-07-08 16:47:21	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.45ms | Dane: {}
+[RESPONSE]	2025-07-08 16:47:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.7ms | Dane: {}
+[RESPONSE]	2025-07-08 16:47:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/2/edit/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 12.76ms | Dane: {}
+[RESPONSE]	2025-07-08 16:47:32	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.64ms | Dane: {}

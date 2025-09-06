@@ -1,0 +1,14 @@
+[RESPONSE]	2025-08-05 21:31:12	[MAIN.middleware]	Odpowiedź 200 | GET / | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 45.4ms | Dane: {}
+[RESPONSE]	2025-08-05 21:31:14	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 108.48ms | Dane: {}
+[ERROR]	2025-08-05 21:31:14	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-08-05 21:31:14	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 20.01ms | Dane: {}
+[RESPONSE]	2025-08-05 21:31:14	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 250.41ms | Dane: {}
+[SUCCESS]	2025-08-05 21:31:57	[MAIN.signals]	Utworzono nową instancję: Session (ID: x4shun5vxbctzi8x3xjek4rwh9zs25kr)
+[SUCCESS]	2025-08-05 21:31:57	[MAIN.signals]	Zaktualizowano instancję: User (ID: 1)
+[RESPONSE]	2025-08-05 21:31:57	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/login/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 1519.03ms | Dane: {}
+[SUCCESS]	2025-08-05 21:31:57	[MAIN.signals]	Zaktualizowano instancję: Session (ID: x4shun5vxbctzi8x3xjek4rwh9zs25kr)
+[RESPONSE]	2025-08-05 21:31:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 319.41ms | Dane: {}
+[RESPONSE]	2025-08-05 22:34:16	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 292.81ms | Dane: {}
+[RESPONSE]	2025-08-05 22:34:16	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.38ms | Dane: {}
+[ERROR]	2025-08-05 22:34:16	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-08-05 22:34:31	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 34.93ms | Dane: {}

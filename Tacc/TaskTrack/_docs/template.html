@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Dokument Firmowy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #808080;
+            margin: 0;
+            padding: 0;
+            color: #222;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            border-radius: 8px;
+            padding: 40px 32px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #e5e5e5;
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin-right: 24px;
+            background: #e5e5e5;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            color: #888;
+        }
+        .company-info {
+            flex: 1;
+        }
+        .company-name {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2a3a4a;
+        }
+        .company-details {
+            font-size: 1rem;
+            color: #555;
+        }
+        .document-title {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 32px 0 24px 0;
+            color: #1a2a3a;
+        }
+        .content {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #333;
+        }
+        .footer {
+            border-top: 1px solid #e5e5e5;
+            margin-top: 40px;
+            padding-top: 16px;
+            font-size: 0.95rem;
+            color: #888;
+            text-align: center;
+        }
+        /* section {
+            margin: 50px;
+            padding: 80px;
+            border: 13px solid turquoise;
+            border-radius: 20%;
+            background-color: #BFBFBF;
+
+        }
+        div {
+            margin: 30px;
+            padding: 50px;
+            border: 5px solid turquoise;
+            border-radius: 30%;
+            background-color: #BFBFBF;
+
+        }
+        span {
+            margin: 20px;
+            padding: 30px;
+            border: 2px solid turquoise;
+            border-radius: 50%;
+            background-color: #BFBFBF;
+
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <!-- Tu możesz wstawić logo firmy jako <img src="logo.png" alt="Logo"> -->
+                LOGO
+            </div>
+            <div class="company-info">
+                <div class="company-name">Nazwa Firmy Sp. z o.o.</div>
+                <div class="company-details">
+                    ul. Przykładowa 1, 00-000 Miasto<br>
+                    NIP: 123-456-78-90 | REGON: 123456789<br>
+                    Tel: +48 123 456 789 | Email: biuro@firma.pl
+                </div>
+            </div>
+        </div>
+        <div class="document-title">
+            Tytuł dokumentu
+        </div>
+        <div class="content">
+            <!-- Tutaj wpisz treść dokumentu firmowego -->
+            <p>
+                Szanowni Państwo,<br><br>
+                Niniejszym przedstawiamy dokument firmowy zgodnie z obowiązującymi standardami.<br>
+                Prosimy o zapoznanie się z poniższymi informacjami.
+            </p>
+        </div>
+        <div class="footer">
+            &copy; 2025 Nazwa Firmy Sp. z o.o.

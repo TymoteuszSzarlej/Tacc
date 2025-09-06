@@ -1,0 +1,4 @@
+[RESPONSE]	2025-06-24 21:22:48	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 7.82ms | Dane: {}
+[RESPONSE]	2025-06-24 21:22:48	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 5.87ms | Dane: {}
+[ERROR]	2025-06-24 21:22:48	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: TEST | IP: 127.0.0.1
+[RESPONSE]	2025-06-24 21:22:48	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: TEST | IP: 127.0.0.1 | Czas: 24.04ms | Dane: {}

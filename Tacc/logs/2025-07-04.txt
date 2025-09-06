@@ -1,0 +1,45 @@
+[RESPONSE]	2025-07-04 22:48:38	[MAIN.middleware]	Odpowiedź 200 | GET / | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.78ms | Dane: {}
+[RESPONSE]	2025-07-04 22:48:38	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 4.23ms | Dane: {}
+[ERROR]	2025-07-04 22:48:38	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-04 22:48:40	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.3ms | Dane: {}
+[ERROR]	2025-07-04 22:48:40	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: Anonim | IP: 127.0.0.1
+[RESPONSE]	2025-07-04 22:48:40	[MAIN.middleware]	Odpowiedź 302 | GET /accountancy/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 7.16ms | Dane: {}
+[RESPONSE]	2025-07-04 22:48:40	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Anonim | IP: 127.0.0.1 | Czas: 6.88ms | Dane: {}
+[SUCCESS]	2025-07-04 22:48:44	[MAIN.signals]	Utworzono nową instancję: Session (ID: 7jm4za9qxxx6fo2n6w3789hb958v0q97)
+[SUCCESS]	2025-07-04 22:48:44	[MAIN.signals]	Zaktualizowano instancję: User (ID: 1)
+[RESPONSE]	2025-07-04 22:48:44	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 244.19ms | Dane: {}
+[SUCCESS]	2025-07-04 22:48:44	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 7jm4za9qxxx6fo2n6w3789hb958v0q97)
+[RESPONSE]	2025-07-04 22:48:44	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 22.99ms | Dane: {}
+[RESPONSE]	2025-07-04 22:48:48	[MAIN.middleware]	Odpowiedź 200 | GET /accounts/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.63ms | Dane: {}
+[RESPONSE]	2025-07-04 22:48:50	[MAIN.middleware]	Odpowiedź 200 | POST /accounts/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 230.02ms | Dane: {}
+[RESPONSE]	2025-07-04 22:48:58	[MAIN.middleware]	Odpowiedź 200 | POST /accounts/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 229.14ms | Dane: {}
+[RESPONSE]	2025-07-04 22:49:06	[MAIN.middleware]	Odpowiedź 200 | POST /accounts/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 232.63ms | Dane: {}
+[SUCCESS]	2025-07-04 22:49:13	[MAIN.signals]	Zaktualizowano instancję: User (ID: 1)
+[RESPONSE]	2025-07-04 22:49:13	[MAIN.middleware]	Odpowiedź 302 | POST /accounts/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 232.54ms | Dane: {}
+[SUCCESS]	2025-07-04 22:49:13	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 7jm4za9qxxx6fo2n6w3789hb958v0q97)
+[RESPONSE]	2025-07-04 22:49:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 20.44ms | Dane: {}
+[RESPONSE]	2025-07-04 22:49:18	[MAIN.middleware]	Odpowiedź 302 | GET /admin/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.43ms | Dane: {}
+[RESPONSE]	2025-07-04 22:49:18	[MAIN.middleware]	Odpowiedź 200 | GET /admin/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 10.1ms | Dane: {}
+[RESPONSE]	2025-07-04 22:49:21	[MAIN.middleware]	Odpowiedź 200 | POST /admin/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 234.78ms | Dane: {}
+[RESPONSE]	2025-07-04 22:49:27	[MAIN.middleware]	Odpowiedź 200 | POST /admin/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 228.28ms | Dane: {}
+[RESPONSE]	2025-07-04 22:49:30	[MAIN.middleware]	Odpowiedź 200 | POST /admin/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 225.62ms | Dane: {}
+[RESPONSE]	2025-07-04 22:49:41	[MAIN.middleware]	Odpowiedź 200 | POST /admin/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 232.4ms | Dane: {}
+[RESPONSE]	2025-07-04 22:49:47	[MAIN.middleware]	Odpowiedź 200 | GET /admin/login/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 4.68ms | Dane: {}
+[RESPONSE]	2025-07-04 22:50:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 12.03ms | Dane: {}
+[RESPONSE]	2025-07-04 22:50:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/categories/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.5ms | Dane: {}
+[RESPONSE]	2025-07-04 22:51:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/category/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.46ms | Dane: {}
+[RESPONSE]	2025-07-04 22:51:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/categories/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.74ms | Dane: {}
+[RESPONSE]	2025-07-04 22:51:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.26ms | Dane: {}
+[RESPONSE]	2025-07-04 22:51:15	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/book/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.91ms | Dane: {}
+[RESPONSE]	2025-07-04 22:51:18	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 35.44ms | Dane: {}
+[RESPONSE]	2025-07-04 22:51:34	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 6.76ms | Dane: {}
+[RESPONSE]	2025-07-04 22:51:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.67ms | Dane: {}
+[RESPONSE]	2025-07-04 22:51:44	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.49ms | Dane: {}
+[RESPONSE]	2025-07-04 22:52:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.96ms | Dane: {}
+[SUCCESS]	2025-07-04 22:53:11	[MAIN.signals]	Utworzono nową instancję: Report (ID: 2)
+[RESPONSE]	2025-07-04 22:53:11	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/report/create/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 13.05ms | Dane: {}
+[RESPONSE]	2025-07-04 22:53:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 2.64ms | Dane: {}
+[RESPONSE]	2025-07-04 22:53:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/2/details/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 29.46ms | Dane: {}
+[RESPONSE]	2025-07-04 22:55:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 5.4ms | Dane: {}
+[RESPONSE]	2025-07-04 22:56:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 11.52ms | Dane: {}
+[RESPONSE]	2025-07-04 22:56:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: Tymoteusz | IP: 127.0.0.1 | Czas: 3.71ms | Dane: {}
