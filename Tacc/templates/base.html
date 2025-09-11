@@ -364,6 +364,80 @@ footer {
     display: none !important;
 }
 
+
+.messages {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.alert {
+  opacity: 0.6;
+  position: relative;
+  padding: 12px 40px 12px 20px;
+  border-radius: 1000px;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  animation: fadeIn 1.6s ease;
+  transition: opacity 1s ease, transform 1s ease;
+  opacity: 0.5;
+}
+
+.alert:hover {
+  opacity: 0.8;
+}
+
+.alert .close-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.alert .close-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.8;
+  z-index: 10001; /* 👈 dodaj */
+}
+
+
+.alert .close-btn:hover {
+  opacity: 1;
+}
+
+
+.alert-success { background-color: #28a745; }
+.alert-error, .alert-danger { background-color: #dc3545; }
+.alert-warning { background-color: #ffc107; color: #212529; }
+.alert-info { background-color: #17a2b8; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.alert {
+  pointer-events: auto;
+}
+
 </style>
 <head>
     <title>Tacc Accountancy</title>
@@ -371,6 +445,8 @@ footer {
 {% load static %}
 
 <body>
+  <button id="toggle-aside">☰ Menu</button> <!-- Przycisk rozwijania aside -->
+
   <header>
 
       <h1>Tacc</h1>
@@ -382,7 +458,6 @@ footer {
       {% endblock %}
   </header>
 
-  <button id="toggle-aside">☰ Menu</button> <!-- Przycisk rozwijania aside -->
 
   <aside>
       <div class="content">
@@ -422,15 +497,21 @@ footer {
   <path d="M6 9L12 15L18 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </a>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-<path d="M12 16.5c-.3 0-.5-.1-.7-.3l-6-6a1 1 0 0 1 1.4-1.4L12 14.1l5.3-5.3a1 1 0 0 1 1.4 1.4l-6 6c-.2.2-.4.3-.7.3z"/>
-</svg>
+
   <main>
-      {% if messages %}
-          {% for message in messages %}
-              <div>{{ message }}</div>
-          {% endfor %}
-      {% endif %}
+        {% if messages %}
+        <div class="messages">
+            {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+                <button class="close-btn" aria-label="Zamknij">✖</button>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+
+
 
       {% block content %}
       <!-- Główna zawartość strony do nadpisania w podszablonach -->
@@ -443,75 +524,103 @@ footer {
   <path d="M6 15L12 9L18 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </a>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-<path d="M12 16.5c-.3 0-.5-.1-.7-.3l-6-6a1 1 0 0 1 1.4-1.4L12 14.1l5.3-5.3a1 1 0 0 1 1.4 1.4l-6 6c-.2.2-.4.3-.7.3z"/>
-</svg>
+
 
   <footer>
       <p>&copy; 2025 Tymoteusz Szarlej <br>Wszelkie prawa zastrzeżone.</p>
   </footer>
   {% block extra_js %}{% endblock %}
-  <script>
+
+    <script>
     document.addEventListener('DOMContentLoaded', function () {
+        // ===== MENU (aside toggle) =====
         const toggleButton = document.getElementById('toggle-aside');
         const aside = document.querySelector('aside');
-    
-        toggleButton.addEventListener('click', function () {
-            aside.classList.toggle('active');
+        if (toggleButton && aside) {
+            toggleButton.addEventListener('click', function () {
+                aside.classList.toggle('active');
+            });
+        }
+
+        // ===== FORMULARZ: typ konta -> podtyp =====
+        const accountTypeField = document.getElementById("id_account_type");
+        const subtypeField = document.getElementById("id_account_subtype");
+
+        if (accountTypeField && subtypeField) {
+            accountTypeField.addEventListener("change", function() {
+                var accountType = this.value;
+                subtypeField.innerHTML = ""; // wyczyść obecne opcje
+
+                var subtypes = {
+                    "assets": ["fixed", "current", "financial", "inventories", "receivables"],
+                    "liabilities": ["long_term", "short_term", "equity"],
+                    "revenue": [],
+                    "expenses": []
+                };
+
+                (subtypes[accountType] || []).forEach(function(subtype) {
+                    var option = document.createElement("option");
+                    option.value = subtype;
+                    option.textContent = subtype;
+                    subtypeField.appendChild(option);
+                });
+            });
+        }
+
+        // ===== SCROLL BUTTONS =====
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            const windowHeight = window.innerHeight;
+            const documentHeight = document.body.scrollHeight;
+
+            const scrollPercent = (scrollTop + windowHeight) / documentHeight * 100;
+
+            const topHref = document.querySelector('.top-href');
+            const bottomHref = document.querySelector('.bottom-href');
+
+            if (bottomHref) {
+                // Pokaż .bottom-href tylko w górnych 10%
+                if (scrollPercent <= 10) {
+                    bottomHref.classList.remove('hidden');
+                } else {
+                    bottomHref.classList.add('hidden');
+                }
+            }
+
+            if (topHref) {
+                // Pokaż .top-href tylko w dolnych 10%
+                if (scrollPercent >= 90) {
+                    topHref.classList.remove('hidden');
+                } else {
+                    topHref.classList.add('hidden');
+                }
+            }
+        });
+
+        // ===== ALERTS =====
+        const alerts = document.querySelectorAll('.alert');
+
+        alerts.forEach((alert, index) => {
+            /*// Automatyczne znikanie
+            setTimeout(() => {
+                alert.style.opacity = '0';
+                alert.style.transform = 'translateY(-10px)';
+                setTimeout(() => alert.remove(), 600);
+            }, 4000 + index * 500);
+            */
+
+            // Ręczne zamykanie
+            const closeBtn = alert.querySelector('.close-btn');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', () => {
+                    alert.style.opacity = '0';
+                    alert.style.transform = 'translateY(-10px)';
+                    setTimeout(() => alert.remove(), 600);
+                });
+            }
         });
     });
-  </script>
-    <script>
-document.getElementById("id_account_type").addEventListener("change", function() {
-    var accountType = this.value;
-    var subtypeField = document.getElementById("id_account_subtype");
-
-    // Wyczyść obecne opcje
-    subtypeField.innerHTML = "";
-
-    var subtypes = {
-        "assets": ["fixed", "current", "financial", "inventories", "receivables"],
-        "liabilities": ["long_term", "short_term", "equity"],
-        "revenue": [],
-        "expenses": []
-    };
-
-    subtypes[accountType].forEach(function(subtype) {
-        var option = document.createElement("option");
-        option.value = subtype;
-        option.textContent = subtype;
-        subtypeField.appendChild(option);
-    });
-});
-
-
-
-
-
-window.addEventListener('scroll', () => {
-    const scrollTop = window.scrollY;
-    const windowHeight = window.innerHeight;
-    const documentHeight = document.body.scrollHeight;
-
-    const scrollPercent = (scrollTop + windowHeight) / documentHeight * 100;
-
-    const topHref = document.querySelector('.top-href');
-    const bottomHref = document.querySelector('.bottom-href');
-
-    // Pokaż .bottom-href tylko w górnych 10%
-    if (scrollPercent <= 10) {
-      bottomHref.classList.remove('hidden');
-    } else {
-      bottomHref.classList.add('hidden');
-    }
-
-    // Pokaż .top-href tylko w dolnych 10%
-    if (scrollPercent >= 90) {
-      topHref.classList.remove('hidden');
-    } else {
-      topHref.classList.add('hidden');
-    }
-  });
     </script>
+
 
 </body>

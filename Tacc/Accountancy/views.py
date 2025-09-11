@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
+from django.contrib import messages
 from .models import *
 from .forms import *
 from datetime import datetime, timedelta
@@ -21,7 +22,9 @@ def create_book(request):
             book = form.save(commit=False)
             book.user = request.user  # Przypisanie książki do użytkownika
             book.save()
+            messages.success(request, 'Księga została pomyślnie utworzona.')
             return redirect('books')
+        messages.error(request, 'Wystąpił błąd podczas tworzenia księgi. Sprawdź formularz.')
     else:
         form = BookForm()
     return render(request, 'Accountancy/books/create.html.jinja', {'form': form})
@@ -38,7 +41,9 @@ def edit_book(request, book_id):
         form = BookForm(request.POST, instance=book)
         if form.is_valid():
             form.save()
+            messages.success(request, 'Księga została pomyślnie zaktualizowana.')
             return redirect('books')
+        messages.error(request, 'Wystąpił błąd podczas aktualizacji księgi. Sprawdź formularz.')
     else:
         form = BookForm(instance=book)
     return render(request, 'Accountancy/books/edit.html.jinja', {'form': form, 'book': book})
@@ -48,12 +53,17 @@ def delete_book(request, book_id):
     book = get_object_or_404(Book, id=book_id, user=request.user)  # Sprawdzenie właściciela książki
     if request.method == 'POST':
         book.delete()
+        messages.success(request, 'Księga została pomyślnie usunięta.')
         return redirect('books')
     return render(request, 'Accountancy/books/delete.html.jinja', {'book': book})
 
 @login_required
 def accounts(request):
     accounts = Account.objects.filter(user=request.user)  # Filtrowanie kont użytkownika
+    messages.info(request, 'Testowy komunikat informacyjny - usuń go w produkcji.')
+    messages.error(request, 'Testowy komunikat błędu - usuń go w produkcji.')
+    messages.warning(request, 'Testowy komunikat ostrzeżenia - usuń go w produkcji.')
+    messages.success(request, 'Testowy komunikat sukcesu - usuń go w produkcji.')
     return render(request, 'Accountancy/accounts/main.html.jinja', {'accounts': accounts})
 
 @login_required
@@ -64,7 +74,9 @@ def create_account(request):
             account = form.save(commit=False)
             account.user = request.user  # Przypisanie konta do użytkownika
             account.save()
+            messages.success(request, 'Konto zostało pomyślnie utworzone.')
             return redirect('accounts')
+        messages.error(request, 'Wystąpił błąd podczas tworzenia konta. Sprawdź formularz.')
     else:
         form = AccountForm(user=request.user)  # Przekazanie użytkownika do formularza
     return render(request, 'Accountancy/accounts/create.html.jinja', {'form': form})
@@ -85,6 +97,7 @@ def edit_account(request, account_id):
         form = AccountForm(request.POST, instance=account, user=request.user)  # Przekazanie użytkownika do formularza
         if form.is_valid():
             form.save()
+            messages.success(request, 'Konto zostało pomyślnie zaktualizowane.')
             return redirect('accounts')
     else:
         form = AccountForm(instance=account, user=request.user)  # Przekazanie użytkownika do formularza
