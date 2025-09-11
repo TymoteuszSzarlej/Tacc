@@ -39,9 +39,8 @@ def append_to_files(new_version, description, version_file='./Tacc/MAIN/versions
         vf.write(new_version + '\n')
     with open(changes_file, 'a') as cf:
         cf.write(description + '\n')
-    from datetime import datetime
     with open('./Tacc/MAIN/release_dates.txt', 'a') as file:
-	file.write(str(datetime.day(datetime.now())))
+        file.write(datetime.now().strftime('%Y-%m-%d') + '\n')
 
     print(f"✅ Zapisano wersję: {new_version}")
     print(f"🗒️ Opis: {description}")
