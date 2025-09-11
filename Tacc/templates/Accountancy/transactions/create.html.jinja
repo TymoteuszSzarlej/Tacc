@@ -1,10 +1,75 @@
+
 {%extends 'base.html'%}
 {% block content %}
 <div class="container">
     <h2>Dodaj nową transakcję</h2>
     <form method="POST">
         {% csrf_token %}
-        {{ form.as_p }}
+        
+        <div class="form-group">
+            {{ form.description.label }}<br>
+            {{ form.description }}
+            {% if form.description.errors %}
+                <small class="error">{{ form.description.errors }}</small>
+            {% endif %}
+        </div>
+
+        <div class="form-group">
+            {{ form.amount.label }}<br>
+            {{ form.amount }}
+            {% if form.amount.errors %}
+                <small class="error">{{ form.amount.errors }}</small>
+            {% endif %}
+        </div>
+
+<table>
+    <thead>
+        <tr>
+            <td class="form-group">
+                {{ form.credit_account.label }}<br>
+                {{ form.credit_account }}
+                {% if form.credit_account.errors %}
+                    <small class="error">{{ form.credit_account.errors }}</small>
+                {% endif %}<br>
+                {{ form.credit_account.help_text }}
+            </td>
+            <td class="form-group">
+                {{ form.debit_account.label }}<br>
+                {{ form.debit_account }}
+                {% if form.debit_account.errors %}
+                    <small class="error">{{ form.debit_account.errors }}</small>
+                {% endif %}<br>
+                {{ form.debit_account.help_text }}
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        
+    </tbody>
+</table>
+        
+
+
+        
+
+
+        <div class="form-group">
+            {{ form.document.label }}<br>
+            {{ form.document }}
+            {% if form.document.errors %}
+                <small class="error">{{ form.document.errors }}</small>
+            {% endif %}
+        </div>
+
+
+        <div class="form-group">
+            {{ form.category.label }}<br>
+            {{ form.category }}
+            {% if form.category.errors %}
+                <small class="error">{{ form.category.errors }}</small>
+            {% endif %}
+        </div>
+
         <button type="submit" class="btn btn-primary">Zapisz</button>
     </form>
     <a href="{% url 'transactions' %}" class="btn btn-secondary">Anuluj</a>

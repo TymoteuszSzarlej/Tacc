@@ -1,0 +1,64 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="erpGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3EB489"/>
+      <stop offset="100%" stop-color="#2E8B57"/>
+    </linearGradient>
+    <filter id="erpShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="2" stdDeviation="1.5" flood-opacity="0.25"/>
+    </filter>
+    <pattern id="erpPattern" patternUnits="userSpaceOnUse" width="4" height="4">
+      <path d="M0 0 L4 4" stroke="#2E8B57" stroke-width="0.5" opacity="0.3"/>
+      <path d="M0 4 L4 0" stroke="#2E8B57" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background with texture -->
+  <rect x="4" y="4" width="56" height="56" rx="10" fill="url(#erpGradient)"/>
+  <rect x="4" y="4" width="56" height="56" rx="10" fill="url(#erpPattern)"/>
+  
+  <!-- 3D server cabinet -->
+  <path d="M16 20 H48 V44 H16 Z" fill="#708090" filter="url(#erpShadow)"/>
+  <path d="M16 20 L20 16 H44 L48 20" fill="#5F6A6A"/>
+  
+  <!-- Server details -->
+  <rect x="20" y="24" width="24" height="4" rx="2" fill="white">
+    <animate attributeName="fill" values="white;#E6E6E6;white" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="20" y="32" width="16" height="4" rx="2" fill="white">
+    <animate attributeName="width" values="16;24;16" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="20" y="40" width="20" height="4" rx="2" fill="white">
+    <animate attributeName="y" values="40;39;40" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Status lights -->
+  <circle cx="18" cy="26" r="1.5" fill="#00FF00">
+    <animate attributeName="fill" values="#00FF00;#ADFF2F;#00FF00" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="18" cy="34" r="1.5" fill="#FFA500">
+    <animate attributeName="fill" values="#FFA500;#FFD700;#FFA500" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="18" cy="42" r="1.5" fill="#00FF00">
+    <animate attributeName="fill" values="#00FF00;#7CFC00;#00FF00" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Ventilation holes -->
+  <g fill="#5F6A6A" opacity="0.7">
+    <rect x="46" y="22" width="1" height="2" rx="0.5"/>
+    <rect x="46" y="26" width="1" height="2" rx="0.5"/>
+    <rect x="46" y="30" width="1" height="2" rx="0.5"/>
+    <rect x="46" y="34" width="1" height="2" rx="0.5"/>
+    <rect x="46" y="38" width="1" height="2" rx="0.5"/>
+    <rect x="46" y="42" width="1" height="2" rx="0.5"/>
+  </g>
+  
+  <!-- Text with depth
+  <text x="32" y="58" text-anchor="middle" font-size="10" fill="white" font-family="'Segoe UI', Arial" font-weight="500" opacity="0.95">
+    <tspan filter="url(#erpShadow)">ERP</tspan>
+  </text> -->
+  
+  <!-- Corner accents -->
+  <path d="M8 8h3v3H8z" fill="white" opacity="0.2"/>
+  <path d="M53 53h3v3h-3z" fill="white" opacity="0.2"/>
+</svg>

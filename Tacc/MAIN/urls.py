@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import landing_page
+from .views import *
 
 urlpatterns = [
     path('', landing_page, name='landing_page'),  # Strona główna (landing page)
+    path('versions/', get_list_of_versions, name='versions'),  # Strona z wersjami
 ]

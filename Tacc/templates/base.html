@@ -37,13 +37,15 @@ header h1, header h3 {
 }
 
 /* ========= Nawigacja boczna ========= */
+
+
 aside {
     width: 250px;
     height: 100vh;
     background-color: #333;
     color: #fff;
-    padding: 20px;
-    padding-top: 80px; /* dodany odstęp od góry */
+    padding: 5px;
+    padding-top: 0px; /* dodany odstęp od góry */
     padding-bottom: 550px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
     z-index: 1000;
@@ -55,20 +57,22 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow-y: auto; /* Dodano przewijanie w pionie */
 }
+
+
 
 
 aside.active {
     transform: translateX(0);
     opacity: 1;
+    max-height: 60%;
 }
 
 aside nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    height: 60%;
+    height: 0%;
 }
 
 aside nav ul li {
@@ -134,13 +138,10 @@ th, td {
 /* ========= Przycisk aside toggle ========= */
 #toggle-aside {
     position: fixed;
-    top: 15px;
-    left: 15px;
-    z-index: 1100;
+    z-index: 11000;
     background-color: magenta;
     color: white;
     border: none;
-    padding: 12px 24px;
     border-radius: 20px;
     font-weight: bold;
     font-size: 1em;
@@ -236,7 +237,7 @@ img.logo {
     }
 
     main {
-        padding-top: 140px;
+        padding-top: 200px;
         padding-bottom: 180px;
     }
 
@@ -266,6 +267,10 @@ img.logo {
     100% {
         background-color: turquoise;
     }
+}
+
+button {
+    margin: 5%;
 }
 
 /*
@@ -306,6 +311,23 @@ footer {
     background-color: darkred;
 }
 
+.top-href {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: magenta;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(255, 0, 255, 0.4);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    z-index: 9999; /* 👈 Dodano najwyższy priorytet warstwy */
+}
 .bottom-href {
     position: fixed;
     right: 10px;
@@ -322,6 +344,9 @@ footer {
     box-shadow: 0 4px 10px rgba(255, 0, 255, 0.4);
     transition: background-color 0.3s ease, transform 0.2s ease;
     z-index: 9999; /* 👈 Dodano najwyższy priorytet warstwy */
+}
+.hidden {
+    display: none !important;
 }
 
 </style>
@@ -377,6 +402,14 @@ footer {
       </div>
   </aside>
 
+<span id="top"></span>
+<a href="#bottom" class="bottom-href" title="Do dołu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6 9L12 15L18 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+<path d="M12 16.5c-.3 0-.5-.1-.7-.3l-6-6a1 1 0 0 1 1.4-1.4L12 14.1l5.3-5.3a1 1 0 0 1 1.4 1.4l-6 6c-.2.2-.4.3-.7.3z"/>
+</svg>
   <main>
       {% if messages %}
           {% for message in messages %}
@@ -387,17 +420,18 @@ footer {
       {% block content %}
       <!-- Główna zawartość strony do nadpisania w podszablonach -->
       {% endblock %}
-        <a href="#bottom" class="bottom-href" title="Do dołu">⬇️</a><a href="#bottom" class="bottom-href">
         
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-  <path d="M12 16.5c-.3 0-.5-.1-.7-.3l-6-6a1 1 0 0 1 1.4-1.4L12 14.1l5.3-5.3a1 1 0 0 1 1.4 1.4l-6 6c-.2.2-.4.3-.7.3z"/>
-</svg>
-
-        
-        </a>
   </main>
 
 <span id="bottom"></span>
+<a href="#top" class="top-href" title="Do góry"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6 15L12 9L18 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+<path d="M12 16.5c-.3 0-.5-.1-.7-.3l-6-6a1 1 0 0 1 1.4-1.4L12 14.1l5.3-5.3a1 1 0 0 1 1.4 1.4l-6 6c-.2.2-.4.3-.7.3z"/>
+</svg>
+
   <footer>
       <p>&copy; 2025 Tymoteusz Szarlej <br>Wszelkie prawa zastrzeżone.</p>
   </footer>
@@ -434,6 +468,35 @@ document.getElementById("id_account_type").addEventListener("change", function()
         subtypeField.appendChild(option);
     });
 });
+
+
+
+
+
+window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.body.scrollHeight;
+
+    const scrollPercent = (scrollTop + windowHeight) / documentHeight * 100;
+
+    const topHref = document.querySelector('.top-href');
+    const bottomHref = document.querySelector('.bottom-href');
+
+    // Pokaż .bottom-href tylko w górnych 10%
+    if (scrollPercent <= 10) {
+      bottomHref.classList.remove('hidden');
+    } else {
+      bottomHref.classList.add('hidden');
+    }
+
+    // Pokaż .top-href tylko w dolnych 10%
+    if (scrollPercent >= 90) {
+      topHref.classList.remove('hidden');
+    } else {
+      topHref.classList.add('hidden');
+    }
+  });
     </script>
 
 </body>

@@ -1,0 +1,20 @@
+{%extends 'base.html'%}
+{% block content %}
+<h2>Historia wersji</h2>
+{% for version in versions %}
+<div class="card">
+    <h3>Wersja {{ version.version }}</h3>
+    <span>
+        <h4>Data wydania:</h4>
+        <p>{{ version.release_date }}</p>
+    </span>
+    <span>
+        <h4>Zmiany:</h4>
+        <p>{{ version.changes }}</p>
+    </span>
+</div>
+<br>
+{% endfor %}
+
+{% endblock %}
+    

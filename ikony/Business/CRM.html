@@ -1,0 +1,72 @@
+
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="crmGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3EB489"/>
+      <stop offset="100%" stop-color="#2E8B57"/>
+    </linearGradient>
+    <radialGradient id="crmRadial" cx="30%" cy="30%" r="70%" fx="30%" fy="30%">
+      <stop offset="0%" stop-color="#9370DB" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#8A2BE2" stop-opacity="0.7"/>
+    </radialGradient>
+    <filter id="crmGlow" width="150%" height="150%" x="-25%" y="-25%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  
+  <!-- Background with subtle gradient -->
+  <rect x="4" y="4" width="56" height="56" rx="10" fill="url(#crmGradient)"/>
+  
+  <!-- Main user icon with gradient and shine -->
+  <circle cx="32" cy="24" r="8" fill="url(#crmRadial)" stroke="#6A5ACD" stroke-width="1.5"/>
+  <circle cx="35" cy="21" r="1.5" fill="white" opacity="0.8"/>
+  
+  <!-- Connection path with animation -->
+  <path d="M20 42 Q32 32 44 42" 
+        stroke="#9370DB" 
+        stroke-width="4" 
+        fill="none" 
+        stroke-linecap="round"
+        stroke-dasharray="1,0">
+    <animate attributeName="stroke-dasharray" values="1,0;30,5;1,0" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="4;5;4" dur="3s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- User nodes along the path -->
+  <g transform="translate(20, 42)">
+    <circle r="3" fill="#9370DB" stroke="white" stroke-width="1.5">
+      <animate attributeName="r" values="3;4;3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1" fill="white">
+      <animate attributeName="r" values="1;1.5;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <g transform="translate(32, 32)">
+    <circle r="2.5" fill="#8A2BE2" stroke="white" stroke-width="1">
+      <animate attributeName="r" values="2.5;3.5;2.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <g transform="translate(44, 42)">
+    <circle r="3" fill="#9370DB" stroke="white" stroke-width="1.5">
+      <animate attributeName="r" values="3;3.8;3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1" fill="white">
+      <animate attributeName="r" values="1;1.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Additional connection lines -->
+  <path d="M26 38 Q32 36 38 38" stroke="#9370DB" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Text with glow
+  <text x="32" y="58" text-anchor="middle" font-size="10" fill="white" font-family="'Segoe UI', Arial" font-weight="500" filter="url(#crmGlow)">
+    CRM
+  </text> -->
+  
+  <!-- Decorative elements -->
+  <circle cx="12" cy="12" r="1.5" fill="white" opacity="0.4"/>
+  <circle cx="52" cy="52" r="1.5" fill="white" opacity="0.4"/>
+</svg>

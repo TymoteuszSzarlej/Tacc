@@ -1,0 +1,73 @@
+
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="biGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3EB489"/>
+      <stop offset="100%" stop-color="#2E8B57"/>
+    </linearGradient>
+    <linearGradient id="barGradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </linearGradient>
+    <linearGradient id="barGradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#DA9100"/>
+    </linearGradient>
+    <linearGradient id="barGradient3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <filter id="barShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="1" dy="1" stdDeviation="1" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background with gradient -->
+  <rect x="4" y="4" width="56" height="56" rx="10" fill="url(#biGradient)"/>
+  
+  <!-- Chart base -->
+  <rect x="12" y="52" width="40" height="2" fill="#2E8B57" opacity="0.8"/>
+  
+  <!-- Animated bars with different gradients -->
+  <rect x="16" y="40" width="8" height="12" fill="url(#barGradient1)" rx="1" filter="url(#barShadow)">
+    <animate attributeName="height" values="12;8;12;16;12" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="40;44;40;36;40" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  
+  <rect x="28" y="32" width="8" height="20" fill="url(#barGradient2)" rx="1" filter="url(#barShadow)">
+    <animate attributeName="height" values="20;16;20;24;20" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="32;36;32;28;32" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  
+  <rect x="40" y="24" width="8" height="28" fill="url(#barGradient3)" rx="1" filter="url(#barShadow)">
+    <animate attributeName="height" values="28;24;28;32;28" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="24;28;24;20;24" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Bar highlights -->
+  <rect x="16" y="40" width="8" height="3" fill="white" opacity="0.3" rx="1"/>
+  <rect x="28" y="32" width="8" height="3" fill="white" opacity="0.3" rx="1"/>
+  <rect x="40" y="24" width="8" height="3" fill="white" opacity="0.3" rx="1"/>
+  
+  <!-- Value indicators -->
+  <text x="20" y="36" text-anchor="middle" font-size="6" fill="white" font-family="Arial" font-weight="bold">75%</text>
+  <text x="32" y="28" text-anchor="middle" font-size="6" fill="white" font-family="Arial" font-weight="bold">60%</text>
+  <text x="44" y="20" text-anchor="middle" font-size="6" fill="white" font-family="Arial" font-weight="bold">90%</text>
+  
+  <!-- Grid lines -->
+  <g stroke="white" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.3">
+    <line x1="12" y1="48" x2="52" y2="48"/>
+    <line x1="12" y1="40" x2="52" y2="40"/>
+    <line x1="12" y1="32" x2="52" y2="32"/>
+    <line x1="12" y1="24" x2="52" y2="24"/>
+  </g>
+  
+  <!-- Text with shadow
+  <text x="32" y="58" text-anchor="middle" font-size="10" fill="white" font-family="'Segoe UI', Arial" font-weight="500">
+    <tspan filter="url(#barShadow)">BI</tspan>
+  </text> -->
+  
+  <!-- Decorative elements -->
+  <circle cx="56" cy="8" r="2" fill="white" opacity="0.2"/>
+  <circle cx="8" cy="56" r="2" fill="white" opacity="0.2"/>
+</svg>

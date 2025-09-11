@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TACC System - Kompleksowy Projekt</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { background: #2c3e50; color: white; padding: 1.5rem 0; text-align: center; }
+        h1, h2, h3 { color: #2c3e50; }
+        .section { margin-bottom: 2rem; padding: 1.5rem; background: #f9f9f9; border-radius: 5px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 15px; }
+        .card { background: white; padding: 1rem; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .icon { width: 24px; height: 24px; vertical-align: middle; margin-right: 8px; }
+        table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+        th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+        .toc ul { list-style: none; padding-left: 20px; }
+        .toc li { margin: 5px 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>TACC System</h1>
+            <p>Kompleksowy system zintegrowanych aplikacji</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Spis treści -->
+        <div class="section toc">
+            <h2>Spis treści</h2>
+            <ul>
+                <li><a href="#overview">1. Przegląd systemu</a></li>
+                <li>
+                    <a href="#personal">2. Pakiet Personal</a>
+                    <ul>
+                        <li><a href="#accountancy">2.1. Accountancy</a></li>
+                        <li><a href="#scheduler">2.2. Scheduler</a></li>
+                        <li><a href="#healthdash">2.3. HealthDash</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#business">3. Pakiet Business</a>
+                    <ul>
+                        <li><a href="#erp">3.1. ERP</a></li>
+                        <li><a href="#crm">3.2. CRM</a></li>
+                        <li><a href="#bi">3.3. BI</a></li>
+                    </ul>
+                </li>
+                <li><a href="#models">4. Modele danych</a></li>
+                <li><a href="#ui">5. Elementy UI</a></li>
+                <li><a href="#timeline">6. Harmonogram</a></li>
+            </ul>
+        </div>
+
+        <!-- Przegląd systemu -->
+        <div id="overview" class="section">
+            <h2>1. Przegląd systemu</h2>
+            <p>TACC to kompleksowy system składający się z 2 pakietów:</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>Personal</h3>
+                    <p>Aplikacje dla użytkowników indywidualnych:</p>
+                    <ul>
+                        <li><svg class="icon" viewBox="0 0 24 24"><path fill="currentColor" d="M3,3V21H21V3H3M7,7H17V10H7V7M7,12H17V13H7V12M7,14H14V15H7V14M7,16H17V17H7V16M7,19H17V20H7V19Z"/></svg> Accountancy</li>
+                        <li><svg class="icon" viewBox="0 0 24 24"><path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"/></svg> Scheduler</li>
+                        <li><svg class="icon" viewBox="0 0 24 24"><path fill="currentColor" d="M19,19H5V5H15V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V11H19M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"/></svg> HealthDash</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Business</h3>
+                    <p>Aplikacje dla przedsiębiorstw:</p>
+                    <ul>
+                        <li><svg class="icon" viewBox="0 0 24 24"><path fill="currentColor" d="M18,15H16V17H18M18,11H16V13H18M20,19H12V17H20M10,19H4V15H10V13H4V6H14V10H16V6H16V4H4V19H2V21H22V19H20Z"/></svg> ERP</li>
+                        <li><svg class="icon" viewBox="0 0 24 24"><path fill="currentColor" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"/></svg> CRM</li>
+                        <li><svg class="icon" viewBox="0 0 24 24"><path fill="currentColor" d="M21,16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V7.5C3,7.12 3.21,6.79 3.53,6.62L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.79,6.79 21,7.12 21,7.5V16.5M12,4.15L5,8.09V15.91L12,19.85L19,15.91V8.09L12,4.15Z"/></svg> BI</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pakiet Personal -->
+        <div id="personal" class="section">
+            <h2>2. Pakiet Personal</h2>
+
+            <div id="accountancy" class="card">
+                <h3>2.1. Accountancy</h3>
+                <p>Aplikacja do zarządzania finansami osobistymi z modułami:</p>
+                <ul>
+                    <li><strong>🖥️ Pulpit</strong> - Podsumowanie finansowe z wykresami i statystykami</li>
+                    <li><strong>📚 Księgi</strong> - Zarządzanie księgami finansowymi</li>
+                    <li><strong>🏦 Konta</strong> - Śledzenie stanu kont bankowych</li>
+                    <li><strong>🔄 Transakcje</strong> - Rejestracja operacji finansowych</li>
+                    <li><strong>🏷️ Kategorie</strong> - Organizacja transakcji w kategorie</li>
+                    <li><strong>📊 Budżety</strong> - Planowanie i kontrola wydatków</li>
+                    <li><strong>📝 Raporty</strong> - Generowanie raportów finansowych</li>
+                    <li><strong>📈 Prognoza</strong> - Prognozowanie przyszłych stanów</li>
+                    <li><strong>🔎 Analiza</strong> - Zaawansowana analiza wydatków</li>
+                </ul>
+            </div>
+
+            <div id="scheduler" class="card">
+                <h3>2.2. Scheduler</h3>
+                <p>Aplikacja do zarządzania czasem z modułami:</p>
+                <ul>
+                    <li><strong>📅 Kalendarz</strong> - Widok dni/tygodni/miesięcy</li>
+                    <li><strong>✅ Zadania</strong> - Lista zadań do wykonania</li>
+                    <li><strong>📂 Projekty</strong> - Zarządzanie projektami</li>
+                    <li><strong>📝 Notatki</strong> - Notatki i przypomnienia</li>
+                    <li><strong>⏱️ Czas pracy</strong> - Śledzenie czasu pracy</li>
+                    <li><strong>📊 Statystyki</strong> - Analiza wykorzystania czasu</li>
+                </ul>
+            </div>
+
+            <div id="healthdash" class="card">
+                <h3>2.3. HealthDash</h3>
+                <p>Aplikacja do monitorowania zdrowia z modułami:</p>
+                <ul>
+                    <li><strong>❤️ Wskaźniki</strong> - Podstawowe parametry zdrowotne</li>
+                    <li><strong>🏃 Aktywność</strong> - Śledzenie aktywności fizycznej</li>
+                    <li><strong>🍎 Dieta</strong> - Monitorowanie odżywiania</li>
+                    <li><strong>💊 Leki</strong> - Harmonogram przyjmowania leków</li>
+                    <li><strong>😴 Sen</strong> - Analiza jakości snu</li>
+                    <li><strong>📈 Trendy</strong> - Analiza długoterminowa</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Pakiet Business -->
+        <div id="business" class="section">
+            <h2>3. Pakiet Business</h2>
+
+            <div id="erp" class="card">
+                <h3>3.1. ERP</h3>
+                <p>System zarządzania zasobami przedsiębiorstwa z modułami:</p>
+                <ul>
+                    <li><strong>📦 Magazyn</strong> - Zarządzanie zapasami</li>
+                    <li><strong>💰 Finanse</strong> - Księgowość i finanse</li>
+                    <li><strong>👥 HR</strong> - Zarządzanie personelem</li>
+                    <li><strong>🛒 Sprzedaż</strong> - Procesy sprzedażowe</li>
+                    <li><strong>📊 Projekty</strong> - Zarządzanie projektami</li>
+                    <li><strong>🏭 Produkcja</strong> - Planowanie produkcji</li>
+                </ul>
+            </div>
+
+            <div id="crm" class="card">
+                <h3>3.2. CRM</h3>
+                <p>System zarządzania relacjami z klientami z modułami:</p>
+                <ul>
+                    <li><strong>👤 Kontakty</strong> - Baza kontaktów</li>
+                    <li><strong>📞 Interakcje</strong> - Historia kontaktów</li>
+                    <li><strong>🎯 Leady</strong> - Zarządzanie potencjalnymi klientami</li>
+                    <li><strong>📅 Kalendarz</strong> - Terminy spotkań</li>
+                    <li><strong>📧 Marketing</strong> - Kampanie marketingowe</li>
+                    <li><strong>📈 Analizy</strong> - Efektywność sprzedaży</li>
+                </ul>
+            </div>
+
+            <div id="bi" class="card">
+                <h3>3.3. BI</h3>
+                <p>System analizy biznesowej z modułami:</p>
+                <ul>
+                    <li><strong>📊 Pulpit</strong> - Wizualizacja kluczowych wskaźników</li>
+                    <li><strong>🔢 Dane</strong> - Integracja źródeł danych</li>
+                    <li><strong>📈 Raporty</strong> - Generowanie raportów</li>
+                    <li><strong>🔍 Analizy</strong> - Zaawansowana analiza danych</li>
+                    <li><strong>📉 Prognozy</strong> - Prognozowanie trendów</li>
+                    <li><strong>🖇️ Eksport</strong> - Eksport danych</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Modele danych -->
+        <div id="models" class="section">
+            <h2>4. Modele danych</h2>
+            
+            <div class="card">
+                <h3>Accountancy - Kluczowe modele</h3>
+                <ul>
+                    <li><strong>Book</strong> - Księga finansowa (nazwa, opis, waluta)</li>
+                    <li><strong>Account</strong> - Konto bankowe (nazwa, typ, saldo, księga)</li>
+                    <li><strong>Transaction</strong> - Transakcja (data, kwota, konto, kategoria, opis)</li>
+                    <li><strong>Category</strong> - Kategoria (nazwa, typ, kategoria nadrzędna)</li>
+                    <li><strong>Budget</strong> - Budżet (kategoria, kwota, okres)</li>
+                    <li><strong>Report</strong> - Raport (typ, parametry, data generacji)</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Scheduler - Kluczowe modele</h3>
+                <ul>
+                    <li><strong>Event</strong> - Wydarzenie (tytuł, data, czas, opis)</li>
+                    <li><strong>Task</strong> - Zadanie (tytuł, priorytet, status, termin)</li>
+                    <li><strong>Project</strong> - Projekt (nazwa, opis, status, deadline)</li>
+                    <li><strong>Note</strong> - Notatka (tytuł, treść, tagi)</li>
+                    <li><strong>TimeLog</strong> - Log czasu (zadanie, czas rozpoczęcia, czas zakończenia)</li>
+                    <li><strong>Reminder</strong> - Przypomnienie (tytuł, czas, powtarzalność)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Elementy UI -->
+        <div id="ui" class="section">
+            <h2>5. Elementy UI</h2>
+            
+            <div class="card">
+                <h3>Wspólne elementy UI</h3>
+                <ul>
+                    <li><strong>Dashboard</strong> - Kafelki z podsumowaniami, wykresy, ostatnie aktywności</li>
+                    <li><strong>Listy obiektów</strong> - Tabele z sortowaniem, filtrowaniem i paginacją</li>
+                    <li><strong>Formularze</strong> - Spójne formularze CRUD z walidacją</li>
+                    <li><strong>Wykresy</strong> - Interaktywne wykresy (Chart.js)</li>
+                    <li><strong>Filtry</strong> - Zaawansowane panele filtrowania</li>
+                    <li><strong>Powiadomienia</strong> - System powiadomień i alertów</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Harmonogram -->
+        <div id="timeline" class="section">
+            <h2>6. Harmonogram realizacji</h2>
+            <table>
+                <tr>
+                    <th>Aplikacja</th>
+                    <th>Modele (5 dni)</th>
+                    <th>Widoki (8 dni)</th>
+                    <th>Szablony (8 dni)</th>
+                    <th>Razem</th>
+                </tr>
+                <tr>
+                    <td>Accountancy</td>
+                    <td>01.06 - 05.06</td>
+                    <td>06.06 - 15.06</td>
+                    <td>16.06 - 25.06</td>
+                    <td>21 dni</td>
+                </tr>
+                <tr>
+                    <td>Scheduler</td>
+                    <td>26.06 - 30.06</td>
+                    <td>01.07 - 10.07</td>
+                    <td>11.07 - 20.07</td>
+                    <td>21 dni</td>
+                </tr>
+                <tr>
+                    <td>HealthDash</td>
+                    <td>21.07 - 25.07</td>
+                    <td>26.07 - 04.08</td>
+                    <td>05.08 - 14.08</td>
+                    <td>21 dni</td>
+                </tr>
+                <tr>
+                    <td>ERP</td>
+                    <td>15.08 - 19.08</td>
+                    <td>20.08 - 29.08</td>
+                    <td>30.08 - 08.09</td>
+                    <td>21 dni</td>
+                </tr>
+                <tr>
+                    <td>CRM</td>
+                    <td>09.09 - 13.09</td>
+                    <td>14.09 - 23.09</td>
+                    <td>24.09 - 03.10</td>
+                    <td>21 dni</td>
+                </tr>
+                <tr>
+                    <td>BI</td>
+                    <td>04.10 - 08.10</td>
+                    <td>09.10 - 18.10</td>
+                    <td>19.10 - 28.10</td>
+                    <td>21 dni</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

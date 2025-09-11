@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacc Accountancy - Prosta Księgowość Online</title>
+    <style>
+        /* Reset i podstawowe style */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Nagłówek */
+        header {
+            background: linear-gradient(135deg, #40e0d0, #9932cc);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+        
+        /* Sekcje */
+        section {
+            padding: 60px 0;
+            border-bottom: 1px solid #e1e5eb;
+        }
+        
+        section h2 {
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        /* Karty */
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .card h3 {
+            color: #40e0d0;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        
+        /* Lista kroków */
+        .steps {
+            counter-reset: step-counter;
+            list-style: none;
+        }
+        
+        .steps li {
+            position: relative;
+            padding-left: 60px;
+            margin-bottom: 30px;
+        }
+        
+        .steps li:before {
+            counter-increment: step-counter;
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 40px;
+            height: 40px;
+            background: #40e0d0;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        /* Kolory */
+        .highlight {
+            background-color: #f0f8ff;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 4px solid #40e0d0;
+        }
+        
+        .tip {
+            background-color: #f0fff0;
+            border-left: 4px solid #2ecc71;
+        }
+        
+        .warning {
+            background-color: #fff0f0;
+            border-left: 4px solid #e74c3c;
+        }
+        
+        /* Responsywność */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+            
+            section {
+                padding: 40px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Nagłówek -->
+    <header>
+        <div class="container">
+            <h1>Tacc Accountancy - Prosta Księgowość Online</h1>
+            <p>Twoje finanse pod kontrolą - bez skomplikowanych pojęć i zbędnych formalności</p>
+        </div>
+    </header>
+
+    <!-- Sekcja wprowadzająca -->
+    <section>
+        <div class="container">
+            <div class="card">
+                <h2>Witaj w Tacc Accountancy!</h2>
+                <p>Ta aplikacja pomoże Ci zarządzać finansami osobistymi lub małej firmy. Nie musisz znać się na księgowości - wszystko jest proste i intuicyjne!</p>
+                
+                <div class="highlight tip">
+                    <p><strong>Porada:</strong> Traktuj aplikację jak elektroniczny notes do zapisywania swoich przychodów i wydatków. To takie proste!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja jak zacząć -->
+    <section>
+        <div class="container">
+            <h2>Jak zacząć?</h2>
+            
+            <ol class="steps">
+                <li>
+                    <h3>Zaloguj się</h3>
+                    <p>Użyj swojego loginu i hasła, które podałeś podczas rejestracji.</p>
+                    <div class="highlight">
+                        <p>Jeśli zapomnisz hasła, kliknij "Nie pamiętam hasła" na stronie logowania.</p>
+                    </div>
+                </li>
+                
+                <li>
+                    <h3>Stwórz swoją pierwszą księgę</h3>
+                    <p>Księga to jak segregator na Twoje finanse. Możesz mieć jedną dla siebie lub osobne dla różnych działalności.</p>
+                    <p>Kliknij "Księgi" → "Dodaj nową księgę" → Wpisz nazwę (np. "Moje finanse") → Zapisz</p>
+                </li>
+                
+                <li>
+                    <h3>Dodaj konta</h3>
+                    <p>Konta to miejsca, gdzie masz pieniądze (np. portfel, konto bankowe) lub skąd biorą się wydatki.</p>
+                    <p>Kliknij "Konta" → "Dodaj nowe konto" → Wybierz typ (np. "Konto bankowe") → Wpisz nazwę (np. "Moje konto w Banku X") → Zapisz</p>
+                    
+                    <div class="highlight">
+                        <p><strong>Przykład:</strong> Jeśli masz gotówkę w portfelu i konto bankowe, dodaj dwa konta: "Portfel" i "Konto bankowe".</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Sekcja dodawania transakcji -->
+    <section>
+        <div class="container">
+            <h2>Jak dodawać transakcje?</h2>
+            
+            <div class="card">
+                <h3>1. Znajdź przycisk "Dodaj transakcję"</h3>
+                <p>Jest w widocznym miejscu na górze ekranu po zalogowaniu.</p>
+            </div>
+            
+            <div class="card">
+                <h3>2. Wypełnij formularz</h3>
+                <p>To jak wypełnianie prostego formularza online:</p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li><strong>Opis:</strong> Napisz krótko, co to było (np. "Zakupy w Biedronce")</li>
+                    <li><strong>Kwota:</strong> Wpisz ile wydałeś lub dostałeś (np. "125,50")</li>
+                    <li><strong>Z konta:</strong> Wybierz skąd poszły pieniądze (np. "Portfel")</li>
+                    <li><strong>Na konto:</strong> Wybierz gdzie trafiły pieniądze (np. "Sklep XYZ")</li>
+                    <li><strong>Kategoria:</strong> Wybierz typ wydatku (np. "Jedzenie")</li>
+                </ul>
+                
+                <div class="highlight tip" style="margin-top: 20px;">
+                    <p><strong>Prosty przykład:</strong> Kupiłeś chleb za 5 zł gotówką?<br>
+                    Opis: "Chleb"<br>
+                    Kwota: 5<br>
+                    Z konta: "Portfel"<br>
+                    Na konto: "Piekarnia"<br>
+                    Kategoria: "Jedzenie"</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>3. Zapisz transakcję</h3>
+                <p>Kliknij przycisk "Zapisz" i gotowe! Transakcja pojawi się na liście.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja przeglądania danych -->
+    <section>
+        <div class="container">
+            <h2>Jak sprawdzić swoje finanse?</h2>
+            
+            <div class="card">
+                <h3>1. Podsumowanie na stronie głównej</h3>
+                <p>Po zalogowaniu widzisz od razu:</p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Ile masz teraz pieniędzy (saldo)</li>
+                    <li>Ile wydałeś w tym miesiącu</li>
+                    <li>Ile zarobiłeś w tym miesiącu</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h3>2. Lista wszystkich transakcji</h3>
+                <p>Kliknij "Transakcje" w menu, aby zobaczyć wszystkie wpisy. Możesz sortować i filtrować.</p>
+            </div>
+            
+            <div class="card">
+                <h3>3. Raporty i wykresy</h3>
+                <p>Kliknij "Raporty" w menu, aby zobaczyć:</p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Na co wydajesz najwięcej (wykres kołowy)</li>
+                    <li>Jak zmieniają się Twoje wydatki (wykres liniowy)</li>
+                    <li>Podsumowanie za wybrany okres</li>
+                </ul>
+                
+                <div class="highlight" style="margin-top: 20px;">
+                    <p><strong>Przykład:</strong> Możesz sprawdzić ile wydałeś na jedzenie w ostatnich 3 miesiącach.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja porad -->
+    <section>
+        <div class="container">
+            <h2>Proste porady finansowe</h2>
+            
+            <div class="card">
+                <h3>1. Regularnie dodawaj transakcje</h3>
+                <p>Najlepiej codziennie lub co kilka dni. Im częściej, tym łatwiej.</p>
+            </div>
+            
+            <div class="card">
+                <h3>2. Używaj prostych opisów</h3>
+                <p>Zamiast "Transakcja 1234 z dnia...", napisz "Obiad w restauracji".</p>
+            </div>
+            
+            <div class="card">
+                <h3>3. Twórz własne kategorie</h3>
+                <p>Dostosuj kategorie do swoich potrzeb (np. "Dzieci", "Hobby", "Rachunki").</p>
+            </div>
+            
+            <div class="card">
+                <h3>4. Sprawdzaj raporty raz w miesiącu</h3>
+                <p>To pomoże Ci zobaczyć, gdzie możesz oszczędzać.</p>
+                
+                <div class="highlight tip">
+                    <p><strong>Dobra praktyka:</strong> Porównuj wydatki miesiąc do miesiąca. Jeśli w jednej kategorii wydajesz coraz więcej, zastanów się dlaczego.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja pomocy -->
+    <section style="background-color: #f0f8ff;">
+        <div class="container">
+            <h2>Potrzebujesz pomocy?</h2>
+            
+            <div class="card">
+                <h3>1. Ikona pomocy w aplikacji</h3>
+                <p>W prawym górnym rogu znajdziesz ikonkę "?", która pokaże podpowiedzi.</p>
+            </div>
+            
+            <div class="card">
+                <h3>2. Napisz do nas</h3>
+                <p>Masz pytanie? Kliknij "Kontakt" w menu i wyślij nam wiadomość. Odpowiemy w ciągu 24 godzin!</p>
+            </div>
+            
+            <div class="highlight" style="text-align: center; margin-top: 30px;">
+                <p style="font-size: 1.2rem;">Pamiętaj - nie musisz być ekspertem od finansów. Tacc Accountancy pomoże Ci zachować porządek w domowym budżecie!</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

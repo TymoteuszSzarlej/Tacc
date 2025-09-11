@@ -1,0 +1,11 @@
+'system' : {
+    'pakiet':{
+        'Aplikacja':{
+            'moduł':{
+                'widok listy':{
+                    ['element1', 'element2', ...]
+                }
+            }
+        }
+    }
+}
