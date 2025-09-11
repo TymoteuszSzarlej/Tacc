@@ -471,3 +471,45 @@
 [SUCCESS]	2025-09-11 20:10:12	[MAIN.signals]	Utworzono nową instancję: Report (ID: 4)
 [RESPONSE]	2025-09-11 20:10:12	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/report/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.2ms | Dane: {}
 [RESPONSE]	2025-09-11 20:10:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.06ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:14	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/budgets/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.19ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.78ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/4/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 27.67ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.36ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:25	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.1ms | Dane: {}
+[SUCCESS]	2025-09-11 20:13:27	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[RESPONSE]	2025-09-11 20:13:27	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.13ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:27	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.02ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:31	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.62ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:31	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.94ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:38	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.23ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.95ms | Dane: {}
+[SUCCESS]	2025-09-11 20:13:43	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[RESPONSE]	2025-09-11 20:13:43	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.01ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.75ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:47	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/105/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.16ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:49	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/105/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.04ms | Dane: {}
+[SUCCESS]	2025-09-11 20:13:54	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[RESPONSE]	2025-09-11 20:13:54	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/account/105/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.11ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:54	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.03ms | Dane: {}
+[RESPONSE]	2025-09-11 20:13:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/132/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.2ms | Dane: {}
+[SUCCESS]	2025-09-11 20:14:04	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[RESPONSE]	2025-09-11 20:14:04	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/account/132/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 10.95ms | Dane: {}
+[RESPONSE]	2025-09-11 20:14:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.29ms | Dane: {}
+[RESPONSE]	2025-09-11 20:14:09	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/111/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.96ms | Dane: {}
+[SUCCESS]	2025-09-11 20:14:14	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[RESPONSE]	2025-09-11 20:14:14	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/account/111/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 10.69ms | Dane: {}
+[RESPONSE]	2025-09-11 20:14:14	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.46ms | Dane: {}
+[RESPONSE]	2025-09-11 20:14:16	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.5ms | Dane: {}
+[RESPONSE]	2025-09-11 20:14:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/4/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 26.79ms | Dane: {}
+[RESPONSE]	2025-09-11 20:19:44	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/categories/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.02ms | Dane: {}
+[RESPONSE]	2025-09-11 20:19:46	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 21.18ms | Dane: {}
+[RESPONSE]	2025-09-11 20:19:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.41ms | Dane: {}
+[RESPONSE]	2025-09-11 20:20:35	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.36ms | Dane: {}
+[RESPONSE]	2025-09-11 20:21:07	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.78ms | Dane: {}
+[RESPONSE]	2025-09-11 20:22:15	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.81ms | Dane: {}
+[RESPONSE]	2025-09-11 20:22:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.84ms | Dane: {}
+[RESPONSE]	2025-09-11 20:23:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.39ms | Dane: {}
+[RESPONSE]	2025-09-11 20:23:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.99ms | Dane: {}
+[RESPONSE]	2025-09-11 20:24:06	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.76ms | Dane: {}
+[RESPONSE]	2025-09-11 20:24:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.51ms | Dane: {}
+[RESPONSE]	2025-09-11 20:24:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.31ms | Dane: {}

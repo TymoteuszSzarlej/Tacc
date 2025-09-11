@@ -314,7 +314,7 @@ footer {
 .top-href {
     position: fixed;
     right: 10px;
-    top: 10px;
+    top: 40%;
     background-color: magenta;
     color: white;
     border: none;
@@ -325,13 +325,21 @@ footer {
     text-align: center;
     text-decoration: none;
     box-shadow: 0 4px 10px rgba(255, 0, 255, 0.4);
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 1s ease, transform 1s ease;
     z-index: 9999; /* 👈 Dodano najwyższy priorytet warstwy */
+    opacity: 0.4;
 }
+
+.top-href:hover {
+    opacity: 1;
+    transform: scale(1.6);
+
+}
+
 .bottom-href {
     position: fixed;
     right: 10px;
-    bottom: 10px;
+    bottom: 40%;
     background-color: magenta;
     color: white;
     border: none;
@@ -342,9 +350,16 @@ footer {
     text-align: center;
     text-decoration: none;
     box-shadow: 0 4px 10px rgba(255, 0, 255, 0.4);
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 1s ease, transform 1s ease;
     z-index: 9999; /* 👈 Dodano najwyższy priorytet warstwy */
+    opacity: 0.4;
 }
+
+.bottom-href:hover {
+    opacity: 1;
+    transform: scale(1.6);
+}
+
 .hidden {
     display: none !important;
 }

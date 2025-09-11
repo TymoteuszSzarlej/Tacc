@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, HttpResponse
 from .models import Release
 
 def landing_page(request):
@@ -15,3 +15,6 @@ def landing_page(request):
 def get_list_of_versions(request):
     releases = Release.objects.all().order_by('-release_date')
     return render(request, 'Accountancy/versions.html.jinja', {'versions': releases})
+
+def get_icons(request):
+    return HttpResponse(open('static/icons.svg').read(), content_type='image/svg+xml')
