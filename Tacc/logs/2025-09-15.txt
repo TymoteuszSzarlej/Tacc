@@ -148,3 +148,6 @@
 [RESPONSE]	2025-09-15 01:15:51	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.8ms | Dane: {}
 [RESPONSE]	2025-09-15 01:15:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/7/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 31.22ms | Dane: {}
 [RESPONSE]	2025-09-15 01:38:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/7/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 32.09ms | Dane: {}
+[RESPONSE]	2025-09-15 01:41:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/7/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 32.89ms | Dane: {}
+[RESPONSE]	2025-09-15 01:41:20	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/7/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 32.06ms | Dane: {}
+[RESPONSE]	2025-09-15 01:41:32	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/7/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 31.55ms | Dane: {}

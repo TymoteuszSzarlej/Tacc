@@ -190,7 +190,7 @@
           </thead>
           <tbody>
             <!-- Działalność operacyjna -->
-            <tr><td colspan="2" style="background-color: #f8f9fa; font-weight: bold;">Działalność operacyjna</td></tr>
+            <tr><td colspan="2" style="background-color: #444; font-weight: bold;">Działalność operacyjna</td></tr>
             <tr>
               <td>Zysk netto</td>
               <td>{{ report_data.operating_activities.net_income|floatformat:2 }}</td>
@@ -217,7 +217,7 @@
             </tr>
             
             <!-- Działalność inwestycyjna -->
-            <tr><td colspan="2" style="background-color: #f8f9fa; font-weight: bold;">Działalność inwestycyjna</td></tr>
+            <tr><td colspan="2" style="background-color: #444; font-weight: bold;">Działalność inwestycyjna</td></tr>
             <tr>
               <td>Zakup środków trwałych</td>
               <td>{{ report_data.investing_activities.fixed_assets_purchases|floatformat:2 }}</td>
@@ -232,7 +232,7 @@
             </tr>
             
             <!-- Działalność finansowa -->
-            <tr><td colspan="2" style="background-color: #f8f9fa; font-weight: bold;">Działalność finansowa</td></tr>
+            <tr><td colspan="2" style="background-color: #444; font-weight: bold;">Działalność finansowa</td></tr>
             <tr>
               <td>Kredyty i pożyczki otrzymane</td>
               <td>{{ report_data.financing_activities.loans_received|floatformat:2 }}</td>
@@ -251,7 +251,7 @@
             </tr>
             
             <!-- Podsumowanie -->
-            <tr><td colspan="2" style="background-color: #e9ecef; font-weight: bold;">Podsumowanie</td></tr>
+            <tr><td colspan="2" style="background-color: #444; font-weight: bold;">Podsumowanie</td></tr>
             <tr>
               <td>Zmiana stanu środków pieniężnych netto</td>
               <td>{{ report_data.net_cash_flow|floatformat:2 }}</td>
