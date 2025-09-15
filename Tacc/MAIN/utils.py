@@ -44,3 +44,44 @@ if __name__ == "__main__":
     log("Operacja zakończona sukcesem!", "suc")
     log("To jest informacja.", "inf")
     log("To jest komunikat debugowania.", "deb")
+
+
+
+
+
+# utils/session_messages.py
+
+from django.utils.timezone import now
+
+class Messages:
+    @staticmethod
+    def _add_message(request, level, text):
+        if "session_messages" not in request.session:
+            request.session["session_messages"] = []
+        request.session["session_messages"].append({
+            "id": str(now().timestamp()),
+            "level": level,
+            "text": text,
+        })
+        request.session.modified = True
+
+    @staticmethod
+    def success(request, text):
+        Messages._add_message(request, "success", text)
+
+    @staticmethod
+    def warning(request, text):
+        Messages._add_message(request, "warning", text)
+
+    @staticmethod
+    def error(request, text):
+        Messages._add_message(request, "error", text)
+
+    @staticmethod
+    def info(request, text):
+        Messages._add_message(request, "info", text)
+
+
+# alias żebyś mógł używać tak samo jak w Django:
+messages = Messages
+

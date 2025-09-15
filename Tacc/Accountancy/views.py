@@ -1,17 +1,21 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
-from django.contrib import messages
+from MAIN.utils import messages
 from .models import *
 from .forms import *
 from datetime import datetime, timedelta
 from django.db.models import Sum
 
 
+
+
+
 # Create your views here.
 @login_required
 def books(request):
     books = Book.objects.filter(user=request.user)  # Filtrowanie książek użytkownika
+    messages.info(request, 'test')
     return render(request, 'Accountancy/books/main.html.jinja', {'books': books})
 
 @login_required
@@ -57,13 +61,14 @@ def delete_book(request, book_id):
         return redirect('books')
     return render(request, 'Accountancy/books/delete.html.jinja', {'book': book})
 
+
 @login_required
 def accounts(request):
     accounts = Account.objects.filter(user=request.user)  # Filtrowanie kont użytkownika
-    messages.info(request, 'Testowy komunikat informacyjny - usuń go w produkcji.')
-    messages.error(request, 'Testowy komunikat błędu - usuń go w produkcji.')
-    messages.warning(request, 'Testowy komunikat ostrzeżenia - usuń go w produkcji.')
-    messages.success(request, 'Testowy komunikat sukcesu - usuń go w produkcji.')
+    # messages(request, 'info', 'Testowy komunikat informacyjny - usuń go w produkcji.')
+    # messages(request, 'error', 'Testowy komunikat błędu - usuń go w produkcji.')
+    # messages(request, 'warning', 'Testowy komunikat ostrzeżenia - usuń go w produkcji.')
+    # messages(request, 'success', 'Testowy komunikat sukcesu - usuń go w produkcji.')
     return render(request, 'Accountancy/accounts/main.html.jinja', {'accounts': accounts})
 
 @login_required
@@ -261,33 +266,78 @@ def create_report(request):
         form = ReportForm(user=request.user)
     return render(request, 'Accountancy/reports/create.html.jinja', {'form': form})
 
+from django.db.models import Sum
+from django.utils.timezone import make_aware
+
+# @login_required
+# def report_details(request, report_id):
+#     # Pobranie raportu przypisanego do zalogowanego użytkownika
+#     report = get_object_or_404(Report, id=report_id, user=request.user)
+
+#     # Pobranie wybranej księgi
+#     book = report.book
+
+#     # Pobranie kont użytkownika dla danej księgi
+#     accounts = Account.objects.filter(user=request.user, book=book)
+
+#     # Pobranie transakcji w zadanym okresie (z uwzględnieniem księgi)
+#     transactions = Transaction.objects.filter(
+#         user=request.user,
+#         credit_account__book=book,  # Uwzględnij tylko transakcje związane z księgą
+#         debit_account__book=book,   # zarówno po stronie kredytu, jak i debetu
+#         created_at__gte=report.start_date,  # Data transakcji >= start_date
+#         created_at__lte=report.end_date     # Data transakcji <= end_date
+#     )
+
+#     # Obliczenia tylko dla transakcji w zadanym okresie
+#     total_revenues = transactions.filter(
+#         credit_account__account_type='revenue'
+#     ).aggregate(Sum('amount'))['amount__sum'] or 0
+
+#     total_expenses = transactions.filter(
+#         debit_account__account_type='expenses'
+#     ).aggregate(Sum('amount'))['amount__sum'] or 0
+
+#     # Salda początkowe kont (niezależne od zakresu dat) - NIE używane w obliczeniach transakcji
+#     total_assets = accounts.filter(
+#         account_type='assets'
+#     ).aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
+
+#     total_liabilities = accounts.filter(
+#         account_type='liabilities'
+#     ).aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
+
+#     # Dane wygenerowane przez metodę raportu
+#     report_data = report.generate_report()
+
+#     context = {
+#         'report': report,
+#         'report_data': report_data,
+#         'total_assets': total_assets,
+#         'total_liabilities': total_liabilities,
+#         'total_revenues': total_revenues,
+#         'total_expenses': total_expenses,
+#     }
+
+
+#     #DEBUG
+#     print(transactions.count())
+#     for transaction in transactions:
+#         print(f"Transaction ID: {transaction.id}, Amount: {transaction.amount}, Date: {transaction.created_at}, Debit Account: {transaction.debit_account.name}, Credit Account: {transaction.credit_account.name}")
+#     #DEBUG
+
+#     return render(request, 'Accountancy/reports/details.html.jinja', context)
 @login_required
 def report_details(request, report_id):
     # Pobranie raportu przypisanego do zalogowanego użytkownika
     report = get_object_or_404(Report, id=report_id, user=request.user)
 
-    # Pobranie wybranej księgi
-    book = report.book
-
-    # Generowanie danych raportu na podstawie wybranej księgi
-    accounts = Account.objects.filter(user=request.user, book=book)
-    transactions = Transaction.objects.filter(user=request.user, credit_account__book=book, debit_account__book=book)
-
-    # Przykład dodatkowego przetwarzania danych raportu
-    total_assets = accounts.filter(account_type='assets').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
-    total_liabilities = accounts.filter(account_type='liabilities').aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
-    total_revenues = transactions.filter(credit_account__account_type='revenue').aggregate(Sum('amount'))['amount__sum'] or 0
-    total_expenses = transactions.filter(debit_account__account_type='expenses').aggregate(Sum('amount'))['amount__sum'] or 0
-
+    # Przekazanie zakresu dat do metody generate_report
     report_data = report.generate_report()
 
     context = {
         'report': report,
         'report_data': report_data,
-        'total_assets': total_assets,
-        'total_liabilities': total_liabilities,
-        'total_revenues': total_revenues,
-        'total_expenses': total_expenses,
     }
 
     return render(request, 'Accountancy/reports/details.html.jinja', context)
@@ -503,6 +553,10 @@ def dashboard(request):
         'total_liabilities': total_liabilities,
     }
 
+    messages.success(request, 'Witamy w panelu głównym!')
+    messages.info(request, 'Aby rozpocząć, możesz edytować lub usuwać automatycznie utworzone konta w "KSIĘDZE GŁÓWNEJ".')
+    messages.warning(request, 'Pamiętaj, aby regularnie tworzyć raporty finansowe i analizować swoje finanse!')
+    messages.error(request, 'Jeśli napotkasz jakiekolwiek problemy, skontaktuj się z działem wsparcia!')
     return render(request, 'Accountancy/dashboard.html.jinja', context)
     # Przekierowanie do strony głównej po utworzeniu księgi i kont
     # # Obliczenia dla dashboardu

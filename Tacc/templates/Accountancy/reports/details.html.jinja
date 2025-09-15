@@ -70,12 +70,12 @@
             {% for name, balance in report_data.assets.items %}
             <tr>
               <td>{{ name }}</td>
-              <td>{{ balance }}</td>
+              <td>{{ balance|floatformat:2 }}</td>
             </tr>
             {% endfor %}
             <tr>
               <td><strong>Razem Aktywa</strong></td>
-              <td><strong>{{ report_data.total_assets }}</strong></td>
+              <td><strong>{{ report_data.total_assets|floatformat:2 }}</strong></td>
             </tr>
           </tbody>
         </table>
@@ -98,16 +98,16 @@
             {% for name, balance in report_data.liabilities.items %}
             <tr>
               <td>{{ name }}</td>
-              <td>{{ balance }}</td>
+              <td>{{ balance|floatformat:2 }}</td>
             </tr>
             {% endfor %}
             <tr>
               <td><strong>Razem Pasywa</strong></td>
-              <td><strong>{{ report_data.total_liabilities }}</strong></td>
+              <td><strong>{{ report_data.total_liabilities|floatformat:2 }}</strong></td>
             </tr>
             <tr>
               <td><strong>Kapitał Własny</strong></td>
-              <td><strong>{{ report_data.equity }}</strong></td>
+              <td><strong>{{ report_data.equity|floatformat:2 }}</strong></td>
             </tr>
           </tbody>
         </table>
@@ -131,12 +131,12 @@
             {% for name, balance in report_data.revenues.items %}
             <tr>
               <td>{{ name }}</td>
-              <td>{{ balance }}</td>
+              <td>{{ balance|floatformat:2 }}</td>
             </tr>
             {% endfor %}
             <tr>
               <td><strong>Razem Przychody</strong></td>
-              <td><strong>{{ report_data.total_revenues }}</strong></td>
+              <td><strong>{{ report_data.total_revenues|floatformat:2 }}</strong></td>
             </tr>
           </tbody>
         </table>
@@ -159,16 +159,16 @@
             {% for name, balance in report_data.expenses.items %}
             <tr>
               <td>{{ name }}</td>
-              <td>{{ balance }}</td>
+              <td>{{ balance|floatformat:2 }}</td>
             </tr>
             {% endfor %}
             <tr>
               <td><strong>Razem Koszty</strong></td>
-              <td><strong>{{ report_data.total_expenses }}</strong></td>
+              <td><strong>{{ report_data.total_expenses|floatformat:2 }}</strong></td>
             </tr>
             <tr>
               <td><strong>Wynik Netto</strong></td>
-              <td><strong>{{ report_data.net_income }}</strong></td>
+              <td><strong>{{ report_data.net_income|floatformat:2 }}</strong></td>
             </tr>
           </tbody>
         </table>
@@ -192,12 +192,12 @@
             {% for name, balance in report_data.cash_flows.items %}
             <tr>
               <td>{{ name }}</td>
-              <td>{{ balance }}</td>
+              <td>{{ balance|floatformat:2 }}</td>
             </tr>
             {% endfor %}
             <tr>
               <td><strong>Razem Środki Pieniężne</strong></td>
-              <td><strong>{{ report_data.total_cash_flow }}</strong></td>
+              <td><strong>{{ report_data.total_cash_flow|floatformat:2 }}</strong></td>
             </tr>
           </tbody>
         </table>
@@ -223,7 +223,7 @@
             label: ctx => {
               const lbl = ctx.label || '';
               const val = ctx.raw || 0;
-              return `${lbl}: ${val.toLocaleString()} PLN`;
+              return `${lbl}: ${val.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} PLN`;
             }
           }
         }

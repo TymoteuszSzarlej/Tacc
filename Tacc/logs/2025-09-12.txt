@@ -1,0 +1,41 @@
+[RESPONSE]	2025-09-12 00:03:25	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.8ms | Dane: {}
+[RESPONSE]	2025-09-12 00:03:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.26ms | Dane: {}
+[RESPONSE]	2025-09-12 00:04:19	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 13.61ms | Dane: {}
+[RESPONSE]	2025-09-12 00:04:31	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.29ms | Dane: {}
+[RESPONSE]	2025-09-12 00:04:48	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.64ms | Dane: {}
+[RESPONSE]	2025-09-12 00:04:49	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.41ms | Dane: {}
+[RESPONSE]	2025-09-12 00:05:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 14.9ms | Dane: {}
+[RESPONSE]	2025-09-12 00:05:09	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 20.87ms | Dane: {}
+[RESPONSE]	2025-09-12 00:05:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.11ms | Dane: {}
+[SUCCESS]	2025-09-12 00:05:12	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 1qidh7qqddw62glt9s0orn04o6p45jb1)
+[RESPONSE]	2025-09-12 00:05:20	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.16ms | Dane: {}
+[RESPONSE]	2025-09-12 00:09:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.8ms | Dane: {}
+[RESPONSE]	2025-09-12 00:09:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.47ms | Dane: {}
+[RESPONSE]	2025-09-12 00:09:24	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 1.71ms | Dane: {}
+[SUCCESS]	2025-09-12 00:09:24	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 1qidh7qqddw62glt9s0orn04o6p45jb1)
+[RESPONSE]	2025-09-12 00:09:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.56ms | Dane: {}
+[RESPONSE]	2025-09-12 00:09:44	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.37ms | Dane: {}
+[RESPONSE]	2025-09-12 00:09:50	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.58ms | Dane: {}
+[RESPONSE]	2025-09-12 00:09:58	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.44ms | Dane: {}
+[RESPONSE]	2025-09-12 00:10:01	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 21.83ms | Dane: {}
+[RESPONSE]	2025-09-12 00:10:03	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 15.24ms | Dane: {}
+[RESPONSE]	2025-09-12 00:10:07	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.77ms | Dane: {}
+[RESPONSE]	2025-09-12 00:10:07	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.05ms | Dane: {}
+[ERROR]	2025-09-12 00:10:07	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-12 00:10:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.93ms | Dane: {}
+[RESPONSE]	2025-09-12 00:10:45	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.83ms | Dane: {}
+[RESPONSE]	2025-09-12 00:10:45	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.85ms | Dane: {}
+[ERROR]	2025-09-12 00:10:45	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-12 00:10:46	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.34ms | Dane: {}
+[RESPONSE]	2025-09-12 00:10:48	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 20.3ms | Dane: {}
+[RESPONSE]	2025-09-12 00:10:59	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.15ms | Dane: {}
+[RESPONSE]	2025-09-12 00:11:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/4/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 27.48ms | Dane: {}
+[RESPONSE]	2025-09-12 17:46:38	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/books/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.94ms | Dane: {}
+[SUCCESS]	2025-09-12 17:46:38	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 1qidh7qqddw62glt9s0orn04o6p45jb1)
+[RESPONSE]	2025-09-12 17:46:38	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.33ms | Dane: {}
+[ERROR]	2025-09-12 17:46:38	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-12 17:46:41	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 1.6ms | Dane: {}
+[SUCCESS]	2025-09-12 17:46:41	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 1qidh7qqddw62glt9s0orn04o6p45jb1)
+[RESPONSE]	2025-09-12 17:47:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.76ms | Dane: {}
+[RESPONSE]	2025-09-12 17:47:52	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.61ms | Dane: {}
+[ERROR]	2025-09-12 17:47:52	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
