@@ -151,3 +151,15 @@
 [RESPONSE]	2025-09-15 01:41:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/7/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 32.89ms | Dane: {}
 [RESPONSE]	2025-09-15 01:41:20	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/7/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 32.06ms | Dane: {}
 [RESPONSE]	2025-09-15 01:41:32	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/7/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 31.55ms | Dane: {}
+[RESPONSE]	2025-09-15 01:44:49	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 50.57ms | Dane: {}
+[RESPONSE]	2025-09-15 01:47:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 61.75ms | Dane: {}
+[RESPONSE]	2025-09-15 01:47:24	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 55.28ms | Dane: {}
+[RESPONSE]	2025-09-15 01:48:01	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.96ms | Dane: {}
+[RESPONSE]	2025-09-15 01:48:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.64ms | Dane: {}
+[RESPONSE]	2025-09-15 01:48:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 56.76ms | Dane: {}
+[RESPONSE]	2025-09-15 01:49:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.66ms | Dane: {}
+[RESPONSE]	2025-09-15 01:49:48	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 47.87ms | Dane: {}
+[RESPONSE]	2025-09-15 01:50:47	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.53ms | Dane: {}
+[RESPONSE]	2025-09-15 01:51:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 52.74ms | Dane: {}
+[RESPONSE]	2025-09-15 01:51:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 54.67ms | Dane: {}
+[RESPONSE]	2025-09-15 01:51:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.08ms | Dane: {}
