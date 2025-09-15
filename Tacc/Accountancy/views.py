@@ -553,10 +553,10 @@ def dashboard(request):
         'total_liabilities': total_liabilities,
     }
 
-    messages.success(request, 'Witamy w panelu głównym!')
-    messages.info(request, 'Aby rozpocząć, możesz edytować lub usuwać automatycznie utworzone konta w "KSIĘDZE GŁÓWNEJ".')
-    messages.warning(request, 'Pamiętaj, aby regularnie tworzyć raporty finansowe i analizować swoje finanse!')
-    messages.error(request, 'Jeśli napotkasz jakiekolwiek problemy, skontaktuj się z działem wsparcia!')
+    # messages.success(request, 'Witamy w panelu głównym!')
+    # messages.info(request, 'Aby rozpocząć, możesz edytować lub usuwać automatycznie utworzone konta w "KSIĘDZE GŁÓWNEJ".')
+    # messages.warning(request, 'Pamiętaj, aby regularnie tworzyć raporty finansowe i analizować swoje finanse!')
+    # messages.error(request, 'Jeśli napotkasz jakiekolwiek problemy, skontaktuj się z działem wsparcia!')
     return render(request, 'Accountancy/dashboard.html.jinja', context)
     # Przekierowanie do strony głównej po utworzeniu księgi i kont
     # # Obliczenia dla dashboardu

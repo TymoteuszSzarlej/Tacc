@@ -163,3 +163,4 @@
 [RESPONSE]	2025-09-15 01:51:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 52.74ms | Dane: {}
 [RESPONSE]	2025-09-15 01:51:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 54.67ms | Dane: {}
 [RESPONSE]	2025-09-15 01:51:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.08ms | Dane: {}
+[RESPONSE]	2025-09-15 03:15:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 51.45ms | Dane: {}
