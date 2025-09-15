@@ -313,21 +313,173 @@ class Report(models.Model):
 
     def _generate_cash_flow_statement(self):
         """
-        Generuje rachunek przepływów pieniężnych jako słownik.
+        Generuje rachunek przepływów pieniężnych metodą pośrednią jako słownik.
         Uwzględnia tylko transakcje w zakresie dat raportu.
         """
-        accounts = Account.objects.filter(account_type='assets', account_subtype='financial', user=self.user, book=self.book)
-
-        cash_flows = {}
-        for account in accounts:
-            # Oblicz zmianę salda w zakresie dat raportu
-            balance = account.calculate_balance_in_date_range(self.start_date, self.end_date)
-            cash_flows[account.name] = balance
-
-        total_cash_flow = sum(cash_flows.values())
+        # 1. Przepływy z działalności operacyjnej
+        # Zysk netto
+        income_statement = self._generate_income_statement()
+        net_income = income_statement['net_income']
+        
+        # Korekty o pozycje niepieniężne (amortyzacja)
+        amortization_accounts = Account.objects.filter(
+            account_type='expenses', 
+            account_subtype='fixed_expenses',  # Załóżmy, że amortyzacja jest zaklasyfikowana jako stały koszt
+            user=self.user, 
+            book=self.book
+        )
+        amortization = 0
+        for account in amortization_accounts:
+            amortization += account.calculate_balance_in_date_range(self.start_date, self.end_date)
+        
+        # Zmiany w kapitałach obrotowych
+        # Zmiana w zapasach
+        inventory_start = 0
+        inventory_end = 0
+        inventory_accounts = Account.objects.filter(
+            account_type='assets', 
+            account_subtype='inventories',
+            user=self.user, 
+            book=self.book
+        )
+        for account in inventory_accounts:
+            inventory_start += account.calculate_balance_until_date(self.start_date)
+            inventory_end += account.calculate_balance_until_date(self.end_date)
+        change_in_inventory = inventory_end - inventory_start
+        
+        # Zmiana w należnościach
+        receivables_start = 0
+        receivables_end = 0
+        receivables_accounts = Account.objects.filter(
+            account_type='assets', 
+            account_subtype='receivables',
+            user=self.user, 
+            book=self.book
+        )
+        for account in receivables_accounts:
+            receivables_start += account.calculate_balance_until_date(self.start_date)
+            receivables_end += account.calculate_balance_until_date(self.end_date)
+        change_in_receivables = receivables_end - receivables_start
+        
+        # Zmiana w zobowiązaniach
+        liabilities_start = 0
+        liabilities_end = 0
+        liabilities_accounts = Account.objects.filter(
+            account_type='liabilities', 
+            account_subtype='short_term',
+            user=self.user, 
+            book=self.book
+        )
+        for account in liabilities_accounts:
+            liabilities_start += account.calculate_balance_until_date(self.start_date)
+            liabilities_end += account.calculate_balance_until_date(self.end_date)
+        change_in_liabilities = liabilities_end - liabilities_start
+        
+        # Przepływy z działalności operacyjnej
+        operating_activities = (
+            net_income + 
+            amortization - 
+            change_in_inventory - 
+            change_in_receivables + 
+            change_in_liabilities
+        )
+        
+        # 2. Przepływy z działalności inwestycyjnej
+        investing_activities = 0
+        # Zakup środków trwałych
+        fixed_assets_purchases = 0
+        fixed_assets_accounts = Account.objects.filter(
+            account_type='assets', 
+            account_subtype='fixed',
+            user=self.user, 
+            book=self.book
+        )
+        for account in fixed_assets_accounts:
+            # Oblicz zmianę salda (zakup minus amortyzacja)
+            balance_change = account.calculate_balance_in_date_range(self.start_date, self.end_date)
+            fixed_assets_purchases += balance_change
+        
+        # Sprzedaż środków trwałych (załóżmy, że jest rejestrowana na specjalnym koncie)
+        fixed_assets_sales = 0
+        fixed_assets_sales_accounts = Account.objects.filter(
+            name__icontains='sprzedaż środków',
+            user=self.user, 
+            book=self.book
+        )
+        for account in fixed_assets_sales_accounts:
+            fixed_assets_sales += account.calculate_balance_in_date_range(self.start_date, self.end_date)
+        
+        investing_activities = fixed_assets_sales - fixed_assets_purchases
+        
+        # 3. Przepływy z działalności finansowej
+        financing_activities = 0
+        # Kredyty i pożyczki
+        loans_received = 0
+        loans_accounts = Account.objects.filter(
+            account_type='liabilities', 
+            account_subtype='long_term',
+            user=self.user, 
+            book=self.book
+        )
+        for account in loans_accounts:
+            loans_received += account.calculate_balance_in_date_range(self.start_date, self.end_date)
+        
+        # Spłaty kredytów
+        loans_repaid = 0
+        # (Zakładamy, że spłaty kredytów są rejestrowane jako zmniejszenie zobowiązań)
+        
+        # Wypłaty dywidend
+        dividends_paid = 0
+        dividends_accounts = Account.objects.filter(
+            account_type='expenses', 
+            name__icontains='dywidenda',
+            user=self.user, 
+            book=self.book
+        )
+        for account in dividends_accounts:
+            dividends_paid += account.calculate_balance_in_date_range(self.start_date, self.end_date)
+        
+        financing_activities = loans_received - loans_repaid - dividends_paid
+        
+        # 4. Zmiana stanu środków pieniężnych
+        cash_change = operating_activities + investing_activities + financing_activities
+        
+        # 5. Stan środków pieniężnych na początek okresu
+        cash_accounts = Account.objects.filter(
+            account_type='assets', 
+            account_subtype='financial',
+            user=self.user, 
+            book=self.book
+        )
+        cash_start = 0
+        for account in cash_accounts:
+            cash_start += account.calculate_balance_until_date(self.start_date)
+        
+        # 6. Stan środków pieniężnych na koniec okresu
+        cash_end = cash_start + cash_change
 
         return {
             'type': 'Rachunek przepływów pieniężnych',
-            'cash_flows': cash_flows,
-            'total_cash_flow': total_cash_flow,
+            'operating_activities': {
+                'net_income': net_income,
+                'amortization': amortization,
+                'change_in_inventory': -change_in_inventory,  # Wzrost zapasów to ujemny przepływ
+                'change_in_receivables': -change_in_receivables,  # Wzrost należności to ujemny przepływ
+                'change_in_liabilities': change_in_liabilities,  # Wzrost zobowiązań to dodatni przepływ
+                'total': operating_activities
+            },
+            'investing_activities': {
+                'fixed_assets_purchases': -fixed_assets_purchases,  # Zakup to ujemny przepływ
+                'fixed_assets_sales': fixed_assets_sales,  # Sprzedaż to dodatni przepływ
+                'total': investing_activities
+            },
+            'financing_activities': {
+                'loans_received': loans_received,
+                'loans_repaid': -loans_repaid,  # Spłata to ujemny przepływ
+                'dividends_paid': -dividends_paid,  # Wypłata dywidend to ujemny przepływ
+                'total': financing_activities
+            },
+            'net_cash_flow': cash_change,
+            'cash_start': cash_start,
+            'cash_end': cash_end
         }

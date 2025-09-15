@@ -50,7 +50,7 @@
 </style>
 
 <div class="container">
-  <h2>📊 {{ report.name }}</h2>_history
+  <h2>📊 {{ report.name }}</h2>
   <p>{{ report.description }}</p>
   <h3>{{ report_data.type }}</h3>
 
@@ -177,32 +177,100 @@
     <canvas id="expensesChart"></canvas>
 
   {% elif report.report_type == 'cash_flow_statement' %}
-    <!-- Cash Flow -->
+    <!-- Cash Flow Statement -->
     <div class="table-container">
       <div class="table-responsive">
         <table>
           <thead>
             <tr><th colspan="2">Rachunek Przepływów Pieniężnych</th></tr>
             <tr>
-              <th>Środki Pieniężne</th>
+              <th>Kategoria</th>
               <th>Kwota</th>
             </tr>
           </thead>
           <tbody>
-            {% for name, balance in report_data.cash_flows.items %}
+            <!-- Działalność operacyjna -->
+            <tr><td colspan="2" style="background-color: #f8f9fa; font-weight: bold;">Działalność operacyjna</td></tr>
             <tr>
-              <td>{{ name }}</td>
-              <td>{{ balance|floatformat:2 }}</td>
+              <td>Zysk netto</td>
+              <td>{{ report_data.operating_activities.net_income|floatformat:2 }}</td>
             </tr>
-            {% endfor %}
             <tr>
-              <td><strong>Razem Środki Pieniężne</strong></td>
-              <td><strong>{{ report_data.total_cash_flow|floatformat:2 }}</strong></td>
+              <td>Amortyzacja</td>
+              <td>{{ report_data.operating_activities.amortization|floatformat:2 }}</td>
+            </tr>
+            <tr>
+              <td>Zmiana w zapasach</td>
+              <td>{{ report_data.operating_activities.change_in_inventory|floatformat:2 }}</td>
+            </tr>
+            <tr>
+              <td>Zmiana w należnościach</td>
+              <td>{{ report_data.operating_activities.change_in_receivables|floatformat:2 }}</td>
+            </tr>
+            <tr>
+              <td>Zmiana w zobowiązaniach</td>
+              <td>{{ report_data.operating_activities.change_in_liabilities|floatformat:2 }}</td>
+            </tr>
+            <tr>
+              <td><strong>Razem przepływy z działalności operacyjnej</strong></td>
+              <td><strong>{{ report_data.operating_activities.total|floatformat:2 }}</strong></td>
+            </tr>
+            
+            <!-- Działalność inwestycyjna -->
+            <tr><td colspan="2" style="background-color: #f8f9fa; font-weight: bold;">Działalność inwestycyjna</td></tr>
+            <tr>
+              <td>Zakup środków trwałych</td>
+              <td>{{ report_data.investing_activities.fixed_assets_purchases|floatformat:2 }}</td>
+            </tr>
+            <tr>
+              <td>Sprzedaż środków trwałych</td>
+              <td>{{ report_data.investing_activities.fixed_assets_sales|floatformat:2 }}</td>
+            </tr>
+            <tr>
+              <td><strong>Razem przepływy z działalności inwestycyjnej</strong></td>
+              <td><strong>{{ report_data.investing_activities.total|floatformat:2 }}</strong></td>
+            </tr>
+            
+            <!-- Działalność finansowa -->
+            <tr><td colspan="2" style="background-color: #f8f9fa; font-weight: bold;">Działalność finansowa</td></tr>
+            <tr>
+              <td>Kredyty i pożyczki otrzymane</td>
+              <td>{{ report_data.financing_activities.loans_received|floatformat:2 }}</td>
+            </tr>
+            <tr>
+              <td>Spłaty kredytów i pożyczek</td>
+              <td>{{ report_data.financing_activities.loans_repaid|floatformat:2 }}</td>
+            </tr>
+            <tr>
+              <td>Wypłaty dywidend</td>
+              <td>{{ report_data.financing_activities.dividends_paid|floatformat:2 }}</td>
+            </tr>
+            <tr>
+              <td><strong>Razem przepływy z działalności finansowej</strong></td>
+              <td><strong>{{ report_data.financing_activities.total|floatformat:2 }}</strong></td>
+            </tr>
+            
+            <!-- Podsumowanie -->
+            <tr><td colspan="2" style="background-color: #e9ecef; font-weight: bold;">Podsumowanie</td></tr>
+            <tr>
+              <td>Zmiana stanu środków pieniężnych netto</td>
+              <td>{{ report_data.net_cash_flow|floatformat:2 }}</td>
+            </tr>
+            <tr>
+              <td>Środki pieniężne na początek okresu</td>
+              <td>{{ report_data.cash_start|floatformat:2 }}</td>
+            </tr>
+            <tr>
+              <td><strong>Środki pieniężne na koniec okresu</strong></td>
+              <td><strong>{{ report_data.cash_end|floatformat:2 }}</strong></td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
+
+    <!-- Wykres dla rachunku przepływów pieniężnych -->
+    <canvas id="cashFlowChart"></canvas>
 
   {% else %}
     <p>Nieznany typ raportu.</p>
@@ -224,6 +292,43 @@
               const lbl = ctx.label || '';
               const val = ctx.raw || 0;
               return `${lbl}: ${val.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} PLN`;
+            }
+          }
+        }
+      }
+    }
+  });
+
+  const barConfig = (labels, data, colors) => ({
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [{
+        data: data,
+        backgroundColor: colors,
+        borderColor: colors.map(color => color.replace('0.7', '1')),
+        borderWidth: 1
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => {
+              const val = ctx.raw || 0;
+              return `${val.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} PLN`;
+            }
+          }
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          ticks: {
+            callback: function(value) {
+              return value.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' PLN';
             }
           }
         }
@@ -265,6 +370,21 @@
         [{% for name in report_data.expenses.keys %}"{{ name }}",{% endfor %}],
         [{% for balance in report_data.expenses.values %}{{ balance }},{% endfor %}],
         ['#6c757d','#e83e8c','#fd7e14','#20c997','#17a2b8']
+      )
+    );
+  {% elif report.report_type == 'cash_flow_statement' %}
+    // Wykres dla rachunku przepływów pieniężnych
+    new Chart(
+      document.getElementById('cashFlowChart'),
+      barConfig(
+        ['Działalność operacyjna', 'Działalność inwestycyjna', 'Działalność finansowa', 'Zmiana netto'],
+        [
+          {{ report_data.operating_activities.total }},
+          {{ report_data.investing_activities.total }},
+          {{ report_data.financing_activities.total }},
+          {{ report_data.net_cash_flow }}
+        ],
+        ['rgba(40, 167, 69, 0.7)', 'rgba(0, 123, 255, 0.7)', 'rgba(108, 117, 125, 0.7)', 'rgba(255, 193, 7, 0.7)']
       )
     );
   {% endif %}

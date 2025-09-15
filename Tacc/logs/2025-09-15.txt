@@ -136,3 +136,15 @@
 [ERROR]	2025-09-15 00:57:58	[MAIN.middleware]	Błąd 500 | GET /accountancy/report/4/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
 [RESPONSE]	2025-09-15 01:00:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 13.92ms | Dane: {}
 [RESPONSE]	2025-09-15 01:01:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/4/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 30.74ms | Dane: {}
+[RESPONSE]	2025-09-15 01:06:17	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 1.84ms | Dane: {}
+[SUCCESS]	2025-09-15 01:06:17	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 1qidh7qqddw62glt9s0orn04o6p45jb1)
+[RESPONSE]	2025-09-15 01:06:17	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 1.48ms | Dane: {}
+[SUCCESS]	2025-09-15 01:06:17	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 1qidh7qqddw62glt9s0orn04o6p45jb1)
+[RESPONSE]	2025-09-15 01:06:18	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 1.41ms | Dane: {}
+[SUCCESS]	2025-09-15 01:06:18	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 1qidh7qqddw62glt9s0orn04o6p45jb1)
+[RESPONSE]	2025-09-15 01:06:20	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 1.47ms | Dane: {}
+[SUCCESS]	2025-09-15 01:06:20	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 1qidh7qqddw62glt9s0orn04o6p45jb1)
+[RESPONSE]	2025-09-15 01:15:47	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 15.57ms | Dane: {}
+[RESPONSE]	2025-09-15 01:15:51	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.8ms | Dane: {}
+[RESPONSE]	2025-09-15 01:15:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/7/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 31.22ms | Dane: {}
+[RESPONSE]	2025-09-15 01:38:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/7/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 32.09ms | Dane: {}
