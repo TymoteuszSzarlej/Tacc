@@ -15,7 +15,7 @@ from django.db.models import Sum
 @login_required
 def books(request):
     books = Book.objects.filter(user=request.user)  # Filtrowanie książek użytkownika
-    messages.info(request, 'test')
+    # messages.info(request, 'test')
     return render(request, 'Accountancy/books/main.html.jinja', {'books': books})
 
 @login_required
