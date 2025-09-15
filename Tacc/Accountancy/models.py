@@ -15,7 +15,6 @@ class Book(models.Model):
 
 
 
-
 class Account(models.Model):
     TYPES = [
         ('assets', 'Aktywa'),
@@ -46,7 +45,7 @@ class Account(models.Model):
         'liabilities': ['long_term', 'short_term', 'equity'],
         'revenue': ['fixed_incomes', 'variable_incomes', 'passive'],
         'expenses': ['fixed_expenses', 'variable_expenses', 'unpredicted'],
- }
+    }
 
     name = models.TextField(max_length=63)
     description = models.CharField(max_length=255, blank=True, null=True)
@@ -70,13 +69,13 @@ class Account(models.Model):
         """
         Zwraca listę transakcji, w których to konto jest kontem debetowym.
         """
-        return self.debit_transactions.all()  # Użyj related_name 'debit_transactions'
+        return self.debit_transactions.all()
 
     def get_credit_transactions(self):
         """
         Zwraca listę transakcji, w których to konto jest kontem kredytowym.
         """
-        return self.credit_transactions.all()  # Użyj related_name 'credit_transactions'
+        return self.credit_transactions.all()
 
     def calculate_balance(self):
         """
@@ -101,6 +100,7 @@ class Account(models.Model):
                 return self.initial_balance + debit_sum - credit_sum
         except DatabaseError as e:
             return self.initial_balance
+
     def calculate_balance_in_date_range(self, start_date, end_date):
         """
         Oblicza saldo konta w zadanym przedziale czasowym.
@@ -130,6 +130,44 @@ class Account(models.Model):
                 return debit_sum - credit_sum  # Tylko transakcje z okresu, bez stanu początkowego
         except DatabaseError as e:
             return 0
+
+    def calculate_balance_until_date(self, date):
+        """
+        Oblicza saldo konta do określonej daty (włącznie).
+        Uwzględnia stan początkowy oraz wszystkie transakcje do podanej daty.
+        """
+        try:
+            # Filtruj transakcje do podanej daty
+            debit_sum = self.debit_transactions.filter(
+                date__lte=date
+            ).aggregate(models.Sum('amount'))['amount__sum'] or 0
+
+            credit_sum = self.credit_transactions.filter(
+                date__lte=date
+            ).aggregate(models.Sum('amount'))['amount__sum'] or 0
+
+            if self.account_type == 'assets':  # Aktywa
+                return self.initial_balance + debit_sum - credit_sum
+            elif self.account_type == 'liabilities':  # Pasywa
+                return self.initial_balance - debit_sum + credit_sum
+            elif self.account_type == 'revenue':  # Przychody
+                return self.initial_balance + credit_sum - debit_sum
+            elif self.account_type == 'expenses':  # Wydatki
+                return self.initial_balance + debit_sum - credit_sum
+            elif self.account_type == 'equity':  # Kapitał własny
+                return self.initial_balance + credit_sum - debit_sum
+            else:
+                return self.initial_balance + debit_sum - credit_sum
+        except DatabaseError as e:
+            return self.initial_balance
+        
+
+    
+
+
+
+
+
 
 class Transaction(models.Model):
     date = models.DateTimeField(auto_now_add=True)
@@ -193,7 +231,7 @@ class Report(models.Model):
     description = models.CharField(max_length=255, blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    book = models.ForeignKey(Book, on_delete=models.CASCADE)  # Dodanie pola book
+    book = models.ForeignKey(Book, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.name
@@ -214,21 +252,21 @@ class Report(models.Model):
     def _generate_balance_sheet(self):
         """
         Generuje bilans jako słownik.
-        Uwzględnia tylko konta z wybranej księgi i transakcje w zakresie dat raportu.
+        Uwzględnia wszystkie transakcje do daty końcowej raportu.
         """
         assets = Account.objects.filter(account_type='assets', user=self.user, book=self.book)
         liabilities = Account.objects.filter(account_type='liabilities', user=self.user, book=self.book)
 
         assets_balances = {}
         for account in assets:
-            # Oblicz saldo uwzględniając tylko transakcje w zakresie dat raportu
-            balance = account.calculate_balance_in_date_range(self.start_date, self.end_date)
+            # Oblicz saldo do końca okresu raportu (uwzględniając stan początkowy)
+            balance = account.calculate_balance_until_date(self.end_date)
             assets_balances[account.name] = balance
 
         liabilities_balances = {}
         for account in liabilities:
-            # Oblicz saldo uwzględniając tylko transakcje w zakresie dat raportu
-            balance = account.calculate_balance_in_date_range(self.start_date, self.end_date)
+            # Oblicz saldo do końca okresu raportu (uwzględniając stan początkowy)
+            balance = account.calculate_balance_until_date(self.end_date)
             liabilities_balances[account.name] = balance
 
         assets_total = sum(assets_balances.values())
@@ -246,20 +284,20 @@ class Report(models.Model):
     def _generate_income_statement(self):
         """
         Generuje rachunek zysków i strat jako słownik.
-        Uwzględnia tylko konta z wybranej księgi i transakcje w zakresie dat raportu.
+        Uwzględnia tylko transakcje w zakresie dat raportu.
         """
         revenues = Account.objects.filter(account_type='revenue', user=self.user, book=self.book)
         expenses = Account.objects.filter(account_type='expenses', user=self.user, book=self.book)
 
         revenues_balances = {}
         for account in revenues:
-            # Oblicz saldo uwzględniając tylko transakcje w zakresie dat raportu
+            # Oblicz saldo w zakresie dat raportu (zmiana w okresie)
             balance = account.calculate_balance_in_date_range(self.start_date, self.end_date)
             revenues_balances[account.name] = balance
 
         expenses_balances = {}
         for account in expenses:
-            # Oblicz saldo uwzględniając tylko transakcje w zakresie dat raportu
+            # Oblicz saldo w zakresie dat raportu (zmiana w okresie)
             balance = account.calculate_balance_in_date_range(self.start_date, self.end_date)
             expenses_balances[account.name] = balance
 
@@ -276,13 +314,13 @@ class Report(models.Model):
     def _generate_cash_flow_statement(self):
         """
         Generuje rachunek przepływów pieniężnych jako słownik.
-        Uwzględnia tylko konta z wybranej księgi i transakcje w zakresie dat raportu.
+        Uwzględnia tylko transakcje w zakresie dat raportu.
         """
         accounts = Account.objects.filter(account_type='assets', account_subtype='financial', user=self.user, book=self.book)
 
         cash_flows = {}
         for account in accounts:
-            # Oblicz saldo uwzględniając tylko transakcje w zakresie dat raportu
+            # Oblicz zmianę salda w zakresie dat raportu
             balance = account.calculate_balance_in_date_range(self.start_date, self.end_date)
             cash_flows[account.name] = balance
 

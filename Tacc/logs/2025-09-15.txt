@@ -128,3 +128,11 @@
 [RESPONSE]	2025-09-15 00:53:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 22.21ms | Dane: {}
 [RESPONSE]	2025-09-15 00:54:38	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 30.13ms | Dane: {}
 [SUCCESS]	2025-09-15 00:54:38	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 1qidh7qqddw62glt9s0orn04o6p45jb1)
+[RESPONSE]	2025-09-15 00:56:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 13.03ms | Dane: {}
+[RESPONSE]	2025-09-15 00:56:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/5/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 14.8ms | Dane: {}
+[RESPONSE]	2025-09-15 00:57:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.47ms | Dane: {}
+[ERROR]	2025-09-15 00:57:58	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/report/4/details/ | AttributeError: 'Account' object has no attribute 'calculate_balance_until_date' | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-15 00:57:58	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/report/4/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 57.24ms | Dane: {}
+[ERROR]	2025-09-15 00:57:58	[MAIN.middleware]	Błąd 500 | GET /accountancy/report/4/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-15 01:00:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 13.92ms | Dane: {}
+[RESPONSE]	2025-09-15 01:01:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/4/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 30.74ms | Dane: {}
