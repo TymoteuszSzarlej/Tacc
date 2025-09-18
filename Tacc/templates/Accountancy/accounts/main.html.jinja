@@ -2,19 +2,102 @@
 {% block content %}
 <h2>🏦 Konta</h2>
 <div class="container">
-    {% for account in accounts %}
-    <div class="card">
-        <h3>{{ account.name }}</h3>
-        <p><strong>Opis:</strong> {{ account.description }}</p>
-        <p><strong>Data utworzenia:</strong> {{ account.created_at }}</p>
-        <p><strong>Data ostatniej aktualizacji:</strong> {{ account.updated_at }}</p>
-        <div class="actions">
-            <a href="{% url 'account_details' account.id %}" class="btn btn-info">👀 Szczegóły</a>
-            <a href="{% url 'edit_account' account.id %}" class="btn btn-primary">✏️ Edytuj</a>
-            <a href="{% url 'delete_account' account.id %}" class="btn btn-danger">🗑️ Usuń</a>
+    {% for dataset in data %}
+        {% with account=dataset.account %}
+        <div class="card mb-4">
+            <div class="card-body">
+                <h3>{{ account.name }}</h3>
+                {% if account.description %}
+                    <p><strong>Opis:</strong> {{ account.description }}</p>
+                {% endif %}
+
+                <h6><strong>
+                    {% if account.type == 'assets' %}Aktywa
+                    {% elif account.type == 'liabilities' %}Pasywa
+                    {% elif account.type == 'expenses' %}Koszty
+                    {% elif account.type == 'revenue' %}Przychody
+                    {% else %}{{ account.get_account_type_display }}
+                    {% endif %}
+                </strong>
+                {% if account.get_account_subtype_display %}
+                    {{ account.get_account_subtype_display }}
+                {% endif %}
+                </h6>
+
+                <div class="actions mb-3">
+                    <a href="{% url 'account_details' account.id %}" class="btn btn-info">👀 Szczegóły</a>
+                    <a href="{% url 'edit_account' account.id %}" class="btn btn-primary">✏️ Edytuj</a>
+                    <a href="{% url 'delete_account' account.id %}" class="btn btn-danger">🗑️ Usuń</a>
+                </div>
+
+                <div class="row">
+                    <!-- Debetowe -->
+                    <div class="col-md-6">
+                        <h5 class="text-danger">🔻 Transakcje debetowe (<strong>Winien</strong>)</h5>
+                        {% if dataset.debit_transactions %}
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-sm gridless">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th>Data</th>
+                                            <th>Opis</th>
+                                            <th>Kwota</th>
+                                            <th>Konto docelowe</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for debit in dataset.debit_transactions %}
+                                            <tr>
+                                                <td>{{ debit.date|date:"Y-m-d" }}</td>
+                                                <td>{{ debit.description|default:"—" }}</td>
+                                                <td class="text-danger">{{ debit.amount }} zł</td>
+                                                <td>{{ debit.credit_account.name }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        {% else %}
+                            <p class="text-muted">Brak ostatnich wydatków.</p>
+                        {% endif %}
+                    </div>
+
+                    <!-- Kredytowe -->
+                    <div class="col-md-6">
+                        <h5 class="text-success">🔺 Transakcje kredytowe (<strong>Ma</strong>)</h5>
+                        {% if dataset.credit_transactions %}
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-sm gridless">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th>Data</th>
+                                            <th>Opis</th>
+                                            <th>Kwota</th>
+                                            <th>Konto źródłowe</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for credit in dataset.credit_transactions %}
+                                            <tr>
+                                                <td>{{ credit.date|date:"Y-m-d" }}</td>
+                                                <td>{{ credit.description|default:"—" }}</td>
+                                                <td class="text-success">{{ credit.amount }} zł</td>
+                                                <td>{{ credit.debit_account.name }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        {% else %}
+                            <p class="text-muted">Brak ostatnich przychodów.</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+        {% endwith %}
     {% endfor %}
 </div>
+
 <a href="{% url 'create_account' %}" class="btn btn-success">➕ Dodaj nowe konto</a>
 {% endblock %}

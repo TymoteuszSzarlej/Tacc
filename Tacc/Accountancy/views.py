@@ -62,14 +62,42 @@ def delete_book(request, book_id):
     return render(request, 'Accountancy/books/delete.html.jinja', {'book': book})
 
 
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render
+from .models import Account, Transaction
+
 @login_required
 def accounts(request):
-    accounts = Account.objects.filter(user=request.user)  # Filtrowanie kont użytkownika
-    # messages(request, 'info', 'Testowy komunikat informacyjny - usuń go w produkcji.')
-    # messages(request, 'error', 'Testowy komunikat błędu - usuń go w produkcji.')
-    # messages(request, 'warning', 'Testowy komunikat ostrzeżenia - usuń go w produkcji.')
-    # messages(request, 'success', 'Testowy komunikat sukcesu - usuń go w produkcji.')
-    return render(request, 'Accountancy/accounts/main.html.jinja', {'accounts': accounts})
+    accounts = Account.objects.filter(user=request.user)
+    data = []
+    data_by_id = {}
+
+    for account in accounts:
+        current_balance = account.calculate_balance()
+        debit_transactions = Transaction.objects.filter(debit_account=account).order_by('-date')[:3]
+        credit_transactions = Transaction.objects.filter(credit_account=account).order_by('-date')[:3]
+
+        # Zapisz pełne dane do listy i słownika
+        account_data = {
+            'account': account,
+            'current_balance': current_balance,
+            'debit_transactions': debit_transactions,
+            'credit_transactions': credit_transactions,
+        }
+        data.append(account_data)
+        data_by_id[account.id] = {
+            'current_balance': current_balance,
+            'debit_transactions': debit_transactions,
+            'credit_transactions': credit_transactions,
+        }
+
+    context = {
+        'accounts': accounts,
+        'data': data,
+        'data_by_id': data_by_id,
+    }
+
+    return render(request, 'Accountancy/accounts/main.html.jinja', context)
 
 @login_required
 def create_account(request):

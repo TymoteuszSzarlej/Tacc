@@ -1,0 +1,1067 @@
+[RESPONSE]	2025-09-18 21:21:49	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.54ms | Dane: {}
+[RESPONSE]	2025-09-18 21:21:49	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.65ms | Dane: {}
+[ERROR]	2025-09-18 21:21:49	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 21:21:49	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 29.69ms | Dane: {}
+[RESPONSE]	2025-09-18 21:26:27	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 14.11ms | Dane: {}
+[RESPONSE]	2025-09-18 21:26:33	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.49ms | Dane: {}
+[RESPONSE]	2025-09-18 21:27:26	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.34ms | Dane: {}
+[RESPONSE]	2025-09-18 21:27:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 18.35ms | Dane: {}
+[SUCCESS]	2025-09-18 21:27:39	[MAIN.signals]	Utworzono nową instancję: Transaction (ID: 4)
+[RESPONSE]	2025-09-18 21:27:39	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 10.74ms | Dane: {}
+[RESPONSE]	2025-09-18 21:27:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.13ms | Dane: {}
+[RESPONSE]	2025-09-18 21:27:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.26ms | Dane: {}
+[RESPONSE]	2025-09-18 21:27:44	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.01ms | Dane: {}
+[RESPONSE]	2025-09-18 21:27:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.14ms | Dane: {}
+[RESPONSE]	2025-09-18 21:28:01	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/4/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.88ms | Dane: {}
+[RESPONSE]	2025-09-18 21:28:03	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/4/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 17.56ms | Dane: {}
+[SUCCESS]	2025-09-18 21:28:09	[MAIN.signals]	Zaktualizowano instancję: Transaction (ID: 4)
+[RESPONSE]	2025-09-18 21:28:09	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/transaction/4/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 13.78ms | Dane: {}
+[RESPONSE]	2025-09-18 21:28:09	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.45ms | Dane: {}
+[RESPONSE]	2025-09-18 21:28:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.59ms | Dane: {}
+[RESPONSE]	2025-09-18 21:28:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.08ms | Dane: {}
+[ERROR]	2025-09-18 21:30:37	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/account/99/details/ | TemplateSyntaxError: Could not parse the remainder: '%' from 'debit.description%' | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 21:30:37	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 39.91ms | Dane: {}
+[ERROR]	2025-09-18 21:30:37	[MAIN.middleware]	Błąd 500 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 21:31:21	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.82ms | Dane: {}
+[ERROR]	2025-09-18 21:31:37	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/account/99/details/ | TemplateSyntaxError: Could not parse the remainder: '%' from 'debit.description%' | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 21:31:37	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 34.27ms | Dane: {}
+[ERROR]	2025-09-18 21:31:37	[MAIN.middleware]	Błąd 500 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-09-18 21:33:14	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/account/99/details/ | TemplateSyntaxError: Invalid block tag on line 149: 'endfor', expected 'endif'. Did you forget to register or load this tag? | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 21:33:14	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 29.7ms | Dane: {}
+[ERROR]	2025-09-18 21:33:14	[MAIN.middleware]	Błąd 500 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-09-18 21:33:15	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/account/99/details/ | TemplateSyntaxError: Invalid block tag on line 149: 'endfor', expected 'endif'. Did you forget to register or load this tag? | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 21:33:15	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 29.12ms | Dane: {}
+[ERROR]	2025-09-18 21:33:15	[MAIN.middleware]	Błąd 500 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-09-18 21:33:16	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/account/99/details/ | TemplateSyntaxError: Invalid block tag on line 149: 'endfor', expected 'endif'. Did you forget to register or load this tag? | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 21:33:16	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 29.59ms | Dane: {}
+[ERROR]	2025-09-18 21:33:16	[MAIN.middleware]	Błąd 500 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 21:33:50	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.45ms | Dane: {}
+[RESPONSE]	2025-09-18 21:34:16	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.07ms | Dane: {}
+[RESPONSE]	2025-09-18 21:34:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.17ms | Dane: {}
+[RESPONSE]	2025-09-18 21:34:26	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.52ms | Dane: {}
+[RESPONSE]	2025-09-18 21:34:48	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.13ms | Dane: {}
+[RESPONSE]	2025-09-18 21:34:58	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.47ms | Dane: {}
+[RESPONSE]	2025-09-18 21:35:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/100/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.5ms | Dane: {}
+[RESPONSE]	2025-09-18 21:35:06	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.99ms | Dane: {}
+[RESPONSE]	2025-09-18 21:35:08	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/3/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 15.35ms | Dane: {}
+[RESPONSE]	2025-09-18 21:35:15	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.14ms | Dane: {}
+[RESPONSE]	2025-09-18 21:35:19	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.73ms | Dane: {}
+[RESPONSE]	2025-09-18 21:35:26	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/130/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.71ms | Dane: {}
+[RESPONSE]	2025-09-18 21:35:59	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/130/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.88ms | Dane: {}
+[SUCCESS]	2025-09-18 21:36:02	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[RESPONSE]	2025-09-18 21:36:02	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/account/130/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 10.83ms | Dane: {}
+[SUCCESS]	2025-09-18 21:36:02	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 1qidh7qqddw62glt9s0orn04o6p45jb1)
+[RESPONSE]	2025-09-18 21:36:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.42ms | Dane: {}
+[RESPONSE]	2025-09-18 21:36:08	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/130/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.59ms | Dane: {}
+[RESPONSE]	2025-09-18 21:37:03	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/130/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.04ms | Dane: {}
+[RESPONSE]	2025-09-18 21:37:03	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/130/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.77ms | Dane: {}
+[RESPONSE]	2025-09-18 21:37:24	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/130/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.81ms | Dane: {}
+[RESPONSE]	2025-09-18 21:40:09	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/130/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 10.52ms | Dane: {}
+[RESPONSE]	2025-09-18 21:43:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/130/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.12ms | Dane: {}
+[RESPONSE]	2025-09-18 21:43:06	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.37ms | Dane: {}
+[ERROR]	2025-09-18 21:46:07	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/accounts/ | TypeError: Direct assignment to the reverse side of a related set is prohibited. Use debit_transactions.set() instead. | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 21:46:07	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 46.16ms | Dane: {}
+[ERROR]	2025-09-18 21:46:07	[MAIN.middleware]	Błąd 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[SUCCESS]	2025-09-18 21:47:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:47:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:47:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:47:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 21:47:34	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 259.37ms | Dane: {}
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:49:15	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 21:49:15	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 270.76ms | Dane: {}
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:50:00	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 21:50:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 225.32ms | Dane: {}
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:50:13	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 21:50:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 205.43ms | Dane: {}
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:51:01	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 21:51:01	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 211.33ms | Dane: {}
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:51:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 21:51:34	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 338.95ms | Dane: {}
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:52:12	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 21:52:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 207.14ms | Dane: {}
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:52:25	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 21:52:25	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 206.01ms | Dane: {}
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:52:33	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:52:34	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 21:52:34	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 219.44ms | Dane: {}
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:52:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 21:52:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 206.88ms | Dane: {}
+[RESPONSE]	2025-09-18 21:53:18	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/133/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.88ms | Dane: {}
+[RESPONSE]	2025-09-18 21:53:49	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/130/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.5ms | Dane: {}
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:54:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:54:58	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:54:58	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:54:58	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:54:58	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:54:58	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:54:58	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:54:58	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:54:58	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:54:58	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:54:58	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:54:58	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:54:58	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:54:58	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:54:58	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 21:54:58	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 206.99ms | Dane: {}
+[RESPONSE]	2025-09-18 21:56:54	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.16ms | Dane: {}
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:57:21	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[ERROR]	2025-09-18 21:57:21	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/accounts/ | TemplateSyntaxError: Invalid block tag on line 33: 'endfor', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag? | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 21:57:21	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 356.28ms | Dane: {}
+[ERROR]	2025-09-18 21:57:21	[MAIN.middleware]	Błąd 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:57:37	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 21:57:37	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 207.36ms | Dane: {}
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:58:16	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 21:58:16	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 210.46ms | Dane: {}
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 21:59:39	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 21:59:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 204.93ms | Dane: {}
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 22:00:09	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 22:00:09	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 209.06ms | Dane: {}
+[RESPONSE]	2025-09-18 22:00:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/133/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.99ms | Dane: {}
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 22:00:32	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/account/133/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.71ms | Dane: {}
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 1qidh7qqddw62glt9s0orn04o6p45jb1)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 22:00:32	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 22:00:32	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 216.68ms | Dane: {}
+[RESPONSE]	2025-09-18 22:00:41	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 1.54ms | Dane: {}
+[SUCCESS]	2025-09-18 22:00:41	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 1qidh7qqddw62glt9s0orn04o6p45jb1)
+[RESPONSE]	2025-09-18 22:00:41	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 1.46ms | Dane: {}
+[SUCCESS]	2025-09-18 22:00:41	[MAIN.signals]	Zaktualizowano instancję: Session (ID: 1qidh7qqddw62glt9s0orn04o6p45jb1)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 22:00:56	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 22:00:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 232.77ms | Dane: {}
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 22:01:49	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 22:01:49	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 210.87ms | Dane: {}
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 22:01:57	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 22:01:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 209.87ms | Dane: {}
+[RESPONSE]	2025-09-18 22:02:19	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/126/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.27ms | Dane: {}
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 22:04:36	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 22:04:36	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 315.65ms | Dane: {}
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 22:05:22	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 22:05:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 215.45ms | Dane: {}
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 22:05:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 22:05:38	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 207.85ms | Dane: {}
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 100)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 101)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 102)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 103)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 104)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 105)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 106)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 107)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 108)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 109)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 110)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 111)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 112)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 113)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 114)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 115)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 116)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 117)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 118)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 119)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 120)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 121)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 122)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 123)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 124)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 125)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 126)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 127)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 128)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 129)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 130)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 131)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 132)
+[SUCCESS]	2025-09-18 22:06:05	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 133)
+[RESPONSE]	2025-09-18 22:06:05	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 201.33ms | Dane: {}
+[ERROR]	2025-09-18 22:07:11	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/accounts/ | TypeError: 'function' object is not iterable | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:07:11	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 45.04ms | Dane: {}
+[ERROR]	2025-09-18 22:07:11	[MAIN.middleware]	Błąd 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-09-18 22:08:08	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/accounts/ | FieldError: Cannot resolve keyword 'account' into field. Choices are: amount, category, category_id, created_at, credit_account, credit_account_id, date, debit_account, debit_account_id, description, document, id, user, user_id | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:08:08	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 55.0ms | Dane: {}
+[ERROR]	2025-09-18 22:08:08	[MAIN.middleware]	Błąd 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-09-18 22:09:47	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/accounts/ | TemplateSyntaxError: Invalid filter: 'dict_values' | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:09:47	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 295.69ms | Dane: {}
+[ERROR]	2025-09-18 22:09:47	[MAIN.middleware]	Błąd 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-09-18 22:13:18	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/accounts/ | TemplateSyntaxError: Invalid block tag on line 41: 'endfor', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag? | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:13:19	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 247.58ms | Dane: {}
+[ERROR]	2025-09-18 22:13:19	[MAIN.middleware]	Błąd 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:13:19	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.51ms | Dane: {}
+[ERROR]	2025-09-18 22:13:19	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:14:03	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 40.13ms | Dane: {}
+[RESPONSE]	2025-09-18 22:14:09	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.72ms | Dane: {}
+[RESPONSE]	2025-09-18 22:16:46	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 29.89ms | Dane: {}
+[ERROR]	2025-09-18 22:17:03	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/accounts/ | TemplateSyntaxError: Invalid filter: 'dict_values' | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:17:04	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 237.67ms | Dane: {}
+[ERROR]	2025-09-18 22:17:04	[MAIN.middleware]	Błąd 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:17:08	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 33.99ms | Dane: {}
+[RESPONSE]	2025-09-18 22:17:14	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 36.16ms | Dane: {}
+[RESPONSE]	2025-09-18 22:17:18	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 33.59ms | Dane: {}
+[ERROR]	2025-09-18 22:17:22	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/accounts/ | TemplateSyntaxError: Invalid filter: 'dict_values' | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:17:23	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 237.11ms | Dane: {}
+[ERROR]	2025-09-18 22:17:23	[MAIN.middleware]	Błąd 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-09-18 22:17:27	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/accounts/ | TemplateSyntaxError: Invalid block tag on line 41: 'endfor', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag? | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:17:28	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 239.94ms | Dane: {}
+[ERROR]	2025-09-18 22:17:28	[MAIN.middleware]	Błąd 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-09-18 22:17:31	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/accounts/ | TemplateSyntaxError: Invalid block tag on line 41: 'endfor', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag? | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:17:31	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 244.82ms | Dane: {}
+[ERROR]	2025-09-18 22:17:31	[MAIN.middleware]	Błąd 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:17:34	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 35.0ms | Dane: {}
+[RESPONSE]	2025-09-18 22:17:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 32.95ms | Dane: {}
+[RESPONSE]	2025-09-18 22:19:44	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 34.96ms | Dane: {}
+[RESPONSE]	2025-09-18 22:19:48	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 36.28ms | Dane: {}
+[RESPONSE]	2025-09-18 22:20:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 36.81ms | Dane: {}
+[RESPONSE]	2025-09-18 22:20:50	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 29.62ms | Dane: {}
+[ERROR]	2025-09-18 22:21:16	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/accounts/ | NoReverseMatch: Reverse for 'account_details' with arguments '('',)' not found. 1 pattern(s) tried: ['accountancy/account/(?P<account_id>[0-9]+)/details/\\Z'] | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:21:17	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 469.03ms | Dane: {}
+[ERROR]	2025-09-18 22:21:17	[MAIN.middleware]	Błąd 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:22:51	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 34.46ms | Dane: {}
+[RESPONSE]	2025-09-18 22:22:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 49.71ms | Dane: {}
+[RESPONSE]	2025-09-18 22:22:59	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 35.62ms | Dane: {}
+[RESPONSE]	2025-09-18 22:23:05	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 37.61ms | Dane: {}
+[RESPONSE]	2025-09-18 22:23:38	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 35.11ms | Dane: {}
+[RESPONSE]	2025-09-18 22:23:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 34.9ms | Dane: {}
+[RESPONSE]	2025-09-18 22:24:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 35.17ms | Dane: {}
+[RESPONSE]	2025-09-18 22:24:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 35.08ms | Dane: {}
+[RESPONSE]	2025-09-18 22:24:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 31.23ms | Dane: {}
+[RESPONSE]	2025-09-18 22:24:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 34.28ms | Dane: {}
+[RESPONSE]	2025-09-18 22:24:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 37.49ms | Dane: {}
+[RESPONSE]	2025-09-18 22:25:07	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 34.78ms | Dane: {}
+[RESPONSE]	2025-09-18 22:25:30	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 38.06ms | Dane: {}
+[RESPONSE]	2025-09-18 22:25:44	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 37.53ms | Dane: {}
+[RESPONSE]	2025-09-18 22:25:51	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 34.65ms | Dane: {}
+[RESPONSE]	2025-09-18 22:26:05	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 35.16ms | Dane: {}
+[RESPONSE]	2025-09-18 22:26:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 30.92ms | Dane: {}
+[RESPONSE]	2025-09-18 22:27:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 34.64ms | Dane: {}
+[RESPONSE]	2025-09-18 22:27:59	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 21.07ms | Dane: {}
+[RESPONSE]	2025-09-18 22:28:19	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 24.72ms | Dane: {}
+[RESPONSE]	2025-09-18 22:30:19	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 47.61ms | Dane: {}
+[ERROR]	2025-09-18 22:31:10	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/accounts/ | TemplateSyntaxError: default requires 2 arguments, 1 provided | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:31:11	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 554.78ms | Dane: {}
+[ERROR]	2025-09-18 22:31:11	[MAIN.middleware]	Błąd 500 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 22:32:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 57.94ms | Dane: {}
+[RESPONSE]	2025-09-18 22:32:20	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.58ms | Dane: {}
+[RESPONSE]	2025-09-18 22:32:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 13.12ms | Dane: {}
+[SUCCESS]	2025-09-18 22:32:33	[MAIN.signals]	Utworzono nową instancję: Transaction (ID: 5)
+[RESPONSE]	2025-09-18 22:32:33	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.77ms | Dane: {}
+[RESPONSE]	2025-09-18 22:32:33	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.11ms | Dane: {}
+[RESPONSE]	2025-09-18 22:32:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 49.2ms | Dane: {}
+[RESPONSE]	2025-09-18 22:34:31	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 57.19ms | Dane: {}
+[RESPONSE]	2025-09-18 22:37:46	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 58.87ms | Dane: {}
+[RESPONSE]	2025-09-18 22:38:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 56.9ms | Dane: {}
+[RESPONSE]	2025-09-18 22:39:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 55.57ms | Dane: {}
+[RESPONSE]	2025-09-18 22:40:07	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 58.43ms | Dane: {}
+[RESPONSE]	2025-09-18 22:40:08	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 52.1ms | Dane: {}
+[RESPONSE]	2025-09-18 22:40:16	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 59.31ms | Dane: {}
+[RESPONSE]	2025-09-18 22:40:54	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 55.15ms | Dane: {}
+[RESPONSE]	2025-09-18 22:40:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 51.28ms | Dane: {}
+[RESPONSE]	2025-09-18 22:41:07	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 58.28ms | Dane: {}
+[RESPONSE]	2025-09-18 22:41:08	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 52.32ms | Dane: {}
+[RESPONSE]	2025-09-18 22:41:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 59.54ms | Dane: {}
+[RESPONSE]	2025-09-18 22:41:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 50.69ms | Dane: {}
+[RESPONSE]	2025-09-18 22:41:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 50.12ms | Dane: {}
+[RESPONSE]	2025-09-18 22:41:50	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 57.2ms | Dane: {}
+[RESPONSE]	2025-09-18 22:41:50	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 49.47ms | Dane: {}
+[RESPONSE]	2025-09-18 22:42:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 54.92ms | Dane: {}
+[RESPONSE]	2025-09-18 22:42:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 51.59ms | Dane: {}
+[RESPONSE]	2025-09-18 22:43:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 60.94ms | Dane: {}
+[RESPONSE]	2025-09-18 22:43:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 56.45ms | Dane: {}
+[RESPONSE]	2025-09-18 22:43:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 73.15ms | Dane: {}
+[RESPONSE]	2025-09-18 22:43:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.09ms | Dane: {}
+[RESPONSE]	2025-09-18 22:44:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.3ms | Dane: {}
+[RESPONSE]	2025-09-18 22:45:32	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.8ms | Dane: {}
+[RESPONSE]	2025-09-18 22:45:53	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.87ms | Dane: {}
+[RESPONSE]	2025-09-18 22:46:09	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 54.16ms | Dane: {}
+[RESPONSE]	2025-09-18 22:46:09	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 50.97ms | Dane: {}
+[RESPONSE]	2025-09-18 22:46:59	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 58.71ms | Dane: {}
+[RESPONSE]	2025-09-18 22:47:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 55.58ms | Dane: {}
+[RESPONSE]	2025-09-18 22:48:26	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 54.55ms | Dane: {}
+[RESPONSE]	2025-09-18 22:48:32	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/reports/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.34ms | Dane: {}
+[RESPONSE]	2025-09-18 22:48:35	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/4/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 20.47ms | Dane: {}
+[RESPONSE]	2025-09-18 22:48:51	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/4/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 22.94ms | Dane: {}
+[RESPONSE]	2025-09-18 22:49:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 51.73ms | Dane: {}
+[RESPONSE]	2025-09-18 22:49:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 49.16ms | Dane: {}
+[RESPONSE]	2025-09-18 22:49:20	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 54.7ms | Dane: {}
+[RESPONSE]	2025-09-18 22:49:21	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 51.58ms | Dane: {}
+[RESPONSE]	2025-09-18 22:50:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 56.15ms | Dane: {}
+[RESPONSE]	2025-09-18 22:50:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/4/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 19.86ms | Dane: {}
+[RESPONSE]	2025-09-18 22:51:25	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/4/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 23.6ms | Dane: {}
+[RESPONSE]	2025-09-18 22:51:33	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 55.39ms | Dane: {}
+[RESPONSE]	2025-09-18 22:51:46	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/133/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.46ms | Dane: {}
+[RESPONSE]	2025-09-18 22:53:05	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/133/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.35ms | Dane: {}
+[RESPONSE]	2025-09-18 22:53:38	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/133/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.68ms | Dane: {}
+[RESPONSE]	2025-09-18 22:55:01	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/133/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.4ms | Dane: {}
+[RESPONSE]	2025-09-18 22:55:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/133/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.31ms | Dane: {}
+[RESPONSE]	2025-09-18 22:55:18	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/133/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.61ms | Dane: {}
+[RESPONSE]	2025-09-18 22:55:36	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/133/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.52ms | Dane: {}
+[RESPONSE]	2025-09-18 22:55:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/133/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.88ms | Dane: {}
+[RESPONSE]	2025-09-18 22:57:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/133/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.36ms | Dane: {}
+[RESPONSE]	2025-09-18 22:58:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/133/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.03ms | Dane: {}
+[RESPONSE]	2025-09-18 22:58:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 21.53ms | Dane: {}
+[RESPONSE]	2025-09-18 22:58:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.35ms | Dane: {}
