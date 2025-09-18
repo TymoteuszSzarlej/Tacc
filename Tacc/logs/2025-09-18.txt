@@ -1065,3 +1065,11 @@
 [RESPONSE]	2025-09-18 22:58:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/133/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.03ms | Dane: {}
 [RESPONSE]	2025-09-18 22:58:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 21.53ms | Dane: {}
 [RESPONSE]	2025-09-18 22:58:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.35ms | Dane: {}
+[RESPONSE]	2025-09-18 23:00:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 50.95ms | Dane: {}
+[RESPONSE]	2025-09-18 23:04:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 37.23ms | Dane: {}
+[RESPONSE]	2025-09-18 23:04:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 61.39ms | Dane: {}
+[RESPONSE]	2025-09-18 23:05:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 49.61ms | Dane: {}
+[RESPONSE]	2025-09-18 23:05:21	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 66.77ms | Dane: {}
+[RESPONSE]	2025-09-18 23:05:21	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.73ms | Dane: {}
+[ERROR]	2025-09-18 23:05:21	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-18 23:05:24	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 55.0ms | Dane: {}
