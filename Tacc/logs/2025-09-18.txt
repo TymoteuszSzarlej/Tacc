@@ -1073,3 +1073,4 @@
 [RESPONSE]	2025-09-18 23:05:21	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.73ms | Dane: {}
 [ERROR]	2025-09-18 23:05:21	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
 [RESPONSE]	2025-09-18 23:05:24	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 55.0ms | Dane: {}
+[RESPONSE]	2025-09-18 23:07:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 65.04ms | Dane: {}

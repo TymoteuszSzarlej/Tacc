@@ -399,36 +399,59 @@ def report_pdf(request, report_id):
 
 @login_required
 def financial_analysis(request):
+    # Pobranie kont z bazy danych
     assets = Account.objects.filter(account_type='assets')
     liabilities = Account.objects.filter(account_type='liabilities')
     revenues = Account.objects.filter(account_type='revenue')
     expenses = Account.objects.filter(account_type='expenses')
     equity = Account.objects.filter(account_type='equity')
 
-    total_assets = sum([account.calculate_balance() for account in assets])
-    total_liabilities = sum([account.calculate_balance() for account in liabilities])
-    total_revenues = sum([account.calculate_balance() for account in revenues])
-    total_expenses = sum([account.calculate_balance() for account in expenses])
-    total_equity = sum([account.calculate_balance() for account in equity])
+    # Obliczenie sum sald
+    total_assets = sum(account.calculate_balance() for account in assets)
+    total_liabilities = sum(account.calculate_balance() for account in liabilities)
+    total_revenues = sum(account.calculate_balance() for account in revenues)
+    total_expenses = sum(account.calculate_balance() for account in expenses)
+    total_equity = sum(account.calculate_balance() for account in equity)
 
-    ros = (total_revenues - total_expenses) / total_revenues * 100 if total_revenues else 0
-    roa = (total_revenues - total_expenses) / total_assets * 100 if total_assets else 0
-    roe = (total_revenues - total_expenses) / total_equity * 100 if total_equity else 0
+    # Obliczenie zysku netto
+    net_income = total_revenues - total_expenses
 
-    current_assets = sum([account.calculate_balance() for account in assets if account.account_subtype == 'current'])
-    current_liabilities = sum([account.calculate_balance() for account in liabilities if account.account_subtype == 'current'])
+    # Wskaźniki rentowności
+    ros = (net_income / total_revenues * 100) if total_revenues else 0
+    roa = (net_income / total_assets * 100) if total_assets else 0
+    roe = (net_income / total_equity * 100) if total_equity else 0
+
+    # Wskaźniki płynności
+    current_assets = sum(
+        account.calculate_balance() 
+        for account in assets 
+        if account.account_subtype == 'current'
+    )
+    current_liabilities = sum(
+        account.calculate_balance() 
+        for account in liabilities 
+        if account.account_subtype == 'current'
+    )
+    inventory = sum(
+        account.calculate_balance()
+        for account in assets
+        if account.account_subtype == 'inventory'
+    )
+
     current_ratio = current_assets / current_liabilities if current_liabilities else 0
-    quick_ratio = (current_assets - sum([account.calculate_balance() for account in assets if account.account_subtype == 'inventory'])) / current_liabilities if current_liabilities else 0
+    quick_ratio = (current_assets - inventory) / current_liabilities if current_liabilities else 0
 
-    debt_ratio = total_liabilities / total_assets * 100 if total_assets else 0
+    # Wskaźnik zadłużenia
+    debt_ratio = (total_liabilities / total_assets * 100) if total_assets else 0
 
     context = {
-        'ros': ros,
-        'roa': roa,
-        'roe': roe,
-        'current_ratio': current_ratio,
-        'quick_ratio': quick_ratio,
-        'debt_ratio': debt_ratio,
+        'ros': round(ros, 2),
+        'roa': round(roa, 2),
+        'roe': round(roe, 2),
+        'current_ratio': round(current_ratio, 2),
+        'quick_ratio': round(quick_ratio, 2),
+        'debt_ratio': round(debt_ratio, 2),
+        'net_income': net_income,
         'total_assets': total_assets,
         'total_liabilities': total_liabilities,
         'total_revenues': total_revenues,
@@ -437,7 +460,6 @@ def financial_analysis(request):
     }
 
     return render(request, 'Accountancy/analysis/financial_analysis.html.jinja', context)
-
 @login_required
 def financial_forecast(request):
     user = request.user
