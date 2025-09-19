@@ -22,9 +22,9 @@
                     <td>{% if ros > 0 %} ✅ {% else %} ❌ {% endif %}</td>
                     <td>
                         {% if ros <= 0 %}
-                            Ujemny wynik oznacza, że Twoje wydatki przewyższają dochody z codziennych źródeł...
+                            Ujemny wynik oznacza, że Twoje wydatki przewyższają dochody z codziennych źródeł, takich jak praca czy działalność gospodarcza. To sygnał, że budżet domowy nie bilansuje się i konieczne są ograniczenia kosztów lub zwiększenie przychodów.
                         {% else %}
-                            Dodatnia rentowność pokazuje, że po opłaceniu wszystkich codziennych wydatków...
+                            Dodatnia rentowność pokazuje, że po opłaceniu wszystkich codziennych wydatków zostają środki na oszczędności lub inwestycje. To świadczy o zdrowym zarządzaniu finansami osobistymi i dobrej kontroli kosztów.
                         {% endif %}
                     </td>
                 </tr>
@@ -34,9 +34,9 @@
                     <td>{% if roa > 0 %} ✅ {% else %} ❌ {% endif %}</td>
                     <td>
                         {% if roa <= 0 %}
-                            Ujemny wskaźnik pokazuje, że posiadany majątek...
+                            Ujemny wskaźnik pokazuje, że posiadany majątek — np. mieszkanie, samochód, oszczędności — nie generuje zysków, a raczej koszty. To oznacza, że Twój kapitał nie pracuje na Twoją korzyść i warto przemyśleć jego wykorzystanie.
                         {% else %}
-                            Dodatni wynik oznacza, że majątek osobisty jest wykorzystywany efektywnie...
+                            Dodatni wynik oznacza, że majątek osobisty jest wykorzystywany efektywnie. Zyski z wynajmu, lokat, inwestycji giełdowych czy działalności dodatkowej zwiększają Twoje bezpieczeństwo finansowe.
                         {% endif %}
                     </td>
                 </tr>
@@ -46,9 +46,9 @@
                     <td>{% if roe > 0 %} ✅ {% else %} ❌ {% endif %}</td>
                     <td>
                         {% if roe <= 0 %}
-                            Ujemny ROE oznacza, że Twoje oszczędności i środki własne nie przynoszą zwrotu...
+                            Ujemny ROE oznacza, że Twoje oszczędności i środki własne nie przynoszą zwrotu, a ich wartość realna maleje. To sygnał, że warto lepiej zaplanować lokowanie kapitału, aby uniknąć strat i poprawić efektywność inwestycji.
                         {% else %}
-                            Dodatni wskaźnik oznacza, że środki własne generują zyski...
+                            Dodatni wskaźnik oznacza, że środki własne — np. oszczędności, lokaty czy inwestycje — generują zyski. Dzięki temu Twój majątek rośnie, a Ty masz większe możliwości budowania stabilności i poduszki finansowej.
                         {% endif %}
                     </td>
                 </tr>
@@ -74,11 +74,11 @@
                     <td>{% if current_ratio >= 1.2 and current_ratio <= 2.0 %} ✅ {% else %} ❌ {% endif %}</td>
                     <td>
                         {% if current_ratio < 1.2 %}
-                            Niski poziom oznacza trudność z pokrywaniem bieżących wydatków...
+                            Niski poziom oznacza, że możesz mieć trudność z pokrywaniem bieżących wydatków z dostępnych środków. To ryzyko zadłużania się w krótkim czasie i brak wystarczającej rezerwy finansowej.
                         {% elif current_ratio > 2.0 %}
-                            Zbyt wysoki poziom wskazuje na nadmiar gotówki...
+                            Zbyt wysoki poziom wskazuje, że trzymasz za dużo środków w gotówce lub łatwo dostępnych aktywach. Może to oznaczać, że Twoje pieniądze nie pracują i tracą wartość np. przez inflację.
                         {% else %}
-                            Optymalny wynik oznacza zdrową równowagę...
+                            Optymalny wynik oznacza zdrową równowagę między wydatkami a rezerwami. Masz wystarczające środki na bieżące potrzeby, ale jednocześnie nie marnujesz potencjału swoich pieniędzy.
                         {% endif %}
                     </td>
                 </tr>
@@ -88,11 +88,11 @@
                     <td>{% if quick_ratio >= 1.0 and quick_ratio <= 1.5 %} ✅ {% else %} ❌ {% endif %}</td>
                     <td>
                         {% if quick_ratio < 1.0 %}
-                            Niski wskaźnik oznacza niewystarczające rezerwy...
+                            Niski wskaźnik oznacza, że Twoje oszczędności i najbardziej płynne aktywa mogą nie wystarczyć na szybkie uregulowanie nagłych zobowiązań. To zagrożenie w przypadku nieprzewidzianych wydatków.
                         {% elif quick_ratio > 1.5 %}
-                            Wysoki wynik pokazuje duże rezerwy...
+                            Wysoki wynik pokazuje, że masz duże rezerwy w formie gotówki lub łatwo dostępnych środków. To bezpieczne, ale może oznaczać niewykorzystany potencjał do pomnażania oszczędności.
                         {% else %}
-                            Optymalny poziom oznacza kontrolę nad płynnymi środkami...
+                            Optymalny poziom oznacza, że masz pod kontrolą rezerwy płynnych środków. Jesteś przygotowany na nagłe wydatki, a jednocześnie nie marnujesz potencjału pieniędzy przez ich bierne przechowywanie.
                         {% endif %}
                     </td>
                 </tr>
@@ -118,9 +118,9 @@
                     <td>{% if debt_ratio < 60 %} ✅ {% else %} ❌ {% endif %}</td>
                     <td>
                         {% if debt_ratio >= 60 %}
-                            Wysoki poziom zadłużenia oznacza duże obciążenie kredytami...
+                            Wysoki poziom zadłużenia oznacza duże obciążenie kredytami i pożyczkami. Przy takim stanie istnieje ryzyko problemów z obsługą długu w razie utraty pracy, wzrostu stóp procentowych lub nieprzewidzianych wydatków.
                         {% else %}
-                            Niski poziom zadłużenia świadczy o bezpieczeństwie finansowym...
+                            Niski poziom zadłużenia świadczy o bezpieczeństwie finansowym. Większość Twoich wydatków pokrywasz z własnych środków, co daje niezależność i zmniejsza ryzyko związane z oprocentowaniem czy zmianą sytuacji gospodarczej.
                         {% endif %}
                     </td>
                 </tr>
