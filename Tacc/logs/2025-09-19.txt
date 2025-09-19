@@ -230,3 +230,52 @@
 [RESPONSE]	2025-09-19 20:15:05	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.91ms | Dane: {}
 [RESPONSE]	2025-09-19 20:15:14	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 56.6ms | Dane: {}
 [RESPONSE]	2025-09-19 20:15:34	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 56.77ms | Dane: {}
+[ERROR]	2025-09-19 20:35:33	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/forecast/ | TypeError: unsupported operand type(s) for *: 'float' and 'decimal.Decimal' | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 20:35:33	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 44.11ms | Dane: {}
+[ERROR]	2025-09-19 20:35:33	[MAIN.middleware]	Błąd 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-09-19 20:36:06	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/forecast/ | TypeError: unsupported operand type(s) for *: 'float' and 'decimal.Decimal' | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 20:36:06	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 14.55ms | Dane: {}
+[ERROR]	2025-09-19 20:36:06	[MAIN.middleware]	Błąd 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 20:38:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 20.47ms | Dane: {}
+[RESPONSE]	2025-09-19 20:42:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 14.06ms | Dane: {}
+[RESPONSE]	2025-09-19 20:48:34	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 27.15ms | Dane: {}
+[RESPONSE]	2025-09-19 20:49:46	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 22.99ms | Dane: {}
+[RESPONSE]	2025-09-19 20:49:48	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 35.72ms | Dane: {}
+[RESPONSE]	2025-09-19 20:49:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 14.21ms | Dane: {}
+[RESPONSE]	2025-09-19 20:49:58	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 15.55ms | Dane: {}
+[RESPONSE]	2025-09-19 20:50:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 35.49ms | Dane: {}
+[RESPONSE]	2025-09-19 20:50:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 15.98ms | Dane: {}
+[RESPONSE]	2025-09-19 20:50:08	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 34.25ms | Dane: {}
+[RESPONSE]	2025-09-19 20:50:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 45.83ms | Dane: {}
+[RESPONSE]	2025-09-19 20:51:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 37.92ms | Dane: {}
+[RESPONSE]	2025-09-19 20:51:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 33.87ms | Dane: {}
+[RESPONSE]	2025-09-19 20:51:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 37.12ms | Dane: {}
+[ERROR]	2025-09-19 20:54:15	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/forecast/ | NameError: name 'timezone' is not defined | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 20:54:15	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 46.55ms | Dane: {}
+[ERROR]	2025-09-19 20:54:15	[MAIN.middleware]	Błąd 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 20:54:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 136.73ms | Dane: {}
+[ERROR]	2025-09-19 20:59:19	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/forecast/ | TemplateSyntaxError: Invalid block tag on line 23: 'endfor', expected 'endblock'. Did you forget to register or load this tag? | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 20:59:19	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 158.8ms | Dane: {}
+[ERROR]	2025-09-19 20:59:19	[MAIN.middleware]	Błąd 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 21:02:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 141.11ms | Dane: {}
+[RESPONSE]	2025-09-19 21:03:30	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 143.88ms | Dane: {}
+[RESPONSE]	2025-09-19 21:04:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 142.14ms | Dane: {}
+[RESPONSE]	2025-09-19 21:04:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 136.74ms | Dane: {}
+[RESPONSE]	2025-09-19 21:04:48	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 141.57ms | Dane: {}
+[RESPONSE]	2025-09-19 21:05:14	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 148.42ms | Dane: {}
+[RESPONSE]	2025-09-19 21:05:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 141.91ms | Dane: {}
+[RESPONSE]	2025-09-19 21:05:36	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 129.98ms | Dane: {}
+[RESPONSE]	2025-09-19 21:06:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.19ms | Dane: {}
+[RESPONSE]	2025-09-19 21:06:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 18.52ms | Dane: {}
+[SUCCESS]	2025-09-19 21:06:29	[MAIN.signals]	Utworzono nową instancję: Transaction (ID: 6)
+[RESPONSE]	2025-09-19 21:06:29	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.89ms | Dane: {}
+[RESPONSE]	2025-09-19 21:06:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.37ms | Dane: {}
+[RESPONSE]	2025-09-19 21:06:32	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 133.05ms | Dane: {}
+[RESPONSE]	2025-09-19 21:15:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6124.79ms | Dane: {}
+[RESPONSE]	2025-09-19 21:16:35	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3594.8ms | Dane: {}
+[RESPONSE]	2025-09-19 21:21:25	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5257.84ms | Dane: {}
+[RESPONSE]	2025-09-19 21:21:49	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4998.42ms | Dane: {}
+[RESPONSE]	2025-09-19 21:22:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4984.28ms | Dane: {}
+[RESPONSE]	2025-09-19 21:23:27	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5841.25ms | Dane: {}
+[RESPONSE]	2025-09-19 21:24:16	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5328.23ms | Dane: {}
+[RESPONSE]	2025-09-19 21:24:46	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 193.52ms | Dane: {}

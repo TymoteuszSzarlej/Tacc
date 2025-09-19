@@ -6,6 +6,7 @@ from .models import *
 from .forms import *
 from datetime import datetime, timedelta
 from django.db.models import Sum
+from decimal import Decimal
 
 
 
@@ -488,51 +489,139 @@ def financial_analysis(request):
     }
 
     return render(request, 'Accountancy/analysis/financial_analysis.html.jinja', context)
+
+from django.db.models import Sum
+from datetime import datetime, timedelta
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render
+from django.utils import timezone
+from django.http import JsonResponse
+from .models import Transaction, Account, Book
+
 @login_required
 def financial_forecast(request):
     user = request.user
 
-    total_revenues = Transaction.objects.filter(
-        credit_account__account_type='revenue',
-        user=user
-    ).aggregate(Sum('amount'))['amount__sum'] or 0
+    # Get the current book
+    book = Book.objects.filter(user=user).first()
+    if not book:
+        return render(request, 'Accountancy/forecast/financial_forecast.html.jinja', {
+            'error': 'No book found for forecasting'
+        })
 
-    total_expenses = Transaction.objects.filter(
-        debit_account__account_type='expenses',
-        user=user
-    ).aggregate(Sum('amount'))['amount__sum'] or 0
+    # Fixed configuration: 10 years forward, 6 years backward, monthly steps
+    forward_months = 120  # 10 years
+    backward_months = 72  # 6 years
+    step_days = 30
+    date_format = '%Y-%m'
+    today = timezone.now().date()
 
-    total_assets = Account.objects.filter(
-        account_type='assets',
-        user=user
-    ).aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
+    # Generate forecast dates
+    forecast_dates = [
+        (today + timedelta(days=i * step_days)).strftime(date_format)
+        for i in range(forward_months)
+    ]
 
-    total_liabilities = Account.objects.filter(
-        account_type='liabilities',
-        user=user
-    ).aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0
+    # Generate historical dates
+    historical_dates = []
+    historical_revenues = []
+    historical_expenses = []
+    historical_assets = []
+    historical_liabilities = []
 
-    today = datetime.today()
+    for i in range(backward_months, 0, -1):
+        historical_date = today - timedelta(days=i * step_days)
+        historical_dates.append(historical_date.strftime(date_format))
+        end_date = historical_date + timedelta(days=step_days)
+
+        # Historical revenues
+        rev = float(Transaction.objects.filter(
+            credit_account__account_type='revenue',
+            credit_account__book=book,
+            user=user,
+            date__date__gte=historical_date,
+            date__date__lt=end_date
+        ).aggregate(Sum('amount'))['amount__sum'] or 0)
+        historical_revenues.append(rev)
+
+        # Historical expenses
+        exp = float(Transaction.objects.filter(
+            debit_account__account_type='expenses',
+            debit_account__book=book,
+            user=user,
+            date__date__gte=historical_date,
+            date__date__lt=end_date
+        ).aggregate(Sum('amount'))['amount__sum'] or 0)
+        historical_expenses.append(exp)
+
+        # Historical assets
+        assets = float(Account.objects.filter(
+            account_type='assets',
+            book=book,
+            user=user
+        ).aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0)
+        historical_assets.append(assets)
+
+        # Historical liabilities
+        liabilities = float(Account.objects.filter(
+            account_type='liabilities',
+            book=book,
+            user=user
+        ).aggregate(Sum('initial_balance'))['initial_balance__sum'] or 0)
+        historical_liabilities.append(liabilities)
+
+    # Averages for smoothing
+    avg_revenue = sum(historical_revenues) / len(historical_revenues) if historical_revenues else 0
+    avg_expense = sum(historical_expenses) / len(historical_expenses) if historical_expenses else 0
+    avg_assets = sum(historical_assets) / len(historical_assets) if historical_assets else 0
+    avg_liabilities = sum(historical_liabilities) / len(historical_liabilities) if historical_liabilities else 0
+
+    # Forecast using exponential smoothing
+    alpha = 0.6
+    revenues, expenses, assets, liabilities, cashflow, aggregate = [], [], [], [], [], []
+
+    prev_rev, prev_exp, prev_asset, prev_liab = avg_revenue, avg_expense, avg_assets, avg_liabilities
+
+    for _ in range(forward_months):
+        rev = alpha * prev_rev + (1 - alpha) * avg_revenue
+        exp = alpha * prev_exp + (1 - alpha) * avg_expense
+        asset = alpha * prev_asset + (1 - alpha) * avg_assets
+        liab = alpha * prev_liab + (1 - alpha) * avg_liabilities
+        profit = rev - exp
+        total = profit + asset - liab
+
+        revenues.append(round(rev, 2))
+        expenses.append(round(exp, 2))
+        assets.append(round(asset, 2))
+        liabilities.append(round(liab, 2))
+        cashflow.append(round(profit, 2))
+        aggregate.append(round(total, 2))
+
+        prev_rev, prev_exp, prev_asset, prev_liab = rev, exp, asset, liab
+
     forecast_data = {
-        'dates': [(today + timedelta(days=i * 30)).strftime('%Y-%m') for i in range(12)],
-        'revenues': [],
-        'expenses': [],
-        'profits': [],
+        'historical_dates': historical_dates,
+        'dates': forecast_dates,
+        'historical_revenues': historical_revenues,
+        'historical_expenses': historical_expenses,
+        'historical_assets': historical_assets,
+        'historical_liabilities': historical_liabilities,
+        'revenues': revenues,
+        'expenses': expenses,
+        'assets': assets,
+        'liabilities': liabilities,
+        'cashflow': cashflow,
+        'aggregate': aggregate,
+        'time_range': 'decade',
+        'time_ranges': ['decade']
     }
 
-    for i in range(12):
-        forecast_revenue = float(total_revenues) * (1 + 0.02 * i)
-        forecast_expense = float(total_expenses) * (1 + 0.015 * i)
-        forecast_profit = forecast_revenue - forecast_expense
-
-        forecast_data['revenues'].append(round(forecast_revenue, 2))
-        forecast_data['expenses'].append(round(forecast_expense, 2))
-        forecast_data['profits'].append(round(forecast_profit, 2))
+    if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+        return JsonResponse(forecast_data)
 
     return render(request, 'Accountancy/forecast/financial_forecast.html.jinja', {
         'forecast_data': forecast_data,
-        'total_assets': total_assets,
-        'total_liabilities': total_liabilities,
+        'book': book
     })
 
 @login_required

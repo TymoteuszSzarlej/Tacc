@@ -1,73 +1,190 @@
 {% extends 'base.html' %}
-
 {% block content %}
 <div class="container">
     <h2>📈 Prognoza Finansowa</h2>
-    <canvas id="forecastChart" width="400" height="200"></canvas>
+
+    <div class="chart-block" style="margin-bottom: 40px;">
+        <h4>📊 Przychody vs Koszty</h4>
+        <select class="range-selector" data-chart="incomeExpenseChart">
+            <option value="1">1 dzień</option>
+            <option value="7">1 tydzień</option>
+            <option value="30" selected>1 miesiąc</option>
+            <option value="365">1 rok</option>
+            <option value="3650">1 dekada</option>
+        </select>
+        <canvas id="incomeExpenseChart"></canvas>
+    </div>
+
+    <div class="chart-block" style="margin-bottom: 40px;">
+        <h4>🏦 Aktywa vs Pasywa</h4>
+        <select class="range-selector" data-chart="assetsLiabilitiesChart">
+            <option value="1">1 dzień</option>
+            <option value="7">1 tydzień</option>
+            <option value="30" selected>1 miesiąc</option>
+            <option value="365">1 rok</option>
+            <option value="3650">1 dekada</option>
+        </select>
+        <canvas id="assetsLiabilitiesChart"></canvas>
+    </div>
+
+    <div class="chart-block" style="margin-bottom: 40px;">
+        <h4>💸 Przepływy pieniężne</h4>
+        <select class="range-selector" data-chart="cashflowChart">
+            <option value="1">1 dzień</option>
+            <option value="7">1 tydzień</option>
+            <option value="30" selected>1 miesiąc</option>
+            <option value="365">1 rok</option>
+            <option value="3650">1 dekada</option>
+        </select>
+        <canvas id="cashflowChart"></canvas>
+    </div>
+
+    <div class="chart-block" style="margin-bottom: 40px;">
+        <h4>📊 Zagregowana prognoza</h4>
+        <select class="range-selector" data-chart="aggregateChart">
+            <option value="1">1 dzień</option>
+            <option value="7">1 tydzień</option>
+            <option value="30" selected>1 miesiąc</option>
+            <option value="365">1 rok</option>
+            <option value="3650">1 dekada</option>
+        </select>
+        <canvas id="aggregateChart"></canvas>
+    </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
-    // Pobierz dane z widoku Django
-    const forecastData = {{ forecast_data|safe }};
+    const fullData = {{ forecast_data|safe }};
+    const todayIndex = Math.floor(fullData.dates.length * 0.6); // punkt "dziś"
 
-    // Konfiguracja wykresu
-    const ctx = document.getElementById('forecastChart').getContext('2d');
-    const forecastChart = new Chart(ctx, {
-        type: 'line', // Typ wykresu
-        data: {
-            labels: forecastData.dates, // Oś X (daty)
-            datasets: [
-                {
-                    label: '📊 Przychody',
-                    data: forecastData.revenues, // Dane przychodów
-                    borderColor: 'rgba(75, 192, 192, 1)',
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    fill: true,
-                },
-                {
-                    label: '📉 Koszty',
-                    data: forecastData.expenses, // Dane kosztów
-                    borderColor: 'rgba(255, 99, 132, 1)',
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    fill: true,
-                },
-                {
-                    label: '💰 Zyski',
-                    data: forecastData.profits, // Dane zysków
-                    borderColor: 'rgba(54, 162, 235, 1)',
-                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                    fill: true,
-                },
-            ],
-        },
-        options: {
-            responsive: true,
-            plugins: {
-                legend: {
-                    position: 'top',
-                },
-                tooltip: {
-                    mode: 'index',
-                    intersect: false,
-                },
+    function createChart(id, labels, datasets, rangeDays) {
+        const ctx = document.getElementById(id);
+        if (!ctx) return;
+
+        // Usuń istniejący wykres jeśli istnieje
+        if (ctx.chart) {
+            ctx.chart.destroy();
+        }
+
+        const rangeLength = Math.floor(rangeDays / 30); // zakładamy 30 dni = 1 miesiąc
+        const startIndex = Math.max(todayIndex - Math.floor(rangeLength * 0.6), 0);
+        const endIndex = Math.min(todayIndex + rangeLength, fullData.dates.length);
+
+        const slicedLabels = fullData.dates.slice(startIndex, endIndex);
+        const slicedDatasets = datasets.map(key => ({
+            label: key === 'revenues' ? '📊 Przychody' :
+                   key === 'expenses' ? '📉 Koszty' :
+                   key === 'assets' ? '🏦 Aktywa' :
+                   key === 'liabilities' ? '📉 Pasywa' :
+                   key === 'cashflow' ? '💸 Zysk netto' :
+                   '📊 Wynik zagregowany',
+            data: fullData[key].slice(startIndex, endIndex),
+            borderColor: {
+                revenues: 'green',
+                expenses: 'red',
+                assets: 'blue',
+                liabilities: 'orange',
+                cashflow: 'purple',
+                aggregate: 'black'
+            }[key],
+            backgroundColor: {
+                revenues: 'rgba(0,128,0,0.2)',
+                expenses: 'rgba(255,0,0,0.2)',
+                assets: 'rgba(0,0,255,0.2)',
+                liabilities: 'rgba(255,165,0,0.2)',
+                cashflow: 'rgba(128,0,128,0.2)',
+                aggregate: 'rgba(0,0,0,0.1)'
+            }[key],
+            fill: true,
+            pointRadius: 3,
+            pointHoverRadius: 6
+        }));
+
+        const verticalLinePlugin = {
+            id: 'verticalLine',
+            afterDraw: chart => {
+                if (chart.tooltip && chart.tooltip._active && chart.tooltip._active.length) return;
+                const ctx = chart.ctx;
+                const xAxis = chart.scales.x;
+                if (!xAxis) return;
+                
+                const x = xAxis.getPixelForValue(fullData.dates[todayIndex]);
+                ctx.save();
+                ctx.beginPath();
+                ctx.moveTo(x, chart.chartArea.top);
+                ctx.lineTo(x, chart.chartArea.bottom);
+                ctx.strokeStyle = 'rgba(0,0,0,0.3)';
+                ctx.lineWidth = 1;
+                ctx.setLineDash([5, 5]);
+                ctx.stroke();
+                ctx.restore();
+            }
+        };
+
+        const chartInstance = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: slicedLabels,
+                datasets: slicedDatasets
             },
-            scales: {
-                x: {
-                    title: {
-                        display: true,
-                        text: 'Miesiące',
-                    },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { position: 'top' },
+                    tooltip: { mode: 'index', intersect: false }
                 },
-                y: {
-                    title: {
-                        display: true,
-                        text: 'Kwota (PLN)',
-                    },
-                    beginAtZero: true,
-                },
+                scales: {
+                    x: { title: { display: true, text: 'Miesiące' } },
+                    y: { title: { display: true, text: 'Kwota (PLN)' }, beginAtZero: true }
+                }
             },
-        },
+            plugins: [verticalLinePlugin]
+        });
+
+        ctx.chart = chartInstance;
+    }
+
+    // Inicjalizacja wykresów
+    document.querySelectorAll('.range-selector').forEach(selector => {
+        const chartId = selector.dataset.chart;
+        const datasets = {
+            incomeExpenseChart: ['revenues', 'expenses'],
+            assetsLiabilitiesChart: ['assets', 'liabilities'],
+            cashflowChart: ['cashflow'],
+            aggregateChart: ['aggregate']
+        }[chartId];
+
+        // Poczekaj aż DOM się załaduje
+        setTimeout(() => {
+            createChart(chartId, fullData.dates, datasets, parseInt(selector.value));
+        }, 100);
+
+        selector.addEventListener('change', () => {
+            createChart(chartId, fullData.dates, datasets, parseInt(selector.value));
+        });
     });
 </script>
+
+<style>
+    .chart-block {
+        background: #222;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+    }
+    
+    .range-selector {
+        margin-bottom: 15px;
+        padding: 5px 10px;
+        border: 1px solid magenta;
+        border-radius: 5px;
+        background: #333;
+    }
+    
+    canvas {
+        width: 100% !important;
+        height: 300px !important;
+    }
+</style>
 {% endblock %}
