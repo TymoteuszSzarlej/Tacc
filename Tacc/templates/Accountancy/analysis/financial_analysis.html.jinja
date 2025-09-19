@@ -16,39 +16,39 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="{% if ros > 0 %}gain{% else %}loss{% endif %}">
                     <td>Rentowność sprzedaży (ROS)</td>
                     <td>{{ ros|floatformat:2 }}%</td>
                     <td>{% if ros > 0 %} ✅ {% else %} ❌ {% endif %}</td>
                     <td>
                         {% if ros <= 0 %}
-                            Ujemny wynik oznacza, że Twoje wydatki przewyższają dochody z codziennych źródeł, np. pracy lub działalności. To sygnał, że budżet domowy nie bilansuje się i konieczne są ograniczenia kosztów albo zwiększenie przychodów.
+                            Ujemny wynik oznacza, że Twoje wydatki przewyższają dochody z codziennych źródeł...
                         {% else %}
-                            Dodatnia rentowność pokazuje, że po opłaceniu wszystkich codziennych wydatków zostają środki na oszczędności lub inwestycje. To świadczy o zdrowym zarządzaniu finansami osobistymi i dobrej kontroli kosztów.
+                            Dodatnia rentowność pokazuje, że po opłaceniu wszystkich codziennych wydatków...
                         {% endif %}
                     </td>
                 </tr>
-                <tr>
+                <tr class="{% if roa > 0 %}gain{% else %}loss{% endif %}">
                     <td>Rentowność aktywów (ROA)</td>
                     <td>{{ roa|floatformat:2 }}%</td>
                     <td>{% if roa > 0 %} ✅ {% else %} ❌ {% endif %}</td>
                     <td>
                         {% if roa <= 0 %}
-                            Ujemny wskaźnik pokazuje, że posiadany majątek (np. mieszkanie, samochód, oszczędności) nie generuje zysków, a raczej koszty. To oznacza, że Twój kapitał nie pracuje na Twoją korzyść i wymaga przemyślenia.
+                            Ujemny wskaźnik pokazuje, że posiadany majątek...
                         {% else %}
-                            Dodatni wynik oznacza, że majątek osobisty jest wykorzystywany efektywnie. Oznacza to np. zyski z wynajmu mieszkania, lokat, inwestycji giełdowych czy działalności dodatkowej, które zwiększają Twoje bezpieczeństwo finansowe.
+                            Dodatni wynik oznacza, że majątek osobisty jest wykorzystywany efektywnie...
                         {% endif %}
                     </td>
                 </tr>
-                <tr>
+                <tr class="{% if roe > 0 %}gain{% else %}loss{% endif %}">
                     <td>Rentowność kapitału własnego (ROE)</td>
                     <td>{{ roe|floatformat:2 }}%</td>
                     <td>{% if roe > 0 %} ✅ {% else %} ❌ {% endif %}</td>
                     <td>
                         {% if roe <= 0 %}
-                            Ujemny ROE oznacza, że Twoje oszczędności i środki własne nie przynoszą zwrotu, a ich wartość realna maleje. To sygnał, że warto lepiej zaplanować lokowanie kapitału, aby uniknąć strat.
+                            Ujemny ROE oznacza, że Twoje oszczędności i środki własne nie przynoszą zwrotu...
                         {% else %}
-                            Dodatni wskaźnik oznacza, że środki własne – np. oszczędności, lokaty czy inwestycje – generują zyski. Dzięki temu Twój majątek rośnie, a Ty masz większe możliwości budowania stabilności i poduszki finansowej.
+                            Dodatni wskaźnik oznacza, że środki własne generują zyski...
                         {% endif %}
                     </td>
                 </tr>
@@ -68,31 +68,31 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="{% if current_ratio >= 1.2 and current_ratio <= 2.0 %}gain{% else %}loss{% endif %}">
                     <td>Wskaźnik bieżącej płynności</td>
                     <td>{{ current_ratio|floatformat:2 }}</td>
                     <td>{% if current_ratio >= 1.2 and current_ratio <= 2.0 %} ✅ {% else %} ❌ {% endif %}</td>
                     <td>
                         {% if current_ratio < 1.2 %}
-                            Niski poziom oznacza, że możesz mieć trudność z pokrywaniem bieżących wydatków z dostępnych środków. To ryzyko zadłużania się w krótkim czasie i brak wystarczającej rezerwy finansowej.
+                            Niski poziom oznacza trudność z pokrywaniem bieżących wydatków...
                         {% elif current_ratio > 2.0 %}
-                            Zbyt wysoki poziom wskazuje, że trzymasz za dużo środków w gotówce lub łatwo dostępnych aktywach. Może to oznaczać, że Twoje pieniądze nie pracują i tracą wartość np. przez inflację.
+                            Zbyt wysoki poziom wskazuje na nadmiar gotówki...
                         {% else %}
-                            Optymalny wynik oznacza zdrową równowagę między wydatkami a rezerwami. Masz wystarczające środki na bieżące potrzeby, ale jednocześnie nie marnujesz potencjału swoich pieniędzy.
+                            Optymalny wynik oznacza zdrową równowagę...
                         {% endif %}
                     </td>
                 </tr>
-                <tr>
+                <tr class="{% if quick_ratio >= 1.0 and quick_ratio <= 1.5 %}gain{% else %}loss{% endif %}">
                     <td>Wskaźnik szybkiej płynności</td>
                     <td>{{ quick_ratio|floatformat:2 }}</td>
                     <td>{% if quick_ratio >= 1.0 and quick_ratio <= 1.5 %} ✅ {% else %} ❌ {% endif %}</td>
                     <td>
                         {% if quick_ratio < 1.0 %}
-                            Niski wskaźnik oznacza, że Twoje oszczędności i najbardziej płynne aktywa mogą nie wystarczyć na szybkie uregulowanie nagłych zobowiązań. To zagrożenie w przypadku nieprzewidzianych wydatków.
+                            Niski wskaźnik oznacza niewystarczające rezerwy...
                         {% elif quick_ratio > 1.5 %}
-                            Wysoki wynik pokazuje, że masz duże rezerwy w formie gotówki lub łatwo dostępnych środków. To bezpieczne, ale może oznaczać niewykorzystany potencjał do pomnażania oszczędności.
+                            Wysoki wynik pokazuje duże rezerwy...
                         {% else %}
-                            Optymalny poziom oznacza, że masz pod kontrolą rezerwy płynnych środków. Jesteś przygotowany na nagłe wydatki, a jednocześnie nie marnujesz potencjału pieniędzy przez ich bierne przechowywanie.
+                            Optymalny poziom oznacza kontrolę nad płynnymi środkami...
                         {% endif %}
                     </td>
                 </tr>
@@ -112,15 +112,15 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="{% if debt_ratio < 60 %}gain{% else %}loss{% endif %}">
                     <td>Wskaźnik ogólnego zadłużenia</td>
                     <td>{{ debt_ratio|floatformat:2 }}%</td>
                     <td>{% if debt_ratio < 60 %} ✅ {% else %} ❌ {% endif %}</td>
                     <td>
                         {% if debt_ratio >= 60 %}
-                            Wysoki poziom zadłużenia oznacza duże obciążenie kredytami i pożyczkami. Przy takim stanie istnieje ryzyko problemów z obsługą długu w razie utraty pracy lub wzrostu rat, np. kredytu hipotecznego.
+                            Wysoki poziom zadłużenia oznacza duże obciążenie kredytami...
                         {% else %}
-                            Niski poziom zadłużenia świadczy o bezpieczeństwie finansowym. Większość Twoich wydatków pokrywasz z własnych środków, co daje niezależność i zmniejsza ryzyko związane z oprocentowaniem czy zmianą sytuacji gospodarczej.
+                            Niski poziom zadłużenia świadczy o bezpieczeństwie finansowym...
                         {% endif %}
                     </td>
                 </tr>

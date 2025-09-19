@@ -14,7 +14,6 @@ class Book(models.Model):
         return self.name
 
 
-
 class Account(models.Model):
     TYPES = [
         ('assets', 'Aktywa'),
@@ -162,13 +161,6 @@ class Account(models.Model):
             return self.initial_balance
         
 
-    
-
-
-
-
-
-
 class Transaction(models.Model):
     date = models.DateTimeField(auto_now_add=True)
     description = models.CharField(max_length=255, blank=True, null=True)
@@ -192,12 +184,11 @@ class Transaction(models.Model):
         return self.description or f"Transaction {self.id}"
 
 
-
 class Categories(models.Model):
     name = models.TextField(max_length=63)
     description = models.CharField(max_length=255, blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
-    color = models.CharField(max_length=7, default="#000000")
+    color = models.CharField(max_length=7, default="#222222")
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
     def __str__(self):
@@ -216,6 +207,7 @@ class Budgets(models.Model):
 
     def __str__(self):
         return self.name
+
 
 class Report(models.Model):
     REPORT_TYPES = [

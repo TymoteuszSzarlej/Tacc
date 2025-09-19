@@ -3,26 +3,31 @@
 <div class="container">
     <h2>Transakcje</h2>
 
-    <!-- Lista transakcji -->
     <div class="transactions-container" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; align-items: flex-start; margin-top: 20px;">
-        {% for transaction in transactions %}
-        <div class="card">
-            <p><strong>ID:</strong> {{ transaction.id }}</p>
-            <p><strong>Data:</strong> {{ transaction.date }}</p>
-            <p><strong>Kwota:</strong> {{ transaction.amount }}</p>
-            <p><strong>Opis:</strong> {{ transaction.description }}</p>
-            <p><strong>Kategoria:</strong> {{ transaction.category.name }}</p>
-            <p><strong>Konto:</strong> {{ transaction.account.name }}</p>
-            <div class="actions">
-                <a href="{% url 'transaction_details' transaction.id %}" class="btn btn-info">👀 Podgląd</a>
-                <a href="{% url 'edit_transaction' transaction.id %}" class="btn btn-primary">✏️ Edytuj</a>
-                <a href="{% url 'delete_transaction' transaction.id %}" class="btn btn-danger">🗑️ Usuń</a>
+        {% for item in transactions_with_colors %}
+        <div class="card" style="background-color: {{ item.category_color }}; padding: 15px; border-radius: 8px; width: 300px;">
+            <p><strong>ID:</strong> {{ item.transaction.id }}</p>
+            <p><strong>Utworzono:</strong> {{ item.transaction.created_at|date:"Y-m-d H:i" }}</p>
+            <p><strong>Data transakcji:</strong> {{ item.transaction.date|date:"Y-m-d H:i" }}</p>
+            <p><strong>Kwota:</strong> {{ item.transaction.amount }} zł</p>
+            <p><strong>Opis:</strong> {{ item.transaction.description }}</p>
+            <p><strong>Kategoria:</strong> {{ item.transaction.category.name }}</p>
+            <p><strong>Konto debetowe:</strong> {{ item.transaction.debit_account.name }}</p>
+            <p><strong>Konto kredytowe:</strong> {{ item.transaction.credit_account.name }}</p>
+            {% if item.transaction.document %}
+                <p><strong>Dokument:</strong> <a href="{{ item.transaction.document.url }}" target="_blank">📄 Pobierz</a></p>
+            {% endif %}
+            <div class="actions" style="margin-top: 10px;">
+                <a href="{% url 'transaction_details' item.transaction.id %}" class="btn btn-info">👀 Podgląd</a>
+                <a href="{% url 'edit_transaction' item.transaction.id %}" class="btn btn-primary">✏️ Edytuj</a>
+                <a href="{% url 'delete_transaction' item.transaction.id %}" class="btn btn-danger">🗑️ Usuń</a>
             </div>
         </div>
         {% endfor %}
     </div>
 
-    <!-- Dodaj transakcję -->
-    <a href="{% url 'create_transaction' %}" class="btn btn-primary">Dodaj transakcję</a>
+    <div style="margin-top: 30px; text-align: center;">
+        <a href="{% url 'create_transaction' %}" class="btn btn-success">➕ Dodaj transakcję</a>
+    </div>
 </div>
 {% endblock %}

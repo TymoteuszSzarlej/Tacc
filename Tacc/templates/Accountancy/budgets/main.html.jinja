@@ -1,20 +1,25 @@
 {% extends 'base.html' %}
 {% block content %}
-<h2>Budżety</h2>
-<div class="container">
+<h2>📊 Budżety ({{ budgets_with_colors|length }})</h2>
+<div class="container" style="margin-top: 20px;">
     <a href="{% url 'create_budget' %}" class="btn btn-success">➕ Dodaj nowy budżet</a>
 
-    <div class="budgets-container">
-        {% for budget in budgets %}
-        <div class="card">
-            <h3>{{ budget.name }}</h3>
-            <p><strong>Kwota:</strong> {{ budget.amount }}</p>
-            <p><strong>Data utworzenia:</strong> {{ budget.created_at }}</p>
-            <div class="actions">
-                <a href="{% url 'edit_budget' budget.id %}" class="btn btn-primary">✏️ Edytuj</a>
-                <a href="{% url 'delete_budget' budget.id %}" class="btn btn-danger">🗑️ Usuń</a>
+    <div class="budgets-container" style="margin-top: 20px;">
+        {% for item in budgets_with_colors %}
+        <div class="card" style="padding: 20px; margin-bottom: 20px; border-radius: 8px; background-color: {{ item.category_color }}; color: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <h3>{{ item.budget.name }}</h3>
+            <p><strong>Opis:</strong> {{ item.budget.description|default:"Brak opisu" }}</p>
+            <p><strong>Kwota:</strong> {{ item.budget.amount }} zł</p>
+            <p><strong>Okres:</strong> {{ item.budget.start_date|date:"Y-m-d" }} – {{ item.budget.end_date|date:"Y-m-d" }}</p>
+            <p><strong>Kategoria:</strong> {{ item.budget.category.name }}</p>
+            <p><strong>Data utworzenia:</strong> {{ item.budget.created_at|date:"Y-m-d H:i" }}</p>
+            <div class="actions" style="margin-top: 10px;">
+                <a href="{% url 'edit_budget' item.budget.id %}" class="btn btn-primary">✏️ Edytuj</a>
+                <a href="{% url 'delete_budget' item.budget.id %}" class="btn btn-danger">🗑️ Usuń</a>
             </div>
         </div>
+        {% empty %}
+        <p>Nie masz jeszcze żadnych budżetów. Kliknij powyżej, aby dodać pierwszy.</p>
         {% endfor %}
     </div>
 </div>

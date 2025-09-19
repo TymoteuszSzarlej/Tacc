@@ -8,7 +8,9 @@
         {% for report in reports %}
         <div class="card">
             <h3>{{ report.name }}</h3>
+            {% if report.description %}
             <p>{{ report.description }}</p>
+            {% endif %}
             <div class="actions">
                 <a href="{% url 'report_details' report.id %}" class="btn btn-info">👀 Zobacz</a>
                 <a href="{% url 'edit_report' report.id %}" class="btn btn-primary">✏️ Edytuj</a>

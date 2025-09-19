@@ -51,7 +51,9 @@
 
 <div class="container">
   <h2>📊 {{ report.name }}</h2>
+  {% if report.description %}
   <p>{{ report.description }}</p>
+  {% endif %}
   <h3>{{ report_data.type }}</h3>
 
   {% if report.report_type == 'balance_sheet' %}

@@ -2,16 +2,21 @@
 
 {% block content %}
 <h2>📚 Szczegóły księgi</h2>
-<div class="container">
-    <div class="card">
+<div class="container" style="margin-top: 20px;">
+    <div class="card" style="padding: 20px; border-radius: 8px;">
         <h3>{{ book.name }}</h3>
-        <p><strong>Opis:</strong> {{ book.description }}</p>
-        <p><strong>Data utworzenia:</strong> {{ book.created_at }}</p>
-        <div class="actions">
+        <p><strong>Opis:</strong> {{ book.description|default:"<p style='color: #555;'>Brak opisu</p>" }}</p>
+        <p><strong>Data utworzenia:</strong> {{ book.created_at|date:"Y-m-d H:i" }}</p>
+        {% if book.updated_at %}
+        <p><strong>Data ostatniej aktualizacji:</strong> {{ book.updated_at|date:"Y-m-d H:i" }}</p>
+        {% endif %}
+        <div class="actions" style="margin-top: 10px;">
             <a href="{% url 'edit_book' book.id %}" class="btn btn-primary">✏️ Edytuj</a>
             <a href="{% url 'delete_book' book.id %}" class="btn btn-danger">🗑️ Usuń</a>
         </div>
     </div>
-    <a href="{% url 'books' %}" class="btn btn-secondary">⬅️ Powrót do listy ksiąg</a>
+    <div style="margin-top: 20px;">
+        <a href="{% url 'books' %}" class="btn btn-secondary">⬅️ Powrót do listy ksiąg</a>
+    </div>
 </div>
 {% endblock %}

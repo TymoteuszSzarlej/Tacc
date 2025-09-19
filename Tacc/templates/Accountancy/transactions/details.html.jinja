@@ -3,20 +3,24 @@
 <div class="container">
     <h2>Szczegóły transakcji</h2>
 
-    <div class="card">
+    <div class="card" style="padding: 20px; border-radius: 8px;">
         <p><strong>ID:</strong> {{ transaction.id }}</p>
-        <p><strong>Data:</strong> {{ transaction.date }}</p>
-        <p><strong>Kwota:</strong> {{ transaction.amount }}</p>
+        <p><strong>Utworzono:</strong> {{ transaction.created_at|date:"Y-m-d H:i" }}</p>
+        <p><strong>Data transakcji:</strong> {{ transaction.date|date:"Y-m-d H:i" }}</p>
+        <p><strong>Kwota:</strong> {{ transaction.amount }} zł</p>
         <p><strong>Opis:</strong> {{ transaction.description }}</p>
         <p><strong>Kategoria:</strong> {{ transaction.category.name }}</p>
-        <p><strong>Konto:</strong> {{ transaction.account.name }}</p>
+        <p><strong>Konto debetowe:</strong> {{ transaction.debit_account.name }}</p>
+        <p><strong>Konto kredytowe:</strong> {{ transaction.credit_account.name }}</p>
+        {% if transaction.document %}
+            <p><strong>Dokument:</strong> <a href="{{ transaction.document.url }}" target="_blank">📄 Pobierz</a></p>
+        {% endif %}
     </div>
 
-    <div class="actions">
+    <div class="actions" style="margin-top: 20px;">
         <a href="{% url 'edit_transaction' transaction.id %}" class="btn btn-primary">✏️ Edytuj</a>
         <a href="{% url 'delete_transaction' transaction.id %}" class="btn btn-danger">🗑️ Usuń</a>
+        <a href="{% url 'transactions' %}" class="btn btn-secondary">⬅️ Powrót do transakcji</a>
     </div>
-
-    <a href="{% url 'transactions' %}" class="btn btn-secondary">⬅️ Powrót do transakcji</a>
 </div>
 {% endblock %}

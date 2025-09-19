@@ -194,6 +194,22 @@ def transactions(request):
     return render(request, 'Accountancy/transactions/main.html.jinja', {'transactions': transactions})
 
 @login_required
+def transactions(request):
+    transactions = Transaction.objects.filter(user=request.user).select_related('category')
+
+    transactions_with_colors = [
+        {
+            'transaction': transaction,
+            'category_color': transaction.category.color if transaction.category else None
+        }
+        for transaction in transactions
+    ]
+    print(transactions_with_colors)
+    return render(request, 'Accountancy/transactions/main.html.jinja', {
+        'transactions_with_colors': transactions_with_colors, 'transactions': transactions
+    })
+
+@login_required
 def create_transaction(request):
     if request.method == 'POST':
         form = TransactionForm(request.POST, user=request.user)  # Przekazanie użytkownika do formularza
@@ -230,12 +246,24 @@ def delete_transaction(request, transaction_id):
         transaction.delete()
         return redirect('transactions')
     return render(request, 'Accountancy/transactions/delete.html.jinja', {'transaction': transaction})
-
 @login_required
 def budgets(request):
     user = User.objects.get(username=request.user)
-    budgets = Budgets.objects.all().filter(user=user)
-    return render(request, 'Accountancy/budgets/main.html.jinja', {'budgets': budgets})
+    print(user)
+    budgets = Budgets.objects.filter(user=user).select_related('category')
+    print(budgets)
+
+    budgets_with_colors = [
+        {
+            'budget': budget,
+            'category_color': budget.category.color if budget.category else '#cccccc'
+        }
+        for budget in budgets
+    ]
+
+    return render(request, 'Accountancy/budgets/main.html.jinja', {
+        'budgets_with_colors': budgets_with_colors
+    })
 
 @login_required
 def create_budget(request):
