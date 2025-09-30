@@ -322,3 +322,47 @@
 [RESPONSE]	2025-09-19 21:56:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 119.97ms | Dane: {}
 [RESPONSE]	2025-09-19 21:57:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 87.39ms | Dane: {}
 [RESPONSE]	2025-09-19 21:57:19	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 100.46ms | Dane: {}
+[RESPONSE]	2025-09-19 21:58:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 199.67ms | Dane: {}
+[RESPONSE]	2025-09-19 21:58:02	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.06ms | Dane: {}
+[ERROR]	2025-09-19 21:58:02	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 21:59:20	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 187.56ms | Dane: {}
+[RESPONSE]	2025-09-19 21:59:20	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.64ms | Dane: {}
+[ERROR]	2025-09-19 21:59:20	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 22:01:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 23.59ms | Dane: {}
+[RESPONSE]	2025-09-19 22:01:02	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.07ms | Dane: {}
+[ERROR]	2025-09-19 22:01:02	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 22:16:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 13.29ms | Dane: {}
+[ERROR]	2025-09-19 22:29:00	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/forecast/ | TemplateDoesNotExist: financial_forecast.html | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 22:29:00	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 427.78ms | Dane: {}
+[ERROR]	2025-09-19 22:29:00	[MAIN.middleware]	Błąd 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-09-19 22:29:30	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/forecast/ | TemplateDoesNotExist: financial_forecast.html.jinja | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 22:29:30	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 329.67ms | Dane: {}
+[ERROR]	2025-09-19 22:29:30	[MAIN.middleware]	Błąd 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-09-19 22:29:50	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/forecast/ | TemplateDoesNotExist: forecast/financial_forecast.html.jinja | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 22:29:50	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 328.82ms | Dane: {}
+[ERROR]	2025-09-19 22:29:50	[MAIN.middleware]	Błąd 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 22:29:50	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.78ms | Dane: {}
+[ERROR]	2025-09-19 22:29:50	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 22:30:16	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 301.13ms | Dane: {}
+[RESPONSE]	2025-09-19 22:30:16	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.98ms | Dane: {}
+[ERROR]	2025-09-19 22:30:16	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 22:31:01	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 299.02ms | Dane: {}
+[RESPONSE]	2025-09-19 22:39:50	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 194.22ms | Dane: {}
+[RESPONSE]	2025-09-19 22:40:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 350.28ms | Dane: {}
+[RESPONSE]	2025-09-19 22:40:16	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 198.12ms | Dane: {}
+[RESPONSE]	2025-09-19 22:44:33	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 208.52ms | Dane: {}
+[RESPONSE]	2025-09-19 22:58:38	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.08ms | Dane: {}
+[RESPONSE]	2025-09-19 22:58:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 18.9ms | Dane: {}
+[ERROR]	2025-09-19 23:11:19	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/forecast/ | TemplateDoesNotExist: financial_forecast.html | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 23:11:19	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 52417.54ms | Dane: {}
+[ERROR]	2025-09-19 23:11:19	[MAIN.middleware]	Błąd 500 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 23:12:45	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 51561.35ms | Dane: {}
+[RESPONSE]	2025-09-19 23:12:45	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.07ms | Dane: {}
+[ERROR]	2025-09-19 23:12:45	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 23:14:49	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 51695.19ms | Dane: {}
+[RESPONSE]	2025-09-19 23:14:49	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.43ms | Dane: {}
+[ERROR]	2025-09-19 23:14:49	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 23:15:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 193.58ms | Dane: {}
+[RESPONSE]	2025-09-19 23:15:22	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.9ms | Dane: {}
+[ERROR]	2025-09-19 23:15:22	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-09-19 23:16:30	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.91ms | Dane: {}
