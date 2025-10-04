@@ -9,7 +9,7 @@ class Book(models.Model):
     name = models.TextField(max_length=63)
     description = models.CharField(max_length=255, blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
-    user = models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE)  # lub inny odpowiedni mechanizm usuwania)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE, blank=True, null=True)  # lub inny odpowiedni mechanizm usuwania)
     def __str__(self):
         return self.name
 
@@ -162,7 +162,7 @@ class Account(models.Model):
         
 
 class Transaction(models.Model):
-    date = models.DateTimeField(auto_now_add=True)
+    date = models.DateTimeField(editable=True)
     description = models.CharField(max_length=255, blank=True, null=True)
     amount = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
     credit_account = models.ForeignKey(
@@ -475,3 +475,32 @@ class Report(models.Model):
             'cash_start': cash_start,
             'cash_end': cash_end
         }
+    
+
+class Goal(models.Model):
+    name = models.TextField(max_length=63)
+    description = models.CharField(max_length=255, blank=True, null=True)
+    target_amount = models.DecimalField(max_digits=10, decimal_places=2)
+    account = models.ForeignKey(Account, on_delete=models.CASCADE, blank=True, null=True)
+    deadline = models.DateTimeField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+
+    def save(self, *args, **kwargs):
+        if self.account is None:
+            # Pobierz book o id=0 (upewnij się, że istnieje)
+            book = Book.objects.filter(id=0).first()
+
+            self.account = Account.objects.create(
+                name=f"{self.name}",
+                description=f"Konto utworzone automatycznie na potrzeby celu '{self.name}'.",
+                account_type='assets',
+                account_subtype='financial',
+                initial_balance=0.00,
+                user=self.user,
+                book=book
+            )
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.name

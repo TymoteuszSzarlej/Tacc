@@ -106,14 +106,15 @@ class TransactionForm(forms.ModelForm):
 
     class Meta:
         model = Transaction
-        fields = ['description', 'amount', 'credit_account', 'debit_account', 'document', 'category']
+        fields = ['description', 'amount', 'credit_account', 'debit_account', 'document', 'category', 'date']
         widgets = {
             'description': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
             'amount': forms.NumberInput(attrs={'class': 'form-control'}),
-            'credit_account': forms.Select(attrs={'class': 'form-control'}),
+            'credit_account': forms.Select(attrs={'class': 'fordatem-control'}),
             'debit_account': forms.Select(attrs={'class': 'form-control'}),
             'document': forms.ClearableFileInput(attrs={'class': 'form-control'}),
             'category': forms.Select(attrs={'class': 'form-control'}),
+            'date': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}),
         }
         labels = {
             'description': 'Opis transakcji',
@@ -122,6 +123,7 @@ class TransactionForm(forms.ModelForm):
             'debit_account': 'Konto debetowe',
             'document': 'Dokument',
             'category': 'Kategoria',
+            'date': 'Data transakcji',
         }
         help_texts = {
             'description': 'Podaj szczegóły transakcji, np. "Zakup materiałów biurowych".',
@@ -130,6 +132,7 @@ class TransactionForm(forms.ModelForm):
             'debit_account': 'Wybierz konto, na które środki zostały przelane (w przypadku kont aktywnych i kosztów), bądź z którego zostały przelane (w przypadku kont pasywnych i przychodów).',
             'document': 'Dodaj dokument potwierdzający transakcję, np. fakturę.',
             'category': 'Wybierz kategorię, do której należy ta transakcja.',
+            'date': 'Wybierz datę, kiedy transakcja miała miejsce.',
         }
 
 class BudgetForm(forms.ModelForm):
@@ -197,4 +200,32 @@ class ReportForm(forms.ModelForm):
             'name': 'Podaj nazwę raportu, np. "Bilans za Q1 2025".',
             'description': 'Krótki opis raportu, np. "Bilans kwartalny".',
             'book': 'Wybierz księgę, z której dane mają być uwzględnione w raporcie.',
+        }
+
+
+
+class GoalForm(forms.ModelForm):
+    class Meta:
+        model = Goal
+        fields = ['name', 'description', 'target_amount', 'deadline', 'deadline']
+        widgets = {
+            'name': forms.Textarea(attrs={'rows': 1, 'maxlength': 63}),
+            'description': forms.TextInput(attrs={'maxlength': 255}),
+            'target_amount': forms.NumberInput(attrs={'step': '0.01'}),
+            'deadline': forms.DateInput(attrs={'type': 'date'}),
+        }
+        labels = {
+            'name': 'Nazwa celu',
+            'description': 'Opis celu',
+            'target_amount': 'Docelowa kwota (PLN)',
+            'account': 'Konto oszczędnościowe',
+            'deadline': 'Termin realizacji',
+            
+        }
+        help_texts = {
+            'name': 'Podaj nazwę celu (maks. 63 znaki).',
+            'description': 'Podaj krótki opis celu (maks. 255 znaków).',
+            'target_amount': 'Podaj docelową kwotę oszczędności w PLN.',
+            'account': 'Wybierz konto, na którym będą gromadzone oszczędności.',
+            'deadline': 'Wybierz termin, do którego chcesz osiągnąć cel.',
         }

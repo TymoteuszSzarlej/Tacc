@@ -214,6 +214,7 @@ def transactions(request):
 def create_transaction(request):
     if request.method == 'POST':
         form = TransactionForm(request.POST, user=request.user)  # Przekazanie użytkownika do formularza
+        print(form.data)
         if form.is_valid():
             transaction = form.save(commit=False)
             transaction.user = request.user  # Przypisanie transakcji do użytkownika
@@ -767,3 +768,55 @@ def dashboard(request):
     # }
     # return render(request, 'Accountancy/dashboard.html.jinja', context)
 
+
+
+@login_required
+def goals(request):
+    user = User.objects.get(username=request.user)
+    goals = Goal.objects.all().filter(user=user)
+    return render(request, 'Accountancy/goals/main.html.jinja', {'goals': goals})
+
+@login_required
+def create_goal(request):
+    if request.method == 'POST':
+        form = GoalForm(request.POST)
+        if form.is_valid():
+            goal = form.save(commit=False)
+            goal.user = request.user
+            goal.save()
+            return redirect('goals')
+    else:
+        form = GoalForm()
+    return render(request, 'Accountancy/goals/create.html.jinja', {'form': form})  
+
+@login_required
+def goal_details(request, goal_id):
+    goal = get_object_or_404(Goal, id=goal_id)
+    account = goal.account
+    amount = account.calculate_balance() if account else 0.00
+
+    return render(request, 'Accountancy/goals/details.html.jinja', {
+        'goal': goal,
+        'account': account,
+        'amount': amount
+    })
+
+@login_required
+def edit_goal(request, goal_id):
+    goal = Goal.objects.get(id=goal_id)
+    if request.method == 'POST':
+        form = GoalForm(request.POST, instance=goal)
+        if form.is_valid():
+            form.save()
+            return redirect('goals')
+    else:
+        form = GoalForm(instance=goal)
+    return render(request, 'Accountancy/goals/edit.html.jinja', {'form': form, 'goal': goal})
+
+@login_required
+def delete_goal(request, goal_id):
+    goal = Goal.objects.get(id=goal_id)
+    if request.method == 'POST':
+        goal.delete()
+        return redirect('goals')
+    return render(request, 'Accountancy/goals/delete.html.jinja', {'goal': goal})

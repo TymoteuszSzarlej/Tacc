@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>🎯 Cele ({{ goals|length }})</h2>
+<div class="container" style="margin-top: 20px;">
+    {% for goal in goals %}
+    <div class="card">
+        <h4>{{ goal.name }}</h4>
+        <p>Opis: {{ goal.description }}</p>
+        <p>Kwota docelowa: {{ goal.target_amount }}</p>
+        <p>Data docelowa: {{ goal.deadline }}</p>
+        <a href="{% url 'goal_details' goal.id %}" class="btn btn-primary">🔍 Szczegóły</a>
+        <a href="{% url 'edit_goal' goal.id %}" class="btn btn btn-secondary">✏️ Edytuj</a>
+        <a href="{% url 'delete_goal' goal.id %}" class="btn btn-danger">🗑️ Usuń</a>
+
+    </div>
+    {% empty %}
+    <p>Nie masz jeszcze żadnych celów. Kliknij poniżej, aby dodać pierwszy.</p>
+    {% endfor %}
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="{% url 'create_goal' %}" class="btn btn-success">➕ Dodaj nowy cel</a>
+    </div>
+</div>
+{% endblock %}

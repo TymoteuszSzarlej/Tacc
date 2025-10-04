@@ -1,0 +1,92 @@
+[RESPONSE]	2025-10-04 22:39:43	[MAIN.middleware]	Odpowiedź 302 | GET / | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.98ms | Dane: {}
+[RESPONSE]	2025-10-04 22:39:43	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.56ms | Dane: {}
+[ERROR]	2025-10-04 22:39:43	[MAIN.middleware]	Błąd 404 | GET /accountancy | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-10-04 22:39:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 27.12ms | Dane: {}
+[RESPONSE]	2025-10-04 22:39:43	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.76ms | Dane: {}
+[ERROR]	2025-10-04 22:39:43	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-10-04 22:40:45	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.88ms | Dane: {}
+[RESPONSE]	2025-10-04 22:40:45	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.0ms | Dane: {}
+[ERROR]	2025-10-04 22:40:45	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[SUCCESS]	2025-10-04 23:00:49	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 32)
+[RESPONSE]	2025-10-04 23:00:53	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 17.02ms | Dane: {}
+[RESPONSE]	2025-10-04 23:00:53	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.81ms | Dane: {}
+[ERROR]	2025-10-04 23:00:53	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-10-04 23:00:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.64ms | Dane: {}
+[RESPONSE]	2025-10-04 23:01:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.82ms | Dane: {}
+[RESPONSE]	2025-10-04 23:01:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/category/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.6ms | Dane: {}
+[RESPONSE]	2025-10-04 23:02:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.89ms | Dane: {}
+[RESPONSE]	2025-10-04 23:02:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.72ms | Dane: {}
+[RESPONSE]	2025-10-04 23:03:07	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 23.82ms | Dane: {}
+[SUCCESS]	2025-10-04 23:06:37	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 33)
+[RESPONSE]	2025-10-04 23:06:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 23.21ms | Dane: {}
+[RESPONSE]	2025-10-04 23:06:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.94ms | Dane: {}
+[RESPONSE]	2025-10-04 23:07:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 17.39ms | Dane: {}
+[RESPONSE]	2025-10-04 23:16:50	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 19.78ms | Dane: {}
+[SUCCESS]	2025-10-04 23:16:59	[MAIN.signals]	Utworzono nową instancję: Goal (ID: 1)
+[RESPONSE]	2025-10-04 23:16:59	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.47ms | Dane: {}
+[RESPONSE]	2025-10-04 23:16:59	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.65ms | Dane: {}
+[RESPONSE]	2025-10-04 23:17:01	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/1/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.66ms | Dane: {}
+[RESPONSE]	2025-10-04 23:22:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/1/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 13.59ms | Dane: {}
+[RESPONSE]	2025-10-04 23:22:44	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/1/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.57ms | Dane: {}
+[ERROR]	2025-10-04 23:22:47	[MAIN.middleware]	Wyjątek 500 | POST /accountancy/goal/1/edit/ | IntegrityError: NOT NULL constraint failed: Accountancy_account.book_id | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-10-04 23:22:47	[MAIN.middleware]	Odpowiedź 500 | POST /accountancy/goal/1/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 32.38ms | Dane: {}
+[ERROR]	2025-10-04 23:22:47	[MAIN.middleware]	Błąd 500 | POST /accountancy/goal/1/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[SUCCESS]	2025-10-04 23:24:54	[MAIN.signals]	Utworzono nową instancję: Book (ID: 0)
+[SUCCESS]	2025-10-04 23:27:39	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 34)
+[ERROR]	2025-10-04 23:27:44	[MAIN.middleware]	Wyjątek 500 | POST /accountancy/goal/1/edit/ | IntegrityError: NOT NULL constraint failed: Accountancy_account.book_id | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-10-04 23:27:44	[MAIN.middleware]	Odpowiedź 500 | POST /accountancy/goal/1/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 58.83ms | Dane: {}
+[ERROR]	2025-10-04 23:27:44	[MAIN.middleware]	Błąd 500 | POST /accountancy/goal/1/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-10-04 23:27:52	[MAIN.middleware]	Odpowiedź 404 | GET /accountancy/goal/1/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.53ms | Dane: {}
+[ERROR]	2025-10-04 23:27:52	[MAIN.middleware]	Błąd 404 | GET /accountancy/goal/1/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-10-04 23:28:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/1/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.88ms | Dane: {}
+[RESPONSE]	2025-10-04 23:28:03	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/1/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.15ms | Dane: {}
+[ERROR]	2025-10-04 23:28:04	[MAIN.middleware]	Wyjątek 500 | POST /accountancy/goal/1/edit/ | IntegrityError: NOT NULL constraint failed: Accountancy_account.book_id | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-10-04 23:28:04	[MAIN.middleware]	Odpowiedź 500 | POST /accountancy/goal/1/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 27.3ms | Dane: {}
+[ERROR]	2025-10-04 23:28:04	[MAIN.middleware]	Błąd 500 | POST /accountancy/goal/1/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-10-04 23:28:47	[MAIN.middleware]	Wyjątek 500 | POST /accountancy/goal/1/edit/ | IntegrityError: NOT NULL constraint failed: Accountancy_account.book_id | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-10-04 23:28:47	[MAIN.middleware]	Odpowiedź 500 | POST /accountancy/goal/1/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 57.05ms | Dane: {}
+[ERROR]	2025-10-04 23:28:48	[MAIN.middleware]	Błąd 500 | POST /accountancy/goal/1/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-10-04 23:28:48	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/1/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.84ms | Dane: {}
+[RESPONSE]	2025-10-04 23:28:50	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.73ms | Dane: {}
+[RESPONSE]	2025-10-04 23:28:51	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/1/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.06ms | Dane: {}
+[RESPONSE]	2025-10-04 23:29:21	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.89ms | Dane: {}
+[RESPONSE]	2025-10-04 23:29:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.48ms | Dane: {}
+[ERROR]	2025-10-04 23:29:45	[MAIN.middleware]	Wyjątek 500 | POST /accountancy/goal/create/ | IntegrityError: NOT NULL constraint failed: Accountancy_account.book_id | Użytkownik: ADMIN | IP: 127.0.0.1
+[RESPONSE]	2025-10-04 23:29:45	[MAIN.middleware]	Odpowiedź 500 | POST /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 24.54ms | Dane: {}
+[ERROR]	2025-10-04 23:29:45	[MAIN.middleware]	Błąd 500 | POST /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[SUCCESS]	2025-10-04 23:31:40	[MAIN.signals]	Utworzono nową instancję: Book (ID: 6)
+[SUCCESS]	2025-10-04 23:33:48	[MAIN.signals]	Utworzono nową instancję: Book (ID: 0)
+[RESPONSE]	2025-10-04 23:34:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.29ms | Dane: {}
+[SUCCESS]	2025-10-04 23:34:29	[MAIN.signals]	Utworzono nową instancję: Account (ID: 134)
+[SUCCESS]	2025-10-04 23:34:29	[MAIN.signals]	Utworzono nową instancję: Goal (ID: 2)
+[RESPONSE]	2025-10-04 23:34:29	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 14.79ms | Dane: {}
+[RESPONSE]	2025-10-04 23:34:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.22ms | Dane: {}
+[RESPONSE]	2025-10-04 23:34:32	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/2/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.86ms | Dane: {}
+[RESPONSE]	2025-10-04 23:34:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/2/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.7ms | Dane: {}
+[SUCCESS]	2025-10-04 23:34:39	[MAIN.signals]	Usunięto instancję: Goal (ID: 2)
+[RESPONSE]	2025-10-04 23:34:39	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/goal/2/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.72ms | Dane: {}
+[RESPONSE]	2025-10-04 23:34:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.14ms | Dane: {}
+[RESPONSE]	2025-10-04 23:34:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/1/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.28ms | Dane: {}
+[SUCCESS]	2025-10-04 23:34:41	[MAIN.signals]	Usunięto instancję: Goal (ID: 1)
+[RESPONSE]	2025-10-04 23:34:41	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/goal/1/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.24ms | Dane: {}
+[RESPONSE]	2025-10-04 23:34:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.58ms | Dane: {}
+[RESPONSE]	2025-10-04 23:34:59	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 16.56ms | Dane: {}
+[SUCCESS]	2025-10-04 23:35:21	[MAIN.signals]	Utworzono nową instancję: Account (ID: 135)
+[SUCCESS]	2025-10-04 23:35:21	[MAIN.signals]	Utworzono nową instancję: Goal (ID: 3)
+[RESPONSE]	2025-10-04 23:35:21	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 16.71ms | Dane: {}
+[RESPONSE]	2025-10-04 23:35:21	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.76ms | Dane: {}
+[RESPONSE]	2025-10-04 23:35:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/3/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.33ms | Dane: {}
+[RESPONSE]	2025-10-04 23:38:36	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/3/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 15.27ms | Dane: {}
+[RESPONSE]	2025-10-04 23:39:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/3/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.49ms | Dane: {}
+[RESPONSE]	2025-10-04 23:39:49	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.76ms | Dane: {}
+[RESPONSE]	2025-10-04 23:39:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 17.46ms | Dane: {}
+[RESPONSE]	2025-10-04 23:40:07	[MAIN.middleware]	Odpowiedź 200 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 14.34ms | Dane: {}
+[RESPONSE]	2025-10-04 23:40:21	[MAIN.middleware]	Odpowiedź 200 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 15.79ms | Dane: {}
+[RESPONSE]	2025-10-04 23:40:22	[MAIN.middleware]	Odpowiedź 200 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 13.8ms | Dane: {}
+[RESPONSE]	2025-10-04 23:40:26	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.44ms | Dane: {}
+[RESPONSE]	2025-10-04 23:40:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.83ms | Dane: {}
+[RESPONSE]	2025-10-04 23:40:45	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.77ms | Dane: {}
+[RESPONSE]	2025-10-04 23:40:47	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.95ms | Dane: {}
+[RESPONSE]	2025-10-04 23:41:09	[MAIN.middleware]	Odpowiedź 200 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 13.46ms | Dane: {}
+[RESPONSE]	2025-10-04 23:41:53	[MAIN.middleware]	Odpowiedź 200 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 42.43ms | Dane: {}
+[RESPONSE]	2025-10-04 23:42:32	[MAIN.middleware]	Odpowiedź 200 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 26.84ms | Dane: {}

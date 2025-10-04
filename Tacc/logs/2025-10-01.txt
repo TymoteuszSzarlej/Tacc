@@ -1,0 +1,3 @@
+[RESPONSE]	2025-10-01 08:31:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/report/4/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 21.25ms | Dane: {}
+[RESPONSE]	2025-10-01 08:31:17	[MAIN.middleware]	Odpowiedź 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.92ms | Dane: {}
+[ERROR]	2025-10-01 08:31:17	[MAIN.middleware]	Błąd 404 | GET /favicon.ico | Użytkownik: ADMIN | IP: 127.0.0.1

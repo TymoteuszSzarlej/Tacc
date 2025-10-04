@@ -56,6 +56,11 @@ urlpatterns = [
     path('report/<int:report_id>/delete/', views.delete_report, name='delete_report'),
     path('analysis/', views.financial_analysis, name='financial_analysis'),
     path('forecast/', views.financial_forecast, name='financial_forecast'),
+    path('goals/', views.goals, name='goals'),
+    path('goal/create/', views.create_goal, name='create_goal'),
+    path('goal/<int:goal_id>/details/', views.goal_details, name='goal_details'),
+    path('goal/<int:goal_id>/edit/', views.edit_goal, name='edit_goal'),
+    path('goal/<int:goal_id>/delete/', views.delete_goal, name='delete_goal'),
 ]
 
 

@@ -1,0 +1,23 @@
+ cel 🎯
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <h2>🔍 Szczegóły celu 🎯</h2>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">{{ goal.name }}</h5>
+            <p class="card-text"><strong>Opis:</strong> {{ goal.description }}</p>
+            <p class="card-text"><strong>Kwota docelowa:</strong> {{ goal.target_amount }}</p>
+            <p class="card-text"><strong>Data docelowa:</strong> {{ goal.deadline }}</p>
+            <p class="card-text"><strong>Konto:</strong> {{ goal.account }}</p>
+            <a href="{% url 'edit_goal' goal.id %}" class="btn btn-primary">✏️ Edytuj</a>
+            <a href="{% url 'delete_goal' goal.id %}" class="btn btn-danger">🗑️ Usuń</a>
+            <a href="{% url 'goals' %}" class="btn btn-secondary">⬅️ Wróć do celów</a>
+        </div>
+    </div>
+    <div>
+        <h4>Uzbierana kwota</h4>
+        <p>{{ amount }}</p>
+    </div>
+</div>
+{% endblock %}
