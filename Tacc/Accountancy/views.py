@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 from django.db.models import Sum
 from decimal import Decimal
 import json
+from django.utils import timezone
 
 
 
@@ -816,24 +817,53 @@ import json
 def safe_float(value):
     return float(value) if isinstance(value, Decimal) else value
 
+
+from MAIN.utils import *
 @login_required
 def goal_details(request, goal_id):
     goal = get_object_or_404(Goal, id=goal_id)
     account = goal.account
     amount = account.calculate_balance() if account else Decimal('0.00')
+    log(f"goal\t{goal}\naccount\t{account}\namount\t{amount}\n")
 
     transactions = Transaction.objects.filter(
         debit_account=account
     ).order_by('date')
+    log(f"transactions\t{transactions}\n")
 
     labels = []
     values = []
+
+    for day in range((goal.deadline - goal.created_at).days):
+        log(f"day\t{day}\n")
+
+        labels.append((goal.created_at + timedelta(days=day)).strftime('%Y-%m-%d'))
+        transactions_on_day = transactions.filter(date=goal.created_at + timedelta(days=day))
+        total_on_day = 0
+        log(f"transactions_on_day\t{transactions_on_day}\nlabel\t{labels[-1]}\n")
+
+        for t in transactions_on_day:
+            total_on_day += safe_float(t.amount)
+            log(f"transaction\t{t}\namount\t{t.amount}\ntotal_on_day\t{total_on_day}\n")
+        values.append(total_on_day) 
+        log(f"value\t{values[-1]}\n")
+
+    # labels.append(safe_float(goal.created_at.strftime('%Y-%m-%d')))
+    # values.append(safe_float(0))
+    # labels.append(safe_float(datetime.now().strftime('%Y-%m-%d')))
+    # values.append(safe_float(account.calculate_balance() if account else 0))
+    # labels.append(safe_float(goal.deadline.strftime('%Y-%m-%d')))
+    # values.append(safe_float(amount))
+
     for tx in transactions:
+        log(f"transaction\t{tx}\n")
+
         labels.append(tx.date.strftime('%Y-%m-%d'))
         values.append(safe_float(tx.amount))  # ✅ konwersja
-    labels.append(datetime.now().strftime('%Y-%m-%d'))
-    values.append(safe_float(amount))  # ✅ konwersja
-    labels.append(goal.deadline.strftime('%Y-%m-%d'))
+    # labels.append(datetime.now().strftime('%Y-%m-%d'))
+    # values.append(safe_float(amount))  # ✅ konwersja
+    # labels.append(goal.deadline.strftime('%Y-%m-%d'))
+    log(f"labels\t{labels}\nvalues\t{values}\n")
 
     if transactions.exists():
         start_date = transactions.first().date
@@ -841,11 +871,14 @@ def goal_details(request, goal_id):
         days = max((end_date - start_date).days, 1)
         total = sum(safe_float(tx.amount) for tx in transactions)  # ✅ konwersja
         red_trend = [round(total / days, 2)] * len(labels)
+        log(f"start_date\t{start_date}\nend_date\t{end_date}\ndays\t{days}\ntotal\t{total}\nred_trend\t{red_trend}\n")
     else:
         red_trend = []
+        log(f"red_trend\t{red_trend}\n")
 
     goal_days = max((goal.deadline - goal.created_at).days, 1)
     green_trend = [round(safe_float(goal.target_amount) / goal_days, 2)] * len(labels)
+    log(f"goal_days\t{goal_days}\ntarget_amount\t{goal.target_amount}\ngreen_trend\t{green_trend}\n")
 
     context = {
         'goal': goal,
@@ -861,9 +894,109 @@ def goal_details(request, goal_id):
         })
     }
 
-    print(context['chart_data'])
 
     return render(request, 'Accountancy/goals/details.html.jinja', context=context)
+
+@login_required
+def goal_details(request, goal_id):
+    goal = get_object_or_404(Goal, id=goal_id)
+    account = goal.account
+    amount = account.calculate_balance() if account else Decimal('0.00')
+    red_trend, green_trend = [], []
+    labels, values = [], []
+
+    total_days = max((goal.deadline - goal.created_at).days, 1)
+    days_since_created = max((timezone.now() - goal.created_at).days, 1)
+
+    for day in range(total_days):
+        log(f"day\t{day}\n")
+        current_date = goal.created_at + timedelta(days=day)
+        label = current_date.strftime('%Y-%m-%d')
+        labels.append(label)
+        log(f"label\t{label}\n")
+
+        transactions_on_day = Transaction.objects.filter(
+            debit_account=account,
+            date__date=current_date.date()
+        )
+        log(f"transactions_on_day\t{transactions_on_day}\n")
+
+        total_on_day = 0
+        for t in transactions_on_day:
+            total_on_day += float(t.amount)
+            log(f"transaction\t{t}\namount\t{t.amount}\ntotal_on_day\t{total_on_day}\n")
+
+        values.append(total_on_day)
+        log(f"value\t{values[-1]}\n")
+
+        green_value = safe_float(goal.target_amount / total_days)
+        green_trend.append(green_value)
+        log(f"green_trend\t{green_value}\n")
+
+        if day < days_since_created:
+            red_value = safe_float(amount / days_since_created) + 1
+            red_trend.append(red_value)
+
+    context = {
+        'goal': goal,
+        'account': account,
+        'amount': safe_float(amount),
+        'chart_data': json.dumps({
+            'labels': labels,
+            'values': values,
+            'red_trend': red_trend,
+            'green_trend': green_trend,
+            'target': safe_float(goal.target_amount),
+            'collected': safe_float(amount)
+        })
+    }
+
+    log(f"context\t{context}\n")
+
+    return render(request, 'Accountancy/goals/details.html.jinja', context)
+
+
+@login_required
+def goal_details(request, goal_id):
+    goal = get_object_or_404(Goal, id=goal_id)
+    timeline = range((goal.deadline - goal.created_at).days + 1)
+    green_value = goal.target_amount / len(timeline) if len(timeline) > 0 else 0
+    red_value = goal.account.calculate_balance() / len(timeline)
+    labels = []
+    values = []
+    green_trend, red_trend = [], []
+
+    for day in timeline:
+        labels.append((goal.created_at + timedelta(days=day)).strftime('%Y-%m-%d'))
+        transactions_on_day = Transaction.objects.filter(
+            debit_account=goal.account,
+            date__date=(goal.created_at + timedelta(days=day)).date()
+        )
+        total_on_day = sum(float(t.amount) for t in transactions_on_day)
+        values.append(total_on_day + (values[-1] if values else 0))
+        green_trend.append(safe_float(safe_float(green_value) + (green_trend[-1] if green_trend else 0)))
+        red_trend.append(safe_float(safe_float(red_value) + (red_trend[-1] if red_trend else 0)))
+
+
+
+    context = {
+        'goal': goal,
+        'account': goal.account,
+        'amount': safe_float(goal.account.calculate_balance()),
+        'chart_data': json.dumps({
+            'labels': labels,
+            'values': values,
+            'red_trend': safe_float(red_trend),
+            'green_trend': safe_float(green_trend),
+            'target': safe_float(goal.target_amount),
+            'collected': safe_float(goal.account.calculate_balance())
+        })
+    }
+
+    log(f"context\t{context}\n")
+
+    return render(request, 'Accountancy/goals/details.html.jinja', context=context)
+
 
 @login_required
 def edit_goal(request, goal_id):

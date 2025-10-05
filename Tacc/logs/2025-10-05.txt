@@ -1605,3 +1605,4597 @@
 
 
 [RESPONSE]	2025-10-05 00:53:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.7ms | Dane: {}
+[ERROR]	2025-10-05 00:57:50	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: Object of type Decimal is not JSON serializable | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:57:50	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:57:50	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 48.43ms | Dane: {}
+[ERROR]	2025-10-05 00:57:50	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:58:51	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:58:51	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 44.61ms | Dane: {}
+[ERROR]	2025-10-05 01:01:10	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | AttributeError: 'list' object has no attribute 'query' | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:01:10	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:01:10	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 50.3ms | Dane: {}
+[ERROR]	2025-10-05 01:01:10	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-10-05 01:01:35	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | UnboundLocalError: cannot access local variable 'labels' where it is not associated with a value | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:01:35	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:01:35	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 48.08ms | Dane: {}
+[ERROR]	2025-10-05 01:01:35	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:01:55	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:01:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 45.13ms | Dane: {}
+[DEBUG]	2025-10-05 01:03:38	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:03:38	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 65.75ms | Dane: {}
+[DEBUG]	2025-10-05 01:04:17	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:04:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 64.56ms | Dane: {}
+[DEBUG]	2025-10-05 01:04:32	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:04:32	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 65.62ms | Dane: {}
+[DEBUG]	2025-10-05 01:06:05	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:06:05	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 68.17ms | Dane: {}
+[DEBUG]	2025-10-05 01:08:15	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:08:15	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 32.3ms | Dane: {}
+[DEBUG]	2025-10-05 01:09:10	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:09:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 64.56ms | Dane: {}
+[DEBUG]	2025-10-05 01:10:40	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:10:40	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 100.74ms | Dane: {}
+[ERROR]	2025-10-05 01:12:10	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | UnboundLocalError: cannot access local variable 'total_on_day' where it is not associated with a value | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:12:10	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:12:10	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 49.65ms | Dane: {}
+[ERROR]	2025-10-05 01:12:10	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:12:29	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:12:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 93.93ms | Dane: {}
+[DEBUG]	2025-10-05 01:13:16	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:13:16	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 67.82ms | Dane: {}
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	goal	test
+account	assets financial	test
+amount	1.00
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions	<QuerySet [<Transaction: u>, <Transaction: u>]>
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-05
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	1
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-06
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	2
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-07
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	3
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-08
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	4
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-09
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	5
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-10
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	6
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-11
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	7
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-12
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	8
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-13
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	9
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-14
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	10
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-15
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	11
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-16
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	12
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-17
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	13
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-18
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	14
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-19
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	15
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-20
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	16
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-21
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	17
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-22
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	18
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-23
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	19
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-24
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	20
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-25
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	21
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-26
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	22
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-27
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	23
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-28
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	24
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-29
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	25
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-30
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	26
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-31
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	27
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-01
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	28
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-02
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	29
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-03
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	30
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-04
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	31
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-05
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	32
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-06
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	33
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-07
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	34
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-08
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	35
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-09
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	36
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-10
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	37
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-11
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	38
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-12
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	39
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-13
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	40
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-14
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	41
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-15
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	42
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-16
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	43
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-17
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	44
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-18
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	45
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-19
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	46
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-20
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	47
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-21
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	48
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-22
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	49
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-23
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	50
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-24
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	51
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-25
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	52
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-26
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	53
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-27
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	54
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-28
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	55
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-29
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	56
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-30
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	57
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-01
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	58
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-02
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	59
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-03
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	60
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-04
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	61
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-05
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	62
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-06
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	63
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-07
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	64
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-08
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	65
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-09
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	66
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-10
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	67
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-11
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	68
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-12
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	69
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-13
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	day	70
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-14
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transaction	u
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	transaction	u
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	labels	['2025-10-05', '2025-10-06', '2025-10-07', '2025-10-08', '2025-10-09', '2025-10-10', '2025-10-11', '2025-10-12', '2025-10-13', '2025-10-14', '2025-10-15', '2025-10-16', '2025-10-17', '2025-10-18', '2025-10-19', '2025-10-20', '2025-10-21', '2025-10-22', '2025-10-23', '2025-10-24', '2025-10-25', '2025-10-26', '2025-10-27', '2025-10-28', '2025-10-29', '2025-10-30', '2025-10-31', '2025-11-01', '2025-11-02', '2025-11-03', '2025-11-04', '2025-11-05', '2025-11-06', '2025-11-07', '2025-11-08', '2025-11-09', '2025-11-10', '2025-11-11', '2025-11-12', '2025-11-13', '2025-11-14', '2025-11-15', '2025-11-16', '2025-11-17', '2025-11-18', '2025-11-19', '2025-11-20', '2025-11-21', '2025-11-22', '2025-11-23', '2025-11-24', '2025-11-25', '2025-11-26', '2025-11-27', '2025-11-28', '2025-11-29', '2025-11-30', '2025-12-01', '2025-12-02', '2025-12-03', '2025-12-04', '2025-12-05', '2025-12-06', '2025-12-07', '2025-12-08', '2025-12-09', '2025-12-10', '2025-12-11', '2025-12-12', '2025-12-13', '2025-12-14', '2025-10-05', '2025-10-05']
+values	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.0, 1.0]
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	start_date	2025-10-05 00:41:58.005392+00:00
+end_date	2025-10-05 00:53:10.187036+00:00
+days	1
+total	2.0
+red_trend	[2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+
+[DEBUG]	2025-10-05 01:20:24	[Accountancy.views]	goal_days	71
+target_amount	5.00
+green_trend	[0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07]
+
+[DEBUG]	2025-10-05 01:20:24	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:20:24	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 243.77ms | Dane: {}
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	goal	test
+account	assets financial	test
+amount	1.00
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions	<QuerySet [<Transaction: u>, <Transaction: u>]>
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-05
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	1
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-06
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	2
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-07
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	3
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-08
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	4
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-09
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	5
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-10
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	6
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-11
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	7
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-12
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	8
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-13
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	9
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-14
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	10
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-15
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	11
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-16
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	12
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-17
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	13
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-18
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	14
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-19
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	15
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-20
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	16
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-21
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	17
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-22
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	18
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-23
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	19
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-24
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	20
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-25
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	21
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-26
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	22
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-27
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	23
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-28
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	24
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-29
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	25
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-30
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	26
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-31
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	27
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-01
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	28
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-02
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	29
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-03
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	30
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-04
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	31
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-05
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	32
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-06
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	33
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-07
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	34
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-08
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	35
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-09
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	36
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-10
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	37
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-11
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	38
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-12
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	39
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-13
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	40
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-14
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	41
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-15
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	42
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-16
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	43
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-17
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	44
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-18
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	45
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-19
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	46
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-20
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	47
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-21
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	48
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-22
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	49
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-23
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	50
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-24
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	51
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-25
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	52
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-26
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	53
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-27
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	54
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-28
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	55
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-29
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	56
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-30
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	57
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-01
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	58
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-02
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	59
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-03
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	60
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-04
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	61
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-05
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	62
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-06
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	63
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-07
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	64
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-08
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	65
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-09
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	66
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-10
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	67
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-11
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	68
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-12
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	69
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-13
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	day	70
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-14
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transaction	u
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	transaction	u
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	labels	['2025-10-05', '2025-10-06', '2025-10-07', '2025-10-08', '2025-10-09', '2025-10-10', '2025-10-11', '2025-10-12', '2025-10-13', '2025-10-14', '2025-10-15', '2025-10-16', '2025-10-17', '2025-10-18', '2025-10-19', '2025-10-20', '2025-10-21', '2025-10-22', '2025-10-23', '2025-10-24', '2025-10-25', '2025-10-26', '2025-10-27', '2025-10-28', '2025-10-29', '2025-10-30', '2025-10-31', '2025-11-01', '2025-11-02', '2025-11-03', '2025-11-04', '2025-11-05', '2025-11-06', '2025-11-07', '2025-11-08', '2025-11-09', '2025-11-10', '2025-11-11', '2025-11-12', '2025-11-13', '2025-11-14', '2025-11-15', '2025-11-16', '2025-11-17', '2025-11-18', '2025-11-19', '2025-11-20', '2025-11-21', '2025-11-22', '2025-11-23', '2025-11-24', '2025-11-25', '2025-11-26', '2025-11-27', '2025-11-28', '2025-11-29', '2025-11-30', '2025-12-01', '2025-12-02', '2025-12-03', '2025-12-04', '2025-12-05', '2025-12-06', '2025-12-07', '2025-12-08', '2025-12-09', '2025-12-10', '2025-12-11', '2025-12-12', '2025-12-13', '2025-12-14', '2025-10-05', '2025-10-05']
+values	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.0, 1.0]
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	start_date	2025-10-05 00:41:58.005392+00:00
+end_date	2025-10-05 00:53:10.187036+00:00
+days	1
+total	2.0
+red_trend	[2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+
+[DEBUG]	2025-10-05 01:20:39	[Accountancy.views]	goal_days	71
+target_amount	5.00
+green_trend	[0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07]
+
+[DEBUG]	2025-10-05 01:20:39	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:20:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 237.89ms | Dane: {}
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	goal	test
+account	assets financial	test
+amount	1.00
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions	<QuerySet [<Transaction: u>, <Transaction: u>]>
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-05
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	1
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-06
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	2
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-07
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	3
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-08
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	4
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-09
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	5
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-10
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	6
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-11
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	7
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-12
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	8
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-13
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	9
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-14
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	10
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-15
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	11
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-16
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	12
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-17
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	13
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-18
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	14
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-19
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	15
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-20
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	16
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-21
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	17
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-22
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	18
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-23
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	19
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-24
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	20
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-25
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	21
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-26
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	22
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-27
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	23
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-28
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	24
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-29
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	25
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-30
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	26
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-10-31
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	27
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-01
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	28
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-02
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	29
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-03
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	30
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-04
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	31
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-05
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	32
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-06
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	33
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-07
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	34
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-08
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	35
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-09
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	36
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-10
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	37
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-11
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	38
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-12
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	39
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-13
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	40
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-14
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	41
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-15
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	42
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-16
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	43
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-17
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	44
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-18
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	45
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-19
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	46
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-20
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	47
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-21
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	48
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-22
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	49
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-23
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	50
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-24
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	51
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-25
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	52
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-26
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	53
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-27
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	54
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-28
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	55
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-29
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	56
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-11-30
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	57
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-01
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	58
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-02
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	59
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-03
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	60
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-04
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	61
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-05
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	62
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-06
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	63
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-07
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	64
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-08
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	65
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-09
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	66
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-10
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	67
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-11
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	68
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-12
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	69
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-13
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	day	70
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+label	2025-12-14
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transaction	u
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	transaction	u
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	labels	['2025-10-05', '2025-10-06', '2025-10-07', '2025-10-08', '2025-10-09', '2025-10-10', '2025-10-11', '2025-10-12', '2025-10-13', '2025-10-14', '2025-10-15', '2025-10-16', '2025-10-17', '2025-10-18', '2025-10-19', '2025-10-20', '2025-10-21', '2025-10-22', '2025-10-23', '2025-10-24', '2025-10-25', '2025-10-26', '2025-10-27', '2025-10-28', '2025-10-29', '2025-10-30', '2025-10-31', '2025-11-01', '2025-11-02', '2025-11-03', '2025-11-04', '2025-11-05', '2025-11-06', '2025-11-07', '2025-11-08', '2025-11-09', '2025-11-10', '2025-11-11', '2025-11-12', '2025-11-13', '2025-11-14', '2025-11-15', '2025-11-16', '2025-11-17', '2025-11-18', '2025-11-19', '2025-11-20', '2025-11-21', '2025-11-22', '2025-11-23', '2025-11-24', '2025-11-25', '2025-11-26', '2025-11-27', '2025-11-28', '2025-11-29', '2025-11-30', '2025-12-01', '2025-12-02', '2025-12-03', '2025-12-04', '2025-12-05', '2025-12-06', '2025-12-07', '2025-12-08', '2025-12-09', '2025-12-10', '2025-12-11', '2025-12-12', '2025-12-13', '2025-12-14', '2025-10-05', '2025-10-05']
+values	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.0, 1.0]
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	start_date	2025-10-05 00:41:58.005392+00:00
+end_date	2025-10-05 00:53:10.187036+00:00
+days	1
+total	2.0
+red_trend	[2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+
+[DEBUG]	2025-10-05 01:23:03	[Accountancy.views]	goal_days	71
+target_amount	5.00
+green_trend	[0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07]
+
+[DEBUG]	2025-10-05 01:23:03	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:23:03	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 239.68ms | Dane: {}
+[ERROR]	2025-10-05 01:23:39	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TemplateDoesNotExist: Accountancy/goals/pdf.html.jinja | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:23:39	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:23:39	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.31ms | Dane: {}
+[ERROR]	2025-10-05 01:23:39	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:23:49	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:23:49	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 44.51ms | Dane: {}
+[DEBUG]	2025-10-05 01:35:31	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:35:31	[Accountancy.views]	label	2025-10-05
+
+[DEBUG]	2025-10-05 01:35:31	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:31	[Accountancy.views]	value	0
+
+[ERROR]	2025-10-05 01:35:31	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | AttributeError: 'list' object has no attribute 'sum' | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:35:31	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:35:31	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.59ms | Dane: {}
+[ERROR]	2025-10-05 01:35:31	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-05
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	1
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-06
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	2
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-07
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	3
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-08
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	4
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-09
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	5
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-10
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	6
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-11
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	7
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-12
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	8
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-13
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	9
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-14
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	10
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-15
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	11
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-16
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	12
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-17
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	13
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-18
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	14
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-19
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	15
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-20
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	16
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-21
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	17
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-22
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	18
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-23
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	19
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-24
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	20
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-25
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	21
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-26
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	22
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-27
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	23
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-28
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	24
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-29
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	25
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-30
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	26
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-10-31
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	27
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-01
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	28
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-02
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	29
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-03
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	30
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-04
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	31
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-05
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	32
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-06
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	33
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-07
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	34
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-08
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	35
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-09
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	36
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-10
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	37
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-11
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	38
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-12
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	39
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-13
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	40
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-14
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	41
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-15
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	42
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-16
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	43
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-17
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	44
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-18
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	45
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-19
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	46
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-20
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	47
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-21
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	48
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-22
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	49
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-23
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	50
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-24
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	51
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-25
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	52
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-26
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	53
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-27
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	54
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-28
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	55
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-29
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	56
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-11-30
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	57
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-12-01
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	58
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-12-02
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	59
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-12-03
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	60
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-12-04
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	61
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-12-05
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	62
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-12-06
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	63
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-12-07
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	64
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-12-08
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	65
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-12-09
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	66
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-12-10
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	67
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-12-11
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	68
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-12-12
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	69
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-12-13
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	day	70
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	label	2025-12-14
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:35:50	[Accountancy.views]	value	0
+
+[ERROR]	2025-10-05 01:35:50	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: Object of type Decimal is not JSON serializable | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:35:50	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:35:50	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 278.88ms | Dane: {}
+[ERROR]	2025-10-05 01:35:50	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-05
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	1
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-06
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	2
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-07
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	3
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-08
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	4
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-09
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	5
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-10
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	6
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-11
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	7
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-12
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	8
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-13
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	9
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-14
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	10
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-15
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	11
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-16
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	12
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-17
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	13
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-18
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	14
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-19
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	15
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-20
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	16
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-21
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	17
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-22
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	18
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-23
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	19
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-24
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	20
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-25
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	21
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-26
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	22
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-27
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	23
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-28
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	24
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-29
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	25
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-30
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	26
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-10-31
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	27
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-11-01
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	28
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-11-02
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	29
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-11-03
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	30
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-11-04
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	31
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-11-05
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	32
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-11-06
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	33
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-11-07
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	day	34
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	label	2025-11-08
+
+[DEBUG]	2025-10-05 01:36:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	35
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-09
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	36
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-10
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	37
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-11
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	38
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-12
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	39
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-13
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	40
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-14
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	41
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-15
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	42
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-16
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	43
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-17
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	44
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-18
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	45
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-19
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	46
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-20
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	47
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-21
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	48
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-22
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	49
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-23
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	50
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-24
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	51
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-25
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	52
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-26
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	53
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-27
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	54
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-28
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	55
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-29
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	56
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-11-30
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	57
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-12-01
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	58
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-12-02
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	59
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-12-03
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	60
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-12-04
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	61
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-12-05
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	62
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-12-06
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	63
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-12-07
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	64
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-12-08
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	65
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-12-09
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	66
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-12-10
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	67
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-12-11
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	68
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-12-12
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	69
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-12-13
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	day	70
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	label	2025-12-14
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:36:04	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:36:04	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:36:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 355.49ms | Dane: {}
+[DEBUG]	2025-10-05 01:39:10	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:39:10	[Accountancy.views]	label	2025-10-05
+
+[DEBUG]	2025-10-05 01:39:10	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:39:10	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:39:10	[Accountancy.views]	green_trend	0.014084507042253521
+
+[ERROR]	2025-10-05 01:39:10	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | AttributeError: module 'datetime' has no attribute 'now' | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:39:10	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:39:10	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 107.0ms | Dane: {}
+[ERROR]	2025-10-05 01:39:10	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:39:30	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:39:30	[Accountancy.views]	label	2025-10-05
+
+[DEBUG]	2025-10-05 01:39:30	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:39:30	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:39:30	[Accountancy.views]	green_trend	0.014084507042253521
+
+[ERROR]	2025-10-05 01:39:30	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: can't subtract offset-naive and offset-aware datetimes | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:39:30	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:39:30	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 52.58ms | Dane: {}
+[ERROR]	2025-10-05 01:39:30	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:41:08	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:41:08	[Accountancy.views]	label	2025-10-05
+
+[DEBUG]	2025-10-05 01:41:08	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:41:08	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:41:08	[Accountancy.views]	green_trend	0.014084507042253521
+
+[ERROR]	2025-10-05 01:41:08	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | DivisionByZero: [<class 'decimal.DivisionByZero'>] | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:41:08	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:41:08	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 54.44ms | Dane: {}
+[ERROR]	2025-10-05 01:41:08	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:41:09	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:41:09	[Accountancy.views]	label	2025-10-05
+
+[DEBUG]	2025-10-05 01:41:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:41:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:41:09	[Accountancy.views]	green_trend	0.014084507042253521
+
+[ERROR]	2025-10-05 01:41:09	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | DivisionByZero: [<class 'decimal.DivisionByZero'>] | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:41:09	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:41:09	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 22.26ms | Dane: {}
+[ERROR]	2025-10-05 01:41:09	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:43:05	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:43:05	[Accountancy.views]	label	2025-10-05
+
+[DEBUG]	2025-10-05 01:43:05	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:43:05	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:43:05	[Accountancy.views]	green_trend	0.014084507042253521
+
+[ERROR]	2025-10-05 01:43:05	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | DivisionByZero: [<class 'decimal.DivisionByZero'>] | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:43:05	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:43:05	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 52.64ms | Dane: {}
+[ERROR]	2025-10-05 01:43:05	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:44:42	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:44:42	[Accountancy.views]	label	2025-10-05
+
+[DEBUG]	2025-10-05 01:44:42	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:44:42	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:44:42	[Accountancy.views]	green_trend	0.07042253521126761
+
+[ERROR]	2025-10-05 01:44:42	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: unsupported operand type(s) for +: 'datetime.timedelta' and 'int' | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:44:42	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:44:42	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 54.46ms | Dane: {}
+[ERROR]	2025-10-05 01:44:42	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:46:03	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:46:03	[Accountancy.views]	label	2025-10-05
+
+[DEBUG]	2025-10-05 01:46:03	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:46:03	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:46:03	[Accountancy.views]	green_trend	0.07042253521126761
+
+[ERROR]	2025-10-05 01:46:03	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | DivisionByZero: [<class 'decimal.DivisionByZero'>] | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:46:03	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:46:03	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 51.92ms | Dane: {}
+[ERROR]	2025-10-05 01:46:03	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-05
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet [<Transaction: u>, <Transaction: u>]>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transaction	u
+amount	1.00
+total_on_day	1.0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transaction	u
+amount	1.00
+total_on_day	2.0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	2.0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	1
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-06
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	0.14084507042253522
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	2
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-07
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	0.28169014084507044
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	3
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-08
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	0.5633802816901409
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	4
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-09
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	1.1267605633802817
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	5
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-10
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	2.2535211267605635
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	6
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-11
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	4.507042253521127
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	7
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-12
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	9.014084507042254
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	8
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-13
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	18.028169014084508
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	9
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-14
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	36.056338028169016
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	10
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-15
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	72.11267605633803
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	11
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-16
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	144.22535211267606
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	12
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-17
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	288.4507042253521
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	13
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-18
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	576.9014084507043
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	14
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-19
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	1153.8028169014085
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	15
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-20
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	2307.605633802817
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	16
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-21
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	4615.211267605634
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	17
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-22
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	9230.422535211268
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	18
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-23
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	18460.845070422536
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	19
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-24
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	36921.69014084507
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	20
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-25
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	73843.38028169014
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	21
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-26
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	147686.7605633803
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	22
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-27
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	295373.5211267606
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	23
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-28
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	590747.0422535212
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	24
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-29
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	1181494.0845070423
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	25
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-30
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	2362988.1690140846
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	26
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-10-31
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	4725976.338028169
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	27
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-01
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	9451952.676056338
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	28
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-02
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	18903905.352112677
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	29
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-03
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	37807810.704225354
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	30
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-04
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	75615621.40845071
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	31
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-05
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	151231242.81690142
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	32
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-06
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	302462485.63380283
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	33
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-07
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	604924971.2676057
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	34
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-08
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	1209849942.5352113
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	35
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-09
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	2419699885.0704226
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	36
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-10
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	4839399770.140845
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	37
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-11
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	9678799540.28169
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	38
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-12
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	19357599080.56338
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	39
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-13
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	38715198161.12676
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	40
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-14
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	77430396322.25352
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	41
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-15
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	154860792644.50705
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	42
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-16
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	309721585289.0141
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	43
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-17
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	619443170578.0282
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	44
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-18
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	1238886341156.0564
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	45
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-19
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	2477772682312.113
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	46
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-20
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	4955545364624.226
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	47
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-21
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	9911090729248.451
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	48
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-22
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	19822181458496.902
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	49
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-23
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	39644362916993.805
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	50
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-24
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	79288725833987.61
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	51
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-25
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	158577451667975.22
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	52
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-26
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	317154903335950.44
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	53
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-27
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	634309806671900.9
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	54
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-28
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	1268619613343801.8
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	55
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-29
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	2537239226687603.5
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	56
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-11-30
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	5074478453375207.0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	57
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-12-01
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	1.0148956906750414e+16
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	58
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-12-02
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	2.0297913813500828e+16
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	59
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-12-03
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	4.0595827627001656e+16
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	60
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-12-04
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	8.119165525400331e+16
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	61
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-12-05
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	1.6238331050800662e+17
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	62
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-12-06
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	3.2476662101601325e+17
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	63
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-12-07
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	6.495332420320265e+17
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	64
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-12-08
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	1.299066484064053e+18
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	65
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-12-09
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	2.598132968128106e+18
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	66
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-12-10
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	5.196265936256212e+18
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	67
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-12-11
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	1.0392531872512424e+19
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	68
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-12-12
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	2.0785063745024848e+19
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	69
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-12-13
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	4.1570127490049696e+19
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	day	70
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	label	2025-12-14
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	green_trend	8.314025498009939e+19
+
+[DEBUG]	2025-10-05 01:48:09	[Accountancy.views]	context	{'goal': <Goal: test>, 'account': <Account: assets financial	test>, 'amount': 1.0, 'chart_data': '{"labels": ["2025-10-05", "2025-10-06", "2025-10-07", "2025-10-08", "2025-10-09", "2025-10-10", "2025-10-11", "2025-10-12", "2025-10-13", "2025-10-14", "2025-10-15", "2025-10-16", "2025-10-17", "2025-10-18", "2025-10-19", "2025-10-20", "2025-10-21", "2025-10-22", "2025-10-23", "2025-10-24", "2025-10-25", "2025-10-26", "2025-10-27", "2025-10-28", "2025-10-29", "2025-10-30", "2025-10-31", "2025-11-01", "2025-11-02", "2025-11-03", "2025-11-04", "2025-11-05", "2025-11-06", "2025-11-07", "2025-11-08", "2025-11-09", "2025-11-10", "2025-11-11", "2025-11-12", "2025-11-13", "2025-11-14", "2025-11-15", "2025-11-16", "2025-11-17", "2025-11-18", "2025-11-19", "2025-11-20", "2025-11-21", "2025-11-22", "2025-11-23", "2025-11-24", "2025-11-25", "2025-11-26", "2025-11-27", "2025-11-28", "2025-11-29", "2025-11-30", "2025-12-01", "2025-12-02", "2025-12-03", "2025-12-04", "2025-12-05", "2025-12-06", "2025-12-07", "2025-12-08", "2025-12-09", "2025-12-10", "2025-12-11", "2025-12-12", "2025-12-13", "2025-12-14"], "values": [2.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "red_trend": [2.0], "green_trend": [0.07042253521126761, 0.14084507042253522, 0.28169014084507044, 0.5633802816901409, 1.1267605633802817, 2.2535211267605635, 4.507042253521127, 9.014084507042254, 18.028169014084508, 36.056338028169016, 72.11267605633803, 144.22535211267606, 288.4507042253521, 576.9014084507043, 1153.8028169014085, 2307.605633802817, 4615.211267605634, 9230.422535211268, 18460.845070422536, 36921.69014084507, 73843.38028169014, 147686.7605633803, 295373.5211267606, 590747.0422535212, 1181494.0845070423, 2362988.1690140846, 4725976.338028169, 9451952.676056338, 18903905.352112677, 37807810.704225354, 75615621.40845071, 151231242.81690142, 302462485.63380283, 604924971.2676057, 1209849942.5352113, 2419699885.0704226, 4839399770.140845, 9678799540.28169, 19357599080.56338, 38715198161.12676, 77430396322.25352, 154860792644.50705, 309721585289.0141, 619443170578.0282, 1238886341156.0564, 2477772682312.113, 4955545364624.226, 9911090729248.451, 19822181458496.902, 39644362916993.805, 79288725833987.61, 158577451667975.22, 317154903335950.44, 634309806671900.9, 1268619613343801.8, 2537239226687603.5, 5074478453375207.0, 1.0148956906750414e+16, 2.0297913813500828e+16, 4.0595827627001656e+16, 8.119165525400331e+16, 1.6238331050800662e+17, 3.2476662101601325e+17, 6.495332420320265e+17, 1.299066484064053e+18, 2.598132968128106e+18, 5.196265936256212e+18, 1.0392531872512424e+19, 2.0785063745024848e+19, 4.1570127490049696e+19, 8.314025498009939e+19], "target": 5.0, "collected": 1.0}'}
+
+[DEBUG]	2025-10-05 01:48:09	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:48:09	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 334.54ms | Dane: {}
+[DEBUG]	2025-10-05 01:48:15	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 01:48:15	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.23ms | Dane: {}
+[SUCCESS]	2025-10-05 01:48:15	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 01:48:16	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 01:48:16	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.79ms | Dane: {}
+[SUCCESS]	2025-10-05 01:48:16	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-05
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet [<Transaction: u>, <Transaction: u>]>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transaction	u
+amount	1.00
+total_on_day	1.0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transaction	u
+amount	1.00
+total_on_day	2.0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	2.0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	1
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-06
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	2
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-07
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	3
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-08
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	4
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-09
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	5
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-10
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	6
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-11
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	7
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-12
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	8
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-13
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	9
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-14
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	10
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-15
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	11
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-16
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	12
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-17
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	13
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-18
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	14
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-19
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	15
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-20
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	16
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-21
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	17
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-22
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	18
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-23
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	19
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-24
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	20
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-25
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	21
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-26
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	22
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-27
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	23
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-28
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	24
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-29
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	25
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-30
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	26
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-10-31
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	27
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-01
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	28
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-02
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	29
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-03
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	30
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-04
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	31
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-05
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	32
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-06
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	33
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-07
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	34
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-08
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	35
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-09
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	36
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-10
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	37
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-11
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	38
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-12
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	39
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-13
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	40
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-14
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	41
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-15
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	42
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-16
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	43
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-17
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	44
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-18
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	45
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-19
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	46
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-20
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	47
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-21
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	48
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-22
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	49
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-23
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	50
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-24
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	51
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-25
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	52
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-26
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	53
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-27
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	54
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-28
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	55
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-29
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	56
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-11-30
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	57
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-12-01
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	58
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-12-02
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	59
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-12-03
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	60
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-12-04
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	61
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-12-05
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	62
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-12-06
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	63
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-12-07
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	64
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-12-08
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	65
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-12-09
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	66
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-12-10
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	67
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-12-11
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	68
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-12-12
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	69
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-12-13
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	day	70
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	label	2025-12-14
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	transactions_on_day	<QuerySet []>
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	value	0
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	green_trend	0.07042253521126761
+
+[DEBUG]	2025-10-05 01:52:40	[Accountancy.views]	context	{'goal': <Goal: test>, 'account': <Account: assets financial	test>, 'amount': 1.0, 'chart_data': '{"labels": ["2025-10-05", "2025-10-06", "2025-10-07", "2025-10-08", "2025-10-09", "2025-10-10", "2025-10-11", "2025-10-12", "2025-10-13", "2025-10-14", "2025-10-15", "2025-10-16", "2025-10-17", "2025-10-18", "2025-10-19", "2025-10-20", "2025-10-21", "2025-10-22", "2025-10-23", "2025-10-24", "2025-10-25", "2025-10-26", "2025-10-27", "2025-10-28", "2025-10-29", "2025-10-30", "2025-10-31", "2025-11-01", "2025-11-02", "2025-11-03", "2025-11-04", "2025-11-05", "2025-11-06", "2025-11-07", "2025-11-08", "2025-11-09", "2025-11-10", "2025-11-11", "2025-11-12", "2025-11-13", "2025-11-14", "2025-11-15", "2025-11-16", "2025-11-17", "2025-11-18", "2025-11-19", "2025-11-20", "2025-11-21", "2025-11-22", "2025-11-23", "2025-11-24", "2025-11-25", "2025-11-26", "2025-11-27", "2025-11-28", "2025-11-29", "2025-11-30", "2025-12-01", "2025-12-02", "2025-12-03", "2025-12-04", "2025-12-05", "2025-12-06", "2025-12-07", "2025-12-08", "2025-12-09", "2025-12-10", "2025-12-11", "2025-12-12", "2025-12-13", "2025-12-14"], "values": [2.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "red_trend": [2.0], "green_trend": [0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761, 0.07042253521126761], "target": 5.0, "collected": 1.0}'}
+
+[DEBUG]	2025-10-05 01:52:40	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 01:52:40	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 384.65ms | Dane: {}
+[ERROR]	2025-10-05 01:57:58	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | NoReverseMatch: Reverse for 'edit_goal' with arguments '('',)' not found. 1 pattern(s) tried: ['accountancy/goal/(?P<goal_id>[0-9]+)/edit/\\Z'] | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 01:57:58	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 01:57:58	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 63.99ms | Dane: {}
+[ERROR]	2025-10-05 01:57:58	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-10-05 02:02:52	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: Object of type Decimal is not JSON serializable | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 02:02:52	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 02:02:52	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 74.55ms | Dane: {}
+[ERROR]	2025-10-05 02:02:52	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 02:03:22	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 02:03:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 67.36ms | Dane: {}
+[DEBUG]	2025-10-05 02:03:48	[Accountancy.views]	context	{'goal': <Goal: test>, 'account': <Account: assets financial	test>, 'amount': 1.0, 'chart_data': '{"labels": ["2025-10-05", "2025-10-06", "2025-10-07", "2025-10-08", "2025-10-09", "2025-10-10", "2025-10-11", "2025-10-12", "2025-10-13", "2025-10-14", "2025-10-15", "2025-10-16", "2025-10-17", "2025-10-18", "2025-10-19", "2025-10-20", "2025-10-21", "2025-10-22", "2025-10-23", "2025-10-24", "2025-10-25", "2025-10-26", "2025-10-27", "2025-10-28", "2025-10-29", "2025-10-30", "2025-10-31", "2025-11-01", "2025-11-02", "2025-11-03", "2025-11-04", "2025-11-05", "2025-11-06", "2025-11-07", "2025-11-08", "2025-11-09", "2025-11-10", "2025-11-11", "2025-11-12", "2025-11-13", "2025-11-14", "2025-11-15", "2025-11-16", "2025-11-17", "2025-11-18", "2025-11-19", "2025-11-20", "2025-11-21", "2025-11-22", "2025-11-23", "2025-11-24", "2025-11-25", "2025-11-26", "2025-11-27", "2025-11-28", "2025-11-29", "2025-11-30", "2025-12-01", "2025-12-02", "2025-12-03", "2025-12-04", "2025-12-05", "2025-12-06", "2025-12-07", "2025-12-08", "2025-12-09", "2025-12-10", "2025-12-11", "2025-12-12", "2025-12-13", "2025-12-14", "2025-12-15"], "values": [2.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "red_trend": 0.013888888888888888, "green_trend": 0.06944444444444445, "target": 5.0, "collected": 1.0}'}
+
+[DEBUG]	2025-10-05 02:03:48	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 02:03:48	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 91.37ms | Dane: {}
+[DEBUG]	2025-10-05 02:04:57	[Accountancy.views]	context	{'goal': <Goal: test>, 'account': <Account: assets financial	test>, 'amount': 1.0, 'chart_data': '{"labels": ["2025-10-05", "2025-10-06", "2025-10-07", "2025-10-08", "2025-10-09", "2025-10-10", "2025-10-11", "2025-10-12", "2025-10-13", "2025-10-14", "2025-10-15", "2025-10-16", "2025-10-17", "2025-10-18", "2025-10-19", "2025-10-20", "2025-10-21", "2025-10-22", "2025-10-23", "2025-10-24", "2025-10-25", "2025-10-26", "2025-10-27", "2025-10-28", "2025-10-29", "2025-10-30", "2025-10-31", "2025-11-01", "2025-11-02", "2025-11-03", "2025-11-04", "2025-11-05", "2025-11-06", "2025-11-07", "2025-11-08", "2025-11-09", "2025-11-10", "2025-11-11", "2025-11-12", "2025-11-13", "2025-11-14", "2025-11-15", "2025-11-16", "2025-11-17", "2025-11-18", "2025-11-19", "2025-11-20", "2025-11-21", "2025-11-22", "2025-11-23", "2025-11-24", "2025-11-25", "2025-11-26", "2025-11-27", "2025-11-28", "2025-11-29", "2025-11-30", "2025-12-01", "2025-12-02", "2025-12-03", "2025-12-04", "2025-12-05", "2025-12-06", "2025-12-07", "2025-12-08", "2025-12-09", "2025-12-10", "2025-12-11", "2025-12-12", "2025-12-13", "2025-12-14", "2025-12-15"], "values": [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0], "red_trend": 0.013888888888888888, "green_trend": 0.06944444444444445, "target": 5.0, "collected": 1.0}'}
+
+[DEBUG]	2025-10-05 02:04:57	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 02:04:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 68.51ms | Dane: {}
+[DEBUG]	2025-10-05 02:07:28	[Accountancy.views]	context	{'goal': <Goal: test>, 'account': <Account: assets financial	test>, 'amount': 1.0, 'chart_data': '{"labels": ["2025-10-05", "2025-10-06", "2025-10-07", "2025-10-08", "2025-10-09", "2025-10-10", "2025-10-11", "2025-10-12", "2025-10-13", "2025-10-14", "2025-10-15", "2025-10-16", "2025-10-17", "2025-10-18", "2025-10-19", "2025-10-20", "2025-10-21", "2025-10-22", "2025-10-23", "2025-10-24", "2025-10-25", "2025-10-26", "2025-10-27", "2025-10-28", "2025-10-29", "2025-10-30", "2025-10-31", "2025-11-01", "2025-11-02", "2025-11-03", "2025-11-04", "2025-11-05", "2025-11-06", "2025-11-07", "2025-11-08", "2025-11-09", "2025-11-10", "2025-11-11", "2025-11-12", "2025-11-13", "2025-11-14", "2025-11-15", "2025-11-16", "2025-11-17", "2025-11-18", "2025-11-19", "2025-11-20", "2025-11-21", "2025-11-22", "2025-11-23", "2025-11-24", "2025-11-25", "2025-11-26", "2025-11-27", "2025-11-28", "2025-11-29", "2025-11-30", "2025-12-01", "2025-12-02", "2025-12-03", "2025-12-04", "2025-12-05", "2025-12-06", "2025-12-07", "2025-12-08", "2025-12-09", "2025-12-10", "2025-12-11", "2025-12-12", "2025-12-13", "2025-12-14", "2025-12-15"], "values": [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0], "red_trend": [0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888, 0.013888888888888888], "green_trend": [0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445, 0.06944444444444445], "target": 5.0, "collected": 1.0}'}
+
+[DEBUG]	2025-10-05 02:07:28	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 02:07:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 66.19ms | Dane: {}
+[ERROR]	2025-10-05 02:07:54	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: unsupported operand type(s) for +: 'decimal.Decimal' and 'float' | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 02:07:54	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 02:07:54	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 49.87ms | Dane: {}
+[ERROR]	2025-10-05 02:07:54	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 02:08:39	[Accountancy.views]	context	{'goal': <Goal: test>, 'account': <Account: assets financial	test>, 'amount': 1.0, 'chart_data': '{"labels": ["2025-10-05", "2025-10-06", "2025-10-07", "2025-10-08", "2025-10-09", "2025-10-10", "2025-10-11", "2025-10-12", "2025-10-13", "2025-10-14", "2025-10-15", "2025-10-16", "2025-10-17", "2025-10-18", "2025-10-19", "2025-10-20", "2025-10-21", "2025-10-22", "2025-10-23", "2025-10-24", "2025-10-25", "2025-10-26", "2025-10-27", "2025-10-28", "2025-10-29", "2025-10-30", "2025-10-31", "2025-11-01", "2025-11-02", "2025-11-03", "2025-11-04", "2025-11-05", "2025-11-06", "2025-11-07", "2025-11-08", "2025-11-09", "2025-11-10", "2025-11-11", "2025-11-12", "2025-11-13", "2025-11-14", "2025-11-15", "2025-11-16", "2025-11-17", "2025-11-18", "2025-11-19", "2025-11-20", "2025-11-21", "2025-11-22", "2025-11-23", "2025-11-24", "2025-11-25", "2025-11-26", "2025-11-27", "2025-11-28", "2025-11-29", "2025-11-30", "2025-12-01", "2025-12-02", "2025-12-03", "2025-12-04", "2025-12-05", "2025-12-06", "2025-12-07", "2025-12-08", "2025-12-09", "2025-12-10", "2025-12-11", "2025-12-12", "2025-12-13", "2025-12-14", "2025-12-15"], "values": [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0], "red_trend": [0.013888888888888888, 0.027777777777777776, 0.041666666666666664, 0.05555555555555555, 0.06944444444444445, 0.08333333333333334, 0.09722222222222224, 0.11111111111111113, 0.12500000000000003, 0.13888888888888892, 0.15277777777777782, 0.1666666666666667, 0.1805555555555556, 0.1944444444444445, 0.2083333333333334, 0.2222222222222223, 0.2361111111111112, 0.25000000000000006, 0.26388888888888895, 0.27777777777777785, 0.29166666666666674, 0.30555555555555564, 0.31944444444444453, 0.3333333333333334, 0.3472222222222223, 0.3611111111111112, 0.3750000000000001, 0.388888888888889, 0.4027777777777779, 0.4166666666666668, 0.4305555555555557, 0.4444444444444446, 0.4583333333333335, 0.4722222222222224, 0.48611111111111127, 0.5000000000000001, 0.513888888888889, 0.5277777777777778, 0.5416666666666666, 0.5555555555555555, 0.5694444444444443, 0.5833333333333331, 0.597222222222222, 0.6111111111111108, 0.6249999999999997, 0.6388888888888885, 0.6527777777777773, 0.6666666666666662, 0.680555555555555, 0.6944444444444439, 0.7083333333333327, 0.7222222222222215, 0.7361111111111104, 0.7499999999999992, 0.7638888888888881, 0.7777777777777769, 0.7916666666666657, 0.8055555555555546, 0.8194444444444434, 0.8333333333333323, 0.8472222222222211, 0.8611111111111099, 0.8749999999999988, 0.8888888888888876, 0.9027777777777765, 0.9166666666666653, 0.9305555555555541, 0.944444444444443, 0.9583333333333318, 0.9722222222222207, 0.9861111111111095, 0.9999999999999983], "green_trend": [0.06944444444444445, 0.1388888888888889, 0.20833333333333334, 0.2777777777777778, 0.3472222222222222, 0.41666666666666663, 0.48611111111111105, 0.5555555555555555, 0.6249999999999999, 0.6944444444444443, 0.7638888888888887, 0.8333333333333331, 0.9027777777777776, 0.972222222222222, 1.0416666666666665, 1.111111111111111, 1.1805555555555554, 1.2499999999999998, 1.3194444444444442, 1.3888888888888886, 1.458333333333333, 1.5277777777777775, 1.5972222222222219, 1.6666666666666663, 1.7361111111111107, 1.8055555555555551, 1.8749999999999996, 1.944444444444444, 2.0138888888888884, 2.083333333333333, 2.1527777777777777, 2.2222222222222223, 2.291666666666667, 2.3611111111111116, 2.4305555555555562, 2.500000000000001, 2.5694444444444455, 2.63888888888889, 2.708333333333335, 2.7777777777777795, 2.847222222222224, 2.9166666666666687, 2.9861111111111134, 3.055555555555558, 3.1250000000000027, 3.1944444444444473, 3.263888888888892, 3.3333333333333366, 3.4027777777777812, 3.472222222222226, 3.5416666666666705, 3.611111111111115, 3.68055555555556, 3.7500000000000044, 3.819444444444449, 3.8888888888888937, 3.9583333333333384, 4.027777777777783, 4.097222222222228, 4.166666666666672, 4.236111111111117, 4.305555555555562, 4.375000000000006, 4.444444444444451, 4.5138888888888955, 4.58333333333334, 4.652777777777785, 4.722222222222229, 4.791666666666674, 4.861111111111119, 4.930555555555563, 5.000000000000008], "target": 5.0, "collected": 1.0}'}
+
+[DEBUG]	2025-10-05 02:08:39	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 02:08:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 68.78ms | Dane: {}
