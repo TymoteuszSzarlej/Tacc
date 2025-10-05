@@ -11,6 +11,9 @@ class LogMiddleware(MiddlewareMixin):
         request._start_time = time.time()
 
     def process_response(self, request, response):
+        messages = request.session.get('session_messages', [])
+        log(f"\n\n\n{messages}\n\n\n")
+
         user = request.user.username if request.user.is_authenticated else "Anonim"
         ip = request.META.get("REMOTE_ADDR", "Nieznany IP")
         user_agent = request.META.get("HTTP_USER_AGENT", "Brak user-agenta")

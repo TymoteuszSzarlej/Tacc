@@ -90,3 +90,98 @@
 [RESPONSE]	2025-10-04 23:41:09	[MAIN.middleware]	Odpowiedź 200 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 13.46ms | Dane: {}
 [RESPONSE]	2025-10-04 23:41:53	[MAIN.middleware]	Odpowiedź 200 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 42.43ms | Dane: {}
 [RESPONSE]	2025-10-04 23:42:32	[MAIN.middleware]	Odpowiedź 200 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 26.84ms | Dane: {}
+[RESPONSE]	2025-10-04 23:52:33	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 17.5ms | Dane: {}
+[RESPONSE]	2025-10-04 23:52:36	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 62.57ms | Dane: {}
+[RESPONSE]	2025-10-04 23:52:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 56.14ms | Dane: {}
+[DEBUG]	2025-10-04 23:55:26	[MAIN.middleware]	[]
+[RESPONSE]	2025-10-04 23:55:26	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 95.44ms | Dane: {}
+[DEBUG]	2025-10-04 23:56:04	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-04 23:56:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 95.32ms | Dane: {}
+[DEBUG]	2025-10-04 23:56:10	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-04 23:56:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 55.03ms | Dane: {}
+[DEBUG]	2025-10-04 23:56:45	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-04 23:56:45	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 66.42ms | Dane: {}
+[DEBUG]	2025-10-04 23:57:23	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-04 23:57:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 97.16ms | Dane: {}
+[DEBUG]	2025-10-04 23:57:38	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-04 23:57:38	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 59.3ms | Dane: {}
+[DEBUG]	2025-10-04 23:57:39	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-04 23:57:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.82ms | Dane: {}
+[SUCCESS]	2025-10-04 23:57:41	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[DEBUG]	2025-10-04 23:57:41	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-04 23:57:41	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 61.86ms | Dane: {}
+[DEBUG]	2025-10-04 23:57:41	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-04 23:57:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 54.73ms | Dane: {}
+[DEBUG]	2025-10-04 23:58:37	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-04 23:58:37	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.88ms | Dane: {}
+[SUCCESS]	2025-10-04 23:58:38	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[DEBUG]	2025-10-04 23:58:38	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-04 23:58:38	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.14ms | Dane: {}
+[DEBUG]	2025-10-04 23:58:38	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-04 23:58:38	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 57.27ms | Dane: {}

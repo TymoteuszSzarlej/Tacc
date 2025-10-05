@@ -106,7 +106,7 @@ class TransactionForm(forms.ModelForm):
 
     class Meta:
         model = Transaction
-        fields = ['description', 'amount', 'credit_account', 'debit_account', 'document', 'category', 'date']
+        fields = ['description', 'amount', 'credit_account', 'debit_account', 'document', 'category']
         widgets = {
             'description': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
             'amount': forms.NumberInput(attrs={'class': 'form-control'}),

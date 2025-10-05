@@ -735,7 +735,6 @@ footer {
 }
 
 .alert {
-  opacity: 0.6;
   position: flex;
   padding: 12px 40px 12px 20px;
   border-radius: 1000px;
@@ -744,12 +743,11 @@ footer {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   animation: fadeIn 1.6s ease;
   transition: opacity 1s ease, transform 1s ease;
-  opacity: 0.5;
-  z-index: 1000000;
+  opacity: 0.6;
+  z-index: 100000000000;
 }
 
 .alert:hover {
-  opacity: 0.8;
 }
 
 .alert .close-btn {
@@ -766,8 +764,8 @@ footer {
 
 .alert .close-btn {
   position: absolute;
-  top: 8px;
-  right: 12px;
+  top: 3px;
+  right: 5px;
   background: none;
   border: none;
   box-shadow: none;
@@ -828,6 +826,15 @@ footer {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+
+nav ul li a {
+    padding: 2px 3px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    width: 60%;
+}
+
+
 </style>
 <head>
     <title>Tacc Accountancy</title>
@@ -895,8 +902,10 @@ footer {
             {% for msg in request.session.session_messages %}
                 <div class="alert alert-{{ msg.level }}" data-id="{{ msg.id }}">
                 {{ msg.text }}
+                <br>
                 <button class="close-btn" aria-label="Zamknij">✖</button>
                 </div>
+                <br><br><br><br>
             {% endfor %}
             </div>
         {% endif %}

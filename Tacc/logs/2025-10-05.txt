@@ -1,0 +1,1607 @@
+[DEBUG]	2025-10-05 00:03:57	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:03:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 47.47ms | Dane: {}
+[SUCCESS]	2025-10-05 00:04:04	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[DEBUG]	2025-10-05 00:04:04	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:04:04	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.94ms | Dane: {}
+[DEBUG]	2025-10-05 00:04:04	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:04:04	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 59.51ms | Dane: {}
+[DEBUG]	2025-10-05 00:04:23	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:04:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 96.32ms | Dane: {}
+[DEBUG]	2025-10-05 00:04:25	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:04:25	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.7ms | Dane: {}
+[SUCCESS]	2025-10-05 00:04:26	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[DEBUG]	2025-10-05 00:04:26	[MAIN.middleware]	
+
+
+[{'id': '1759622666.677069', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:04:26	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 13.56ms | Dane: {}
+[SUCCESS]	2025-10-05 00:04:26	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:04:26	[MAIN.middleware]	
+
+
+[{'id': '1759622666.677069', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:04:26	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 57.23ms | Dane: {}
+[DEBUG]	2025-10-05 00:05:25	[MAIN.middleware]	
+
+
+[{'id': '1759622666.677069', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:05:25	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 59.44ms | Dane: {}
+[DEBUG]	2025-10-05 00:05:26	[MAIN.middleware]	
+
+
+[{'id': '1759622666.677069', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:05:26	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.81ms | Dane: {}
+[SUCCESS]	2025-10-05 00:05:29	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[DEBUG]	2025-10-05 00:05:29	[MAIN.middleware]	
+
+
+[{'id': '1759622666.677069', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}, {'id': '1759622729.933853', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:05:29	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.78ms | Dane: {}
+[SUCCESS]	2025-10-05 00:05:29	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:05:29	[MAIN.middleware]	
+
+
+[{'id': '1759622666.677069', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}, {'id': '1759622729.933853', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:05:29	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 57.58ms | Dane: {}
+[DEBUG]	2025-10-05 00:05:36	[MAIN.middleware]	
+
+
+[{'id': '1759622666.677069', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}, {'id': '1759622729.933853', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:05:36	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.25ms | Dane: {}
+[DEBUG]	2025-10-05 00:05:38	[MAIN.middleware]	
+
+
+[{'id': '1759622666.677069', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:05:38	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.29ms | Dane: {}
+[SUCCESS]	2025-10-05 00:05:38	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:05:38	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:05:38	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.52ms | Dane: {}
+[SUCCESS]	2025-10-05 00:05:38	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:06:11	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:06:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 10.63ms | Dane: {}
+[DEBUG]	2025-10-05 00:06:13	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:06:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.72ms | Dane: {}
+[SUCCESS]	2025-10-05 00:06:14	[MAIN.signals]	Zaktualizowano instancję: Account (ID: 99)
+[DEBUG]	2025-10-05 00:06:14	[MAIN.middleware]	
+
+
+[{'id': '1759622774.500305', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:06:14	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.47ms | Dane: {}
+[SUCCESS]	2025-10-05 00:06:14	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:06:14	[MAIN.middleware]	
+
+
+[{'id': '1759622774.500305', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:06:14	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 62.52ms | Dane: {}
+[DEBUG]	2025-10-05 00:06:39	[MAIN.middleware]	
+
+
+[{'id': '1759622774.500305', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:06:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 59.97ms | Dane: {}
+[DEBUG]	2025-10-05 00:06:47	[MAIN.middleware]	
+
+
+[{'id': '1759622774.500305', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:06:47	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 67.5ms | Dane: {}
+[DEBUG]	2025-10-05 00:07:14	[MAIN.middleware]	
+
+
+[{'id': '1759622774.500305', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:07:14	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 64.79ms | Dane: {}
+[DEBUG]	2025-10-05 00:07:25	[MAIN.middleware]	
+
+
+[{'id': '1759622774.500305', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:07:25	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 59.45ms | Dane: {}
+[DEBUG]	2025-10-05 00:08:08	[MAIN.middleware]	
+
+
+[{'id': '1759622774.500305', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:08:08	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 61.26ms | Dane: {}
+[DEBUG]	2025-10-05 00:08:22	[MAIN.middleware]	
+
+
+[{'id': '1759622774.500305', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:08:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 59.92ms | Dane: {}
+[DEBUG]	2025-10-05 00:08:38	[MAIN.middleware]	
+
+
+[{'id': '1759622774.500305', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:08:38	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 63.0ms | Dane: {}
+[DEBUG]	2025-10-05 00:08:47	[MAIN.middleware]	
+
+
+[{'id': '1759622774.500305', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:08:47	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 62.2ms | Dane: {}
+[DEBUG]	2025-10-05 00:08:55	[MAIN.middleware]	
+
+
+[{'id': '1759622774.500305', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:08:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/99/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.67ms | Dane: {}
+[DEBUG]	2025-10-05 00:09:10	[MAIN.middleware]	
+
+
+[{'id': '1759622774.500305', 'level': 'success', 'text': 'Konto zostało pomyślnie zaktualizowane.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:09:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 56.97ms | Dane: {}
+[DEBUG]	2025-10-05 00:09:15	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:09:15	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.88ms | Dane: {}
+[SUCCESS]	2025-10-05 00:09:15	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:11:05	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:11:05	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/account/134/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.57ms | Dane: {}
+[DEBUG]	2025-10-05 00:11:10	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:11:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.57ms | Dane: {}
+[DEBUG]	2025-10-05 00:11:19	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:11:19	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.46ms | Dane: {}
+[DEBUG]	2025-10-05 00:11:22	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:11:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/3/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.29ms | Dane: {}
+[DEBUG]	2025-10-05 00:11:35	[MAIN.middleware]	
+
+
+[{'id': '1759623095.676128', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623095.676137', 'level': 'success', 'text': 'Cel został pomyślnie usunięty.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:11:35	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/3/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 41.32ms | Dane: {}
+[SUCCESS]	2025-10-05 00:11:35	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:11:59	[MAIN.middleware]	
+
+
+[{'id': '1759623095.676128', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623095.676137', 'level': 'success', 'text': 'Cel został pomyślnie usunięty.'}, {'id': '1759623119.276897', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:11:59	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/3/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 42.47ms | Dane: {}
+[SUCCESS]	2025-10-05 00:11:59	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:12:01	[MAIN.middleware]	
+
+
+[{'id': '1759623095.676128', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623095.676137', 'level': 'success', 'text': 'Cel został pomyślnie usunięty.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:12:01	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.77ms | Dane: {}
+[SUCCESS]	2025-10-05 00:12:01	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:12:03	[MAIN.middleware]	
+
+
+[{'id': '1759623095.676128', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:12:03	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.96ms | Dane: {}
+[SUCCESS]	2025-10-05 00:12:03	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:12:04	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:12:04	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.35ms | Dane: {}
+[SUCCESS]	2025-10-05 00:12:04	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:12:05	[MAIN.middleware]	
+
+
+[{'id': '1759623125.523267', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:12:05	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/3/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.45ms | Dane: {}
+[SUCCESS]	2025-10-05 00:12:05	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[SUCCESS]	2025-10-05 00:12:17	[MAIN.signals]	Usunięto instancję: Goal (ID: 3)
+[DEBUG]	2025-10-05 00:12:17	[MAIN.middleware]	
+
+
+[{'id': '1759623125.523267', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623137.972497', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623137.980437', 'level': 'success', 'text': 'Cel został pomyślnie usunięty.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:12:17	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/goal/3/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 10.72ms | Dane: {}
+[SUCCESS]	2025-10-05 00:12:17	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:12:17	[MAIN.middleware]	
+
+
+[{'id': '1759623125.523267', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623137.972497', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623137.980437', 'level': 'success', 'text': 'Cel został pomyślnie usunięty.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:12:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.52ms | Dane: {}
+[DEBUG]	2025-10-05 00:12:37	[MAIN.middleware]	
+
+
+[{'id': '1759623125.523267', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623137.972497', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623137.980437', 'level': 'success', 'text': 'Cel został pomyślnie usunięty.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:12:37	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.88ms | Dane: {}
+[DEBUG]	2025-10-05 00:12:40	[MAIN.middleware]	
+
+
+[{'id': '1759623125.523267', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623137.980437', 'level': 'success', 'text': 'Cel został pomyślnie usunięty.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:12:40	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.52ms | Dane: {}
+[SUCCESS]	2025-10-05 00:12:40	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:12:41	[MAIN.middleware]	
+
+
+[{'id': '1759623137.980437', 'level': 'success', 'text': 'Cel został pomyślnie usunięty.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:12:41	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.96ms | Dane: {}
+[SUCCESS]	2025-10-05 00:12:41	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:12:43	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:12:43	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.51ms | Dane: {}
+[SUCCESS]	2025-10-05 00:12:43	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:12:44	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:12:44	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.83ms | Dane: {}
+[SUCCESS]	2025-10-05 00:12:55	[MAIN.signals]	Utworzono nową instancję: Account (ID: 136)
+[SUCCESS]	2025-10-05 00:12:55	[MAIN.signals]	Utworzono nową instancję: Goal (ID: 4)
+[DEBUG]	2025-10-05 00:12:55	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:12:55	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 16.85ms | Dane: {}
+[DEBUG]	2025-10-05 00:12:55	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:12:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.64ms | Dane: {}
+[DEBUG]	2025-10-05 00:12:56	[MAIN.middleware]	
+
+
+[{'id': '1759623176.605894', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:12:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/4/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.6ms | Dane: {}
+[SUCCESS]	2025-10-05 00:12:56	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[SUCCESS]	2025-10-05 00:12:58	[MAIN.signals]	Usunięto instancję: Goal (ID: 4)
+[DEBUG]	2025-10-05 00:12:58	[MAIN.middleware]	
+
+
+[{'id': '1759623176.605894', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623178.056603', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623178.061458', 'level': 'success', 'text': 'Cel został pomyślnie usunięty.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:12:58	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/goal/4/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.83ms | Dane: {}
+[SUCCESS]	2025-10-05 00:12:58	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:12:58	[MAIN.middleware]	
+
+
+[{'id': '1759623176.605894', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623178.056603', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623178.061458', 'level': 'success', 'text': 'Cel został pomyślnie usunięty.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:12:58	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.93ms | Dane: {}
+[DEBUG]	2025-10-05 00:13:26	[MAIN.middleware]	
+
+
+[{'id': '1759623176.605894', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623178.056603', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623178.061458', 'level': 'success', 'text': 'Cel został pomyślnie usunięty.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:13:26	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 45.42ms | Dane: {}
+[DEBUG]	2025-10-05 00:13:28	[MAIN.middleware]	
+
+
+[{'id': '1759623176.605894', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623178.056603', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:13:28	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.61ms | Dane: {}
+[SUCCESS]	2025-10-05 00:13:28	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:13:29	[MAIN.middleware]	
+
+
+[{'id': '1759623176.605894', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:13:29	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.0ms | Dane: {}
+[SUCCESS]	2025-10-05 00:13:29	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:13:29	[MAIN.middleware]	
+
+
+[{'id': '1759623176.605894', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:13:29	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.11ms | Dane: {}
+[SUCCESS]	2025-10-05 00:13:29	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:13:30	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:13:30	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.95ms | Dane: {}
+[SUCCESS]	2025-10-05 00:13:30	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:13:30	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:13:30	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.09ms | Dane: {}
+[SUCCESS]	2025-10-05 00:13:30	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:13:31	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:13:31	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 10.0ms | Dane: {}
+[DEBUG]	2025-10-05 00:13:41	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:13:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 10.08ms | Dane: {}
+[SUCCESS]	2025-10-05 00:13:49	[MAIN.signals]	Utworzono nową instancję: Account (ID: 137)
+[SUCCESS]	2025-10-05 00:13:49	[MAIN.signals]	Utworzono nową instancję: Goal (ID: 5)
+[DEBUG]	2025-10-05 00:13:49	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:13:49	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 17.93ms | Dane: {}
+[DEBUG]	2025-10-05 00:13:49	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:13:49	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.04ms | Dane: {}
+[DEBUG]	2025-10-05 00:13:55	[MAIN.middleware]	
+
+
+[{'id': '1759623235.156352', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:13:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/5/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.82ms | Dane: {}
+[SUCCESS]	2025-10-05 00:13:55	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[SUCCESS]	2025-10-05 00:13:57	[MAIN.signals]	Usunięto instancję: Goal (ID: 5)
+[DEBUG]	2025-10-05 00:13:57	[MAIN.middleware]	
+
+
+[{'id': '1759623235.156352', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623237.445516', 'level': 'success', 'text': 'Cel został pomyślnie usunięty.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:13:57	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/goal/5/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.41ms | Dane: {}
+[SUCCESS]	2025-10-05 00:13:57	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:13:57	[MAIN.middleware]	
+
+
+[{'id': '1759623235.156352', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}, {'id': '1759623237.445516', 'level': 'success', 'text': 'Cel został pomyślnie usunięty.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:13:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.42ms | Dane: {}
+[DEBUG]	2025-10-05 00:13:59	[MAIN.middleware]	
+
+
+[{'id': '1759623235.156352', 'level': 'warning', 'text': 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:13:59	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.37ms | Dane: {}
+[SUCCESS]	2025-10-05 00:13:59	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:14:00	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:14:00	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.84ms | Dane: {}
+[SUCCESS]	2025-10-05 00:14:00	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:14:41	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:14:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.41ms | Dane: {}
+[SUCCESS]	2025-10-05 00:14:52	[MAIN.signals]	Utworzono nową instancję: Account (ID: 138)
+[SUCCESS]	2025-10-05 00:14:52	[MAIN.signals]	Utworzono nową instancję: Goal (ID: 6)
+[DEBUG]	2025-10-05 00:14:52	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:14:52	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/goal/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 15.23ms | Dane: {}
+[DEBUG]	2025-10-05 00:14:52	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:14:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 3.69ms | Dane: {}
+[DEBUG]	2025-10-05 00:14:56	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:14:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.29ms | Dane: {}
+[ERROR]	2025-10-05 00:21:58	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | NameError: name 'json' is not defined | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:21:58	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:21:58	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 47.98ms | Dane: {}
+[ERROR]	2025-10-05 00:21:58	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:22:24	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:22:24	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 35.93ms | Dane: {}
+[DEBUG]	2025-10-05 00:23:47	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:23:47	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 18.96ms | Dane: {}
+[DEBUG]	2025-10-05 00:23:59	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:23:59	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 10.7ms | Dane: {}
+[DEBUG]	2025-10-05 00:24:00	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:24:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 18.13ms | Dane: {}
+[DEBUG]	2025-10-05 00:24:14	[MAIN.middleware]	
+
+
+[{'id': '1759623854.725353', 'level': 'error', 'text': 'Wystąpił błąd podczas tworzenia transakcji. Sprawdź formularz.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:24:14	[MAIN.middleware]	Odpowiedź 200 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 17.21ms | Dane: {}
+[SUCCESS]	2025-10-05 00:24:14	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:26:10	[MAIN.middleware]	
+
+
+[{'id': '1759623854.725353', 'level': 'error', 'text': 'Wystąpił błąd podczas tworzenia transakcji. Sprawdź formularz.'}, {'id': '1759623970.045585', 'level': 'error', 'text': 'Wystąpił błąd podczas tworzenia transakcji. Sprawdź formularz.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:26:10	[MAIN.middleware]	Odpowiedź 200 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.89ms | Dane: {}
+[SUCCESS]	2025-10-05 00:26:10	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:26:11	[MAIN.middleware]	
+
+
+[{'id': '1759623854.725353', 'level': 'error', 'text': 'Wystąpił błąd podczas tworzenia transakcji. Sprawdź formularz.'}, {'id': '1759623970.045585', 'level': 'error', 'text': 'Wystąpił błąd podczas tworzenia transakcji. Sprawdź formularz.'}, {'id': '1759623971.383881', 'level': 'error', 'text': 'Wystąpił błąd podczas tworzenia transakcji. Sprawdź formularz.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:26:11	[MAIN.middleware]	Odpowiedź 200 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 16.16ms | Dane: {}
+[SUCCESS]	2025-10-05 00:26:11	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:26:12	[MAIN.middleware]	
+
+
+[{'id': '1759623854.725353', 'level': 'error', 'text': 'Wystąpił błąd podczas tworzenia transakcji. Sprawdź formularz.'}, {'id': '1759623970.045585', 'level': 'error', 'text': 'Wystąpił błąd podczas tworzenia transakcji. Sprawdź formularz.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:26:12	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.5ms | Dane: {}
+[SUCCESS]	2025-10-05 00:26:12	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:26:13	[MAIN.middleware]	
+
+
+[{'id': '1759623854.725353', 'level': 'error', 'text': 'Wystąpił błąd podczas tworzenia transakcji. Sprawdź formularz.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:26:13	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.52ms | Dane: {}
+[SUCCESS]	2025-10-05 00:26:13	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:26:14	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:26:14	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.93ms | Dane: {}
+[SUCCESS]	2025-10-05 00:26:14	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:26:51	[MAIN.middleware]	
+
+
+[{'id': '1759624011.646427', 'level': 'error', 'text': 'Wystąpił błąd podczas tworzenia transakcji. Sprawdź formularz.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:26:51	[MAIN.middleware]	Odpowiedź 200 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 18.28ms | Dane: {}
+[SUCCESS]	2025-10-05 00:26:51	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[ERROR]	2025-10-05 00:27:54	[MAIN.middleware]	Wyjątek 500 | POST /accountancy/transaction/create/ | IntegrityError: NOT NULL constraint failed: Accountancy_transaction.date | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:27:54	[MAIN.middleware]	
+
+
+[{'id': '1759624011.646427', 'level': 'error', 'text': 'Wystąpił błąd podczas tworzenia transakcji. Sprawdź formularz.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:27:54	[MAIN.middleware]	Odpowiedź 500 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 57.72ms | Dane: {}
+[ERROR]	2025-10-05 00:27:54	[MAIN.middleware]	Błąd 500 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[SUCCESS]	2025-10-05 00:28:08	[MAIN.signals]	Utworzono nową instancję: Transaction (ID: 7)
+[DEBUG]	2025-10-05 00:28:08	[MAIN.middleware]	
+
+
+[{'id': '1759624011.646427', 'level': 'error', 'text': 'Wystąpił błąd podczas tworzenia transakcji. Sprawdź formularz.'}, {'id': '1759624088.935196', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:28:08	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 46.62ms | Dane: {}
+[SUCCESS]	2025-10-05 00:28:08	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:28:08	[MAIN.middleware]	
+
+
+[{'id': '1759624011.646427', 'level': 'error', 'text': 'Wystąpił błąd podczas tworzenia transakcji. Sprawdź formularz.'}, {'id': '1759624088.935196', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:28:08	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.32ms | Dane: {}
+[DEBUG]	2025-10-05 00:28:16	[MAIN.middleware]	
+
+
+[{'id': '1759624088.935196', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:28:16	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.13ms | Dane: {}
+[SUCCESS]	2025-10-05 00:28:16	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:28:17	[MAIN.middleware]	
+
+
+[{'id': '1759624088.935196', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:28:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/7/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 22.41ms | Dane: {}
+[SUCCESS]	2025-10-05 00:28:18	[MAIN.signals]	Zaktualizowano instancję: Transaction (ID: 7)
+[DEBUG]	2025-10-05 00:28:18	[MAIN.middleware]	
+
+
+[{'id': '1759624088.935196', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759624098.849068', 'level': 'success', 'text': 'Transakcja została pomyślnie zaktualizowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:28:18	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/transaction/7/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.37ms | Dane: {}
+[SUCCESS]	2025-10-05 00:28:18	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:28:18	[MAIN.middleware]	
+
+
+[{'id': '1759624088.935196', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759624098.849068', 'level': 'success', 'text': 'Transakcja została pomyślnie zaktualizowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:28:18	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.03ms | Dane: {}
+[DEBUG]	2025-10-05 00:28:22	[MAIN.middleware]	
+
+
+[{'id': '1759624088.935196', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:28:22	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.06ms | Dane: {}
+[SUCCESS]	2025-10-05 00:28:22	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:28:23	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:28:23	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.71ms | Dane: {}
+[SUCCESS]	2025-10-05 00:28:23	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:28:58	[MAIN.middleware]	
+
+
+[{'id': '1759624138.899363', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:28:58	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 61.49ms | Dane: {}
+[SUCCESS]	2025-10-05 00:28:58	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:29:03	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:29:03	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.39ms | Dane: {}
+[SUCCESS]	2025-10-05 00:29:03	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:29:16	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624156.787404', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624156.841412', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:29:16	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 59.92ms | Dane: {}
+[SUCCESS]	2025-10-05 00:29:16	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:30:31	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624156.787404', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624156.841412', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624231.006815', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624231.063747', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:30:31	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 64.79ms | Dane: {}
+[SUCCESS]	2025-10-05 00:30:31	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:30:43	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624156.787404', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624156.841412', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624231.006815', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624231.063747', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624243.539847', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624243.593769', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:30:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 61.58ms | Dane: {}
+[SUCCESS]	2025-10-05 00:30:43	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:30:50	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624156.787404', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624156.841412', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624231.006815', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624231.063747', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624243.593769', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:30:50	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.4ms | Dane: {}
+[SUCCESS]	2025-10-05 00:30:50	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:30:52	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624156.787404', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624156.841412', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624231.006815', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624231.063747', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:30:52	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.64ms | Dane: {}
+[SUCCESS]	2025-10-05 00:30:52	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:30:52	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624156.787404', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624156.841412', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624231.006815', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:30:52	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.44ms | Dane: {}
+[SUCCESS]	2025-10-05 00:30:52	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:30:53	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624156.787404', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624156.841412', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624231.006815', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:30:53	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.47ms | Dane: {}
+[SUCCESS]	2025-10-05 00:30:53	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:30:53	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624156.787404', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624156.841412', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:30:53	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.84ms | Dane: {}
+[SUCCESS]	2025-10-05 00:30:53	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:30:54	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624156.787404', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:30:54	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.9ms | Dane: {}
+[SUCCESS]	2025-10-05 00:30:54	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:30:55	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:30:55	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.08ms | Dane: {}
+[SUCCESS]	2025-10-05 00:30:55	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:30:57	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:30:57	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 27.06ms | Dane: {}
+[DEBUG]	2025-10-05 00:31:11	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:31:11	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 28.27ms | Dane: {}
+[DEBUG]	2025-10-05 00:31:25	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:31:25	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 27.96ms | Dane: {}
+[DEBUG]	2025-10-05 00:31:34	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:31:34	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 28.89ms | Dane: {}
+[DEBUG]	2025-10-05 00:31:42	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:31:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 27.51ms | Dane: {}
+[DEBUG]	2025-10-05 00:31:52	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:31:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 29.18ms | Dane: {}
+[DEBUG]	2025-10-05 00:31:52	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:31:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 35.74ms | Dane: {}
+[DEBUG]	2025-10-05 00:32:03	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:32:03	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 28.77ms | Dane: {}
+[DEBUG]	2025-10-05 00:32:23	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:32:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 29.44ms | Dane: {}
+[DEBUG]	2025-10-05 00:32:41	[MAIN.middleware]	
+
+
+[{'id': '1759624138.954186', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:32:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 29.22ms | Dane: {}
+[DEBUG]	2025-10-05 00:32:51	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:32:51	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.36ms | Dane: {}
+[SUCCESS]	2025-10-05 00:32:51	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:32:52	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:32:52	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 26.43ms | Dane: {}
+[DEBUG]	2025-10-05 00:32:56	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:32:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 15.01ms | Dane: {}
+[DEBUG]	2025-10-05 00:33:00	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:33:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.18ms | Dane: {}
+[DEBUG]	2025-10-05 00:33:01	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:33:01	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/4/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 19.29ms | Dane: {}
+[SUCCESS]	2025-10-05 00:33:03	[MAIN.signals]	Zaktualizowano instancję: Transaction (ID: 4)
+[DEBUG]	2025-10-05 00:33:03	[MAIN.middleware]	
+
+
+[{'id': '1759624383.064152', 'level': 'success', 'text': 'Transakcja została pomyślnie zaktualizowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:33:03	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/transaction/4/edit/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.42ms | Dane: {}
+[SUCCESS]	2025-10-05 00:33:03	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:33:03	[MAIN.middleware]	
+
+
+[{'id': '1759624383.064152', 'level': 'success', 'text': 'Transakcja została pomyślnie zaktualizowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:33:03	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.8ms | Dane: {}
+[DEBUG]	2025-10-05 00:33:10	[MAIN.middleware]	
+
+
+[{'id': '1759624383.064152', 'level': 'success', 'text': 'Transakcja została pomyślnie zaktualizowana.'}, {'id': '1759624390.454587', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624390.508447', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:33:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 61.18ms | Dane: {}
+[SUCCESS]	2025-10-05 00:33:10	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:33:58	[MAIN.middleware]	
+
+
+[{'id': '1759624383.064152', 'level': 'success', 'text': 'Transakcja została pomyślnie zaktualizowana.'}, {'id': '1759624390.454587', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624390.508447', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624438.407318', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624438.469767', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:33:58	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 71.54ms | Dane: {}
+[SUCCESS]	2025-10-05 00:33:58	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:34:06	[MAIN.middleware]	
+
+
+[{'id': '1759624390.454587', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624390.508447', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624438.407318', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624438.469767', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:34:06	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.46ms | Dane: {}
+[SUCCESS]	2025-10-05 00:34:06	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:34:07	[MAIN.middleware]	
+
+
+[{'id': '1759624390.508447', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}, {'id': '1759624438.407318', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624438.469767', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:34:07	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.83ms | Dane: {}
+[SUCCESS]	2025-10-05 00:34:07	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:34:08	[MAIN.middleware]	
+
+
+[{'id': '1759624438.407318', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.'}, {'id': '1759624438.469767', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:34:08	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.83ms | Dane: {}
+[SUCCESS]	2025-10-05 00:34:08	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:34:09	[MAIN.middleware]	
+
+
+[{'id': '1759624438.469767', 'level': 'success', 'text': 'Analiza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:34:09	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.77ms | Dane: {}
+[SUCCESS]	2025-10-05 00:34:09	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:34:10	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:34:10	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.02ms | Dane: {}
+[SUCCESS]	2025-10-05 00:34:10	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:34:18	[MAIN.middleware]	
+
+
+[{'id': '1759624458.521568', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie prognozy finansowej. Może to chwilę potrwać.'}, {'id': '1759624458.522947', 'level': 'success', 'text': 'Prognoza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:34:18	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/forecast/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.53ms | Dane: {}
+[SUCCESS]	2025-10-05 00:34:18	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:34:22	[MAIN.middleware]	
+
+
+[{'id': '1759624458.521568', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie prognozy finansowej. Może to chwilę potrwać.'}, {'id': '1759624458.522947', 'level': 'success', 'text': 'Prognoza finansowa została pomyślnie przygotowana.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:34:22	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 65.44ms | Dane: {}
+[DEBUG]	2025-10-05 00:34:24	[MAIN.middleware]	
+
+
+[{'id': '1759624458.521568', 'level': 'info', 'text': 'Rozpoczęto przygotowywanie prognozy finansowej. Może to chwilę potrwać.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:34:24	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.63ms | Dane: {}
+[SUCCESS]	2025-10-05 00:34:24	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:34:24	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:34:24	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 4.89ms | Dane: {}
+[SUCCESS]	2025-10-05 00:34:24	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:35:02	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:35:02	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 100.17ms | Dane: {}
+[DEBUG]	2025-10-05 00:35:06	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:35:06	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/analysis/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 63.91ms | Dane: {}
+[DEBUG]	2025-10-05 00:35:41	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:35:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.28ms | Dane: {}
+[DEBUG]	2025-10-05 00:35:42	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:35:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.28ms | Dane: {}
+[DEBUG]	2025-10-05 00:35:47	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:35:47	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.08ms | Dane: {}
+[DEBUG]	2025-10-05 00:35:49	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:35:49	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 18.4ms | Dane: {}
+[SUCCESS]	2025-10-05 00:36:06	[MAIN.signals]	Utworzono nową instancję: Transaction (ID: 8)
+[DEBUG]	2025-10-05 00:36:06	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:36:06	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.14ms | Dane: {}
+[SUCCESS]	2025-10-05 00:36:06	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:36:06	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:36:06	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.27ms | Dane: {}
+[DEBUG]	2025-10-05 00:36:10	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:36:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.99ms | Dane: {}
+[DEBUG]	2025-10-05 00:37:12	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:37:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.59ms | Dane: {}
+[DEBUG]	2025-10-05 00:37:28	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:37:28	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.05ms | Dane: {}
+[DEBUG]	2025-10-05 00:37:50	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:37:50	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.23ms | Dane: {}
+[DEBUG]	2025-10-05 00:38:17	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:38:17	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.58ms | Dane: {}
+[DEBUG]	2025-10-05 00:38:32	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:38:32	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.66ms | Dane: {}
+[DEBUG]	2025-10-05 00:38:42	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:38:42	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.6ms | Dane: {}
+[DEBUG]	2025-10-05 00:39:16	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:39:16	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 10.03ms | Dane: {}
+[DEBUG]	2025-10-05 00:39:24	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:39:24	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.49ms | Dane: {}
+[DEBUG]	2025-10-05 00:39:30	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:39:30	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.85ms | Dane: {}
+[DEBUG]	2025-10-05 00:39:33	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:39:33	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 31.22ms | Dane: {}
+[DEBUG]	2025-10-05 00:39:36	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:39:36	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.26ms | Dane: {}
+[DEBUG]	2025-10-05 00:39:51	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:39:51	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 14.18ms | Dane: {}
+[DEBUG]	2025-10-05 00:40:07	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:40:07	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 14.1ms | Dane: {}
+[DEBUG]	2025-10-05 00:40:39	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:40:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goals/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.12ms | Dane: {}
+[DEBUG]	2025-10-05 00:40:40	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:40:40	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.68ms | Dane: {}
+[DEBUG]	2025-10-05 00:41:05	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:41:05	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/8/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.64ms | Dane: {}
+[SUCCESS]	2025-10-05 00:41:06	[MAIN.signals]	Usunięto instancję: Transaction (ID: 8)
+[DEBUG]	2025-10-05 00:41:06	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:41:06	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/transaction/8/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.3ms | Dane: {}
+[DEBUG]	2025-10-05 00:41:06	[MAIN.middleware]	
+
+
+[{'id': '1759624566.196868', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:41:06	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.52ms | Dane: {}
+[DEBUG]	2025-10-05 00:41:10	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:41:10	[MAIN.middleware]	Odpowiedź 200 | POST /remove-session-message/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 2.59ms | Dane: {}
+[SUCCESS]	2025-10-05 00:41:10	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:41:13	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:41:13	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.84ms | Dane: {}
+[DEBUG]	2025-10-05 00:41:23	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:41:23	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/accounts/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 63.94ms | Dane: {}
+[DEBUG]	2025-10-05 00:41:38	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:41:38	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/7/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 6.34ms | Dane: {}
+[SUCCESS]	2025-10-05 00:41:39	[MAIN.signals]	Usunięto instancję: Transaction (ID: 7)
+[DEBUG]	2025-10-05 00:41:39	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:41:39	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/transaction/7/delete/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.03ms | Dane: {}
+[DEBUG]	2025-10-05 00:41:39	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:41:39	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.98ms | Dane: {}
+[DEBUG]	2025-10-05 00:41:41	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:41:41	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.1ms | Dane: {}
+[DEBUG]	2025-10-05 00:41:46	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-05 00:41:46	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 18.45ms | Dane: {}
+[SUCCESS]	2025-10-05 00:41:58	[MAIN.signals]	Utworzono nową instancję: Transaction (ID: 9)
+[DEBUG]	2025-10-05 00:41:58	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:41:58	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.06ms | Dane: {}
+[SUCCESS]	2025-10-05 00:41:58	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:41:58	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:41:58	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.19ms | Dane: {}
+[DEBUG]	2025-10-05 00:42:00	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:42:00	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.29ms | Dane: {}
+[DEBUG]	2025-10-05 00:44:10	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:44:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 7.22ms | Dane: {}
+[ERROR]	2025-10-05 00:44:34	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: Object of type Decimal is not JSON serializable | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:44:34	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:44:34	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 53.09ms | Dane: {}
+[ERROR]	2025-10-05 00:44:34	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-10-05 00:46:49	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: Object of type Decimal is not JSON serializable | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:46:49	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:46:49	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 51.75ms | Dane: {}
+[ERROR]	2025-10-05 00:46:49	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-10-05 00:47:17	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: Object of type Decimal is not JSON serializable | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:47:17	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:47:17	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 49.92ms | Dane: {}
+[ERROR]	2025-10-05 00:47:17	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-10-05 00:47:18	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: Object of type Decimal is not JSON serializable | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:47:18	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:47:18	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 21.39ms | Dane: {}
+[ERROR]	2025-10-05 00:47:18	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-10-05 00:47:18	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: Object of type Decimal is not JSON serializable | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:47:18	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:47:18	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 20.4ms | Dane: {}
+[ERROR]	2025-10-05 00:47:18	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-10-05 00:47:19	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: Object of type Decimal is not JSON serializable | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:47:19	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:47:19	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 17.77ms | Dane: {}
+[ERROR]	2025-10-05 00:47:19	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-10-05 00:47:19	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: Object of type Decimal is not JSON serializable | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:47:19	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:47:19	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 17.36ms | Dane: {}
+[ERROR]	2025-10-05 00:47:19	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[ERROR]	2025-10-05 00:47:19	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: Object of type Decimal is not JSON serializable | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:47:19	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:47:19	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 19.65ms | Dane: {}
+[ERROR]	2025-10-05 00:47:19	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[SUCCESS]	2025-10-05 00:47:51	[MAIN.signals]	Utworzono nową instancję: Migration (ID: 35)
+[ERROR]	2025-10-05 00:47:56	[MAIN.middleware]	Wyjątek 500 | GET /accountancy/goal/6/details/ | TypeError: Object of type Decimal is not JSON serializable | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:47:56	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:47:56	[MAIN.middleware]	Odpowiedź 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 46.24ms | Dane: {}
+[ERROR]	2025-10-05 00:47:56	[MAIN.middleware]	Błąd 500 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-05 00:49:30	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:49:30	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 44.81ms | Dane: {}
+[DEBUG]	2025-10-05 00:51:50	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:51:50	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 44.18ms | Dane: {}
+[DEBUG]	2025-10-05 00:52:43	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:52:43	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 44.36ms | Dane: {}
+[DEBUG]	2025-10-05 00:52:55	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:52:55	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.67ms | Dane: {}
+[DEBUG]	2025-10-05 00:52:56	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:52:56	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 19.0ms | Dane: {}
+[SUCCESS]	2025-10-05 00:53:10	[MAIN.signals]	Utworzono nową instancję: Transaction (ID: 10)
+[DEBUG]	2025-10-05 00:53:10	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:53:10	[MAIN.middleware]	Odpowiedź 302 | POST /accountancy/transaction/create/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 12.45ms | Dane: {}
+[SUCCESS]	2025-10-05 00:53:10	[MAIN.signals]	Zaktualizowano instancję: Session (ID: vmfqshvqn0pls8pu8iiyyobapss0fr89)
+[DEBUG]	2025-10-05 00:53:10	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:53:10	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/transactions/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.67ms | Dane: {}
+[DEBUG]	2025-10-05 00:53:12	[MAIN.middleware]	
+
+
+[{'id': '1759624918.013392', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}, {'id': '1759625590.195408', 'level': 'success', 'text': 'Transakcja została pomyślnie utworzona.'}]
+
+
+
+[RESPONSE]	2025-10-05 00:53:12	[MAIN.middleware]	Odpowiedź 200 | GET /accountancy/goal/6/details/ | Użytkownik: ADMIN | IP: 127.0.0.1 | Czas: 8.7ms | Dane: {}

@@ -7,6 +7,7 @@ from .forms import *
 from datetime import datetime, timedelta
 from django.db.models import Sum
 from decimal import Decimal
+import json
 
 
 
@@ -60,12 +61,8 @@ def delete_book(request, book_id):
         book.delete()
         messages.success(request, 'Księga została pomyślnie usunięta.')
         return redirect('books')
+        
     return render(request, 'Accountancy/books/delete.html.jinja', {'book': book})
-
-
-from django.contrib.auth.decorators import login_required
-from django.shortcuts import render
-from .models import Account, Transaction
 
 @login_required
 def accounts(request):
@@ -133,6 +130,7 @@ def edit_account(request, account_id):
             form.save()
             messages.success(request, 'Konto zostało pomyślnie zaktualizowane.')
             return redirect('accounts')
+        messages.error(request, 'Wystąpił błąd podczas aktualizacji konta. Sprawdź formularz.')
     else:
         form = AccountForm(instance=account, user=request.user)  # Przekazanie użytkownika do formularza
     return render(request, 'Accountancy/accounts/edit.html.jinja', {'form': form, 'account': account})
@@ -142,6 +140,7 @@ def delete_account(request, account_id):
     account = get_object_or_404(Account, id=account_id, user=request.user)  # Sprawdzenie właściciela konta
     if request.method == 'POST':
         account.delete()
+        messages.success(request, 'Konto zostało pomyślnie usunięte.')
         return redirect('accounts')
     return render(request, 'Accountancy/accounts/delete.html.jinja', {'account': account})
 
@@ -159,7 +158,9 @@ def create_category(request):
             category = form.save(commit=False)
             category.user = request.user
             category.save()
+            messages.success(request, 'Kategoria została pomyślnie utworzona.')
             return redirect('categories')
+        messages.error(request, 'Wystąpił błąd podczas tworzenia kategorii. Sprawdź formularz.')
     else:
         form = CategoryForm()
     return render(request, 'Accountancy/categories/create.html.jinja', {'form': form})
@@ -176,7 +177,9 @@ def edit_category(request, category_id):
         form = CategoryForm(request.POST, instance=category)
         if form.is_valid():
             form.save()
+            messages.success(request, 'Kategoria została pomyślnie zaktualizowana.')
             return redirect('categories')
+        messages.error(request, 'Wystąpił błąd podczas aktualizacji kategorii. Sprawdź formularz.')
     else:
         form = CategoryForm(instance=category)
     return render(request, 'Accountancy/categories/edit.html.jinja', {'form': form, 'category': category})
@@ -219,7 +222,9 @@ def create_transaction(request):
             transaction = form.save(commit=False)
             transaction.user = request.user  # Przypisanie transakcji do użytkownika
             transaction.save()
+            messages.success(request, 'Transakcja została pomyślnie utworzona.')
             return redirect('transactions')
+        messages.error(request, 'Wystąpił błąd podczas tworzenia transakcji. Sprawdź formularz.')
     else:
         form = TransactionForm(user=request.user)  # Przekazanie użytkownika do formularza
     return render(request, 'Accountancy/transactions/create.html.jinja', {'form': form})
@@ -236,7 +241,9 @@ def edit_transaction(request, transaction_id):
         form = TransactionForm(request.POST, instance=transaction, user=request.user)  # Przekazanie użytkownika do formularza
         if form.is_valid():
             form.save()
+            messages.success(request, 'Transakcja została pomyślnie zaktualizowana.')
             return redirect('transactions')
+        messages.error(request, 'Wystąpił błąd podczas aktualizacji transakcji. Sprawdź formularz.')
     else:
         form = TransactionForm(instance=transaction, user=request.user)  # Przekazanie użytkownika do formularza
     return render(request, 'Accountancy/transactions/edit.html.jinja', {'form': form, 'transaction': transaction})
@@ -275,7 +282,9 @@ def create_budget(request):
             budget = form.save(commit=False)
             budget.user = request.user
             budget.save()
+            messages.success(request, 'Budżet został pomyślnie utworzony.')
             return redirect('budgets')
+        messages.error(request, 'Wystąpił błąd podczas tworzenia budżetu. Sprawdź formularz.')
     else:
         form = BudgetForm()
     return render(request, 'Accountancy/budgets/create.html.jinja', {'form': form})
@@ -292,7 +301,9 @@ def edit_budget(request, budget_id):
         form = BudgetForm(request.POST, instance=budget)
         if form.is_valid():
             form.save()
+            messages.success(request, 'Budżet został pomyślnie zaktualizowany.')
             return redirect('budgets')
+        messages.error(request, 'Wystąpił błąd podczas aktualizacji budżetu. Sprawdź formularz.')
     else:
         form = BudgetForm(instance=budget)
     return render(request, 'Accountancy/budgets/edit.html.jinja', {'form': form, 'budget': budget})
@@ -319,7 +330,9 @@ def create_report(request):
             report = form.save(commit=False)
             report.user = request.user  # Przypisz użytkownika!
             report.save()
+            messages.success(request, 'Raport został pomyślnie utworzony.')
             return redirect('reports')
+        messages.error(request, 'Wystąpił błąd podczas tworzenia raportu. Sprawdź formularz.')
     else:
         form = ReportForm(user=request.user)
     return render(request, 'Accountancy/reports/create.html.jinja', {'form': form})
@@ -409,7 +422,9 @@ def edit_report(request, report_id):
             edited_report = form.save(commit=False)
             edited_report.user = request.user  # Przypisz użytkownika!
             edited_report.save()
+            messages.success(request, 'Raport został pomyślnie zaktualizowany.')
             return redirect('reports')
+        messages.error(request, 'Wystąpił błąd podczas aktualizacji raportu. Sprawdź formularz.')
     else:
         form = ReportForm(instance=report, user=request.user)
     return render(request, 'Accountancy/reports/edit.html.jinja', {'form': form, 'report': report})
@@ -429,6 +444,8 @@ def report_pdf(request, report_id):
 
 @login_required
 def financial_analysis(request):
+    # messages.info(request, 'Rozpoczęto przygotowywanie analizy finansowej. Może to chwilę potrwać.')
+
     # Pobranie kont z bazy danych
     assets = Account.objects.filter(account_type='assets')
     liabilities = Account.objects.filter(account_type='liabilities')
@@ -489,10 +506,13 @@ def financial_analysis(request):
         'total_equity': total_equity,
     }
 
+    # messages.success(request, 'Analiza finansowa została pomyślnie przygotowana.')
     return render(request, 'Accountancy/analysis/financial_analysis.html.jinja', context)
 
 @login_required
 def financial_forecast(request):
+    # messages.info(request, 'Rozpoczęto przygotowywanie prognozy finansowej. Może to chwilę potrwać.')
+
     data = {}
     user = User.objects.get(username=request.user)
     transactions = Transaction.objects.filter(user=user)
@@ -508,6 +528,7 @@ def financial_forecast(request):
             date = make_aware(date)
             data
     
+    # messages.success(request, 'Prognoza finansowa została pomyślnie przygotowana.')
     return render(request, 'Accountancy/forecast/financial_forecast.html.jinja', {})
 
 
@@ -789,17 +810,60 @@ def create_goal(request):
         form = GoalForm()
     return render(request, 'Accountancy/goals/create.html.jinja', {'form': form})  
 
+from decimal import Decimal
+import json
+
+def safe_float(value):
+    return float(value) if isinstance(value, Decimal) else value
+
 @login_required
 def goal_details(request, goal_id):
     goal = get_object_or_404(Goal, id=goal_id)
     account = goal.account
-    amount = account.calculate_balance() if account else 0.00
+    amount = account.calculate_balance() if account else Decimal('0.00')
 
-    return render(request, 'Accountancy/goals/details.html.jinja', {
+    transactions = Transaction.objects.filter(
+        debit_account=account
+    ).order_by('date')
+
+    labels = []
+    values = []
+    for tx in transactions:
+        labels.append(tx.date.strftime('%Y-%m-%d'))
+        values.append(safe_float(tx.amount))  # ✅ konwersja
+    labels.append(datetime.now().strftime('%Y-%m-%d'))
+    values.append(safe_float(amount))  # ✅ konwersja
+    labels.append(goal.deadline.strftime('%Y-%m-%d'))
+
+    if transactions.exists():
+        start_date = transactions.first().date
+        end_date = transactions.last().date
+        days = max((end_date - start_date).days, 1)
+        total = sum(safe_float(tx.amount) for tx in transactions)  # ✅ konwersja
+        red_trend = [round(total / days, 2)] * len(labels)
+    else:
+        red_trend = []
+
+    goal_days = max((goal.deadline - goal.created_at).days, 1)
+    green_trend = [round(safe_float(goal.target_amount) / goal_days, 2)] * len(labels)
+
+    context = {
         'goal': goal,
         'account': account,
-        'amount': amount
-    })
+        'amount': safe_float(amount),
+        'chart_data': json.dumps({
+            'labels': labels,
+            'values': values,
+            'red_trend': red_trend,
+            'green_trend': green_trend,
+            'target': safe_float(goal.target_amount),
+            'collected': safe_float(amount)
+        })
+    }
+
+    print(context['chart_data'])
+
+    return render(request, 'Accountancy/goals/details.html.jinja', context=context)
 
 @login_required
 def edit_goal(request, goal_id):
@@ -818,5 +882,9 @@ def delete_goal(request, goal_id):
     goal = Goal.objects.get(id=goal_id)
     if request.method == 'POST':
         goal.delete()
+        messages.success(request, 'Cel został pomyślnie usunięty.')
+
         return redirect('goals')
+    messages.warning(request, 'Usunięcie celu spowoduje również usunięcie powiązanego konta, jeśli takie istnieje.')
+
     return render(request, 'Accountancy/goals/delete.html.jinja', {'goal': goal})

@@ -19,5 +19,96 @@
         <h4>Uzbierana kwota</h4>
         <p>{{ amount }}</p>
     </div>
+
+
+<div class="card">
+    <h4>Analiza odkładania na cel</h4>
+    <div class="chart-container">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h5>📊 Postęp celu</h5>
+        <canvas id="pieChart"></canvas>
+    </div>
+    <div class="col-md-6">
+        <h5>📈 Historia transakcji</h5>
+        <canvas id="lineChart"></canvas>
+    </div>
+</div>
+
+<script>
+const chartData = {{ chart_data|safe }};
+
+// Wykres kołowy
+new Chart(document.getElementById('pieChart'), {
+    type: 'pie',
+    data: {
+        labels: ['Zebrano', 'Pozostało'],
+        datasets: [{
+            data: [chartData.collected, chartData.target - chartData.collected],
+            backgroundColor: ['#28a745', '#dc3545']
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            title: {
+                display: true,
+                text: 'Procent realizacji celu'
+            }
+        }
+    }
+});
+
+// Wykres liniowy
+new Chart(document.getElementById('lineChart'), {
+    type: 'line',
+    data: {
+        labels: chartData.labels,
+        datasets: [
+            {
+                label: 'Transakcje',
+                data: chartData.values,
+                borderColor: 'blue',
+                fill: false
+            },
+            {
+                label: 'Trend historyczny (średnia dzienna)',
+                data: chartData.red_trend,
+                borderColor: 'red',
+                borderDash: [5, 5],
+                fill: false
+            },
+            {
+                label: 'Trend wymagany',
+                data: chartData.green_trend,
+                borderColor: 'green',
+                borderDash: [2, 2],
+                fill: false
+            }
+        ]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            title: {
+                display: true,
+                text: 'Historia transakcji i trendy'
+            }
+        }
+    }
+});
+</script>
+
+
+
+    </div>
+</div>
+
+
 </div>
 {% endblock %}
