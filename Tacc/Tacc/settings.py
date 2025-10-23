@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'media',  # Obsługa uploadów
     'MAIN',
     'Accountancy',  # Obsługa księgowości
+    'Scheduler', # Obsługa kalendarza
 ]
 
 SITE_ID = 1  # Wymagane do działania django-allauth

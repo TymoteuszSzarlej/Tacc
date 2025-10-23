@@ -1,0 +1,185 @@
+[SUCCESS]	2025-10-23 19:13:19	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 1)
+[SUCCESS]	2025-10-23 19:13:19	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 2)
+[SUCCESS]	2025-10-23 19:13:19	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 3)
+[SUCCESS]	2025-10-23 19:13:19	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 4)
+[SUCCESS]	2025-10-23 19:13:19	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 5)
+[SUCCESS]	2025-10-23 19:13:19	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 6)
+[SUCCESS]	2025-10-23 19:13:19	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 7)
+[SUCCESS]	2025-10-23 19:13:19	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 8)
+[SUCCESS]	2025-10-23 19:13:19	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 9)
+[SUCCESS]	2025-10-23 19:13:19	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 10)
+[SUCCESS]	2025-10-23 19:13:19	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 11)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 12)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 13)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 14)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 15)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 16)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 17)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 18)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 19)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 20)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 21)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 22)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 23)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 24)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 25)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 26)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 27)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 28)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 29)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 30)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 31)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 32)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 33)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 34)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 35)
+[SUCCESS]	2025-10-23 19:13:20	[MAIN.signals]	Utworzono now¹ instancjê: Site (ID: 1)
+[DEBUG]	2025-10-23 19:13:27	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-23 19:13:27	[MAIN.middleware]	OdpowiedŸ 200 | GET / | U¿ytkownik: Anonim | IP: 127.0.0.1 | Czas: 223.79ms | Dane: {}
+[DEBUG]	2025-10-23 19:13:27	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-23 19:13:27	[MAIN.middleware]	OdpowiedŸ 404 | GET /favicon.ico | U¿ytkownik: Anonim | IP: 127.0.0.1 | Czas: 28.38ms | Dane: {}
+[ERROR]	2025-10-23 19:13:27	[MAIN.middleware]	B³¹d 404 | GET /favicon.ico | U¿ytkownik: Anonim | IP: 127.0.0.1
+[DEBUG]	2025-10-23 19:13:49	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-23 19:13:49	[MAIN.middleware]	OdpowiedŸ 200 | GET / | U¿ytkownik: Anonim | IP: 127.0.0.1 | Czas: 2.74ms | Dane: {}
+[DEBUG]	2025-10-23 19:13:51	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-23 19:13:51	[MAIN.middleware]	OdpowiedŸ 404 | GET /accountancy | U¿ytkownik: Anonim | IP: 127.0.0.1 | Czas: 6.99ms | Dane: {}
+[ERROR]	2025-10-23 19:13:51	[MAIN.middleware]	B³¹d 404 | GET /accountancy | U¿ytkownik: Anonim | IP: 127.0.0.1
+[DEBUG]	2025-10-23 19:13:51	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-23 19:13:51	[MAIN.middleware]	OdpowiedŸ 302 | GET /accountancy/ | U¿ytkownik: Anonim | IP: 127.0.0.1 | Czas: 12.46ms | Dane: {}
+[DEBUG]	2025-10-23 19:13:51	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-23 19:13:51	[MAIN.middleware]	OdpowiedŸ 200 | GET /accounts/login/ | U¿ytkownik: Anonim | IP: 127.0.0.1 | Czas: 87.54ms | Dane: {}
+[DEBUG]	2025-10-23 19:13:54	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-23 19:13:54	[MAIN.middleware]	OdpowiedŸ 200 | POST /accounts/login/ | U¿ytkownik: Anonim | IP: 127.0.0.1 | Czas: 486.08ms | Dane: {}
+[SUCCESS]	2025-10-23 19:14:58	[MAIN.signals]	Utworzono now¹ instancjê: User (ID: 1)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Session (ID: mwaq8h7ea19t16g59bvwnetnrjk4l9fj)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Zaktualizowano instancjê: User (ID: 1)
+[DEBUG]	2025-10-23 19:15:15	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-23 19:15:15	[MAIN.middleware]	OdpowiedŸ 302 | POST /accounts/login/ | U¿ytkownik: ADMIN | IP: 127.0.0.1 | Czas: 661.16ms | Dane: {}
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Zaktualizowano instancjê: Session (ID: mwaq8h7ea19t16g59bvwnetnrjk4l9fj)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Book (ID: 1)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 1)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 2)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 3)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 4)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 5)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 6)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 7)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 8)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 9)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 10)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 11)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 12)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 13)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 14)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 15)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 16)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 17)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 18)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 19)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 20)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 21)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 22)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 23)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 24)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 25)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 26)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 27)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 28)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 29)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 30)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 31)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 32)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 33)
+[SUCCESS]	2025-10-23 19:15:15	[MAIN.signals]	Utworzono now¹ instancjê: Account (ID: 34)
+[DEBUG]	2025-10-23 19:15:15	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-23 19:15:15	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/ | U¿ytkownik: ADMIN | IP: 127.0.0.1 | Czas: 473.68ms | Dane: {}
+[DEBUG]	2025-10-23 19:15:29	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-23 19:15:29	[MAIN.middleware]	OdpowiedŸ 404 | GET /apps/ | U¿ytkownik: ADMIN | IP: 127.0.0.1 | Czas: 11.0ms | Dane: {}
+[ERROR]	2025-10-23 19:15:29	[MAIN.middleware]	B³¹d 404 | GET /apps/ | U¿ytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-23 19:15:34	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-23 19:15:34	[MAIN.middleware]	OdpowiedŸ 302 | GET / | U¿ytkownik: ADMIN | IP: 127.0.0.1 | Czas: 5.62ms | Dane: {}
+[DEBUG]	2025-10-23 19:15:34	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-23 19:15:34	[MAIN.middleware]	OdpowiedŸ 404 | GET /accountancy | U¿ytkownik: ADMIN | IP: 127.0.0.1 | Czas: 9.35ms | Dane: {}
+[ERROR]	2025-10-23 19:15:34	[MAIN.middleware]	B³¹d 404 | GET /accountancy | U¿ytkownik: ADMIN | IP: 127.0.0.1
+[DEBUG]	2025-10-23 19:15:34	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-23 19:15:34	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/ | U¿ytkownik: ADMIN | IP: 127.0.0.1 | Czas: 37.9ms | Dane: {}
+[SUCCESS]	2025-10-23 19:25:47	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 36)
+[SUCCESS]	2025-10-23 19:30:53	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 37)
