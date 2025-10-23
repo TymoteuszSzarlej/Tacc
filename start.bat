@@ -1,7 +1,30 @@
-echo '\n\n\n\n\n\n\n\n\n\n'
+@echo off
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
 python .\Tacc\manage.py makemigrations
-echo '\n\n\n\n\n\n'
-echo '\n\n\n\n\n\n'
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
 python .\Tacc\manage.py migrate
-echo '\n\n\n\n\n\n\n\n\n\n'
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo
 python .\Tacc\manage.py runserver

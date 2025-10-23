@@ -183,3 +183,11 @@
 [RESPONSE]	2025-10-23 19:15:34	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/ | U¿ytkownik: ADMIN | IP: 127.0.0.1 | Czas: 37.9ms | Dane: {}
 [SUCCESS]	2025-10-23 19:25:47	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 36)
 [SUCCESS]	2025-10-23 19:30:53	[MAIN.signals]	Utworzono now¹ instancjê: Migration (ID: 37)
+[DEBUG]	2025-10-23 19:47:05	[MAIN.middleware]	
+
+
+[]
+
+
+
+[RESPONSE]	2025-10-23 19:47:05	[MAIN.middleware]	OdpowiedŸ 200 | GET /accountancy/ | U¿ytkownik: ADMIN | IP: 127.0.0.1 | Czas: 549.77ms | Dane: {}
